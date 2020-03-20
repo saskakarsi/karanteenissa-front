@@ -5,6 +5,7 @@ import Home from './views/Home.vue'
 import Services from './views/Services.vue'
 
 import NotFound from './components/NotFound.vue'
+
 Vue.use(Router)
 
 export default new Router({
@@ -20,7 +21,7 @@ export default new Router({
             name: 'Services'
         },
         {
-            path: '/*',
+            path: '*',
             component: NotFound,
             name: 'Not found'
         }
