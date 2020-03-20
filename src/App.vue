@@ -44,7 +44,8 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import Home from './views/Home';
+import Services from './views/Services';
 
 export default {
   name: 'App',
