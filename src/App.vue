@@ -16,7 +16,7 @@
         </template>
         <v-list>
           <v-list-item
-            v-for="item in locales.locales"
+            v-for="item in locales"
             :key="item.value"
             @click="setLocale(item)"
           >
@@ -53,10 +53,7 @@ export default {
   name: 'App',
 
   data: () => ({
-    locales: {
-      locales: locales,
-      default: 'Suomi'
-    }
+    locales
   }),
   computed: {
     ...getters,
