@@ -2,7 +2,8 @@
   <v-app>
 
     <v-app-bar app elevation=0 hide-on-scroll>
-      <v-btn elevation=0 to="/">Services</v-btn>
+      <v-btn elevation=0 to="/">{{ menuTexts.serviceButton }}</v-btn>
+      
       <v-spacer></v-spacer>
       <v-menu offset-y>
         <template v-slot:activator="{ on }">
@@ -45,7 +46,7 @@
 </template>
 
 <script>
-const locales = require('./fixtures/locales')
+const { locales, menuLocalizations } = require('./fixtures/locales')
 const { getters, mutators } = require('./util/state')
 
 export default {
@@ -58,7 +59,10 @@ export default {
     }
   }),
   computed: {
-    ...getters
+    ...getters,
+    menuTexts: function () {
+      return menuLocalizations[getters.locale().value].app
+    }
   },
   methods: {
     ...mutators

@@ -1,13 +1,6 @@
 const locations = [
     {
         name: {
-            fi: 'Kaikki',
-            se: 'Alla',
-            en: 'All'
-        }, 
-    },
-    {
-        name: {
             fi: 'Helsinki',
             se: 'Helsingfors'
         },
@@ -19,5 +12,8 @@ const locations = [
         }
     }
 ]
+for (const loc of locations) {
+    loc.current = loc.name.fi
+}
 
 module.exports = locations

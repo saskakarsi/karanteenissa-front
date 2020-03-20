@@ -4,11 +4,12 @@
       <v-col cols="6">
         <v-select
           v-model="selectedLocation"
-          :items="locs.locations"
+          :items="locs"
           menu-props="auto"
-          label="Location"
+          :label="menuTexts.locationSelector"
           hide-details
           single-line
+          clearable
         ></v-select>
       </v-col>
       <v-col cols="6">
@@ -16,9 +17,10 @@
           v-model="selectedType"
           :items="serviceTypes"
           menu-props="auto"
-          label="Type"
+          :label="menuTexts.typeSelector"
           hide-details
           single-line
+          clearable
         ></v-select>
       </v-col>
       </v-row>
@@ -31,6 +33,8 @@
           :cols="12"
         >
           <v-card
+            elevation=2
+            hover
             :href="card.link"
             target="_blank"
           >
@@ -47,15 +51,15 @@
           </v-card>
         </v-col>
       </v-row>
-      <div v-html="locale"></div>
     </v-container>
 </template>
 
 <script>
 const services = require('../fixtures/services')
 const locations = require('../fixtures/locations')
-const { getters, mutators } = require('../util/state')
-const { localizeServices, localizeLocations } = require('../util/localize')
+const { menuLocalizations } = require('../fixtures/locales')
+const { getters } = require('../util/state')
+const { localizeServices, localizeLocations, findLocation } = require('../util/localize')
 
 
 export default {
@@ -64,15 +68,18 @@ export default {
       selectedType: undefined
     }),
     computed: {
-      locale: getters.locale,
+      menuTexts: function () {
+        return menuLocalizations[getters.locale().value].services
+      },
       svcs: function () {
         const svcs = localizeServices(services)
         if (!this.selectedLocation) return svcs
+        const locDoc = findLocation(locations, this.selectedLocation)
+        console.log(locDoc)
         return svcs.filter((svc) => {
-          const locFilter = svc.locations.includes(this.selectedLocation) 
+          const locFilter = svc.locations.includes(locDoc.name.fi) 
                         || svc.locations.includes('National')
-                        || !this.selectedLocation
-                        || this.selectedLocation == 'Kaikki'
+                        || !locDoc
           const typeFilter = svc.type == this.selectedType
                         || !this.selectedType
 
@@ -83,17 +90,11 @@ export default {
         return this.$route.query
       },
       locs: function () {
-        return { 
-          locations: localizeLocations(locations).map((loc) => loc.current),
-          default: 'All'
-        }
+        return localizeLocations(locations).map((loc) => loc.current)
       },
       serviceTypes: function () {
         return Array.from(new Set(services.map((svc) => svc.type)))
       }
     },
-    methods: {
-      setLocale: mutators.setLocale
-    }
 }
 </script>

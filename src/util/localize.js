@@ -17,7 +17,15 @@ const localizeLocations = (locations) => {
     return locs
 }
 
+const findLocation = (locations, locStr) => {
+    const lang = getters.locale().value
+    return locations.find((loc) => {
+        return loc.name[lang] == locStr || loc.name.fi == locStr
+    })
+}
+
 module.exports = { 
     localizeServices, 
-    localizeLocations 
+    localizeLocations,
+    findLocation
 }
