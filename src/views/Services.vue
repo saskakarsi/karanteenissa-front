@@ -2,12 +2,21 @@
     <v-container fluid>
       <v-row>
       <v-col cols="6">
-        <v-subheader>Location</v-subheader>
         <v-select
           v-model="selectedLocation"
           :items="locs.locations"
           menu-props="auto"
-          label="Select"
+          label="Location"
+          hide-details
+          single-line
+        ></v-select>
+      </v-col>
+      <v-col cols="6">
+        <v-select
+          v-model="selectedType"
+          :items="serviceTypes"
+          menu-props="auto"
+          label="Type"
           hide-details
           single-line
         ></v-select>
@@ -15,9 +24,11 @@
       </v-row>
       <v-row dense>
         <v-col
+          sm="6"
+          md="4"
           v-for="card in svcs"
           :key="card.title"
-          :cols="6"
+          :cols="12"
         >
           <v-card
             :href="card.link"
@@ -36,7 +47,6 @@
           </v-card>
         </v-col>
       </v-row>
-      <div v-html="logQuery"></div>
       <div v-html="locale"></div>
     </v-container>
 </template>
@@ -45,19 +55,28 @@
 const services = require('../fixtures/services')
 const locations = require('../fixtures/locations')
 const { getters, mutators } = require('../util/state')
-const { localize_services, localize_locations } = require('../util/localize')
+const { localizeServices, localizeLocations } = require('../util/localize')
+
 
 export default {
     data: () => ({
-      selectedLocation: undefined
+      selectedLocation: undefined,
+      selectedType: undefined
     }),
     computed: {
       locale: getters.locale,
       svcs: function () {
-        const svcs = localize_services(services)
+        const svcs = localizeServices(services)
         if (!this.selectedLocation) return svcs
         return svcs.filter((svc) => {
-          return svc.locations.includes(loc.fi) || svc.locations.includes('National')
+          const locFilter = svc.locations.includes(this.selectedLocation) 
+                        || svc.locations.includes('National')
+                        || !this.selectedLocation
+                        || this.selectedLocation == 'Kaikki'
+          const typeFilter = svc.type == this.selectedType
+                        || !this.selectedType
+
+          return locFilter && typeFilter
         })
       },
       logQuery: function () {
@@ -65,9 +84,12 @@ export default {
       },
       locs: function () {
         return { 
-          locations: localize_locations(locations),
+          locations: localizeLocations(locations).map((loc) => loc.current),
           default: 'All'
         }
+      },
+      serviceTypes: function () {
+        return Array.from(new Set(services.map((svc) => svc.type)))
       }
     },
     methods: {

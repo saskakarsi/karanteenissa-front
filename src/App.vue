@@ -2,8 +2,7 @@
   <v-app>
 
     <v-app-bar app elevation=0 hide-on-scroll>
-      <v-btn elevation=0 to="/">Home</v-btn>
-      <v-btn elevation=0 to="/services">Services</v-btn>
+      <v-btn elevation=0 to="/">Services</v-btn>
       <v-spacer></v-spacer>
       <v-menu offset-y>
         <template v-slot:activator="{ on }">
