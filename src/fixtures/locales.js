@@ -14,7 +14,8 @@ const locales = [
 const menuLocalizations = {
     fi: {
         app: {
-            serviceButton: 'Palvelut'
+            serviceButton: 'Palvelut',
+            contactButton: 'Ota yhteyttä'
         },
         services: {
             typeSelector: 'Tyyppi',
@@ -23,7 +24,8 @@ const menuLocalizations = {
     },
     se: {
         app: {
-            serviceButton: 'ruotsiksi'
+            serviceButton: 'ruotsiksi',
+            contactButton: 'ruotsiaaaa'
         },
         services: {
             typeSelector: 'En osaa',
@@ -32,6 +34,7 @@ const menuLocalizations = {
     },
     gb: {
         app: {
+            contactButton: 'Contact us',
             serviceButton: 'Services'
         },
         services: {
