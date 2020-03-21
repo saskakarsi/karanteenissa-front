@@ -36,7 +36,7 @@
 
       <v-col class="mx-auto">
         <div class="text-center">
-            <v-btn rounded color="primary" dark>HAE</v-btn>
+            <v-btn rounded color="primary" href="#" dark>HAE</v-btn>
         </div>
         </v-col>
 
