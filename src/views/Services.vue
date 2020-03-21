@@ -14,10 +14,10 @@
       </v-col>
       <v-col cols="6">
         <v-select
-          v-model="selectedType"
-          :items="serviceTypes"
+          v-model="selectedCategory"
+          :items="serviceCategories"
           menu-props="auto"
-          :label="menuTexts.typeSelector"
+          :label="menuTexts.categorySelector"
           hide-details
           single-line
           clearable
@@ -65,7 +65,8 @@ const { localizeServices, localizeLocations, findLocation } = require('../util/l
 export default {
     data: () => ({
       selectedLocation: undefined,
-      selectedType: undefined
+      selectedCategory: undefined,
+      allLocations: undefined
     }),
     computed: {
       menuTexts: function () {
@@ -73,27 +74,38 @@ export default {
       },
       svcs: function () {
         const svcs = localizeServices(services)
-        if (!this.selectedLocation) return svcs
-        const locDoc = findLocation(locations, this.selectedLocation)
+        const locDoc = findLocation(this.allLocations, this.selectedLocation)
         return svcs.filter((svc) => {
-          const locFilter = svc.locations.includes(locDoc.name.fi) 
+          const locFilter = !locDoc
+                        || svc.locations.includes(locDoc.name.fi) 
                         || svc.locations.includes('National')
-                        || !locDoc
-          const typeFilter = svc.type == this.selectedType
-                        || !this.selectedType
+          const categoryFilter = svc.category == this.selectedCategory
+                        || !this.selectedCategory
 
-          return locFilter && typeFilter
+          return locFilter && categoryFilter
         })
       },
       logQuery: function () {
         return this.$route.query
       },
       locs: function () {
-        return localizeLocations(locations).map((loc) => loc.current)
+        return localizeLocations(this.allLocations).map((loc) => loc.current)
       },
-      serviceTypes: function () {
-        return Array.from(new Set(services.map((svc) => svc.type)))
+      serviceCategories: function () {
+        return Array.from(new Set(services.map((svc) => svc.category)))
       }
     },
+    created() {
+        var svcLocs = []
+        for (const svc of services) {
+          svcLocs = Array.from(new Set(svcLocs.concat(svc.locations)))
+        }
+        const allLocs = svcLocs.map((loc) => {
+          const existingLoc = locations.find(l => l.name.fi == loc)
+          if (existingLoc) return existingLoc
+          return { name: { fi: loc }} // Localization want this format
+        })
+        this.allLocations = allLocs
+    }
 }
 </script>
