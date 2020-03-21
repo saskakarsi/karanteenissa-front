@@ -6,7 +6,7 @@
         class="mx-auto py-6 px-6"
         style="margin-bottom: 40px">
 
-        <v-col class="mx-auto text-center">
+        <v-col class="mx-auto text-center"><div></div>
             <h1 class="display-1">{{ menuTexts.app.mainTitle }}</h1>
         </v-col>
 
