@@ -9,37 +9,8 @@
         <v-col class="mx-auto text-center">
             <h1 class="display-1">Löydä apua karanteenissa</h1>
         </v-col>
-        <v-col class="mx-auto text-center">
-            <h1 class="headline">Karanteenissa.fi kokoaa tietoa erilaisista tuote- ja palveluratkaisuista koronaviruksen vaikutusten ehkäisemiseksi.</h1>
-        </v-col>
 
-        <v-col class="mx-auto text-center">
-            <h1 class="headline">Pidetään toisistamme huolta.</h1>
-        </v-col>
-        <v-col class="mx-auto text-center">
-            <h1 class="headline"> </h1>
-        </v-col>
-        <v-col class="mx-auto text-center">
-            <h1 class="headline"> </h1>
-        </v-col>
-
-        <v-col class="mx-auto text-center">
-            <h1 class="headline"> </h1>
-                    <v-divider></v-divider>    
-        </v-col>
-
-
-
-        
-
-        <v-col style="background: url('')">
-        <v-col class="mx-auto text-center">
-            <h1 class="headline">Hae palveluita lähellä sinua</h1>
-        </v-col> 
-
-   
-
-      <v-col cols="4 mx-auto">
+        <v-col cols="12 mx-auto">
         <v-select
           v-model="selectedLocation"
           :items="locs"
@@ -50,7 +21,7 @@
           clearable
         ></v-select>
       </v-col>
-      <v-col cols="4 mx-auto">
+      <v-col cols="12 mx-auto">
         <v-select
           v-model="selectedCategory"
           :items="serviceCategories"
@@ -69,13 +40,19 @@
         </div>
         </v-col>
 
-        <v-col class="mx-auto text-center">
+        <v-col class="mx-auto text-center" style="margin-top: 5em">
             <h1 class="headline"> </h1>
                     <v-divider></v-divider>    
         </v-col>
 
-
+        <v-col class="mx-auto text-center">
+            <h1 class="headline">Karanteenissa.fi kokoaa tietoa erilaisista tuote- ja palveluratkaisuista koronaviruksen vaikutusten ehkäisemiseksi.</h1>
         </v-col>
+
+        <v-col class="mx-auto text-center">
+            <h1 class="headline">Pidetään toisistamme huolta.</h1>
+        </v-col>
+
       </v-card>
 
     <v-col class="py-8 px-6">
