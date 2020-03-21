@@ -95,9 +95,6 @@ export default {
       svcs: function () {
         return getServices.call(this, services)
       },
-      logQuery: function () {
-        return this.$route.query
-      },
       locs: function () {
         return localizeLocations(this.allLocations).map((loc) => loc.current)
       },
