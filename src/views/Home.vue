@@ -76,18 +76,17 @@
 const services = require('../fixtures/services')
 const locations = require('../fixtures/locations')
 const { menuLocalizations } = require('../fixtures/locales')
-const { getters } = require('../util/state')
+const { getters, computeds } = require('../util/state')
 const { getServices } = require('../util/services')
 const { localizeLocations } = require('../util/localize')
 
 
 export default {
     data: () => ({
-      selectedLocation: undefined,
-      selectedCategory: undefined,
       allLocations: undefined
     }),
     computed: {
+      ...computeds,
       menuTexts: function () {
         return menuLocalizations[getters.locale().value].services
       },

@@ -14,10 +14,29 @@ export const getters = {
     selectedCategory: () => state.selectedCategory,
     selectedLocation: () => state.selectedLocation
 }
+
 export const mutators = {
     setLocale: (val) => state.locale = val,
-    setSelectedCategory: (val) => state.selectedCategory = val,
-    setSelectedLocation: (val) => state.selectedLocation = val
+    setSelectedCategory: (val) => {
+        if (val.target && val.target.value) {
+            state.selectedCategory = val.target.value
+        } else {
+            state.selectedCategory = val
+        }
+    },
+    setSelectedLocation: (val) => {
+        if (val.target && val.target.value) {
+            state.selectedLocation = val.target.value
+        } else {
+            state.selectedLocation = val
+        }
+    }
+}
+
+export const computeds = {
+    locale: { get: getters.locale, set: mutators.locale },
+    selectedCategory: { get: getters.selectedCategory, set: mutators.setSelectedCategory },
+    selectedLocation: { get: getters.selectedLocation, set: mutators.setSelectedLocation }
 }
 
 
