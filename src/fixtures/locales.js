@@ -29,6 +29,11 @@ const menuLocalizations = {
             tellUsButton: 'Kerro meille palvelusta',
             tipsButton: 'Vinkit',
             facebookButton: 'Keskustele fb-ryhmässä'
+        },
+        contact: {
+            description: 'Karanteenissa.fi viiden opiskelijan tapa auttaa koronaviruksen aiheuttaman epävarmuuden aikana.',
+            monetary: 'Sivuston ylläpitäjät eivät ansaitse rahaa sivustolla olevista linkeistä.',
+            translate: 'Ruotsinnos:'
         }
     },
     se: {
@@ -48,6 +53,11 @@ const menuLocalizations = {
             tellUsButton: 'Tell us about a new service',
             tipsButton: 'Tips',
             facebookButton: 'Discuss on Facebook'
+        },
+        contact: {
+            description: 'En webbplats av fem studerande till hjälp för den tid av osäkerhet som coronaviruset förorsakar.',
+            monetary: 'Webbansvarig tjänar inte pengar på webbplatsens länkar.',
+            translate: 'Svensk översättning:'
         }
     },
     gb: {
@@ -67,6 +77,11 @@ const menuLocalizations = {
             tellUsButton: 'Tell us about a new service',
             tipsButton: 'Tips',
             facebookButton: 'Discuss on Facebook'
+        },
+        contact: {
+            description: 'The web service has been created by five students that want to do everything they can to help.',
+            monetary: 'We do not make any money from the website.',
+            translate: 'Swedish translation:'
         }
     }
 }
