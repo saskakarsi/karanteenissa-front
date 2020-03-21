@@ -24,12 +24,12 @@ const menuLocalizations = {
     },
     se: {
         app: {
-            serviceButton: 'ruotsiksi',
-            contactButton: 'ruotsiaaaa'
+            serviceButton: 'Tjänster',
+            contactButton: 'Kontakta oss'
         },
         services: {
-            categorySelector: 'En osaa',
-            locationSelector: 'ruotsia'
+            categorySelector: 'Kategori',
+            locationSelector: 'Plats'
         }
     },
     gb: {

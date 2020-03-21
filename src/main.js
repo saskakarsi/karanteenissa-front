@@ -6,6 +6,14 @@ import BackToTop from 'vue-backtotop'
 Vue.config.productionTip = false
 
 Vue.use(BackToTop)
+import VueGtag from "vue-gtag";
+
+Vue.config.productionTip = false
+
+
+Vue.use(VueGtag, {
+  config: { id: 'UA-160939788-1' }
+});
 
 new Vue({
   router,
