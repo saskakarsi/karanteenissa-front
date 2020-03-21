@@ -1,4 +1,4 @@
-const Palvelut = [
+const services = [
   {
     id: '',
     langs: {
@@ -790,7 +790,7 @@ const Palvelut = [
       },
       gb: {
         title: 'Ilostu',
-        desc: 'Ilostu offers Palvelut for the elderly.'
+        desc: 'Ilostu offers services for the elderly.'
       },
       se: {
         title: 'Ilostu',
@@ -974,7 +974,7 @@ const Palvelut = [
       },
       gb: {
         title: 'Hellie Hoivapalvelut',
-        desc: 'Hellie is a safe, local company which offers shop Palvelut, talking company and home Palvelut.'
+        desc: 'Hellie is a safe, local company which offers shopping services, talking company and home services.'
       },
       se: {
         title: 'Hellie Omsorgstjänster',
@@ -997,7 +997,7 @@ const Palvelut = [
       },
       gb: {
         title: 'Cleanmarin',
-        desc: 'Cleaning Palvelut.'
+        desc: 'Cleaning services.'
       },
       se: {
         title: 'Cleanmarin',
@@ -1020,7 +1020,7 @@ const Palvelut = [
       },
       gb: {
         title: 'Kampaajakotiin',
-        desc: 'Hair Palvelut to your home.'
+        desc: 'Hair services to your home.'
       },
       se: {
         title: 'Frisör hem',
@@ -1043,7 +1043,7 @@ const Palvelut = [
       },
       gb: {
         title: 'Fiuge',
-        desc: 'Fiuge offers transport Palvelut for those who have been quarantined for corona. A month\'s transports for 50€.'
+        desc: 'Fiuge offers transport services for those who have been quarantined for corona. A month\'s transports for 50€.'
       },
       se: {
         title: 'Fiuge',
@@ -1066,7 +1066,7 @@ const Palvelut = [
       },
       gb: {
         title: 'Freska',
-        desc: 'Cleaning Palvelut in the Helsinki metropolitan area, Turku and Tampere.'
+        desc: 'Cleaning services in the Helsinki metropolitan area, Turku and Tampere.'
       },
       se: {
         title: 'Freska',
@@ -1618,7 +1618,7 @@ const Palvelut = [
       },
       gb: {
         title: 'Sanoste',
-        desc: 'Sanoste offers digital exercise and singig courses for the elederly. The Palvelut are paid.'
+        desc: 'Sanoste offers digital exercise and singig courses for the elederly. The services are paid.'
       },
       se: {
         title: 'Sanoste',
@@ -1641,7 +1641,7 @@ const Palvelut = [
       },
       gb: {
         title: 'Down Dog',
-        desc: 'Down Dog offers all of their Palvelut for free of charge till 1.4.2020; Yoga, Yoga for beginners, HIIT, Barre and 7-minute training. \nIn response to the many school closures taking place, there are also free access until July 1st for all students and teachers (K-12 and college).'
+        desc: 'Down Dog offers all of their services for free of charge till 1.4.2020; Yoga, Yoga for beginners, HIIT, Barre and 7-minute training. \nIn response to the many school closures taking place, there are also free access until July 1st for all students and teachers (K-12 and college).'
       },
       se: {
         title: 'Down Dog',
@@ -1731,17 +1731,10 @@ const capitalize = (s) => {
   return s.charAt(0).toUpperCase() + s.slice(1)
 }
 var i;
-<<<<<<< HEAD
 for (i = 0; i < services.length; i++) {
     services[i].id = i
     services[i].locations = services[i].locations.filter(Boolean)
     services[i].category = capitalize(services[i].category)
-=======
-for (i = 0; i < Palvelut.length; i++) {
-    Palvelut[i].id = i
-    Palvelut[i].category = capitalize(Palvelut[i].category)
->>>>>>> e6d113094eb342a4c41b04620f785d5ac752ff0e
-
 }
 
-module.exports = Palvelut
+module.exports = services
