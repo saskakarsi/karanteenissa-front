@@ -1,11 +1,10 @@
 <template>
   <v-app>
 
-    <v-app-bar app elevation=0 hide-on-scroll>
-      <v-btn elevation=0 to="/"><v-icon>mdi-home</v-icon></v-btn>
-
-      <v-btn elevation=0 to="/services">{{ menuTexts.serviceButton }}</v-btn>
-      <v-btn elevation=0 to="/contact">{{ menuTexts.contactButton }}</v-btn>
+    <v-app-bar app elevation=0 hide-on-scroll color="primary">
+      <v-btn text dark large elevation=0 to="/"><v-icon>mdi-home</v-icon></v-btn>
+      <v-btn text dark large elevation=0 to="/services">{{ menuTexts.serviceButton }}</v-btn>
+      <v-btn text dark large elevation=0 to="/contact">{{ menuTexts.contactButton }}</v-btn>
       <v-spacer></v-spacer>
       <v-menu offset-y>
         <template v-slot:activator="{ on }">

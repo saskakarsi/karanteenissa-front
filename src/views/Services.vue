@@ -27,7 +27,7 @@
       <v-row dense>
         <v-col
           sm="6"
-          md="4"
+          md="2"
           v-for="card in svcs"
           :key="card.title"
           :cols="12"
@@ -37,19 +37,37 @@
             hover
             :href="card.link"
             target="_blank"
+            max-width="300px"
+            class="mx-auto"
           >
+            <v-card-title class="headline" v-text="card.langs.fi.title"></v-card-title>         
             <v-img
               :src="card.img_src"
               class="white--text align-end"
-              gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
+              gradient="to bottom, rgba(0,0,0,0), rgba(0,0,0,0)"
               height="200px"
             >
-              <v-card-title v-text="card.title"></v-card-title>
+              <v-card-title v-text="card.title" dark></v-card-title>
             </v-img>
+            <v-card-subtitle v-text="card.langs.fi.desc"></v-card-subtitle>
 
-            <v-card-text class="text--primary" v-text="card.desc"></v-card-text>
           </v-card>
         </v-col>
+      </v-row>
+      <v-row>
+      <v-col>
+      <v-footer
+        absolute
+        class="font-weight-medium"
+        >
+        <v-col
+            class="text-center"
+            cols="12"
+        >
+            {{ new Date().getFullYear() }} — <strong>Karanteenissa.fi</strong>
+        </v-col>
+      </v-footer>
+      </v-col>
       </v-row>
     </v-container>
 </template>
