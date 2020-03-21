@@ -9,7 +9,7 @@
   line-height: 22px;">Ylös</button>
 </back-to-top>
       <v-row>
-      <v-col cols="12">
+      <v-col cols="10 mx-auto">
         <v-select
           style= "margin-top: 2em"
           v-model="selectedLocation"
@@ -21,7 +21,7 @@
           clearable
         ></v-select>
       </v-col>
-      <v-col cols="12">
+      <v-col cols="10 mx-auto">
         <v-select
           style= "margin-top: 1em; margin-bottom: 3em"
           v-model="selectedCategory"
