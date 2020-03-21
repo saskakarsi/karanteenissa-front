@@ -18,7 +18,7 @@ const menuLocalizations = {
             contactButton: 'Ota yhteyttä'
         },
         services: {
-            typeSelector: 'Tyyppi',
+            categorySelector: 'Kategoria',
             locationSelector: 'Paikka'
         }
     },
@@ -28,7 +28,7 @@ const menuLocalizations = {
             contactButton: 'ruotsiaaaa'
         },
         services: {
-            typeSelector: 'En osaa',
+            categorySelector: 'En osaa',
             locationSelector: 'ruotsia'
         }
     },
@@ -38,7 +38,7 @@ const menuLocalizations = {
             serviceButton: 'Services'
         },
         services: {
-            typeSelector: 'Type',
+            categorySelector: 'Category',
             locationSelector: 'Location'
         }
     }

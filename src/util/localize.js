@@ -1,7 +1,14 @@
 const { getters } = require('./state')
 
 const localizeServices = (services) => {
-    const svcs = services
+    const lang = getters.locale().value
+    const svcs = services.map((svc) => {
+        if (svc.langs[lang]) {
+            return Object.assign(svc, svc.langs[lang])
+        } else {
+            return Object.assign(svc, svc.langs['fi'])
+        }
+    })
     return svcs
 }
 
