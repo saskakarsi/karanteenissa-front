@@ -36,7 +36,7 @@
 
       <v-col class="mx-auto">
         <div class="text-center">
-            <v-btn rounded color="primary" dark to="/services">HAE</v-btn>
+            <v-btn rounded color="primary" dark to="/services">{{ menuTexts.home.searchButton }}</v-btn>
         </div>
         </v-col>
 
@@ -55,11 +55,11 @@
 
         <v-col class="mx-auto">
         <div class="text-center">
-            <v-btn rounded color="primary" style="margin: 10px" href="https://docs.google.com/forms/d/e/1FAIpQLScJs29BmU7OkDLyG0UU6UbPN65OUVy0Hdc5LmmBgQhXxHO0QQ/viewform?usp=sf_link" dark>Kerro meille palvelusta</v-btn>
+            <v-btn rounded color="primary" style="margin: 10px" href="https://docs.google.com/forms/d/e/1FAIpQLScJs29BmU7OkDLyG0UU6UbPN65OUVy0Hdc5LmmBgQhXxHO0QQ/viewform?usp=sf_link" dark>{{ menuTexts.home.tellUsButton }}</v-btn>
 
-            <v-btn rounded color="primary" style="margin: 10px" href="https://www.karanteenissa.fi/vinkit.html" dark>Vinkit</v-btn>
+            <v-btn rounded color="primary" style="margin: 10px" href="https://www.karanteenissa.fi/vinkit.html" dark>{{ menuTexts.home.tipsButton }}</v-btn>
 
-            <v-btn rounded color="primary" style="margin: 10px" href="https://www.facebook.com/groups/karanteenissa/" dark>Keskustele FB-ryhmässä</v-btn>
+            <v-btn rounded color="primary" style="margin: 10px" href="https://www.facebook.com/groups/karanteenissa/" dark>{{ menuTexts.home.facebookButton }}</v-btn>
         </div>
         </v-col>
 

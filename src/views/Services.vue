@@ -1,7 +1,7 @@
 <template>
     <v-container fluid>
       <back-to-top bottom="50px" right="50px">
-        <v-btn class="mx-2  btn-to-top" large fab dark color="primary">
+        <v-btn class="mx-2 btn-to-top" large fab dark color="primary">
           <v-icon dark>mdi-arrow-up</v-icon>
         </v-btn>
       </back-to-top>

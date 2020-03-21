@@ -54,7 +54,7 @@ export default {
   name: 'App',
 
   data: () => ({
-    locales
+    locales,
   }),
   computed: {
     ...getters,
@@ -63,7 +63,10 @@ export default {
     }
   },
   methods: {
-    ...mutators
+    ...mutators,
+  },
+  created() {
+      document.title = "Karanteenissa"
   }
 };
 </script>

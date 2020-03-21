@@ -20,6 +20,12 @@ const menuLocalizations = {
         services: {
             categorySelector: 'Kategoria',
             locationSelector: 'Paikka',
+        },
+        home: {
+            searchButton: 'Hae',
+            tellUsButton: 'Kerro meille palvelusta',
+            tipsButton: 'Vinkit',
+            facebookButton: 'Keskustele fb-ryhmässä'
         }
     },
     se: {
@@ -30,6 +36,12 @@ const menuLocalizations = {
         services: {
             categorySelector: 'Kategori',
             locationSelector: 'Plats',
+        },
+        home: {
+            searchButton: 'Search',
+            tellUsButton: 'Tell us about a new service',
+            tipsButton: 'Tips',
+            facebookButton: 'Discuss on Facebook'
         }
     },
     gb: {
@@ -40,6 +52,12 @@ const menuLocalizations = {
         services: {
             categorySelector: 'Category',
             locationSelector: 'Location',
+        },
+        home: {
+            searchButton: 'Search',
+            tellUsButton: 'Tell us about a new service',
+            tipsButton: 'Tips',
+            facebookButton: 'Discuss on Facebook'
         }
     }
 }
