@@ -77,7 +77,8 @@ const services = require('../fixtures/services')
 const locations = require('../fixtures/locations')
 const { menuLocalizations } = require('../fixtures/locales')
 const { getters } = require('../util/state')
-const { localizeServices, localizeLocations, findLocation } = require('../util/localize')
+const { getServices } = require('../util/services')
+const { localizeLocations } = require('../util/localize')
 
 
 export default {
@@ -91,17 +92,7 @@ export default {
         return menuLocalizations[getters.locale().value].services
       },
       svcs: function () {
-        const svcs = localizeServices(services)
-        const locDoc = findLocation(this.allLocations, this.selectedLocation)
-        return svcs.filter((svc) => {
-          const locFilter = !locDoc
-                        || svc.locations.includes(locDoc.name.fi) 
-                        || svc.locations.includes('National')
-          const categoryFilter = svc.category == this.selectedCategory
-                        || !this.selectedCategory
-
-          return locFilter && categoryFilter
-        })
+        return getServices.call(this, services)
       },
       logQuery: function () {
         return this.$route.query
