@@ -53,6 +53,16 @@
             <h1 class="headline">Pidetään toisistamme huolta.</h1>
         </v-col>
 
+        <v-col class="mx-auto">
+        <div class="text-center">
+            <v-btn rounded color="primary" style="margin: 10px" href="https://docs.google.com/forms/d/e/1FAIpQLScJs29BmU7OkDLyG0UU6UbPN65OUVy0Hdc5LmmBgQhXxHO0QQ/viewform?usp=sf_link" dark>Kerro meille palvelusta</v-btn>
+
+            <v-btn rounded color="primary" style="margin: 10px" href="https://www.karanteenissa.fi/vinkit.html" dark>Vinkit</v-btn>
+
+            <v-btn rounded color="primary" style="margin: 10px" href="https://www.facebook.com/groups/karanteenissa/" dark>Keskustele FB-ryhmässä</v-btn>
+        </div>
+        </v-col>
+
       </v-card>
 
     <v-col class="py-8 px-6">
