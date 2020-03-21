@@ -1,13 +1,10 @@
 <template>
     <v-container fluid>
       <back-to-top bottom="50px" right="50px">
-  <button type="button" class="btn btn-info btn-to-top" style=" width: 60px;
-  background-color: #f2f2f2;
-  height: 60px;
-  border-radius: 50%;
-  font-size: 22px;
-  line-height: 22px;">Ylös</button>
-</back-to-top>
+        <v-btn class="mx-2  btn-to-top" large fab dark color="primary">
+          <v-icon dark>mdi-arrow-up</v-icon>
+        </v-btn>
+      </back-to-top>
       <v-row>
       <v-col cols="10 mx-auto">
         <v-select
@@ -50,7 +47,7 @@
             max-width="300px"
             class="mx-auto"
           >
-            <v-card-title class="headline" v-text="card.langs.fi.title" style="font-weight: bold"></v-card-title>         
+            <v-card-title class="headline" v-text="card.current.title" style="font-weight: bold"></v-card-title>         
             <v-img
               :src="card.img_src"
               class="white--text align-end"
@@ -58,7 +55,7 @@
               height="200px"
             >
             </v-img>
-            <v-card-subtitle v-text="card.langs.fi.desc" style="font-weight: 600;"></v-card-subtitle>
+            <v-card-subtitle v-text="card.current.desc" style="font-weight: 600;"></v-card-subtitle>
 
           </v-card>
         </v-col>
