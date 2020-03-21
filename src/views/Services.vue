@@ -1,7 +1,15 @@
 <template>
     <v-container fluid>
+      <back-to-top bottom="50px" right="50px">
+  <button type="button" class="btn btn-info btn-to-top" style=" width: 60px;
+  background-color: #f2f2f2;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 22px;
+  line-height: 22px;">Ylös</button>
+</back-to-top>
       <v-row>
-      <v-col cols="12">
+      <v-col cols="10 mx-auto">
         <v-select
           style= "margin-top: 2em"
           v-model="selectedLocation"
@@ -13,7 +21,7 @@
           clearable
         ></v-select>
       </v-col>
-      <v-col cols="12">
+      <v-col cols="10 mx-auto">
         <v-select
           style= "margin-top: 1em; margin-bottom: 3em"
           v-model="selectedCategory"
