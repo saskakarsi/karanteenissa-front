@@ -63,7 +63,7 @@
           </v-card>
         </v-col>
       </v-row>
-      <v-row>
+      <v-row style="margin-top: 80px">
       <v-col>
       <v-footer
         absolute
@@ -73,7 +73,20 @@
             class="text-center"
             cols="12"
         >
-            {{ new Date().getFullYear() }} — <strong>Karanteenissa.fi</strong>
+           <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+          <section id="lab_social_icon_footer">
+        <div class="social-icon">
+          <div class="text-center center-block">
+            <a style="margin: 5px" href="https://www.facebook.com/karanteenissa"><i id="social-fb"
+                class="fa fa-facebook-square fa-3x social"></i></a>
+            <a style="margin: 5px" href="https://www.instagram.com/karanteenissa.fi/"><i id="social-ig"
+                class="fa fa-instagram fa-3x social"></i></a>
+            <a style="margin: 5px" href="https://twitter.com/karanteeni20"><i id="social-tw"
+                class="fa fa-twitter-square fa-3x social"></i></a>
+          </div>
+          <strong>Karanteenissa.fi</strong> - {{ new Date().getFullYear() }}
+        </div>
+      </section>
         </v-col>
       </v-footer>
       </v-col>
@@ -105,7 +118,7 @@ export default {
         return svcs.filter((svc) => {
           const locFilter = !locDoc
                         || svc.locations.includes(locDoc.name.fi) 
-                        || svc.locations.includes('National')
+                        || svc.locations.includes('Koko Suomi')
           const categoryFilter = svc.category == this.selectedCategory
                         || !this.selectedCategory
 
