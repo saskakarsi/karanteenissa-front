@@ -20,7 +20,6 @@ const menuLocalizations = {
         services: {
             categorySelector: 'Kategoria',
             locationSelector: 'Paikka',
-            upButton: 'Ylös',
         }
     },
     se: {
@@ -31,7 +30,6 @@ const menuLocalizations = {
         services: {
             categorySelector: 'Kategori',
             locationSelector: 'Plats',
-            upButton: 'Upp'
         }
     },
     gb: {
@@ -42,7 +40,6 @@ const menuLocalizations = {
         services: {
             categorySelector: 'Category',
             locationSelector: 'Location',
-            upButton: 'Up'
         }
     }
 }

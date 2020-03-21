@@ -1,13 +1,10 @@
 <template>
     <v-container fluid>
       <back-to-top bottom="50px" right="50px">
-  <button type="button" class="btn btn-info btn-to-top" style=" width: 60px;
-  background-color: #f2f2f2;
-  height: 60px;
-  border-radius: 50%;
-  font-size: 22px;
-  line-height: 22px;">{{ menuTexts.upButton }}</button>
-</back-to-top>
+        <v-btn class="mx-2  btn-to-top" large fab dark color="primary">
+          <v-icon dark>mdi-arrow-up</v-icon>
+        </v-btn>
+      </back-to-top>
       <v-row>
       <v-col cols="10 mx-auto">
         <v-select
