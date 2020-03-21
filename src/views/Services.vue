@@ -75,7 +75,6 @@ export default {
         const svcs = localizeServices(services)
         if (!this.selectedLocation) return svcs
         const locDoc = findLocation(locations, this.selectedLocation)
-        console.log(locDoc)
         return svcs.filter((svc) => {
           const locFilter = svc.locations.includes(locDoc.name.fi) 
                         || svc.locations.includes('National')
