@@ -1,8 +1,9 @@
 <template>
     <v-container fluid>
       <v-row>
-      <v-col cols="6">
+      <v-col cols="12">
         <v-select
+          style= "margin-top: 2em"
           v-model="selectedLocation"
           :items="locs"
           menu-props="auto"
@@ -12,8 +13,9 @@
           clearable
         ></v-select>
       </v-col>
-      <v-col cols="6">
+      <v-col cols="12">
         <v-select
+          style= "margin-top: 1em; margin-bottom: 3em"
           v-model="selectedCategory"
           :items="serviceCategories"
           menu-props="auto"
@@ -40,16 +42,15 @@
             max-width="300px"
             class="mx-auto"
           >
-            <v-card-title class="headline" v-text="card.langs.fi.title"></v-card-title>         
+            <v-card-title class="headline" v-text="card.langs.fi.title" style="font-weight: bold"></v-card-title>         
             <v-img
               :src="card.img_src"
               class="white--text align-end"
               gradient="to bottom, rgba(0,0,0,0), rgba(0,0,0,0)"
               height="200px"
             >
-              <v-card-title v-text="card.title" dark></v-card-title>
             </v-img>
-            <v-card-subtitle v-text="card.langs.fi.desc"></v-card-subtitle>
+            <v-card-subtitle v-text="card.langs.fi.desc" style="font-weight: 600;"></v-card-subtitle>
 
           </v-card>
         </v-col>
