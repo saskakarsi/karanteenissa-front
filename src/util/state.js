@@ -16,7 +16,7 @@ export const getters = {
 }
 export const mutators = {
     setLocale: (val) => state.locale = val,
-    setselectedCategory: (val) => state.selectedCategory = val,
+    setSelectedCategory: (val) => state.selectedCategory = val,
     setSelectedLocation: (val) => state.selectedLocation = val
 }
 
