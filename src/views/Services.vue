@@ -96,6 +96,9 @@ export default {
       }
     },
     created() {
+        // Take the union of all predefined (=translated) locations
+        // and locations found in the data; this way we can filter with
+        // not-yet-translated locations as well
         var svcLocs = []
         for (const svc of services) {
           svcLocs = Array.from(new Set(svcLocs.concat(svc.locations)))
