@@ -1,0 +1,23 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: karanteenissa-fi-front-depl
+  namespace: prod
+  labels:
+    app: karanteenissa-fi-front-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: karanteenissa-fi-front
+  template:
+    metadata:
+      labels:
+        app: karanteenissa-fi-front
+    spec:
+      containers:
+      - name: karanteenissa-fi-front
+        image: gcr.io/karanteenissa-fi/front:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80
