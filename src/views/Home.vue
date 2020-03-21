@@ -15,7 +15,7 @@
           v-model="selectedLocation"
           :items="locs"
           menu-props="auto"
-          :label="menuTexts.locationSelector"
+          :label="menuTexts.services.locationSelector"
           hide-details
           single-line
           clearable
@@ -26,7 +26,7 @@
           v-model="selectedCategory"
           :items="serviceCategories"
           menu-props="auto"
-          :label="menuTexts.categorySelector"
+          :label="menuTexts.services.categorySelector"
           hide-details
           single-line
           clearable
@@ -102,7 +102,7 @@ export default {
     computed: {
       ...computeds,
       menuTexts: function () {
-        return menuLocalizations[getters.locale().value].services
+        return menuLocalizations[getters.locale().value]
       },
       svcs: function () {
         return getServices.call(this, services)

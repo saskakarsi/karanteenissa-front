@@ -15,11 +15,12 @@ const menuLocalizations = {
     fi: {
         app: {
             serviceButton: 'Palvelut',
-            contactButton: 'Ota yhteyttä'
+            contactButton: 'Ota yhteyttä',
         },
         services: {
             categorySelector: 'Kategoria',
-            locationSelector: 'Paikka'
+            locationSelector: 'Paikka',
+            upButton: 'Ylös',
         }
     },
     se: {
@@ -29,7 +30,8 @@ const menuLocalizations = {
         },
         services: {
             categorySelector: 'Kategori',
-            locationSelector: 'Plats'
+            locationSelector: 'Plats',
+            upButton: 'Upp'
         }
     },
     gb: {
@@ -39,7 +41,8 @@ const menuLocalizations = {
         },
         services: {
             categorySelector: 'Category',
-            locationSelector: 'Location'
+            locationSelector: 'Location',
+            upButton: 'Up'
         }
     }
 }

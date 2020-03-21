@@ -6,7 +6,7 @@
   height: 60px;
   border-radius: 50%;
   font-size: 22px;
-  line-height: 22px;">Ylös</button>
+  line-height: 22px;">{{ menuTexts.upButton }}</button>
 </back-to-top>
       <v-row>
       <v-col cols="10 mx-auto">
