@@ -4,9 +4,9 @@ const localizeServices = (services) => {
     const lang = getters.locale().value
     const svcs = services.map((svc) => {
         if (svc.langs[lang]) {
-            return Object.assign(svc, svc.langs[lang])
+            return { ...svc, current: svc.langs[lang] }
         } else {
-            return Object.assign(svc, svc.langs['fi'])
+            return { ...svc, current: svc.langs['fi'] }
         }
     })
     return svcs

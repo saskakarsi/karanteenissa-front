@@ -1735,6 +1735,7 @@ for (i = 0; i < services.length; i++) {
     services[i].id = i
     services[i].locations = services[i].locations.filter(Boolean)
     services[i].category = capitalize(services[i].category)
+    services[i].current = services[i].langs.fi
 }
 
 module.exports = services

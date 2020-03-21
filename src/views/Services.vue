@@ -47,7 +47,7 @@
             max-width="300px"
             class="mx-auto"
           >
-            <v-card-title class="headline" v-text="card.langs.fi.title" style="font-weight: bold"></v-card-title>         
+            <v-card-title class="headline" v-text="card.current.title" style="font-weight: bold"></v-card-title>         
             <v-img
               :src="card.img_src"
               class="white--text align-end"
@@ -55,7 +55,7 @@
               height="200px"
             >
             </v-img>
-            <v-card-subtitle v-text="card.langs.fi.desc" style="font-weight: 600;"></v-card-subtitle>
+            <v-card-subtitle v-text="card.current.desc" style="font-weight: 600;"></v-card-subtitle>
 
           </v-card>
         </v-col>
