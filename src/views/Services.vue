@@ -132,7 +132,7 @@ export default {
           if (existingLoc) return existingLoc
           return { name: { fi: loc }} // Localization want this format
         })
-        this.allLocations = allLocs
+        this.allLocations = localizeLocations(allLocs)
     }
 }
 </script>

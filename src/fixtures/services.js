@@ -1062,7 +1062,7 @@ const services = [
     langs: {
       fi: {
         title: 'Freska',
-        desc: 'Freska pitää asiakkaidensa kotien hygieniasta huolta pääkaupunkiseudella, sekä Turun ja Tampereen seudulla. Siivouksessa käytetään viranomaisten suosittelemia puhdistusaineita. Nämä puhdistusaineet ovat käytössä jokaisessa siivouksessa, vaikka asiakas ei olisi niitä tilannut. Näin varmistetaan tutkitusti tehokas puhdistus viranomaisten ohjeita noudattaen.'
+        desc: 'Freska pitää asiakkaidensa kotien hygieniasta huolta pääkaupunkiseudella, sekä Turun ja Tampereen seudulla. Siivouksessa käytetään viranomaisten suosittelemia puhdistusaineita.'
       },
       gb: {
         title: 'Freska',
@@ -1085,7 +1085,7 @@ const services = [
     langs: {
       fi: {
         title: 'StichMe',
-        desc: 'StichMe on Suomen ensimmäinen verkossa toimiva korjausompelun tarjoaja. Kaikki korjaukset ja muokkaukset etänä, valitse verkkosovelluksesta korjaustarpeet ja jätä korjattavat vaatteet pakettiautomaattin. Nouda korjatut vaatteet pakettiautomaatista jo viikossa. Korjaukset alkaen 9.90 €'
+        desc: 'StichMe on verkossa toimiva korjausompelun tarjoaja. Kaikki korjaukset ja muokkaukset etänä. Korjaukset alkaen 9.90 €'
       },
       gb: {
         title: 'StichMe',
@@ -1108,7 +1108,7 @@ const services = [
     langs: {
       fi: {
         title: 'Lukukaveri',
-        desc: 'Lukukaveri palvelulla tarkoitetaan koululaisen ja seniorin välillä tapahtuvaa puhelua tai videopuhelua, jossa koululainen lukee seniorille vanhemman valvonnan alaisena valitsemaansa kirjallista tuotosta. Palvelun käyttö tapahtuu siten, että koululaisen vanhempi, seniori tai hänen läheisensä ilmoittaa lukijan tai kuuntelijan mukaan hankkeeseen täällä. Kun olet ilmoittautunut mukaan lukukaveri.com:n vapaaehtoinen ottaa sinuun yhteyttä ja muodostaa sopivat lukija-kuulijaparit.'
+        desc: 'Lukukaveri palvelu on koululaisen ja seniorin välillä tapahtuva puhelu tai videopuhelu, jossa koululainen lukee seniorille vanhemman valvonnan alaisena valitsemaansa kirjallista tuotosta.'
       },
       gb: {
         title: 'Lukukaveri',
