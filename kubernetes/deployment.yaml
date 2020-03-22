@@ -6,7 +6,7 @@ metadata:
   labels:
     app: karanteenissa-fi-front-depl
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: karanteenissa-fi-front
