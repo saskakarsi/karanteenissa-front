@@ -1,26 +1,19 @@
 <template>
     <div>
-        <v-card
-            max-width="600px"
-            elevation="0"
-            class="mx-auto py-6 px-6"
-            style="margin-bottom: 40px">
-
-        <v-col class="mx-auto text-center">
+      <v-col class="mx-auto text-center">
             <h1 class="headline">{{ menuTexts.contact.description }}</h1>
         </v-col>
         <v-col class="mx-auto text-center">
-            <h1 class="title"><a href="mailto:karanteenissa2020@gmail.com">karanteenissa2020@gmail.com</a></h1>
+            <h1 class="headline"><a href="mailto:karanteenissa2020@gmail.com">karanteenissa2020@gmail.com</a></h1>
         </v-col>
 
         <v-col class="mx-auto text-center">
-            <h1 class="subtitle-1">{{ menuTexts.contact.monetary }}</h1>
+            <h1 class="headline">{{ menuTexts.contact.monetary }}</h1>
         </v-col>
 
         <v-col class="mx-auto text-center">
-            <i class="subtitle-1">{{ menuTexts.contact.translate }} <a href="https://www.pauhu.fi/fi/">pauhu.fi</a> / Linda Ahlblad</i>
+            <i class="headline">{{ menuTexts.contact.translate }} <a href="https://www.pauhu.fi/fi/">pauhu.fi</a> / Linda Ahlblad</i>
         </v-col>
-        </v-card>
       <v-col class="py-8 px-6">
         <v-footer
         absolute
