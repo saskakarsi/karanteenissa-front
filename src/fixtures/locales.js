@@ -41,7 +41,7 @@ const menuLocalizations = {
         app: {
             serviceButton: 'Tjänster',
             contactButton: 'Kontakta oss',
-            homeButton: 'Hem'
+            homeButton: 'Hem',
             mainTitle: 'Hjälp för din karantän',
             frontTitle1: 'Karanteenissa.fi samlar information om olika produkt- och servicelösningar för att förebygga coronavirusets verkningar.',
             frontTitle2: 'Låt oss ta hand om varandra. <3'
@@ -66,7 +66,7 @@ const menuLocalizations = {
         app: {
             contactButton: 'Contact us',
             serviceButton: 'Services',
-            homeButton: 'Home'
+            homeButton: 'Home',
             mainTitle: 'Find help in quarantine',
             frontTitle1: 'Karanteenissa.fi combines information about different services to minimize the effects of the Corona virus',
             frontTitle2: 'Let us take care of each other. <3'
