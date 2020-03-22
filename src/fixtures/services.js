@@ -1,4 +1,4 @@
-const services = [
+[
   {
     id: '',
     langs: {
@@ -8,7 +8,7 @@ const services = [
       },
       gb: {
         title: 'Alepa',
-        desc: 'Alepa\'s Food delivery service allows you to order products straight to yout front door. Delivery fees start from 4,9€, pick up is also possible. Delivery- and pick up -times are currently limited. Prisma also has a similar service '
+        desc: 'Alepa\'s food delivery service allows you to order products straight to your front door. Delivery fees start from 4,9€, pick up is also possible. Delivery- and pick up -times are currently limited. Prisma also has a similar service. '
       },
       se: {
         title: 'Alepa',
@@ -31,7 +31,7 @@ const services = [
       },
       gb: {
         title: 'Feelia',
-        desc: 'Large amounts of homecooked meals straight to your front door. Delivery fee is 8,9€. Deliveries over 150€ have free delivery.'
+        desc: 'Large amounts of homecooked meals straight to your front door. Delivery fee is 8,9€, orders over 150€ have free delivery.'
       },
       se: {
         title: 'Feelia',
@@ -54,7 +54,7 @@ const services = [
       },
       gb: {
         title: 'Kesko',
-        desc: 'Kesko\'s home delivery. Shipping start from 9,9€. Some products might have sold out and some stores might have difficulties with delivery. Pick up is also possible.'
+        desc: 'Kesko\'s home delivery. Shipping starts from 9,9€. Some products might have sold out and some stores might have difficulties with delivery. Pick up is also possible.'
       },
       se: {
         title: 'Kesko',
@@ -77,7 +77,7 @@ const services = [
       },
       gb: {
         title: 'Wolt',
-        desc: 'Wolt\'s food-delivery platform allows you to order food from restaurants nearby. Now you can also choose no-contact delivery.'
+        desc: 'Wolt\'s food delivery platform allows you to order food from restaurants nearby. Now you can also choose the no-contact delivery.'
       },
       se: {
         title: 'Wolt',
@@ -110,7 +110,7 @@ const services = [
     link: 'https://pieniruokakauppa.fi/',
     img_src: 'img/pieniruokakauppa.png',
     locations: [
-      'Helsinki', 'Tampere', 'Turku'
+      'Helsinki','Tampere','Turku'
     ],
     category: 'Ruoka'
   },
@@ -146,7 +146,7 @@ const services = [
       },
       gb: {
         title: 'Foodora',
-        desc: 'Foodora\'s Food-delivery platform allows you to order food from restaurants nearby.'
+        desc: 'Foodora\'s food delivery platform allows you to order food from restaurants nearby.'
       },
       se: {
         title: 'Foodora',
@@ -169,7 +169,7 @@ const services = [
       },
       gb: {
         title: 'Fiksuruoka',
-        desc: 'Save food from ending in the trash bin on discount. Home delivery start from 7,9€ and free for orders over 70€.'
+        desc: 'Save food from ending in the trash bin on discount. Home delivery starts from 7,9€ and is free for orders over 70€.'
       },
       se: {
         title: 'Fiksuruoka',
@@ -187,12 +187,12 @@ const services = [
     id: '',
     langs: {
       fi: {
-        title: 'Sannan ruokakassi',
+        title: 'Sannanruokakassi',
         desc: 'Reseptit ja arkiruokaan valikoidut ainekset kotiovelle. Osassa ruokakasseista ilmainen toimitus.'
       },
       gb: {
-        title: 'Sannan ruokakassi',
-        desc: 'Recepies and ingridients for weekday meals delivered to your home. Some packages have free shippig to your home.'
+        title: 'Sannanruokakassi',
+        desc: 'Recepies and ingridients for weekday meals delivered to your home. Some packages have free shippig.'
       },
       se: {
         title: 'Sannas Matkasse',
@@ -238,7 +238,7 @@ const services = [
       },
       gb: {
         title: 'Fruitbox',
-        desc: 'Fruitboxes coming to workplace can now be redirected to remote workers Kodit.'
+        desc: 'Fruitboxes coming to workplace can now be redirected to remote workers\' homes.'
       },
       se: {
         title: 'Fruitbox',
@@ -284,7 +284,7 @@ const services = [
       },
       gb: {
         title: 'Luomukassi',
-        desc: ''
+        desc: 'Luomukassi delivers organic food and local products straight to your home. Recepies and ingridients come in the same package in the Helsinki metropolitan area.'
       },
       se: {
         title: 'Luomukassi',
@@ -294,7 +294,7 @@ const services = [
     link: 'https://luomukassi.fi/',
     img_src: 'img/luomukassi.png',
     locations: [
-      'Helsinki', 'Espoo', 'Vantaa'
+      'Helsinki','Espoo','Vantaa'
     ],
     category: 'Ruoka'
   },
@@ -307,7 +307,7 @@ const services = [
       },
       gb: {
         title: 'Kotikaappi',
-        desc: ''
+        desc: 'Kotikaappi24 makes sure that the 100 most important dry groceries are available. You can order the package to your front door, for you closeone or someone in the risk groups.'
       },
       se: {
         title: 'Kotikaappi',
@@ -330,7 +330,7 @@ const services = [
       },
       gb: {
         title: 'Forsman',
-        desc: ''
+        desc: 'Forsman tea is a Finnish teahouse from which you can order a large variety of hot drinks. '
       },
       se: {
         title: 'Forsman',
@@ -353,7 +353,7 @@ const services = [
       },
       gb: {
         title: 'Laidun Hereford',
-        desc: ''
+        desc: 'Laidun Hereford is a local food poducer which delivers also other smaller producer\'s products trough it\'s online store.'
       },
       se: {
         title: 'Laidun Hereford',
@@ -376,7 +376,7 @@ const services = [
       },
       gb: {
         title: 'Lucy In The Sky',
-        desc: ''
+        desc: 'Lucy in the sky delivers restaurant meals without additional free in Espoo region.'
       },
       se: {
         title: 'Lucy In The Sky',
@@ -399,7 +399,7 @@ const services = [
       },
       gb: {
         title: 'Anton&Anton',
-        desc: ''
+        desc: 'Anton&Anton food package service delivers a package full of fresh and quality ingridients straight to your door.'
       },
       se: {
         title: 'Anton&Anton',
@@ -422,7 +422,7 @@ const services = [
       },
       gb: {
         title: 'Madison Gastro & Wine',
-        desc: ''
+        desc: 'Madison Gastro & Wine delivers food to your home in Espoo Tapiola region.'
       },
       se: {
         title: 'Madison Gastro & Wine',
@@ -445,7 +445,7 @@ const services = [
       },
       gb: {
         title: 'Uudenmaan ruoka / Ekompi.net',
-        desc: 'Online store where you can make pre-orders from local producers and pick them up from a unmanned location.'
+        desc: 'Online store where you can make pre-orders from local producers and pick them up from a unmanned location. '
       },
       se: {
         title: 'Nylands mat / Ekompi.net',
@@ -463,15 +463,15 @@ const services = [
     id: '',
     langs: {
       fi: {
-        title: 'Kauppahalli24',
+        title: 'kauppahalli24',
         desc: 'Kauppahalli24 on verkkoruokakauppa, joka toimittaa kaikenlaisia elintarvikkeita sekä kodintuotteita Uudenmaan alueella. Kuljetuksen hinta on 3,99€-9,99€ ostosten loppusummasta riippuen.'
       },
       gb: {
-        title: 'Kauppahalli24',
-        desc: 'Kauppahalli24 is a online food shop which delivers all kinds of groceries and home products in the Uusimaa region. Delivery price is 3,99€-9,99€.'
+        title: 'kauppahalli24',
+        desc: 'Kauppahalli24 is a online food shop which delivers all kinds of groceries and home products in the Uusimaa region. Delivery price is 3,99€-9,99€. '
       },
       se: {
-        title: 'Kauppahalli24',
+        title: 'kauppahalli24',
         desc: 'Shoppa alla slags livsmedel online med levererans inom Nyland. Leveranskostnad 3,99–9,99 euro beroende på totalt inköpsbelopp.'
       }
     },
@@ -480,7 +480,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo', 'Vantaa'
     ],
-    category: 'Verkkokauppa'
+    category: 'ecommerce'
   },
   {
     id: '',
@@ -503,7 +503,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Verkkokauppa'
+    category: 'ecommerce'
   },
   {
     id: '',
@@ -514,7 +514,7 @@ const services = [
       },
       gb: {
         title: 'Clas Ohlson',
-        desc: 'Free shipping for all products. You can also order trough Wolt.'
+        desc: 'Free shipping for all products. You can also order trough Wolt. '
       },
       se: {
         title: 'Clas Ohlson',
@@ -526,7 +526,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Verkkokauppa'
+    category: 'ecommerce'
   },
   {
     id: '',
@@ -549,7 +549,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Verkkokauppa'
+    category: 'ecommerce'
   },
   {
     id: '',
@@ -572,7 +572,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Verkkokauppa'
+    category: 'ecommerce'
   },
   {
     id: '',
@@ -595,7 +595,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Verkkokauppa'
+    category: 'ecommerce'
   },
   {
     id: '',
@@ -618,7 +618,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Verkkokauppa'
+    category: 'ecommerce'
   },
   {
     id: '',
@@ -641,7 +641,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Verkkokauppa'
+    category: 'ecommerce'
   },
   {
     id: '',
@@ -664,7 +664,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Verkkokauppa'
+    category: 'ecommerce'
   },
   {
     id: '',
@@ -675,7 +675,7 @@ const services = [
       },
       gb: {
         title: 'Yliopistonapteekki',
-        desc: 'Yliopiston apteekki delivers prescription medicine straight to your front door. Customer service is congested and delivery time is longer than normal. Many other pharmacies also deliver medicine.'
+        desc: 'Yliopiston apteekki delivers prescription medicine straight to your front door. Customer service is congested and delivery time is longer than normal. Many other pharmacies also deliver medicine. '
       },
       se: {
         title: 'Universitetets Apotek',
@@ -790,7 +790,7 @@ const services = [
       },
       gb: {
         title: 'Ilostu',
-        desc: 'Ilostu offers services for the elderly.'
+        desc: 'Ilostu offers services for the elderly. '
       },
       se: {
         title: 'Ilostu',
@@ -882,7 +882,7 @@ const services = [
       },
       gb: {
         title: 'Omaolo',
-        desc: 'On Omaolo\'s website you can make a test if you suspect corona virus. By taking the test you save the healthHoiva system\'s resources.'
+        desc: 'On Omaolo\'s website you can make a test if you suspect corona virus. By taking the test you save the healthcare system\'s resources.'
       },
       se: {
         title: 'Omaolo',
@@ -905,7 +905,7 @@ const services = [
       },
       gb: {
         title: 'Onerva',
-        desc: 'Onerva is a guest book for home Hoiva and sheltered accommodation which can be read always and anywhere. With the help of Onerva healthHoiva personnel can reach you and you them.'
+        desc: 'Onerva is a guest book for home care and sheltered accommodation which can be read always and anywhere. With the help of Onerva healthcare personnel can reach you and you them. '
       },
       se: {
         title: 'Onerva omsorgskommunikation',
@@ -951,7 +951,7 @@ const services = [
       },
       gb: {
         title: 'Rakkaudella, Riikka',
-        desc: 'Stress relief, support for mental well-being and professional guidance. Possibility for remote meetings and a free 45 minute tryout.'
+        desc: 'Stress relief, support for mental well-being and professional guidance. Possibility for remote meetings and a free 45 minute tryout. '
       },
       se: {
         title: 'Med kärlek, Riikka',
@@ -974,7 +974,7 @@ const services = [
       },
       gb: {
         title: 'Hellie Hoivapalvelut',
-        desc: 'Hellie is a safe, local company which offers shopping services, talking company and home services.'
+        desc: 'Hellie is a safe, local company which offers shop services, talking company and home services.'
       },
       se: {
         title: 'Hellie Omsorgstjänster',
@@ -1062,7 +1062,7 @@ const services = [
     langs: {
       fi: {
         title: 'Freska',
-        desc: 'Freska pitää asiakkaidensa kotien hygieniasta huolta pääkaupunkiseudella, sekä Turun ja Tampereen seudulla. Siivouksessa käytetään viranomaisten suosittelemia puhdistusaineita.'
+        desc: 'Freska pitää asiakkaidensa kotien hygieniasta huolta pääkaupunkiseudella, sekä Turun ja Tampereen seudulla. Siivouksessa käytetään viranomaisten suosittelemia puhdistusaineita. Nämä puhdistusaineet ovat käytössä jokaisessa siivouksessa, vaikka asiakas ei olisi niitä tilannut. Näin varmistetaan tutkitusti tehokas puhdistus viranomaisten ohjeita noudattaen.'
       },
       gb: {
         title: 'Freska',
@@ -1085,11 +1085,11 @@ const services = [
     langs: {
       fi: {
         title: 'StichMe',
-        desc: 'StichMe on verkossa toimiva korjausompelun tarjoaja. Kaikki korjaukset ja muokkaukset etänä. Korjaukset alkaen 9.90 €'
+        desc: 'StichMe on Suomen ensimmäinen verkossa toimiva korjausompelun tarjoaja. Kaikki korjaukset ja muokkaukset etänä, valitse verkkosovelluksesta korjaustarpeet ja jätä korjattavat vaatteet pakettiautomaattin. Nouda korjatut vaatteet pakettiautomaatista jo viikossa. Korjaukset alkaen 9.90 €'
       },
       gb: {
         title: 'StichMe',
-        desc: 'StichMe is Finland\'s first online repair service for clothes. All repairs and alternations remote acces; leave your clotehs to a package automat. Pick them up in a week.'
+        desc: 'StichMe is Finland\'s first online repair service for clothes. All repairs and alternations remote acces; leave your clotehs to a package automat. Pick them up in a week. '
       },
       se: {
         title: 'StichMe',
@@ -1108,7 +1108,7 @@ const services = [
     langs: {
       fi: {
         title: 'Lukukaveri',
-        desc: 'Lukukaveri palvelu on koululaisen ja seniorin välillä tapahtuva puhelu tai videopuhelu, jossa koululainen lukee seniorille vanhemman valvonnan alaisena valitsemaansa kirjallista tuotosta.'
+        desc: 'Lukukaveri palvelulla tarkoitetaan koululaisen ja seniorin välillä tapahtuvaa puhelua tai videopuhelua, jossa koululainen lukee seniorille vanhemman valvonnan alaisena valitsemaansa kirjallista tuotosta. Palvelun käyttö tapahtuu siten, että koululaisen vanhempi, seniori tai hänen läheisensä ilmoittaa lukijan tai kuuntelijan mukaan hankkeeseen täällä. Kun olet ilmoittautunut mukaan lukukaveri.com:n vapaaehtoinen ottaa sinuun yhteyttä ja muodostaa sopivat lukija-kuulijaparit.'
       },
       gb: {
         title: 'Lukukaveri',
@@ -1119,7 +1119,7 @@ const services = [
         desc: ''
       }
     },
-    link: '',
+    link: 'https://lukukaveri.com/',
     img_src: 'img/lukukaveri.png',
     locations: [
       'National'
@@ -1135,7 +1135,7 @@ const services = [
       },
       gb: {
         title: 'Mehiläisen Digiklinikka',
-        desc: 'Mehiläinen Digiklinikka brings a doctor to you. The service is open 24/7 and you can get to treatment without reserving time for a reasonable price.'
+        desc: 'Mehiläinen Digiklinikka brings a doctor to you. The service is open 24/7 and you can get to treatment without reserving time for a reasonable price. '
       },
       se: {
         title: 'Mehiläisen Digiklinikka',
@@ -1204,14 +1204,14 @@ const services = [
       },
       gb: {
         title: 'Hiisi Homes',
-        desc: 'Hiisi Homes provides temporary Kodit from a single night to months.'
+        desc: 'Hiisi Homes provides temporary homes from a single night to months.'
       },
       se: {
         title: 'Hiisi Homes',
         desc: 'Familjeföretaget Hiisi Homes erbjuder bostäder för tillfälliga behov från ett par nätters till flera månaders inkvartering runtom i Södra Finland. Hiisis tillfälliga lägenheter lämpar sig även för distansarbete. När du bor bo Hiisi Homes är det lätt att undvika mänsklig kontakt: det finns ingen reception, restaurang eller allmänna lobbyer.'
       }
     },
-    link: 'https://www.hiisiKodit.fi/en/',
+    link: 'https://www.hiisihomes.fi/en/',
     img_src: 'img/hiisi.png',
     locations: [
       'Helsinki', 'Espoo', 'Vantaa'
@@ -1365,7 +1365,7 @@ const services = [
       },
       gb: {
         title: 'Lukulumo',
-        desc: 'Lukulumo is digital tool directed to early childhood education which offers a large variety of picture books read out loud.'
+        desc: 'Lukulumo is digital tool directed to early childhood education which offers a large variety of picture books read out loud.  '
       },
       se: {
         title: 'Lukulumo',
@@ -1618,7 +1618,7 @@ const services = [
       },
       gb: {
         title: 'Sanoste',
-        desc: 'Sanoste offers digital exercise and singig courses for the elederly. The services are paid.'
+        desc: 'Sanoste offers digital exercise and singig courses for the elederly. The services are paid. '
       },
       se: {
         title: 'Sanoste',
@@ -1664,7 +1664,7 @@ const services = [
       },
       gb: {
         title: 'Juurikorven kauppa',
-        desc: 'Food cooking and delivery to local Kodit in the Kotka area. Also groceries to go or delivered from the shop.'
+        desc: 'Food cooking and delivery to local homes in the Kotka area. Also groceries to go or delivered from the shop.'
       },
       se: {
         title: 'Juurikorven kauppa',
@@ -1724,18 +1724,533 @@ const services = [
     ],
     category: 'Palvelut'
   },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Turvataan tulevaisuus',
+        desc: 'Turvataan tulevaisuus on viiden aktiivisen kansalaisen perustama sivusto, jonka tarkoituksena on yhdistää pulassa olevat pien- ja mikroyrittäjien tarjoamat palvelut, tuotteet ja työkalut.'
+      },
+      gb: {
+        title: 'Turvataan tulevaisuus',
+        desc: 'Website that combines small business and their services.'
+      },
+      se: {
+        title: 'Turvataan tulevaisuus',
+        desc: ''
+      }
+    },
+    link: 'https://www.turvataantulevaisuus.fi/',
+    img_src: 'img/turvataantulevaisuus.png',
+    locations: [
+      'National'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Koirahoitola Vohveli ',
+        desc: 'Koirahoitola Vohveli tarjoaa kodinomaista hoitoa koirallesi Tuusulassa.'
+      },
+      gb: {
+        title: 'Koirahoitola Vohveli ',
+        desc: 'Home-like care for your dog in Tuusula.'
+      },
+      se: {
+        title: 'Koirahoitola Vohveli ',
+        desc: ''
+      }
+    },
+    link: 'https://www.vohveli.net/',
+    img_src: 'img/--.png..img/koirahoitolavohveli.png',
+    locations: [
+      'Tuusula '
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Venner',
+        desc: 'Venner tarjoaa täysin uudenlaisen ja yksinkertaisen tavan tukea suomalaisia vähävaraisia lapsiperheitä ravitsevan ruan avulla, suoraan kotiovelle toimitettuna.'
+      },
+      gb: {
+        title: 'Venner',
+        desc: 'Venner offers a complitely and easy way to support small-income families with healthy food.'
+      },
+      se: {
+        title: 'Venner',
+        desc: ''
+      }
+    },
+    link: 'https://venner.fi/',
+    img_src: 'img/venner.png',
+    locations: [
+      'Helsinki','Turku'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'E-kukka',
+        desc: 'E-kukka -palvelusta voi tilata kukkia kotiisi ilman ihmiskontaktia.'
+      },
+      gb: {
+        title: 'E-kukka',
+        desc: 'From E-kukka service you can order flowers straight to your home.'
+      },
+      se: {
+        title: 'E-kukka',
+        desc: ''
+      }
+    },
+    link: 'https://ekukka.fi/',
+    img_src: 'img/ekukka.png',
+    locations: [
+      'National'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'LahjaShop',
+        desc: 'Lahjat netistä - iloa tuovia tuotteita kaikkina aikoina. Kotimainen verkkokauppa ja lahjakauppa netissä monipuolisilla maksutavoilla. Löydät valikoimasta lahjaideoita, lifestyle-tuotteita, sisustustavaraa, koruja ja paljon muuta. Ostaminen on turvallista ja samalla tuet kotimaista pienyritystä. Myös kotiinkuljetus!'
+      },
+      gb: {
+        title: 'LahjaShop',
+        desc: 'Gifts online - products that bring joy at all times. Gift ideas, lifestyle products, decorations and much more. By buying you also support small and local businesses. Home delivery available.'
+      },
+      se: {
+        title: 'LahjaShop',
+        desc: ''
+      }
+    },
+    link: 'https://www.lahjashop.com/',
+    img_src: 'img/lahjashop.png',
+    locations: [
+      'National'
+    ],
+    category: 'ecommerce'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Karanteeniteatteri',
+        desc: 'Ammattiteatteriesityksiä striimattuna kotiisi erittäin matalankynnyksen hinnoilla.'
+      },
+      gb: {
+        title: 'Karanteeniteatteri',
+        desc: 'Professional thearter performances live-streamed to your home with low prices.'
+      },
+      se: {
+        title: 'Karanteeniteatteri',
+        desc: ''
+      }
+    },
+    link: 'http://www.karanteeniteatteri.fi/',
+    img_src: 'img/karanteeniteatteri.png',
+    locations: [
+      'National'
+    ],
+    category: 'Viihde'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Kuntokauppa.fi',
+        desc: 'Kuntokaupan valikoimasta löytyy 1500 tuotetta urheiluun ja kuntoiluun. Valikoimasta löytyvät mm. juoksumatot, kuntopyörät, crosstrainerit, levytangot, painonnostopenkit & telineet, hulavanteet ja jumppavälineet. Nopea toimitus Tampereen varastolta suoraan kotiovelle.'
+      },
+      gb: {
+        title: 'Kuntokauppa.fi',
+        desc: 'Over 1500 products for sports. Fast delovery from Tampere.'
+      },
+      se: {
+        title: 'Kuntokauppa.fi',
+        desc: ''
+      }
+    },
+    link: 'https://www.kuntokauppa.fi/',
+    img_src: 'img/kuntokauppa.png',
+    locations: [
+      'National'
+    ],
+    category: 'ecommerce'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Tampereen paahtimo',
+        desc: 'Tampereen paahtimo on yhden naisen pienyritys. Kahveissa kohtaavat hyvä laatu, mainio maku ja huolellisesti tehty käsityö. Koko Pirkanmaan alueella jokaiseen tilaukseen ilmainen kuljetus. Koko Suomeen postitus mahdollinen.'
+      },
+      gb: {
+        title: 'Tampereen paahtimo',
+        desc: 'A small business ran by a single woman. Great quality, delicious taste and delicate work combine in the coffees. Free home delivery in Pirkanmaa, post delivery possible to all around Finland.'
+      },
+      se: {
+        title: 'Tampereen paahtimo',
+        desc: ''
+      }
+    },
+    link: 'https://tampereenpaahtimo.com/',
+    img_src: 'img/tampereenpaahtimo.png',
+    locations: [
+      'National'
+    ],
+    category: 'ecommerce'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Kukkakauppa Puntti',
+        desc: 'Kukkia, mullanvaihtotarvikkeita ym. kotiovelle kannettuna, nopea toimitus.'
+      },
+      gb: {
+        title: 'Kukkakauppa Puntti',
+        desc: 'Flowers etc. to your home. Fast delivery.'
+      },
+      se: {
+        title: 'Kukkakauppa Puntti',
+        desc: ''
+      }
+    },
+    link: 'https://www.kukkakauppapuntti.fi/',
+    img_src: 'img/kukkakauppapuntti.png',
+    locations: [
+      'National'
+    ],
+    category: 'ecommerce'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Suomen Seniorihoiva',
+        desc: 'Kotipalvelut, hoivapalvelut, kauppa- ja asiointiapu, koronasiivoukset alvittomasti ikäihmisille ja riskiryhmille.'
+      },
+      gb: {
+        title: 'Suomen Seniorihoiva',
+        desc: 'Home services, healthcare, grocery help and cleaning services to seniors and risk groups.'
+      },
+      se: {
+        title: 'Suomen Seniorihoiva',
+        desc: ''
+      }
+    },
+    link: 'https://suomenseniorihoiva.fi/',
+    img_src: 'img/suomenseniorihoiva.png',
+    locations: [
+      'National'
+    ],
+    category: 'Hoiva'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Livetaajuus',
+        desc: 'Palvelusta löytyy kaikki kotimaiset radiokanavat, sekä paikalliset että valtakunnalliset. Radiosta kuuluu myös viranomaisten tiedotukset koronatilanteeseen liittyen. Valmiuslain mukaan radiot ovat velvollisia julkaisemaan viranomaisen tiedotukset.'
+      },
+      gb: {
+        title: 'Livetaajuus',
+        desc: 'All Finnish radio channels - both local and national.'
+      },
+      se: {
+        title: 'Livetaajuus',
+        desc: ''
+      }
+    },
+    link: 'https://livetaajuus.fi/',
+    img_src: 'img/livetaajuus.png',
+    locations: [
+      'National'
+    ],
+    category: 'Viihde'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Tutor Trio',
+        desc: 'Kun opiskelu tapahtuu kotona ilman opettajan apua, niin meiltä saa apua mihin tahansa oppiaineeseen etänäkin. Samalla palkkaamme myös ansioituneita opiskelijoita etätyöhön.'
+      },
+      gb: {
+        title: 'Tutor Trio',
+        desc: 'When you must study remotely without a teacher\'s help then Tutor Trio is there to help. At the same time, Tutor Trio employs commendable students remotely.'
+      },
+      se: {
+        title: 'Tutor Trio',
+        desc: ''
+      }
+    },
+    link: 'http://www.tutortrio.fi/',
+    img_src: 'img/tutortrio.png',
+    locations: [
+      'National'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Mili\'s',
+        desc: 'Toimittaa Espoossa kotiin lounasannoksia.'
+      },
+      gb: {
+        title: 'Mili\'s',
+        desc: 'Lunch deliverys in Espoo.'
+      },
+      se: {
+        title: 'Mili\'s',
+        desc: ''
+      }
+    },
+    link: 'https://www.milisfood.fi/',
+    img_src: 'img/milis.png',
+    locations: [
+      'Espoo'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Business Meeting Park',
+        desc: 'Etätapaamiset, -kokoukset, webinaarit ja muut tapahtumat "avaimet käteen" periaattella, tarvittaessa jopa täysin etänä.'
+      },
+      gb: {
+        title: 'Business Meeting Park',
+        desc: 'Remote meetings, webinars and other events.'
+      },
+      se: {
+        title: 'Business Meeting Park',
+        desc: ''
+      }
+    },
+    link: 'https://www.meetingpark.fi/fi/',
+    img_src: 'img/businessmeetingpark.png',
+    locations: [
+      'National'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'ShipIt',
+        desc: 'Suomen kattavin kuljetusvalikoima, todella helppo käyttöliittymä ja edulliset hinnat. Kotiinkuljetukset yksityisille ja yrityksille.'
+      },
+      gb: {
+        title: 'ShipIt',
+        desc: 'Comprehensive selection of transport possibilities - for private persons as well as companies.'
+      },
+      se: {
+        title: 'ShipIt',
+        desc: ''
+      }
+    },
+    link: 'https://www.shipit.fi/',
+    img_src: 'img/shipit.png',
+    locations: [
+      'National'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'LVI-tarvikkeet',
+        desc: 'Kodin remontointitarvikkeet edullisesti kotiinkuljetettuna.'
+      },
+      gb: {
+        title: 'LVI-tarvikkeet',
+        desc: 'Renoval supplies delivered to your home.'
+      },
+      se: {
+        title: 'LVI-tarvikkeet',
+        desc: ''
+      }
+    },
+    link: 'https://www.lvitarvikkeet.fi/',
+    img_src: 'img/lvitarvikkeet.png',
+    locations: [
+      'National'
+    ],
+    category: 'ecommerce'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Centrum services',
+        desc: 'Pääkaupunkiseudulla toimiva IT yritys, joka palvelee ensisijaisesti kuluttaja asiakkaita. Palveluun on aina kuulunut ilmainen noutopalvelu suoraan kotiovelta noudettuna pääkaupunkiseudulta. Huollon jälkeen laite toimitetaan takaisin kotiovelle veloituksetta.'
+      },
+      gb: {
+        title: 'Centrum services',
+        desc: 'IT-company that works in the Helsinki metropolitan area. Free pick up and return for maitance.'
+      },
+      se: {
+        title: 'Centrum services',
+        desc: ''
+      }
+    },
+    link: 'https://www.centrumservices.fi/',
+    img_src: 'img/centrumservices.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Pinnijalkapojat',
+        desc: 'Etätyöläisten arkea helpottamaan. Pinnijaloilla saa edullisesti rakennettua itselleen tyylikkään etätyöpisteen.'
+      },
+      gb: {
+        title: 'Pinnijalkapojat',
+        desc: 'To make remote workes life easier. You can build customised work station.'
+      },
+      se: {
+        title: 'Pinnijalkapojat',
+        desc: ''
+      }
+    },
+    link: 'https://www.pinnijalkapojat.fi/',
+    img_src: 'img/pinnijalkapojat.png',
+    locations: [
+      'National'
+    ],
+    category: 'ecommerce'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Onlineope',
+        desc: 'Etäopetuspalvelut videoyhteydellä: Vaivaton ja joustava opiskelu missä tahansa'
+      },
+      gb: {
+        title: 'Onlineope',
+        desc: 'Remote teaching with video. Effortless and flexible service for individual students.'
+      },
+      se: {
+        title: 'Onlineope',
+        desc: ''
+      }
+    },
+    link: 'https://www.onlineope.fi/',
+    img_src: 'img/onlineope.png',
+    locations: [
+      'National'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Nokturno',
+        desc: 'Ilmaiseksi saatavilla olevaa nykyrunoutta'
+      },
+      gb: {
+        title: 'Nokturno',
+        desc: 'Modern poetry for free.'
+      },
+      se: {
+        title: 'Nokturno',
+        desc: ''
+      }
+    },
+    link: 'https://nokturno.fi/',
+    img_src: 'img/nokturno.png',
+    locations: [
+      'National'
+    ],
+    category: 'Viihde'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Osuma Streetwear',
+        desc: 'Osuma Streetwear on vuonna 2005 perustettu suomalainen katuvaatemerkki, joka inspiroituu katutaiteesta ja eri alakulttuureista. Osuma tuo Helsingin ja muun Suomen katukuvaan kestävää, laadukasta ja ehdottoman katu-uskottavaa muotia.'
+      },
+      gb: {
+        title: 'Osuma Streetwear',
+        desc: 'Finnish streetwear brand which is inspired of streetart and subcultures. Sustainable and quality streetwear.'
+      },
+      se: {
+        title: 'Osuma Streetwear',
+        desc: ''
+      }
+    },
+    link: 'https://osw.fi/',
+    img_src: 'img/osuma.png',
+    locations: [
+      'National'
+    ],
+    category: 'ecommerce'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Kotitila',
+        desc: 'Lähiruokaa kotiintoimitettuna pääkaupunkiseudulla.'
+      },
+      gb: {
+        title: 'Kotitila',
+        desc: 'Local food delivered in the Helsinki metropolitan area.'
+      },
+      se: {
+        title: 'Kotitila',
+        desc: ''
+      }
+    },
+    link: 'https://www.kotitila.fi/',
+    img_src: 'img/suomenkotitila.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Kauneusmaailma',
+        desc: 'Kauneuden- ja terveydenhuoltotarvikkeet koko Suomeen toimitettuna. Laaja valikoima ihonhoitotuotteita.'
+      },
+      gb: {
+        title: 'Kauneusmaailma',
+        desc: 'Beuty and healthcare supplies delivered to all around Finland. A large variety of skin care products.'
+      },
+      se: {
+        title: 'Kauneusmaailma',
+        desc: ''
+      }
+    },
+    link: 'https://www.kauneusmaailma.fi/',
+    img_src: 'img/kauneusmaailma.png',
+    locations: [
+      'National'
+    ],
+    category: 'ecommerce'
+  }
 ]
-
-const capitalize = (s) => {
-  if (typeof s !== 'string') return ''
-  return s.charAt(0).toUpperCase() + s.slice(1)
-}
-var i;
-for (i = 0; i < services.length; i++) {
-    services[i].id = i
-    services[i].locations = services[i].locations.filter(Boolean)
-    services[i].category = capitalize(services[i].category)
-    services[i].current = services[i].langs.fi
-}
-
-module.exports = services

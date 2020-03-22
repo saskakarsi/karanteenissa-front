@@ -13,6 +13,7 @@
             <v-btn
               elevation=0
               v-on="on"
+              light
             >
               Language
             </v-btn>
@@ -31,13 +32,14 @@
     </div>
     <div v-else>
       <v-app-bar dark app elevation=0 hide-on-scroll color="primary">
-        <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
+        <v-app-bar-nav-icon large @click="drawer = true"></v-app-bar-nav-icon>
         <v-spacer></v-spacer>
         <v-menu offset-y>
           <template v-slot:activator="{ on }">
             <v-btn
               elevation=0
               v-on="on"
+              light
             >
               Language
             </v-btn>

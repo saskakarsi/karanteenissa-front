@@ -36,7 +36,7 @@
 
       <v-col class="mx-auto">
         <div class="text-center">
-            <v-btn rounded color="primary" dark to="/services">{{ menuTexts.home.searchButton }}</v-btn>
+            <v-btn large rounded color="primary" dark to="/services">{{ menuTexts.home.searchButton }}</v-btn>
         </div>
         </v-col>
 
