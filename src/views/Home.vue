@@ -1,21 +1,15 @@
 <template>
-
     <v-container fluid>
       <v-card
         max-width="1200px"
         elevation="0"
         class="mx-auto py-6 px-6"
         style="margin-bottom: 40px">
+
         <v-col class="mx-auto text-center"><div></div>
             <h1 class="display-1">{{ menuTexts.app.mainTitle }}</h1>
         </v-col>
-        <div style="@media (max-width: 400px) {
-          {
-          height: 100px;
-          align-items: center;
-          justify-content=center;
-            }
-        }">
+
         <v-col cols="12 mx-auto">
         <v-select
           v-model="selectedLocation"
@@ -25,8 +19,6 @@
           hide-details
           single-line
           clearable
-          dense
-          solo
         ></v-select>
       </v-col>
       <v-col cols="12 mx-auto">
@@ -38,11 +30,9 @@
           hide-details
           single-line
           clearable
-          dense
-          solo
         ></v-select>
       </v-col>
-      </div>
+
 
       <v-col class="mx-auto">
         <div class="text-center">
