@@ -1,0 +1,23 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: qa-karanteenissa-fi-front-depl
+  namespace: qa
+  labels:
+    app: qa-karanteenissa-fi-front-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: qa-karanteenissa-fi-front
+  template:
+    metadata:
+      labels:
+        app: qa-karanteenissa-fi-front
+    spec:
+      containers:
+      - name: qa-karanteenissa-fi-front
+        image: gcr.io/karanteenissa-fi/qa-front:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80
