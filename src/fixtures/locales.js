@@ -68,10 +68,10 @@ const menuLocalizations = {
             locationSelector: 'Plats',
         },
         home: {
-            searchButton: 'Search',
-            tellUsButton: 'Tell us about a new service',
-            tipsButton: 'Tips',
-            facebookButton: 'Discuss on Facebook'
+            searchButton: 'Sök',
+            tellUsButton: 'Tipsa om tjänst',
+            tipsButton: 'Tips för företagare',
+            facebookButton: 'Tipsa och delta på Facebook!'
         },
         contact: {
             description: 'En webbplats av fem studerande till hjälp för den tid av osäkerhet som coronaviruset förorsakar.',
@@ -81,7 +81,7 @@ const menuLocalizations = {
         tips: {
             title1: 'För företagare',
             point1: 'Vid sin presskonferens den 20 mars 2020 presenterade regeringen ekonomiska stödåtgärder för företagare med anledning av coronakrisen.',
-            point2: '>Business Finland fick en tilläggsbudget på 150 miljoner euro. Nu kan du ansöka om företagsfinansiering för interferenssituationen från Business Finland. Utvecklingsfinansieringen är avsedd för samtliga små och medelstora företag samt midcap-företag med verksamhet i Finland, vars nuvarande affärsverksamhet påverkas negativt av koronavirusläget. Företagen kan få finansiering på upp till 100 000 euro, varav 70 % kan erhållas som förhandsfinansiering vid projektstart.',
+            point2: 'Business Finland fick en tilläggsbudget på 150 miljoner euro. Nu kan du ansöka om företagsfinansiering för interferenssituationen från Business Finland. Utvecklingsfinansieringen är avsedd för samtliga små och medelstora företag samt midcap-företag med verksamhet i Finland, vars nuvarande affärsverksamhet påverkas negativt av koronavirusläget. Företagen kan få finansiering på upp till 100 000 euro, varav 70 % kan erhållas som förhandsfinansiering vid projektstart.',
             point3: 'Regeringen beslutade att öka Finnveras mandat från två miljarder euro till 12 miljarder euro. Bankerna kan ge kredit med Finnvera som borgenär (för högst 80 % av lånebeloppet). I regel ansöker du om banklån hos din egen bank.',
             point4: 'Företagen får också sänkta arbetspensionsavgifter. Förfallodagarna för arbetspensionsavgifter kommer att skjutas upp med tre månader (med omedelbar verkan) och FöPL-försäkringens avgifter minskas med 2,6 % (senast från och med den 1 juni 2020). Företagen kan också ansöka om pensionsåtervinning hos sitt arbetspensionsförsäkringsbolag, för vilken Finnvera utlovar 80% borgen. Kontakta ditt eget arbetspensionsförsäkringsbolag.',
             point5: 'Företagare har även tillfälligt rätt till arbetslöshetsersättning. Detta gäller även enskilda näringsidkare och frilansare. Företagare bör motivera hur coronaviruskrisen har försvagat företagsverksamheten. Inkomster beaktas iakttas för jämkad arbetslöshetsförmån. Du kan ansöka om arbetslöshetsdagpenning på TE-byråns webbplats.',
