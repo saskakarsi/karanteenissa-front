@@ -41,6 +41,7 @@
         >
           <v-card
             elevation=2
+            hover:style="color: white"
             hover
             :href="card.link"
             target="_blank"

@@ -8,14 +8,14 @@ const services = [
       },
       gb: {
         title: 'Alepa',
-        desc: 'Alepa\'s Ruoka delivery service allows you to order products straight to yout front door. Delivery fees start from 4,9€, pick up is also possible. Delivery- and pick up -times are currently limited. Prisma also has a similar service '
+        desc: 'Alepa\'s Food delivery service allows you to order products straight to yout front door. Delivery fees start from 4,9€, pick up is also possible. Delivery- and pick up -times are currently limited. Prisma also has a similar service '
       },
       se: {
         title: 'Alepa',
         desc: 'Alepas matkassar till din dörr. Leverans från 4,90 euro. För tillfället begränsad tillgång till leverans- och hämtningstider. Hämtning är också möjlig. Prisma har också egna webbutiker.'
       }
     },
-    link: 'https://www.Ruokaie.fi/',
+    link: 'https://www.foodie.fi/',
     img_src: 'img/alepa.png',
     locations: [
       'National'
@@ -77,7 +77,7 @@ const services = [
       },
       gb: {
         title: 'Wolt',
-        desc: 'Wolt\'s Ruoka-delivery platform allows you to order Ruoka from restaurants nearby. Now you can also choose no-contact delivery.'
+        desc: 'Wolt\'s food-delivery platform allows you to order food from restaurants nearby. Now you can also choose no-contact delivery.'
       },
       se: {
         title: 'Wolt',
@@ -100,7 +100,7 @@ const services = [
       },
       gb: {
         title: 'Pieni Ruokakauppa',
-        desc: 'Online store for Ruoka and home delivery service. Pieni Ruokakauppa operates in Helsinki metropolitan area, Tampere and Turku. '
+        desc: 'Online store for food and home delivery service. Pieni Ruokakauppa operates in Helsinki metropolitan area, Tampere and Turku. '
       },
       se: {
         title: 'Pieni Ruokakauppa',
@@ -141,20 +141,20 @@ const services = [
     id: '',
     langs: {
       fi: {
-        title: 'Ruokaora',
+        title: 'Foodora',
         desc: 'Ravintolat ja pikaruokalat. Lähetit voivat jättää kuljetuksen oven taakse, jos pyyntö kirjoitetaan osoitetietojen yhteyteen pyyntönä.'
       },
       gb: {
-        title: 'Ruokaora',
-        desc: 'Ruokaora\'s Ruoka-delivery platform allows you to order Ruoka from restaurants nearby.'
+        title: 'Foodora',
+        desc: 'Foodora\'s Food-delivery platform allows you to order food from restaurants nearby.'
       },
       se: {
-        title: 'Ruokaora',
+        title: 'Foodora',
         desc: 'Restauranger och snabbmatsrestauranger. Budet kan lämna leveransen utanför dörren om du skriftligen i samband med att du anger dina adressuppgifter ber hen göra det.'
       }
     },
-    link: 'https://www.Ruokaora.fi/',
-    img_src: 'img/Ruokaora.png',
+    link: 'https://www.foodora.fi/',
+    img_src: 'img/foodora.png',
     locations: [
       'National'
     ],
@@ -169,7 +169,7 @@ const services = [
       },
       gb: {
         title: 'Fiksuruoka',
-        desc: 'Save Ruoka from ending in the trash bin on discount. Home delivery start from 7,9€ and free for orders over 70€.'
+        desc: 'Save food from ending in the trash bin on discount. Home delivery start from 7,9€ and free for orders over 70€.'
       },
       se: {
         title: 'Fiksuruoka',
@@ -187,11 +187,11 @@ const services = [
     id: '',
     langs: {
       fi: {
-        title: 'Sannanruokakassi',
+        title: 'Sannan ruokakassi',
         desc: 'Reseptit ja arkiruokaan valikoidut ainekset kotiovelle. Osassa ruokakasseista ilmainen toimitus.'
       },
       gb: {
-        title: 'Sannanruokakassi',
+        title: 'Sannan ruokakassi',
         desc: 'Recepies and ingridients for weekday meals delivered to your home. Some packages have free shippig to your home.'
       },
       se: {
@@ -261,7 +261,7 @@ const services = [
       },
       gb: {
         title: 'Matsmart',
-        desc: 'Save Ruoka from ending in the trash bin on discount. There might be some delays with deliveries.'
+        desc: 'Save food from ending in the trash bin on discount. There might be some delays with deliveries.'
       },
       se: {
         title: 'Matsmart',
@@ -463,15 +463,15 @@ const services = [
     id: '',
     langs: {
       fi: {
-        title: 'kauppahalli24',
+        title: 'Kauppahalli24',
         desc: 'Kauppahalli24 on verkkoruokakauppa, joka toimittaa kaikenlaisia elintarvikkeita sekä kodintuotteita Uudenmaan alueella. Kuljetuksen hinta on 3,99€-9,99€ ostosten loppusummasta riippuen.'
       },
       gb: {
-        title: 'kauppahalli24',
-        desc: 'Kauppahalli24 is a online Ruoka shop which delivers all kinds of groceries and home products in the Uusimaa region. Delivery price is 3,99€-9,99€.'
+        title: 'Kauppahalli24',
+        desc: 'Kauppahalli24 is a online food shop which delivers all kinds of groceries and home products in the Uusimaa region. Delivery price is 3,99€-9,99€.'
       },
       se: {
-        title: 'kauppahalli24',
+        title: 'Kauppahalli24',
         desc: 'Shoppa alla slags livsmedel online med levererans inom Nyland. Leveranskostnad 3,99–9,99 euro beroende på totalt inköpsbelopp.'
       }
     },
@@ -1664,7 +1664,7 @@ const services = [
       },
       gb: {
         title: 'Juurikorven kauppa',
-        desc: 'Ruoka cooking and delivery to local Kodit in the Kotka area. Also groceries to go or delivered from the shop.'
+        desc: 'Food cooking and delivery to local Kodit in the Kotka area. Also groceries to go or delivered from the shop.'
       },
       se: {
         title: 'Juurikorven kauppa',
