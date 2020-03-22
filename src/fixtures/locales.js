@@ -32,7 +32,7 @@ const menuLocalizations = {
             facebookButton: 'Keskustele fb-ryhmässä'
         },
         contact: {
-            description: 'Karanteenissa.fi viiden opiskelijan tapa auttaa koronaviruksen aiheuttaman epävarmuuden aikana.',
+            description: 'Karanteenissa.fi on viiden opiskelijan tapa auttaa koronaviruksen aiheuttaman epävarmuuden aikana.',
             monetary: 'Sivuston ylläpitäjät eivät ansaitse rahaa sivustolla olevista linkeistä.',
             translate: 'Ruotsinnos:'
         },
