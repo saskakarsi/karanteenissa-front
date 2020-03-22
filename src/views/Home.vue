@@ -5,55 +5,6 @@
         elevation="0"
         class="mx-auto py-6 px-6"
         style="margin-bottom: 40px">
-<<<<<<< HEAD
-        <v-card
-          class="mx-auto py-6 px-6"
-          elevation="0"
-          style="@media (max-width: 400px) {
-            {
-            height: 100px;
-            align-items: center;
-            justify-content=center;
-              }
-          }">
-          <v-col class="mx-auto text-center "><div></div>
-            <h1 class="display-1">{{ menuTexts.app.mainTitle }}</h1>
-          </v-col>
-          <v-col cols="12 mx-auto">
-            <v-select
-                v-model="selectedLocation"
-                :items="locs"
-                menu-props="auto"
-                :label="menuTexts.services.locationSelector"
-                hide-details
-                single-line
-                clearable
-                dense
-                solo
-            >
-          </v-select>
-          </v-col>
-          <v-col cols="12 mx-auto">
-            <v-select
-              v-model="selectedCategory"
-              :items="serviceCategories"
-              menu-props="auto"
-              :label="menuTexts.services.categorySelector"
-              hide-details
-              single-line
-              clearable
-              dense
-              solo
-            ></v-select>
-          </v-col>
-          <v-col class="mx-auto">
-            <div
-              class="text-center py-2 px-6">
-                <v-btn rounded color="primary" large dark to="/services">{{ menuTexts.home.searchButton }}</v-btn>
-            </div>
-          </v-col>
-        </v-card>
-=======
 
         <v-col class="mx-auto text-center"><div></div>
             <h1 class="display-1">{{ menuTexts.app.mainTitle }}</h1>
@@ -88,7 +39,6 @@
             <v-btn rounded color="primary" dark to="/services">{{ menuTexts.home.searchButton }}</v-btn>
         </div>
         </v-col>
->>>>>>> 18957898642aa753310dcb1f8415807374231d8e
 
         <v-col class="mx-auto text-center" style="margin-top: 5em">
             <h1 class="headline"> </h1>
