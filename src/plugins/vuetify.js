@@ -14,5 +14,10 @@ export default new Vuetify({
           },
         },
       },
+    el: '#app',
+    vuetify: new Vuetify(),
+    data: () => ({
+        drawer: null
+    })    
     })
 

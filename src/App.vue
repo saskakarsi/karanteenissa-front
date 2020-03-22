@@ -12,7 +12,7 @@
             elevation=0
             v-on="on"
           >
-            Language
+            <v-icon>mdi-language</v-icon>
           </v-btn>
         </template>
         <v-list>
