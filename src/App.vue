@@ -30,7 +30,7 @@
       </v-app-bar>
     </div>
     <div v-else>
-      <v-app-bar app elevation=0 hide-on-scroll color="primary">
+      <v-app-bar dark app elevation=0 hide-on-scroll color="primary">
         <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
         <v-spacer></v-spacer>
         <v-menu offset-y>
