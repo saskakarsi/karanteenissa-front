@@ -16,10 +16,6 @@
         <v-col class="mx-auto text-center">
             <h1 class="subtitle-1">{{ menuTexts.contact.monetary }}</h1>
         </v-col>
-
-        <v-col class="mx-auto text-center">
-            <i class="subtitle-1">{{ menuTexts.contact.translate }} <a href="https://www.pauhu.fi/fi/">pauhu.fi</a> / Linda Ahlblad</i>
-        </v-col>
         </v-card>
       <v-col class="py-8 px-6">
         <v-footer
@@ -47,6 +43,7 @@
           </div>
           <strong>Karanteenissa.fi</strong> - {{ new Date().getFullYear() }}
         </div>
+        <i class="subtitle-1">{{ menuTexts.contact.translate }}</i>
       </section>
         </v-col>
         </v-footer>

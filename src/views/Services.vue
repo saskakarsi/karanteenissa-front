@@ -86,6 +86,7 @@
           </div>
           <strong>Karanteenissa.fi</strong> - {{ new Date().getFullYear() }}
         </div>
+        <i class="subtitle-1">{{ translate.contact.translate }}</i>
       </section>
         </v-col>
       </v-footer>
@@ -111,6 +112,9 @@ export default {
       ...computeds,
       menuTexts: function () {
         return menuLocalizations[getters.locale().value].services
+      },
+      translate: function () {
+        return menuLocalizations[getters.locale().value]
       },
       svcs: function () {
         return getServices.call(this, services)

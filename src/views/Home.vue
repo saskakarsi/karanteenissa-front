@@ -90,6 +90,7 @@
           </div>
           <strong>Karanteenissa.fi</strong> - {{ new Date().getFullYear() }}
         </div>
+        <i class="subtitle-1">{{ menuTexts.contact.translate }}</i>
       </section>
         </v-col>
         </v-footer>
