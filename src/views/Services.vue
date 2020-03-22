@@ -41,6 +41,7 @@
         >
           <v-card
             elevation=2
+            hover:style="color: white"
             hover
             :href="card.link"
             target="_blank"
@@ -132,7 +133,7 @@ export default {
           if (existingLoc) return existingLoc
           return { name: { fi: loc }} // Localization want this format
         })
-        this.allLocations = allLocs
+        this.allLocations = localizeLocations(allLocs)
     }
 }
 </script>

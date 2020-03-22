@@ -1,20 +1,18 @@
 <template>
     <div>
       <v-col class="mx-auto text-center">
-            <h1 class="headline">Karanteenissa.fi viiden opiskelijan tapa auttaa koronaviruksen aiheuttaman epävarmuuden
-            aikana.</h1>
+            <h1 class="headline">{{ menuTexts.contact.description }}</h1>
         </v-col>
-
         <v-col class="mx-auto text-center">
             <h1 class="headline"><a href="mailto:karanteenissa2020@gmail.com">karanteenissa2020@gmail.com</a></h1>
         </v-col>
 
         <v-col class="mx-auto text-center">
-            <h1 class="headline">Sivuston ylläpitäjät eivät ansaitse rahaa sivustolla olevista linkeistä.</h1>
+            <h1 class="headline">{{ menuTexts.contact.monetary }}</h1>
         </v-col>
 
         <v-col class="mx-auto text-center">
-            <i class="headline">Ruotsinnos: <a href="https://www.pauhu.fi/fi/">pauhu.fi</a> / Linda Ahlblad</i>
+            <i class="headline">{{ menuTexts.contact.translate }} <a href="https://www.pauhu.fi/fi/">pauhu.fi</a> / Linda Ahlblad</i>
         </v-col>
       <v-col class="py-8 px-6">
         <v-footer
@@ -48,7 +46,16 @@
 </template>
 
 <script>
+const { menuLocalizations } = require('../fixtures/locales')
+const { getters, computeds } = require('../util/state')
+
 export default {
-    data: () => ({})
+    data: () => ({}),
+    computed: {
+      ...computeds,
+      menuTexts: function () {
+        return menuLocalizations[getters.locale().value]
+      }
+    }
 }
 </script>

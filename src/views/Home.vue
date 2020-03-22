@@ -6,8 +6,8 @@
         class="mx-auto py-6 px-6"
         style="margin-bottom: 40px">
 
-        <v-col class="mx-auto text-center">
-            <h1 class="display-1">Löydä apua karanteenissa</h1>
+        <v-col class="mx-auto text-center"><div></div>
+            <h1 class="display-1">{{ menuTexts.app.mainTitle }}</h1>
         </v-col>
 
         <v-col cols="12 mx-auto">
@@ -46,11 +46,11 @@
         </v-col>
 
         <v-col class="mx-auto text-center">
-            <h1 class="headline">Karanteenissa.fi kokoaa tietoa erilaisista tuote- ja palveluratkaisuista koronaviruksen vaikutusten ehkäisemiseksi.</h1>
+            <h1 class="headline">{{ menuTexts.app.frontTitle1 }}</h1>
         </v-col>
 
         <v-col class="mx-auto text-center">
-            <h1 class="headline">Pidetään toisistamme huolta.</h1>
+            <h1 class="headline">{{ menuTexts.app.frontTitle2 }}</h1>
         </v-col>
 
         <v-col class="mx-auto">

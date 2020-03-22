@@ -1,6 +1,6 @@
 <template>
     <div>
-      <v-col class="mx-auto text-center">
+      <v-col class="mx-auto text-center" style="max-width: 80%">
          <div class="content">
           <h1>Yrittäjille</h1>
           <br>
@@ -17,7 +17,7 @@
         </div>
         </v-col>
 
-        <v-col class="mx-auto text-center">
+        <v-col class="mx-auto text-center" style="max-width: 80%">
             <h1>Lomautetuille työntekijöille</h1>
           <br>
           <h3 class="info-text">Hallitus tiedotti 20.3.2020 pitämässään tiedotustilaisuudessa myös muutamista lomautettujen työntekijöiden taloudellista asemaa helpottavista toimista.</h3><br><br>
