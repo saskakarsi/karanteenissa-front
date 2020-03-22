@@ -1,8 +1,14 @@
 <template>
     <v-container fluid>
+      <back-to-top bottom="50px" right="50px">
+        <v-btn class="mx-2 btn-to-top" large fab dark color="primary">
+          <v-icon dark>mdi-arrow-up</v-icon>
+        </v-btn>
+      </back-to-top>
       <v-row>
-      <v-col cols="6">
+      <v-col cols="10 mx-auto">
         <v-select
+          style= "margin-top: 2em"
           v-model="selectedLocation"
           :items="locs"
           menu-props="auto"
@@ -12,8 +18,9 @@
           clearable
         ></v-select>
       </v-col>
-      <v-col cols="6">
+      <v-col cols="10 mx-auto">
         <v-select
+          style= "margin-top: 1em; margin-bottom: 3em"
           v-model="selectedCategory"
           :items="serviceCategories"
           menu-props="auto"
@@ -34,27 +41,27 @@
         >
           <v-card
             elevation=2
+            hover:style="color: white"
             hover
             :href="card.link"
             target="_blank"
             max-width="300px"
             class="mx-auto"
           >
-            <v-card-title class="headline" v-text="card.langs.fi.title"></v-card-title>         
+            <v-card-title class="headline" v-text="card.current.title" style="font-weight: bold"></v-card-title>         
             <v-img
               :src="card.img_src"
               class="white--text align-end"
               gradient="to bottom, rgba(0,0,0,0), rgba(0,0,0,0)"
               height="200px"
             >
-              <v-card-title v-text="card.title" dark></v-card-title>
             </v-img>
-            <v-card-subtitle v-text="card.langs.fi.desc"></v-card-subtitle>
+            <v-card-subtitle v-text="card.current.desc" style="font-weight: 600;"></v-card-subtitle>
 
           </v-card>
         </v-col>
       </v-row>
-      <v-row>
+      <v-row style="margin-top: 80px">
       <v-col>
       <v-footer
         absolute
@@ -64,7 +71,20 @@
             class="text-center"
             cols="12"
         >
-            {{ new Date().getFullYear() }} — <strong>Karanteenissa.fi</strong>
+           <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+          <section id="lab_social_icon_footer">
+        <div class="social-icon">
+          <div class="text-center center-block">
+            <a style="margin: 5px" href="https://www.facebook.com/karanteenissa"><i id="social-fb"
+                class="fa fa-facebook-square fa-3x social"></i></a>
+            <a style="margin: 5px" href="https://www.instagram.com/karanteenissa.fi/"><i id="social-ig"
+                class="fa fa-instagram fa-3x social"></i></a>
+            <a style="margin: 5px" href="https://twitter.com/karanteeni20"><i id="social-tw"
+                class="fa fa-twitter-square fa-3x social"></i></a>
+          </div>
+          <strong>Karanteenissa.fi</strong> - {{ new Date().getFullYear() }}
+        </div>
+      </section>
         </v-col>
       </v-footer>
       </v-col>
@@ -76,35 +96,22 @@
 const services = require('../fixtures/services')
 const locations = require('../fixtures/locations')
 const { menuLocalizations } = require('../fixtures/locales')
-const { getters } = require('../util/state')
-const { localizeServices, localizeLocations, findLocation } = require('../util/localize')
+const { getServices } = require('../util/services')
+const { getters, computeds } = require('../util/state')
+const { localizeLocations } = require('../util/localize')
 
 
 export default {
     data: () => ({
-      selectedLocation: undefined,
-      selectedCategory: undefined,
       allLocations: undefined
     }),
     computed: {
+      ...computeds,
       menuTexts: function () {
         return menuLocalizations[getters.locale().value].services
       },
       svcs: function () {
-        const svcs = localizeServices(services)
-        const locDoc = findLocation(this.allLocations, this.selectedLocation)
-        return svcs.filter((svc) => {
-          const locFilter = !locDoc
-                        || svc.locations.includes(locDoc.name.fi) 
-                        || svc.locations.includes('National')
-          const categoryFilter = svc.category == this.selectedCategory
-                        || !this.selectedCategory
-
-          return locFilter && categoryFilter
-        })
-      },
-      logQuery: function () {
-        return this.$route.query
+        return getServices.call(this, services)
       },
       locs: function () {
         return localizeLocations(this.allLocations).map((loc) => loc.current)
@@ -126,7 +133,7 @@ export default {
           if (existingLoc) return existingLoc
           return { name: { fi: loc }} // Localization want this format
         })
-        this.allLocations = allLocs
+        this.allLocations = localizeLocations(allLocs)
     }
 }
 </script>

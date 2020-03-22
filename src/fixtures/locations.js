@@ -10,6 +10,13 @@ const locations = [
             fi: 'Kuusamo',
             se: 'Kuusamo',
         }
+    },
+    {
+        name: {
+            fi: 'Koko suomi',
+            se: 'National',
+            gb: 'National'
+        }
     }
 ]
 for (const loc of locations) {

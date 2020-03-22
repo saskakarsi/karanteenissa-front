@@ -7,56 +7,27 @@
         class="mx-auto py-6 px-6"
         style="margin-bottom: 40px">
 
-        <v-col class="mx-auto text-center">
-            <h1 class="display-1">Löydä apua karanteenissa</h1>
-        </v-col>
-        <v-col class="mx-auto text-center">
-            <h1 class="headline">Karanteenissa.fi kokoaa tietoa erilaisista tuote- ja palveluratkaisuista koronaviruksen vaikutusten ehkäisemiseksi.</h1>
+        <v-col class="mx-auto text-center"><div></div>
+            <h1 class="display-1">{{ menuTexts.app.mainTitle }}</h1>
         </v-col>
 
-        <v-col class="mx-auto text-center">
-            <h1 class="headline">Pidetään toisistamme huolta.</h1>
-        </v-col>
-        <v-col class="mx-auto text-center">
-            <h1 class="headline"> </h1>
-        </v-col>
-        <v-col class="mx-auto text-center">
-            <h1 class="headline"> </h1>
-        </v-col>
-
-        <v-col class="mx-auto text-center">
-            <h1 class="headline"> </h1>
-                    <v-divider></v-divider>    
-        </v-col>
-
-
-
-        
-
-        <v-col style="background: url('')">
-        <v-col class="mx-auto text-center">
-            <h1 class="headline">Hae palveluita lähellä sinua</h1>
-        </v-col> 
-
-   
-
-      <v-col cols="4 mx-auto">
+        <v-col cols="12 mx-auto">
         <v-select
           v-model="selectedLocation"
           :items="locs"
           menu-props="auto"
-          :label="menuTexts.locationSelector"
+          :label="menuTexts.services.locationSelector"
           hide-details
           single-line
           clearable
         ></v-select>
       </v-col>
-      <v-col cols="4 mx-auto">
+      <v-col cols="12 mx-auto">
         <v-select
           v-model="selectedCategory"
           :items="serviceCategories"
           menu-props="auto"
-          :label="menuTexts.categorySelector"
+          :label="menuTexts.services.categorySelector"
           hide-details
           single-line
           clearable
@@ -66,16 +37,31 @@
 
       <v-col class="mx-auto">
         <div class="text-center">
-            <v-btn rounded color="primary" dark>HAE</v-btn>
+            <v-btn rounded color="primary" dark to="/services">{{ menuTexts.home.searchButton }}</v-btn>
         </div>
         </v-col>
 
-        <v-col class="mx-auto text-center">
+        <v-col class="mx-auto text-center" style="margin-top: 5em">
             <h1 class="headline"> </h1>
                     <v-divider></v-divider>    
         </v-col>
 
+        <v-col class="mx-auto text-center">
+            <h1 class="headline">{{ menuTexts.app.frontTitle1 }}</h1>
+        </v-col>
 
+        <v-col class="mx-auto text-center">
+            <h1 class="headline">{{ menuTexts.app.frontTitle2 }}</h1>
+        </v-col>
+
+        <v-col class="mx-auto">
+        <div class="text-center">
+            <v-btn rounded color="primary" style="margin: 10px" href="https://docs.google.com/forms/d/e/1FAIpQLScJs29BmU7OkDLyG0UU6UbPN65OUVy0Hdc5LmmBgQhXxHO0QQ/viewform?usp=sf_link" dark>{{ menuTexts.home.tellUsButton }}</v-btn>
+
+            <v-btn rounded color="primary" style="margin: 10px" to='/tips' dark>{{ menuTexts.home.tipsButton }}</v-btn>
+
+            <v-btn rounded color="primary" style="margin: 10px" href="https://www.facebook.com/groups/karanteenissa/" dark>{{ menuTexts.home.facebookButton }}</v-btn>
+        </div>
         </v-col>
       </v-card>
 
@@ -89,7 +75,21 @@
             class="text-center"
             cols="12"
         >
-            {{ new Date().getFullYear() }} — <strong>Karanteenissa.fi</strong>
+
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+          <section id="lab_social_icon_footer">
+        <div class="social-icon">
+          <div class="text-center center-block">
+            <a style="margin: 5px" href="https://www.facebook.com/karanteenissa"><i id="social-fb"
+                class="fa fa-facebook-square fa-3x social"></i></a>
+            <a style="margin: 5px" href="https://www.instagram.com/karanteenissa.fi/"><i id="social-ig"
+                class="fa fa-instagram fa-3x social"></i></a>
+            <a style="margin: 5px" href="https://twitter.com/karanteeni20"><i id="social-tw"
+                class="fa fa-twitter-square fa-3x social"></i></a>
+          </div>
+          <strong>Karanteenissa.fi</strong> - {{ new Date().getFullYear() }}
+        </div>
+      </section>
         </v-col>
         </v-footer>
     </v-col>
@@ -100,32 +100,22 @@
 const services = require('../fixtures/services')
 const locations = require('../fixtures/locations')
 const { menuLocalizations } = require('../fixtures/locales')
-const { getters } = require('../util/state')
-const { localizeServices, localizeLocations, findLocation } = require('../util/localize')
+const { getters, computeds } = require('../util/state')
+const { getServices } = require('../util/services')
+const { localizeLocations } = require('../util/localize')
 
 
 export default {
     data: () => ({
-      selectedLocation: undefined,
-      selectedCategory: undefined,
       allLocations: undefined
     }),
     computed: {
+      ...computeds,
       menuTexts: function () {
-        return menuLocalizations[getters.locale().value].services
+        return menuLocalizations[getters.locale().value]
       },
       svcs: function () {
-        const svcs = localizeServices(services)
-        const locDoc = findLocation(this.allLocations, this.selectedLocation)
-        return svcs.filter((svc) => {
-          const locFilter = !locDoc
-                        || svc.locations.includes(locDoc.name.fi) 
-                        || svc.locations.includes('National')
-          const categoryFilter = svc.category == this.selectedCategory
-                        || !this.selectedCategory
-
-          return locFilter && categoryFilter
-        })
+        return getServices.call(this, services)
       },
       logQuery: function () {
         return this.$route.query

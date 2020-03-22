@@ -4,6 +4,7 @@ import Router from 'vue-router'
 import Home from './views/Home.vue'
 import Services from './views/Services.vue'
 import Contact from './views/Contact.vue'
+import Tips from './views/Tips.vue'
 
 import NotFound from './components/NotFound.vue'
 
@@ -20,6 +21,11 @@ export default new Router({
             path: '/services',
             component: Services,
             name: 'Services'
+        },
+        {
+            path: '/tips',
+            component: Tips,
+            name: 'Tips'
         },
         {
             path: '/contact',

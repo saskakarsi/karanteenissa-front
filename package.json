@@ -9,7 +9,13 @@
   },
   "dependencies": {
     "core-js": "^3.6.4",
+    "stylus-loader": "^3.0.2",
+    "sweet-scroll": "^4.0.0",
+    "throttle-debounce": "^2.1.0",
     "vue": "^2.6.11",
+    "vue-backtotop": "^1.6.1",
+    "vue-burger-menu": "^2.0.5",
+    "vue-gtag": "^1.6.2",
     "vue-router": "^3.1.6",
     "vuetify": "^2.2.11"
   },
