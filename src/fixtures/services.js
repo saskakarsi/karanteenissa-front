@@ -1,4 +1,4 @@
-[
+const services = [
   {
     id: '',
     langs: {
@@ -480,7 +480,7 @@
     locations: [
       'Helsinki', 'Espoo', 'Vantaa'
     ],
-    category: 'ecommerce'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -503,7 +503,7 @@
     locations: [
       'National'
     ],
-    category: 'ecommerce'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -526,7 +526,7 @@
     locations: [
       'National'
     ],
-    category: 'ecommerce'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -549,7 +549,7 @@
     locations: [
       'National'
     ],
-    category: 'ecommerce'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -572,7 +572,7 @@
     locations: [
       'National'
     ],
-    category: 'ecommerce'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -595,7 +595,7 @@
     locations: [
       'National'
     ],
-    category: 'ecommerce'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -618,7 +618,7 @@
     locations: [
       'National'
     ],
-    category: 'ecommerce'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -641,7 +641,7 @@
     locations: [
       'National'
     ],
-    category: 'ecommerce'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -664,7 +664,7 @@
     locations: [
       'National'
     ],
-    category: 'ecommerce'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -1837,7 +1837,7 @@
     locations: [
       'National'
     ],
-    category: 'ecommerce'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -1883,7 +1883,7 @@
     locations: [
       'National'
     ],
-    category: 'ecommerce'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -1906,7 +1906,7 @@
     locations: [
       'National'
     ],
-    category: 'ecommerce'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -1929,7 +1929,7 @@
     locations: [
       'National'
     ],
-    category: 'ecommerce'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -2090,7 +2090,7 @@
     locations: [
       'National'
     ],
-    category: 'ecommerce'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -2136,7 +2136,7 @@
     locations: [
       'National'
     ],
-    category: 'ecommerce'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -2205,7 +2205,7 @@
     locations: [
       'National'
     ],
-    category: 'ecommerce'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -2251,6 +2251,20 @@
     locations: [
       'National'
     ],
-    category: 'ecommerce'
+    category: 'Verkkokauppa'
   }
 ]
+
+const capitalize = (s) => {
+  if (typeof s !== 'string') return ''
+  return s.charAt(0).toUpperCase() + s.slice(1)
+}
+var i;
+for (i = 0; i < services.length; i++) {
+    services[i].id = i
+    services[i].locations = services[i].locations.filter(Boolean)
+    services[i].category = capitalize(services[i].category)
+    services[i].current = services[i].langs.fi
+}
+
+module.exports = services
