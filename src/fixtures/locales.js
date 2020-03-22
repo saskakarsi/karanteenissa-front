@@ -16,6 +16,7 @@ const menuLocalizations = {
         app: {
             serviceButton: 'Palvelut',
             contactButton: 'Ota yhteyttä',
+            homeButton: 'Etusivu',
         },
         services: {
             categorySelector: 'Kategoria',
@@ -31,7 +32,8 @@ const menuLocalizations = {
     se: {
         app: {
             serviceButton: 'Tjänster',
-            contactButton: 'Kontakta oss'
+            contactButton: 'Kontakta oss',
+            homeButton: 'Hem'
         },
         services: {
             categorySelector: 'Kategori',
@@ -47,7 +49,8 @@ const menuLocalizations = {
     gb: {
         app: {
             contactButton: 'Contact us',
-            serviceButton: 'Services'
+            serviceButton: 'Services',
+            homeButton: 'Home'
         },
         services: {
             categorySelector: 'Category',
