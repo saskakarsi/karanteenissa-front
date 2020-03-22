@@ -1,24 +1,8 @@
 # karanteenissa-front
+## Frontend for karanteenissa.fi.
 
-## Project setup
-```
-npm install
-```
+Uses Vue, deployed on nginx on GKE.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Developed during [Hack the Crisis Finland](https://app.hackjunction.com/events/hack-the-crisis-finland) (initially!).
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Want to contribute to karanteenissa.fi? Contact me or our shared mailbox karanteenissa2020@gmail.com.
