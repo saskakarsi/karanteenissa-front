@@ -1,15 +1,23 @@
 <template>
-    <v-container fluid>
-      <v-card
+<v-container fluid class="ma-0 pa-0">
+
+   <v-parallax
+    dark
+    src="img/forest.jpg"
+    margin-left="auto"
+    margin-rigth="auto"
+  >
+  <v-card
         max-width="1200px"
         elevation="0"
         class="mx-auto py-6 px-6"
-        style="margin-bottom: 40px">
+        style="margin-bottom: 40px margin-top: 40px"
+        color="rgb(255, 0, 0, 0.0)"
+        dark>
 
         <v-col class="mx-auto text-center"><div></div>
             <h1 class="display-1">{{ menuTexts.app.mainTitle }}</h1>
         </v-col>
-
         <v-col cols="12 mx-auto">
         <v-select
           v-model="selectedLocation"
@@ -19,6 +27,8 @@
           hide-details
           single-line
           clearable
+          solo
+          light
         ></v-select>
       </v-col>
       <v-col cols="12 mx-auto">
@@ -30,17 +40,28 @@
           hide-details
           single-line
           clearable
+          solo
+          light
         ></v-select>
       </v-col>
 
 
       <v-col class="mx-auto">
         <div class="text-center">
-            <v-btn large rounded color="primary" dark to="/services">{{ menuTexts.home.searchButton }}</v-btn>
+            <v-btn large rounded light color="primary" to="/services">{{ menuTexts.home.searchButton }}</v-btn>
         </div>
         </v-col>
+  </v-card>
+  </v-parallax> 
 
-        <v-col class="mx-auto text-center" style="margin-top: 5em">
+
+      <v-card
+        max-width="1000px"
+        elevation="0"
+        class="mx-auto py-6 px-6"
+        style="margin-bottom: 40px">     
+
+                <v-col class="mx-auto text-center" style="margin-top: 3em">
             <h1 class="headline">
               {{ menuTexts.home.kauppaApuText }}
               <a href="https://kauppa-apu.sharetribe.com/">kauppa-apu.com</a>.
@@ -53,53 +74,80 @@
             <h1 class="headline">{{ menuTexts.app.frontTitle1 }}</h1>
         </v-col>
 
-        <v-col class="mx-auto text-center">
+        <v-col class="mx-auto text-center" style="margin-bottom: 40px">
             <h1 class="headline">{{ menuTexts.app.frontTitle2 }}</h1>
         </v-col>
 
+        <v-divider max-width="500px"></v-divider> 
+
         <v-col class="mx-auto">
-        <div class="text-center">
-            <v-btn rounded color="primary" style="margin: 10px" href="https://docs.google.com/forms/d/e/1FAIpQLScJs29BmU7OkDLyG0UU6UbPN65OUVy0Hdc5LmmBgQhXxHO0QQ/viewform?usp=sf_link" dark>{{ menuTexts.home.tellUsButton }}</v-btn>
 
-            <v-btn rounded color="primary" style="margin: 10px" to='/tips' dark>{{ menuTexts.home.tipsButton }}</v-btn>
+    
 
-            <v-btn rounded color="primary" style="margin: 10px" href="https://www.facebook.com/groups/karanteenissa/" dark>{{ menuTexts.home.facebookButton }}</v-btn>
-        </div>
+
+
+
+        
+<v-card class=" mx-auto" elevation="0" style="margin-top: 40px">
+<v-row dense>
+<v-col>
+    <v-card
+      class="mx-auto"
+      width="235px"
+      height="235px"
+      elevation="0"
+      to='/tips'
+    >
+      <v-img
+        src="img/vinkit.png"
+        height="235px"
+        width="235px"
+        class="mx-auto"
+      >
+      </v-img>
+    </v-card>
+  </v-col>
+  <v-col>
+    <v-card
+      class="mx-auto"
+      width="235px"
+      height="235px"
+      elevation="0"
+      href="https://www.facebook.com/groups/karanteenissa/"
+    >
+      <v-img
+        src="img/liitykeskusteluun.png"
+        height="235px"
+        width="235px"
+        class="mx-auto"
+      >
+      </v-img>
+    </v-card>
+  </v-col>
+    <v-col>
+    <v-card
+      class="mx-auto"
+      width="235px"
+      height="235px"
+      elevation="0"
+      href="https://docs.google.com/forms/d/e/1FAIpQLScJs29BmU7OkDLyG0UU6UbPN65OUVy0Hdc5LmmBgQhXxHO0QQ/viewform?usp=sf_link"
+    >
+      <v-img
+        src="img/ilmoita.png"
+        height="235px"
+        width="235px"
+        class="mx-auto"
+      >
+      </v-img>
+    </v-card>
+  </v-col>
+</v-row>
+</v-card>
+
+          
         </v-col>
       </v-card>
-
-    <v-col class="py-8 px-6">
-        <v-footer
-        absolute
-        class="font-weight-medium"
-        height="100"
-        >
-        <v-col
-            class="text-center"
-            cols="12"
-        >
-
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-          <section id="lab_social_icon_footer">
-        <div class="social-icon">
-          <div class="text-center center-block">
-            <a style="margin: 5px" href="https://www.facebook.com/karanteenissa"><i id="social-fb"
-                class="fa fa-facebook-square fa-3x social"></i></a>
-            <a style="margin: 5px" href="https://www.instagram.com/karanteenissa.fi/"><i id="social-ig"
-                class="fa fa-instagram fa-3x social"></i></a>
-            <a style="margin: 5px" href="https://twitter.com/karanteeni20"><i id="social-tw"
-                class="fa fa-twitter-square fa-3x social"></i></a>
-            <a style="margin: 5px" href="https://github.com/saskakarsi/karanteenissa-front"><i id="social-gh"
-                class="fa fa-github-square fa-3x"></i></a>
-          </div>
-          <strong>Karanteenissa.fi</strong> - {{ new Date().getFullYear() }}
-        </div>
-        <i class="subtitle-1">{{ menuTexts.contact.translate }}</i>
-      </section>
-        </v-col>
-        </v-footer>
-    </v-col>
-    </v-container>
+</v-container>  
 </template>
 
 <script>

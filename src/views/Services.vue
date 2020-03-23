@@ -1,40 +1,72 @@
 <template>
-    <v-container fluid>
+    <v-container fluid class="ma-0 pa-0">
       <back-to-top bottom="50px" right="50px">
         <v-btn class="mx-2 btn-to-top" large fab dark color="primary">
           <v-icon dark>mdi-arrow-up</v-icon>
         </v-btn>
       </back-to-top>
+         <v-parallax
+    dark
+    src="img/forest.jpg"
+    margin-left="auto"
+    margin-rigth="auto"
+    height="auto"
+  >
+    <v-card
+        max-width="1200px"
+        elevation="0"
+        class="mx-auto py-0 px-0"
+        style="margin-bottom: 3em margin-top: 3em"
+        color="rgb(255, 0, 0, 0.0)"
+        dark>
       <v-row>
-      <v-col cols="10 mx-auto">
+
         <v-select
-          style= "margin-top: 2em"
+          class="mx-auto py-6 px-6"
+          style= "margin-top: 1em; margin-bottom: 1em"
           v-model="selectedLocation"
           :items="locs"
           menu-props="auto"
-          :label="menuTexts.services.locationSelector"
+          :label="menuTexts.locationSelector"
           hide-details
           single-line
           clearable
+          solo
+          light
         ></v-select>
-      </v-col>
-      <v-col cols="10 mx-auto">
         <v-select
-          style= "margin-top: 1em; margin-bottom: 3em"
+        class="mx-auto py-6 px-6"
+          style= "margin-top: 1em; margin-bottom: 1em"
           v-model="selectedCategory"
           :items="serviceCategories"
           menu-props="auto"
-          :label="menuTexts.services.categorySelector"
+          :label="menuTexts.categorySelector"
           hide-details
           single-line
           clearable
+          solo
+          light
         ></v-select>
-      </v-col>
+
+
+
       </v-row>
+    </v-card>
+</v-parallax>
+  <v-card
+        max-width="1200px"
+        elevation="0"
+        class="mx-auto py-6 px-6"
+        style="margin-bottom: 40px margin-top: 40px"
+        light>
+
       <v-row dense>
         <v-col
           sm="6"
-          md="2"
+          md="4"
+          xl="3"
+          lg="3"
+          xs="12"
           v-for="card in svcs"
           :key="card.title"
           :cols="12"
@@ -62,36 +94,8 @@
         </v-col>
       </v-row>
       <v-row style="margin-top: 80px">
-      <v-col>
-      <v-footer
-        absolute
-        class="font-weight-medium"
-        >
-        <v-col
-            class="text-center"
-            cols="12"
-        >
-           <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-          <section id="lab_social_icon_footer">
-        <div class="social-icon">
-          <div class="text-center center-block">
-            <a style="margin: 5px" href="https://www.facebook.com/karanteenissa"><i id="social-fb"
-                class="fa fa-facebook-square fa-3x social"></i></a>
-            <a style="margin: 5px" href="https://www.instagram.com/karanteenissa.fi/"><i id="social-ig"
-                class="fa fa-instagram fa-3x social"></i></a>
-            <a style="margin: 5px" href="https://twitter.com/karanteeni20"><i id="social-tw"
-                class="fa fa-twitter-square fa-3x social"></i></a>
-            <a style="margin: 5px" href="https://github.com/saskakarsi/karanteenissa-front"><i id="social-gh"
-                class="fa fa-github-square fa-3x"></i></a>
-          </div>
-          <strong>Karanteenissa.fi</strong> - {{ new Date().getFullYear() }}
-        </div>
-        <i class="subtitle-1">{{ menuTexts.contact.translate }}</i>
-      </section>
-        </v-col>
-      </v-footer>
-      </v-col>
       </v-row>
+  </v-card>
     </v-container>
 </template>
 
@@ -111,7 +115,7 @@ export default {
     computed: {
       ...computeds,
       menuTexts: function () {
-        return menuLocalizations[getters.locale().value]
+        return menuLocalizations[getters.locale().value].services
       },
       svcs: function () {
         return getServices.call(this, services)
