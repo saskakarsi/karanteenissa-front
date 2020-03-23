@@ -29,7 +29,8 @@ const menuLocalizations = {
             searchButton: 'Hae',
             tellUsButton: 'Kerro meille palvelusta',
             tipsButton: 'Vinkit',
-            facebookButton: 'Keskustele fb-ryhmässä'
+            facebookButton: 'Keskustele fb-ryhmässä',
+            kauppaApuText: 'Oletko riskiryhmässä, kykenemätön käymään kaupassa tai tahdot auttaa? Tsekkaa '
         },
         contact: {
             description: 'Karanteenissa.fi viiden opiskelijan tapa auttaa koronaviruksen aiheuttaman epävarmuuden aikana.',
@@ -71,7 +72,8 @@ const menuLocalizations = {
             searchButton: 'Sök',
             tellUsButton: 'Tipsa om tjänst',
             tipsButton: 'Tips för företagare',
-            facebookButton: 'Tipsa och delta på Facebook!'
+            facebookButton: 'Tipsa och delta på Facebook!',
+            kauppaApuText: 'Oletko riskiryhmässä, kykenemätön käymään kaupassa tai tahdot auttaa? Tsekkaa '
         },
         contact: {
             description: 'En webbplats av fem studerande till hjälp för den tid av osäkerhet som coronaviruset förorsakar.',
@@ -113,7 +115,8 @@ const menuLocalizations = {
             searchButton: 'Search',
             tellUsButton: 'Tell us about a new service',
             tipsButton: 'Tips',
-            facebookButton: 'Discuss on Facebook'
+            facebookButton: 'Discuss on Facebook',
+            kauppaApuText: 'Are you in a risk group, unable to get groceries or would like to help? Check out '
         },
         contact: {
             description: 'The web service has been created by five students that want to do everything they can to help.',
