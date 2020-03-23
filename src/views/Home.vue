@@ -41,8 +41,12 @@
         </v-col>
 
         <v-col class="mx-auto text-center" style="margin-top: 5em">
-            <h1 class="headline"> </h1>
-                    <v-divider></v-divider>    
+            <h1 class="headline">
+              {{ menuTexts.home.kauppaApuText }}
+              <a href="https://kauppa-apu.sharetribe.com/">kauppa-apu.com</a>.
+            </h1>
+            <br>
+            <v-divider></v-divider>    
         </v-col>
 
         <v-col class="mx-auto text-center">
@@ -90,6 +94,7 @@
           </div>
           <strong>Karanteenissa.fi</strong> - {{ new Date().getFullYear() }}
         </div>
+        <i class="subtitle-1">{{ menuTexts.contact.translate }}</i>
       </section>
         </v-col>
         </v-footer>

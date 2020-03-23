@@ -12,7 +12,7 @@
           v-model="selectedLocation"
           :items="locs"
           menu-props="auto"
-          :label="menuTexts.locationSelector"
+          :label="menuTexts.services.locationSelector"
           hide-details
           single-line
           clearable
@@ -24,7 +24,7 @@
           v-model="selectedCategory"
           :items="serviceCategories"
           menu-props="auto"
-          :label="menuTexts.categorySelector"
+          :label="menuTexts.services.categorySelector"
           hide-details
           single-line
           clearable
@@ -86,6 +86,7 @@
           </div>
           <strong>Karanteenissa.fi</strong> - {{ new Date().getFullYear() }}
         </div>
+        <i class="subtitle-1">{{ menuTexts.contact.translate }}</i>
       </section>
         </v-col>
       </v-footer>

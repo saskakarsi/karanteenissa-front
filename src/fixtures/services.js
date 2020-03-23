@@ -302,15 +302,15 @@ const services = [
     id: '',
     langs: {
       fi: {
-        title: 'Kotikaappi',
+        title: 'Kotikaappi24',
         desc: 'Kotikaappi24 varmistaa 100 tärkeimmän kuivaelintarvikkeen saannin ympäri Suomen. Voit tilata paketin kotiovelle asti kannettuna itselle, ystävällesi tai riskiryhmään kuuluvalle läheisellesi. Valikoima päivittyy matkan varrella.'
       },
       gb: {
-        title: 'Kotikaappi',
+        title: 'Kotikaappi24',
         desc: 'Kotikaappi24 makes sure that the 100 most important dry groceries are available. You can order the package to your front door, for you closeone or someone in the risk groups.'
       },
       se: {
-        title: 'Kotikaappi',
+        title: 'Kotikaappi24',
         desc: 'Kotikaappi24 garanterar leverans av 100 vanliga torrfoderprodukter runt om i Finland. Du kan beställa paket till din dörr, åt en vän eller en närstående som hör till en riskgrupp. Sortimentet uppdateras med tiden.'
       }
     },
@@ -763,11 +763,11 @@ const services = [
     langs: {
       fi: {
         title: 'Karkkikoulu',
-        desc: 'Korttivarasto on Lahdessa ja nähtävänä verkkosivuilla. Sähköpostitse voi sopia korttien hausta tai toimituksesta jonnekin.'
+        desc: 'Karkkikoulu lähettää omatekoisia kortteja ilmaiseksi vanhusten iloksi hoivakoteihin. Korttivarasto on Lahdessa ja nähtävänä verkkosivuilla. Sähköpostitse voi sopia korttien hausta tai toimituksesta jonnekin.'
       },
       gb: {
         title: 'Karkkikoulu',
-        desc: 'Card supply is on show in Lahti and can be seen on their website. You can talk about picking up or shipping the cards trough email.'
+        desc: 'Karkkikoulu sends free home-made cards to nursing homes. Card supply is on show in Lahti and can be seen on their website. You can talk about picking up or shipping the cards trough email.'
       },
       se: {
         title: 'Gratis vykort till släktingar',
@@ -2252,8 +2252,722 @@ const services = [
       'National'
     ],
     category: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'ReettaBrows',
+        desc: 'Kattava valikoima erilaisia kauneudenhoidonpalveluita, joista jokainen voi valita itselleen sopivan.  Voit ostaa esimerkiksi lahjakortin tulevia hoitoja varten tukeaksi pienyrittäjää. "Rentoutumista ja omaa aikaa stressin keskellä."'
+      },
+      gb: {
+        title: 'ReettaBrows',
+        desc: 'A large variety of beauty treatments. You can buy a giftcard for future use and support the business.'
+      },
+      se: {
+        title: 'ReettaBrows',
+        desc: ''
+      }
+    },
+    link: 'https://www.reettabrows.fi/',
+    img_src: 'img/reettabrows.png',
+    locations: [
+      'Kuusamo'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Naturpolis',
+        desc: 'Koillis-Suomen kehittämisyhtiö Naturpolis Oy tukee yrityksiä monipuolisesti myös kriisitilanteissa.'
+      },
+      gb: {
+        title: 'Naturpolis',
+        desc: 'Northeast Finland development company supports businesses in crisis.'
+      },
+      se: {
+        title: 'Naturpolis',
+        desc: ''
+      }
+    },
+    link: 'https://www.naturpolis.fi/fi/',
+    img_src: 'img/naturpolis.png',
+    locations: [
+      'Kuusamo'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Pikkusen pitopalvelu ja leipomo',
+        desc: 'Pikkusen pitopalvelun ja leipomon kaikki palvelut ovat käytössä kotiintoimituksella ilman lisäkuluja Rukan alueella. Mahdollisuus toimittaa kotiovelle ruoka-annoksia ja tarvittaessa kauppaostoksia.'
+      },
+      gb: {
+        title: 'Pikkusen pitopalvelu ja leipomo',
+        desc: 'Catering and restaurant services have a free home delivery in the Ruka region. Possibility to deliver groceries and food portions to home.'
+      },
+      se: {
+        title: 'Pikkusen pitopalvelu ja leipomo',
+        desc: ''
+      }
+    },
+    link: 'https://www.pikkusen.fi/en/',
+    img_src: 'img/pikkusen.png',
+    locations: [
+      'Kuusamo'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Ravintola Talonpöytä',
+        desc: 'Kotiinkuljetuksella tai noudolla kotiruokaa. Kysy lisää 0503048239 tai mika@talonpoyta.fi.'
+      },
+      gb: {
+        title: 'Ravintola Talonpöytä',
+        desc: 'Home cooked meals with home delivery or takeaway.'
+      },
+      se: {
+        title: 'Ravintola Talonpöytä',
+        desc: ''
+      }
+    },
+    link: 'https://www.talonpoyta.fi/',
+    img_src: 'img/talonpoyta.png',
+    locations: [
+      'Kuusamo'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Sanitar Kuusamo',
+        desc: 'Kauppa-ja apteekkiasiointi ym. välttämätön asiointi, siivouspalvelu.'
+      },
+      gb: {
+        title: 'Sanitar Kuusamo',
+        desc: 'Groceries and pharmacy etc. necessary errands. Cleaning services also available.'
+      },
+      se: {
+        title: 'Sanitar Kuusamo',
+        desc: ''
+      }
+    },
+    link: 'https://www.sanitar.fi/',
+    img_src: 'img/sanitar.png',
+    locations: [
+      'Kuusamo'
+    ],
+    category: 'Hoiva'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Pave Helsinki fillarilähetit',
+        desc: 'Kuriiripalvelut Helsingin alueella - tavaroiden kuljetus ja asiointipalvelut.'
+      },
+      gb: {
+        title: 'Pave Helsinki fillarilähetit',
+        desc: 'Courier services in Helsinki.'
+      },
+      se: {
+        title: 'Pave Helsinki ',
+        desc: ''
+      }
+    },
+    link: 'https://www.pavehelsinki.com/',
+    img_src: 'img/pave.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Audible',
+        desc: 'Audible tarjoaa valikoiman englanninkielisiä äänikirjoja kuunneltavaksi ilman kirjautumista. Kirjat painottuvat lasten ja nuorten kirjallisuuteen, mutta saatavilla on myös kirjallisuusklassikoita.'
+      },
+      gb: {
+        title: 'Audible',
+        desc: 'A variety of audio books in English.'
+      },
+      se: {
+        title: 'Audible',
+        desc: ''
+      }
+    },
+    link: 'https://stories.audible.com/start-listen?ref=adbl_ent_anon_ds_hm_hb',
+    img_src: 'img/audible.png',
+    locations: [
+      'National'
+    ],
+    category: 'Viihde'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'NBA League Pass',
+        desc: 'NBA kauden ollessa keskeytettynä, NBA tarjoaa ilmaisen 30 päivän kokeilujakson NBA League Pass -suoratoistopalveluun. Palvelussa on nähtävissä kaikki NBA-pelit kausilta 18-19 ja 19-20.'
+      },
+      gb: {
+        title: 'NBA League Pass',
+        desc: 'While the NBA season is suspended, the NBA is offering a free 30-day trial period to its NBA League Pass streaming service. The service let\'s users watch all games from the 2018-2019 and 2019-2020 seasons.'
+      },
+      se: {
+        title: 'NBA League Pass',
+        desc: ''
+      }
+    },
+    link: 'https://watch.nba.com/packages?ls=leaguepass:nbacom:packages:rd',
+    img_src: 'img/nba.png',
+    locations: [
+      'National'
+    ],
+    category: 'Viihde'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Paulo Coelho',
+        desc: 'Paulo Coelho on julkaissut joitakin kirjoistaan luettavaksi ilmaiseksi.'
+      },
+      gb: {
+        title: 'Paulo Coelho',
+        desc: 'Paulo Coelho has published some of his works to be read online for free.'
+      },
+      se: {
+        title: 'Paulo Coelho',
+        desc: ''
+      }
+    },
+    link: 'https://paulocoelhoblog.com/books-online/',
+    img_src: 'img/paulacoelho.png',
+    locations: [
+      'National'
+    ],
+    category: 'Viihde'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'E-kirjastot',
+        desc: 'eKirjasto on sivusto yleisten kirjastojen e-aineistoihin. Aineistoa voit etsiä aihepiireittäin, asiasanoilla tai vapaasanahaulla. Osa eKirjaston aineistosta on vapaata verkkoaineistoa ja osa sellaista, että lukemiseen tarvitset kirjastokortin ja siihen liittyvän PIN-koodin'
+      },
+      gb: {
+        title: 'E-kirjastot',
+        desc: 'The eLibrary is a website of electronic resources in public libraries. You can search for material by theme, subject heading or by using free-text search. Some of the material in eLibrary are freely available online contents while others require a library card and a PIN number.'
+      },
+      se: {
+        title: 'E-kirjastot',
+        desc: ''
+      }
+    },
+    link: 'http://ekirjasto.kirjastot.fi/',
+    img_src: 'img/ekirjasto.png',
+    locations: [
+      'National'
+    ],
+    category: 'VIihde'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Koira- ja kissakoulu Heiluva Häntä',
+        desc: 'Webinaareja koiran ja kissan hoidosta ja harrastuksista, verkko-opintomateriaalia'
+      },
+      gb: {
+        title: 'Koira- ja kissakoulu Heiluva Häntä',
+        desc: 'Webinars of care of dogs and cats and also about hobby possibilities. Materials for online studying.'
+      },
+      se: {
+        title: 'Koira- ja kissakoulu Heiluva Häntä',
+        desc: ''
+      }
+    },
+    link: 'http://www.heiluvahanta.fi/',
+    img_src: 'img/heiluvahanta.png',
+    locations: [
+      'National'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Tassumafia Oy',
+        desc: 'Tassumafiassa ulkoilutetaan koirasi ja / tai tarvittaessa noudetaan leikkimään koirien päiväkotiin, missä touhutaan ja ulkoillaan laumassa kavereiden kanssa, sekä päivän päätteeksi palautetaan takaisin kotiin. Myös verkkokauppa tavikkeille ja ruuille.'
+      },
+      gb: {
+        title: 'Tassumafia Oy',
+        desc: 'At Tassumafia, your dog will be outwitted and / or taken, if necessary, to play in a dog daycare center where he or she will be out in the herd with friends, and will be returned home at the end of the day. There is also an online shop.'
+      },
+      se: {
+        title: 'Tassumafia Oy',
+        desc: ''
+      }
+    },
+    link: 'https://www.tassumafia.fi/',
+    img_src: 'img/sanitar.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Linja',
+        desc: 'Täältä yrittäjät saavat apua muilta eri alojen yrittäjiltä ja osaajilta ilmaiseksi.'
+      },
+      gb: {
+        title: 'Linja',
+        desc: 'Here, entrepreneurs can get help from other entrepreneurs and experts in different fields for free.'
+      },
+      se: {
+        title: 'Linja',
+        desc: ''
+      }
+    },
+    link: 'https://linja.sharetribe.com/',
+    img_src: 'img/tassumafia.png',
+    locations: [
+      'National'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Handmade by Kraftory',
+        desc: 'Pieni kampaamoyritys Tampereella, jossa yli 10 henkilön rajoitus ei ylity.'
+      },
+      gb: {
+        title: 'Handmade by Kraftory',
+        desc: 'A small hairdressing company in Tampere, where the limit of more than 10 people is not exceeded.'
+      },
+      se: {
+        title: 'Handmade by Kraftory',
+        desc: ''
+      }
+    },
+    link: 'http://www.kraftory.fi/',
+    img_src: 'img/kraftory.png',
+    locations: [
+      'Tampere'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Kaihdintori',
+        desc: 'Liikkuva kaihdinliike Helsingissä, Espoossa ja Vantaalla. Kaihtimien asennus kotonasi.'
+      },
+      gb: {
+        title: 'Kaihdintori',
+        desc: 'Delivering blinds in Helsinki, Espoo and Vantaa. Installation is also available.'
+      },
+      se: {
+        title: 'Kaihdintori',
+        desc: ''
+      }
+    },
+    link: 'https://kaihdintohtori.com/',
+    img_src: 'img/kaihdintohtori.png',
+    locations: [
+      'Helsinki','Espoo','Vantaa'
+    ],
+    category: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Funraise',
+        desc: 'Laaja valikoima tuotteita turvalliseen kuntoiluun sisätiloissa ja yksin ulkoiluun ja liikuntaan ulkona, kaiken ikäisille.'
+      },
+      gb: {
+        title: 'Funraise',
+        desc: 'A wide range of products for indoor and outdoor fitness and outdoor activities for all ages.'
+      },
+      se: {
+        title: 'Funraise',
+        desc: ''
+      }
+    },
+    link: 'https://funraise.fi/fi',
+    img_src: 'img/funraise.png',
+    locations: [
+      'National'
+    ],
+    category: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Taksi Helsinki',
+        desc: 'Lähikauppapalvelun avulla kuljettaja käy puolestasi kaupassa. Palvelun hinta 20€ ja tilaaminen tapahtuu joko puhelimitse tai verkkosivujen lomakkeella.'
+      },
+      gb: {
+        title: 'Taksi Helsinki',
+        desc: 'The convenience store service allows the driver to shop for you. The price of the service is 20 € and the order is made either by phone or on the website form.'
+      },
+      se: {
+        title: 'Taksi Helsinki',
+        desc: ''
+      }
+    },
+    link: 'https://www.taksihelsinki.fi/palvelumme/lahikauppapalvelu/',
+    img_src: 'img/sanitar.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Terveyskylän koronabotti',
+        desc: 'Koronabotti on kysely, joka ohjaa ja antaa neuvoa COVID-19 koronavirusaltistukseen ja -oireisiin liittyvissä kysymyksissä. Lisäksi HUS Psykiatrian asiantuntijat ovat valmistaneet henkisen tuen ohjelman koronavirustilanteen aiheuttamien huolien ja ahdistuksen käsittelemiseksi.'
+      },
+      gb: {
+        title: 'Terveyskylän koronabotti',
+        desc: 'Coronabot is a survey that guides and advises on COVID-19 coronavirus exposure and symptoms. In addition, HUS Psychiatry experts have developed a mental support program to address the concerns and anxiety caused by the coronavirus.'
+      },
+      se: {
+        title: 'Terveyskylän koronabotti',
+        desc: ''
+      }
+    },
+    link: 'https://www.terveyskyla.fi/koronabotti/',
+    img_src: 'img/terveyskyla.png',
+    locations: [
+      'National'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Hailer - Covid19-apurinki',
+        desc: 'Yhdistää auttajat ja apua tarvitsevat.'
+      },
+      gb: {
+        title: 'Hailer - Covid19-apurinki',
+        desc: 'Connects helpers and those in need.'
+      },
+      se: {
+        title: 'Hailer - Covid19-apurinki',
+        desc: ''
+      }
+    },
+    link: 'https://www.hailer.com/fi/apurinki',
+    img_src: 'img/apurinki.png',
+    locations: [
+      'National'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Fora Security Services Oy',
+        desc: 'Arvotavaroiden/tonttien vartiointia nopealla aikataululla.'
+      },
+      gb: {
+        title: 'Fora Security Services Oy',
+        desc: 'Security of valuables / plots with fast schedule.'
+      },
+      se: {
+        title: 'Fora Security Services Oy',
+        desc: ''
+      }
+    },
+    link: 'https://forasec.fi/',
+    img_src: 'img/fora.png',
+    locations: [
+      'Helsinki','Espoo','Vantaa'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Nordic Swan Cruises',
+        desc: 'Turvallista siirtymistä meriteitse pienille 1-9 henkilön ryhmille Suomenlahden alueella.'
+      },
+      gb: {
+        title: 'Nordic Swan Cruises',
+        desc: 'Safe passage by sea for small groups of 1-9 people in the Gulf of Finland.'
+      },
+      se: {
+        title: 'Nordic Swan Cruises',
+        desc: ''
+      }
+    },
+    link: 'https://www.nordicswancruises.fi/',
+    img_src: 'img/nordicswancruises.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Adagio',
+        desc: 'Asiointipalvelu, hoivapalvelu, kotipalvelu, siivous sekä henkilökohtainen apu Pirkanmaan alueella.'
+      },
+      gb: {
+        title: 'Adagio',
+        desc: 'Care service, home service, cleaning and personal assistance in the Pirkanmaa area.\n'
+      },
+      se: {
+        title: 'Adagio',
+        desc: ''
+      }
+    },
+    link: 'http://www.adagio.fi/',
+    img_src: 'img/adagio.png',
+    locations: [
+      'Pirkanmaa'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Kauppa-apu',
+        desc: 'Kauppa-apu on alusta, jonka avulla suomalaiset voivat tarjota ja vastaanottaa kaupassakäyntiapua toisiltaan. Sivulla näet kartalta lähialueesi kauppa-avun pyynnöt ja ihmiset, jotka ovat valmiita tarjoamaan apua. Voit vastata jo olemassaolevaan ilmoitukseen tai jättää oman ilmoituksesi. Tarkoitus on suojella riskiryhmässä olevia ja helpottaa heidän arkeaa, jotka eivät nyt kauppaan pääse.'
+      },
+      gb: {
+        title: 'Kauppa-apu',
+        desc: 'Aid for Trade is a platform for Finns to offer and receive help from one another in trade. On the map, you can see on the map a list of trade assistance requests in your area and people ready to help. You can reply to an existing alert or submit your own. The aim is to protect those at risk and to make it easier for those who are now unable to trade.\n'
+      },
+      se: {
+        title: 'Kauppa-apu',
+        desc: ''
+      }
+    },
+    link: 'https://kauppa-apu.sharetribe.com/',
+    img_src: 'img/kauppaapu.png',
+    locations: [
+      'National'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'FamilyBoost',
+        desc: 'Kun kaipaat psykologista tukea vanhemmuuteen ja perhe-elämään, esimerkiksi lapsen kasvatukseen, tunnetaitoihin tai omaan jaksamiseen.'
+      },
+      gb: {
+        title: 'FamilyBoost',
+        desc: 'When you need psychological support for parenting and family life, such as parenting, emotional skills, or your own coping.'
+      },
+      se: {
+        title: 'FamilyBoost',
+        desc: ''
+      }
+    },
+    link: 'https://www.familyboost.fi/',
+    img_src: 'img/familyboost.png',
+    locations: [
+      'National'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'King\'s Crown',
+        desc: 'Koko perheen laatikkoruokia kolmeen K-markettiin korona-pandemian aikana.'
+      },
+      gb: {
+        title: 'King\'s Crown',
+        desc: 'Family-friendly box meals at three K-markets during the Korona pandemic.\n'
+      },
+      se: {
+        title: 'King\'s Crown',
+        desc: ''
+      }
+    },
+    link: 'https://www.kingscrown.fi/',
+    img_src: 'img/kingscrown.png',
+    locations: [
+      'Kuopio'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Nordic Swan Living',
+        desc: 'Tee olosi mukavaksi kotona Syli-lounge kalusteilla. Upeaan sarjaan kuuluu säkkituoli, rahi ja lattiatyyny. Saatavilla sisä ja ulkokankaalla. Tutustu myös kodin tekstiilituotteisiin.'
+      },
+      gb: {
+        title: 'Nordic Swan Living',
+        desc: 'Make yourself comfortable at home with Syli lounge furniture. The stunning series includes a sack chair, footstool and floor cushion. Available in indoor and outdoor fabric. Also check out the home textiles.'
+      },
+      se: {
+        title: 'Nordic Swan Living',
+        desc: ''
+      }
+    },
+    link: 'https://www.nordicswanliving.com/',
+    img_src: 'img/nordicswanliving.png',
+    locations: [
+      'National'
+    ],
+    category: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Fit4you',
+        desc: 'Suomalainen urheiluvaatteiden nettikauppa.'
+      },
+      gb: {
+        title: 'Fit4you',
+        desc: 'Finnish online store for sports clothes.'
+      },
+      se: {
+        title: 'Fit4you',
+        desc: ''
+      }
+    },
+    link: 'https://fit4you.fi/',
+    img_src: 'img/fit4you.png',
+    locations: [
+      'National'
+    ],
+    category: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Koulutus ja työnohjaus Rantonen',
+        desc: 'Työvoimavarojen ylläpitoa ja jaksamisen tukea työntekijälle, esimiehelle, työyhteisölle ja yrittäjälle. Keskustelua ja konsultointia etäyhteyksin koulutetun ammattilaisen kanssa.'
+      },
+      gb: {
+        title: 'Koulutus ja työnohjaus Rantonen',
+        desc: 'Workforce maintenance and well-being support for the employee, supervisor, work community and entrepreneur. Remote discussion and consultation with a trained professional.'
+      },
+      se: {
+        title: 'Koulutus ja työnohjaus Rantonen',
+        desc: ''
+      }
+    },
+    link: 'https://pirjorantonen.fi/',
+    img_src: 'img/rantonen.png',
+    locations: [
+      'National'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Tampereen aluetaksi Oy',
+        desc: 'Taksi Tampere auttaa erilaisissa kuljetustehttävissä. Lisäksi Taksi Tampere voi hoitaa kaupassa ja apteekissa asioinnin ilman asiakkaan mukana oloa tai noutaa ruoka-annoksesi ravintolasta kotiin, silloin kun asiakkaan on tärkeintä pysyä kotona.'
+      },
+      gb: {
+        title: 'Tampereen aluetaksi Oy',
+        desc: 'A taxi in Tampere helps you with different transport tasks. In addition, Taxi Tampere can handle shopping and pharmacy service without the customer being present or picking up your meal from the restaurant to your home when it is most important for the customer to stay home.'
+      },
+      se: {
+        title: 'Tampereen aluetaksi Oy',
+        desc: ''
+      }
+    },
+    link: 'https://www.taksitampere.fi/asiointipalvelu/',
+    img_src: 'img/auetaksi.png',
+    locations: [
+      'Tampere'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Specsavers ',
+        desc: 'Tilaa piilolinssit kätevästi verkkokaupasta.'
+      },
+      gb: {
+        title: 'Specsavers ',
+        desc: 'Easily order contact lenses online.'
+      },
+      se: {
+        title: 'Specsavers ',
+        desc: ''
+      }
+    },
+    link: 'https://www.specsavers.fi/piilolinssit',
+    img_src: 'img/specsavers.png',
+    locations: [
+      'National'
+    ],
+    category: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Lasten Taidelaboratorio®',
+        desc: 'Taidepajoissa on tärkeintä on lapsen kokemus, elämyksellisyys ja kokeilemalla oppiminen. Osta taidepaja-lahjakortti ja mahdollistat korkealaatuisen taide- ja kulttuuritoiminnan jatkumisen!'
+      },
+      gb: {
+        title: 'Lasten Taidelaboratorio®',
+        desc: 'The most important thing in art workshops is the experience of the child, the experience and learning by experimenting. Purchase an Art Workshop Gift Card and Enable High Quality Art & Culture!'
+      },
+      se: {
+        title: 'Lasten Taidelaboratorio®',
+        desc: ''
+      }
+    },
+    link: 'https://www.lastentaidelaboratorio.fi/',
+    img_src: 'img/taidelaboratorio.png',
+    locations: [
+      'Espoo'
+    ],
+    category: 'Palvelut'
   }
-]
+]  
+
 
 const capitalize = (s) => {
   if (typeof s !== 'string') return ''
