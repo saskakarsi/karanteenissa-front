@@ -33,9 +33,9 @@ const menuLocalizations = {
             kauppaApuText: 'Oletko riskiryhmässä, kykenemätön käymään kaupassa tai tahdot auttaa? Tsekkaa '
         },
         contact: {
-            description: 'Karanteenissa.fi viiden opiskelijan tapa auttaa koronaviruksen aiheuttaman epävarmuuden aikana.',
+            description: 'Karanteenissa.fi on viiden opiskelijan tapa auttaa koronaviruksen aiheuttaman epävarmuuden aikana.',
             monetary: 'Sivuston ylläpitäjät eivät ansaitse rahaa sivustolla olevista linkeistä.',
-            translate: 'Ruotsinnos:'
+            translate: ''
         },
         tips: {
             title1: 'Yrittäjille',
@@ -78,7 +78,7 @@ const menuLocalizations = {
         contact: {
             description: 'En webbplats av fem studerande till hjälp för den tid av osäkerhet som coronaviruset förorsakar.',
             monetary: 'Webbansvarig tjänar inte pengar på webbplatsens länkar.',
-            translate: 'Svensk översättning:'
+            translate: 'Svensk översättning: pauhu.fi / Linda Ahlblad'
         },
         tips: {
             title1: 'För företagare',
@@ -121,7 +121,7 @@ const menuLocalizations = {
         contact: {
             description: 'The web service has been created by five students that want to do everything they can to help.',
             monetary: 'We do not make any money from the website.',
-            translate: 'Swedish translation:'
+            translate: ''
         }
     }
 }
