@@ -15,14 +15,14 @@
         <v-card
             max-width="1200px"
             elevation="0"
-            class="mx-auto py-0 px-0"
+            class="mx-auto py-6 px-6"
             style="margin-bottom: 3em margin-top: 3em"
             color="rgb(255, 0, 0, 0.0)"
             dark>
           <v-row>
             <v-select
-              class="mx-auto py-6 px-6"
-              style= "margin-top: 1em; margin-bottom: 1em"
+              class="mx-auto py-2 px-6"
+              style= "margin-top: 0em; margin-bottom: 0em"
               v-model="selectedLocation"
               :items="locs"
               menu-props="auto"
@@ -35,8 +35,8 @@
             >
             </v-select>
             <v-select
-            class="mx-auto py-6 px-6"
-              style= "margin-top: 1em; margin-bottom: 1em"
+            class="mx-auto py-2 px-6"
+              style= "margin-top: 0em; margin-bottom: 0em"
               v-model="selectedCategory"
               :items="serviceCategories"
               menu-props="auto"
