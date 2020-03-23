@@ -5,61 +5,57 @@
           <v-icon dark>mdi-arrow-up</v-icon>
         </v-btn>
       </back-to-top>
-         <v-parallax
-    dark
-    src="img/forest.jpg"
-    margin-left="auto"
-    margin-rigth="auto"
-    height="auto"
-  >
+      <v-parallax
+        dark
+        src="img/forest.jpg"
+        margin-left="auto"
+        margin-rigth="auto"
+        height="auto"
+      >
+        <v-card
+            max-width="1200px"
+            elevation="0"
+            class="mx-auto py-0 px-0"
+            style="margin-bottom: 3em margin-top: 3em"
+            color="rgb(255, 0, 0, 0.0)"
+            dark>
+          <v-row>
+            <v-select
+              class="mx-auto py-6 px-6"
+              style= "margin-top: 1em; margin-bottom: 1em"
+              v-model="selectedLocation"
+              :items="locs"
+              menu-props="auto"
+              :label="menuTexts.locationSelector"
+              hide-details
+              single-line
+              clearable
+              solo
+              light
+            >
+            </v-select>
+            <v-select
+            class="mx-auto py-6 px-6"
+              style= "margin-top: 1em; margin-bottom: 1em"
+              v-model="selectedCategory"
+              :items="serviceCategories"
+              menu-props="auto"
+              :label="menuTexts.categorySelector"
+              hide-details
+              single-line
+              clearable
+              solo
+              light
+            ></v-select>
+          </v-row>
+        </v-card>
+      </v-parallax>
     <v-card
-        max-width="1200px"
-        elevation="0"
-        class="mx-auto py-0 px-0"
-        style="margin-bottom: 3em margin-top: 3em"
-        color="rgb(255, 0, 0, 0.0)"
-        dark>
-      <v-row>
-
-        <v-select
+          max-width="1200px"
+          elevation="0"
           class="mx-auto py-6 px-6"
-          style= "margin-top: 1em; margin-bottom: 1em"
-          v-model="selectedLocation"
-          :items="locs"
-          menu-props="auto"
-          :label="menuTexts.locationSelector"
-          hide-details
-          single-line
-          clearable
-          solo
-          light
-        ></v-select>
-        <v-select
-        class="mx-auto py-6 px-6"
-          style= "margin-top: 1em; margin-bottom: 1em"
-          v-model="selectedCategory"
-          :items="serviceCategories"
-          menu-props="auto"
-          :label="menuTexts.categorySelector"
-          hide-details
-          single-line
-          clearable
-          solo
-          light
-        ></v-select>
-
-
-
-      </v-row>
-    </v-card>
-</v-parallax>
-  <v-card
-        max-width="1200px"
-        elevation="0"
-        class="mx-auto py-6 px-6"
-        style="margin-bottom: 40px margin-top: 40px"
-        light>
-
+          style="margin-bottom: 40px margin-top: 40px"
+          light>
       <v-row dense>
         <v-col
           sm="6"

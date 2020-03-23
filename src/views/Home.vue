@@ -1,13 +1,12 @@
 <template>
-<v-container fluid class="ma-0 pa-0">
-
+  <v-container fluid class="ma-0 pa-0">
    <v-parallax
     dark
     src="img/forest.jpg"
     margin-left="auto"
     margin-rigth="auto"
   >
-  <v-card
+    <v-card
         max-width="1200px"
         elevation="0"
         class="mx-auto py-6 px-6"
@@ -44,17 +43,13 @@
           light
         ></v-select>
       </v-col>
-
-
       <v-col class="mx-auto">
         <div class="text-center">
             <v-btn large rounded light color="primary" to="/services">{{ menuTexts.home.searchButton }}</v-btn>
         </div>
         </v-col>
-  </v-card>
+    </v-card>
   </v-parallax> 
-
-
       <v-card
         max-width="1000px"
         elevation="0"
@@ -81,72 +76,63 @@
         <v-divider max-width="500px"></v-divider> 
 
         <v-col class="mx-auto">
-
-    
-
-
-
-
-        
-<v-card class=" mx-auto" elevation="0" style="margin-top: 40px">
-<v-row dense>
-<v-col>
-    <v-card
-      class="mx-auto"
-      width="235px"
-      height="235px"
-      elevation="0"
-      to='/tips'
-    >
-      <v-img
-        src="img/vinkit.png"
-        height="235px"
-        width="235px"
-        class="mx-auto"
-      >
-      </v-img>
-    </v-card>
-  </v-col>
-  <v-col>
-    <v-card
-      class="mx-auto"
-      width="235px"
-      height="235px"
-      elevation="0"
-      href="https://www.facebook.com/groups/karanteenissa/"
-    >
-      <v-img
-        src="img/liitykeskusteluun.png"
-        height="235px"
-        width="235px"
-        class="mx-auto"
-      >
-      </v-img>
-    </v-card>
-  </v-col>
-    <v-col>
-    <v-card
-      class="mx-auto"
-      width="235px"
-      height="235px"
-      elevation="0"
-      href="https://docs.google.com/forms/d/e/1FAIpQLScJs29BmU7OkDLyG0UU6UbPN65OUVy0Hdc5LmmBgQhXxHO0QQ/viewform?usp=sf_link"
-    >
-      <v-img
-        src="img/ilmoita.png"
-        height="235px"
-        width="235px"
-        class="mx-auto"
-      >
-      </v-img>
-    </v-card>
-  </v-col>
-</v-row>
-</v-card>
-
-          
+        <v-card class=" mx-auto" elevation="0" style="margin-top: 40px">
+        <v-row dense>
+        <v-col>
+            <v-card
+              class="mx-auto"
+              width="235px"
+              height="235px"
+              elevation="0"
+              to='/tips'
+            >
+              <v-img
+                src="img/vinkit.png"
+                height="235px"
+                width="235px"
+                class="mx-auto"
+              >
+              </v-img>
+            </v-card>
+          </v-col>
+          <v-col>
+            <v-card
+              class="mx-auto"
+              width="235px"
+              height="235px"
+              elevation="0"
+              href="https://www.facebook.com/groups/karanteenissa/"
+            >
+              <v-img
+                src="img/liitykeskusteluun.png"
+                height="235px"
+                width="235px"
+                class="mx-auto"
+              >
+              </v-img>
+            </v-card>
+          </v-col>
+            <v-col>
+            <v-card
+              class="mx-auto"
+              width="235px"
+              height="235px"
+              elevation="0"
+              href="https://docs.google.com/forms/d/e/1FAIpQLScJs29BmU7OkDLyG0UU6UbPN65OUVy0Hdc5LmmBgQhXxHO0QQ/viewform?usp=sf_link"
+            >
+              <v-img
+                src="img/ilmoita.png"
+                height="235px"
+                width="235px"
+                class="mx-auto"
+              >
+              </v-img>
+            </v-card>
         </v-col>
-      </v-card>
+      </v-row>
+      </v-card> 
+    </v-col>
+  </v-card>
 </v-container>  
 </template>
 
