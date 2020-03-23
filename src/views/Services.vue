@@ -111,7 +111,7 @@ export default {
     computed: {
       ...computeds,
       menuTexts: function () {
-        return menuLocalizations[getters.locale().value].services
+        return menuLocalizations[getters.locale().value]
       },
       svcs: function () {
         return getServices.call(this, services)
