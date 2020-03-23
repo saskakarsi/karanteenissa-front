@@ -2040,7 +2040,7 @@ const services = [
       }
     },
     link: 'https://www.meetingpark.fi/fi/',
-    img_src: 'img/businessmeetingpark.png',
+    img_src: 'img/meetingpark.png',
     locations: [
       'National'
     ],
@@ -2638,7 +2638,7 @@ const services = [
       }
     },
     link: 'https://www.taksihelsinki.fi/palvelumme/lahikauppapalvelu/',
-    img_src: 'img/sanitar.png',
+    img_src: 'img/taksihelsinki.png',
     locations: [
       'Helsinki'
     ],
@@ -2901,20 +2901,20 @@ const services = [
     id: '',
     langs: {
       fi: {
-        title: 'Tampereen aluetaksi Oy',
+        title: 'Tampereen aluetaksi',
         desc: 'Taksi Tampere auttaa erilaisissa kuljetustehttävissä. Lisäksi Taksi Tampere voi hoitaa kaupassa ja apteekissa asioinnin ilman asiakkaan mukana oloa tai noutaa ruoka-annoksesi ravintolasta kotiin, silloin kun asiakkaan on tärkeintä pysyä kotona.'
       },
       gb: {
-        title: 'Tampereen aluetaksi Oy',
+        title: 'Tampereen aluetaksi',
         desc: 'A taxi in Tampere helps you with different transport tasks. In addition, Taxi Tampere can handle shopping and pharmacy service without the customer being present or picking up your meal from the restaurant to your home when it is most important for the customer to stay home.'
       },
       se: {
-        title: 'Tampereen aluetaksi Oy',
+        title: 'Tampereen aluetaksi',
         desc: ''
       }
     },
     link: 'https://www.taksitampere.fi/asiointipalvelu/',
-    img_src: 'img/auetaksi.png',
+    img_src: 'img/tampereenaluetaksi.png',
     locations: [
       'Tampere'
     ],
@@ -2960,7 +2960,7 @@ const services = [
       }
     },
     link: 'https://www.lastentaidelaboratorio.fi/',
-    img_src: 'img/taidelaboratorio.png',
+    img_src: 'img/lastentaidelaboratorio.png',
     locations: [
       'Espoo'
     ],

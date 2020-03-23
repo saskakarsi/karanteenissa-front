@@ -1,5 +1,10 @@
 <template>
-    <div>
+    <v-container fluid class="ma-0 pa-0">
+      <v-card
+        max-width="1200px"
+        elevation="0"
+        class="mx-auto py-6 px-6"
+        style="margin-bottom: 40px">
       <v-col class="mx-auto text-center" style="max-width: 80%">
          <div class="content">
           <h1>{{ menuTexts.tips.title1 }}</h1>
@@ -16,7 +21,9 @@
           <a class="info-text-link" href="https://www.suomi.fi/palvelut/talous-ja-velkaneuvonta-yrityksille-ja-yrittajille-elinkeino-liikenne-ja-ymparistokeskus/8df3bbb0-5426-4b06-9926-dea400ee4fa7">{{ menuTexts.tips.read }} </a> <br><br><br>
         </div>
         </v-col>
-
+        <v-divider></v-divider>
+        <br>
+        <br>
         <v-col class="mx-auto text-center" style="max-width: 80%">
             <h1>{{ menuTexts.tips.title2 }}</h1>
           <br>
@@ -29,36 +36,8 @@
           <p class="info-text">{{ menuTexts.tips.point16 }}</p>
           <a class="info-text-link" href="https://www.kela.fi/tyottoman-pikaopas">{{ menuTexts.tips.read }}</a><br><br><br><br>
         </v-col>
-      <v-col class="py-8 px-6">
-        <v-footer
-        absolute
-        class="font-weight-medium"
-        height="100"
-        >
-        <v-col
-            class="text-center"
-            cols="12"
-        >
-
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-          <section id="lab_social_icon_footer">
-        <div class="social-icon">
-          <div class="text-center center-block">
-            <a style="margin: 5px" href="https://www.facebook.com/karanteenissa"><i id="social-fb"
-                class="fa fa-facebook-square fa-3x social"></i></a>
-            <a style="margin: 5px" href="https://www.instagram.com/karanteenissa.fi/"><i id="social-ig"
-                class="fa fa-instagram fa-3x social"></i></a>
-            <a style="margin: 5px" href="https://twitter.com/karanteeni20"><i id="social-tw"
-                class="fa fa-twitter-square fa-3x social"></i></a>
-          </div>
-          <strong>Karanteenissa.fi</strong> - {{ new Date().getFullYear() }}
-        </div>
-        <i class="subtitle-1">{{ menuTexts.contact.translate }}</i>
-      </section>
-        </v-col>
-        </v-footer>
-    </v-col>
-    </div>
+      </v-card>
+    </v-container>
 </template>
 
 <script>
