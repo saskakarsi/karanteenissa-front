@@ -234,7 +234,7 @@ const services = [
     langs: {
       fi: {
         title: 'Fruitbox',
-        desc: 'Työpaikalle tulevan hedelmäboksin tilaus voidaan ohjata etätyöläisten kotiovelle.'
+        desc: 'Työpaikalle tulevan hedelmäboksin tilaus voidaan ohjata etätyöläisten kotiovelle. Fruitboxin voi tilata myös lahjaksi esimerkiksi sairaaloille tai kouluille.'
       },
       gb: {
         title: 'Fruitbox',
