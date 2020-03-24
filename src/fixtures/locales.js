@@ -31,6 +31,7 @@ const menuLocalizations = {
             tellUsButton: 'img/tellus-fi.png',
             tipsButton: 'img/tips-fi.png',
             facebookButton: 'Keskustele fb-ryhmässä',
+            mentalHealthButton: 'img/mielenterveys-fi.png',
             kauppaApuText: 'Oletko riskiryhmässä, kykenemätön käymään kaupassa tai tahdot auttaa? Tsekkaa '
         },
         contact: {

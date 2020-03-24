@@ -71,15 +71,15 @@
         <v-col>
             <v-card
               class="mx-auto"
-              width="235px"
-              height="235px"
+              width="200px"
+              height="200px"
               elevation="0"
               to='/tips'
             >
               <v-img
                 :src="menuTexts.home.tipsButton"
-                height="235px"
-                width="235px"
+                height="200px"
+                width="200px"
                 class="mx-auto"
               >
               </v-img>
@@ -88,15 +88,15 @@
           <v-col>
             <v-card
               class="mx-auto"
-              width="235px"
-              height="235px"
+              width="200px"
+              height="200px"
               elevation="0"
               href="https://www.facebook.com/groups/karanteenissa/"
             >
               <v-img
                 :src="menuTexts.home.conversationButton"
-                height="235px"
-                width="235px"
+                height="200px"
+                width="200px"
                 class="mx-auto"
               >
               </v-img>
@@ -105,15 +105,32 @@
             <v-col>
             <v-card
               class="mx-auto"
-              width="235px"
-              height="235px"
+              width="200px"
+              height="200px"
               elevation="0"
               href="https://docs.google.com/forms/d/e/1FAIpQLScJs29BmU7OkDLyG0UU6UbPN65OUVy0Hdc5LmmBgQhXxHO0QQ/viewform?usp=sf_link"
             >
               <v-img
                 :src="menuTexts.home.tellUsButton"
-                height="235px"
-                width="235px"
+                height="200px"
+                width="200px"
+                class="mx-auto"
+              >
+              </v-img>
+            </v-card>
+        </v-col>
+                    <v-col>
+            <v-card
+              class="mx-auto"
+              width="200px"
+              height="200px"
+              elevation="0"
+              to="/Mentalhealth"
+            >
+              <v-img
+                :src="menuTexts.home.mentalHealthButton"
+                height="200px"
+                width="200px"
                 class="mx-auto"
               >
               </v-img>
