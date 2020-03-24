@@ -26,6 +26,7 @@ const menuLocalizations = {
             locationSelector: 'Paikka',
         },
         home: {
+            searchButton: 'Hae',
             conversationButton: 'img/facebook-fi.png',
             tellUsButton: 'img/tellus-fi.png',
             tipsButton: 'img/tips-fi.png',
@@ -33,6 +34,8 @@ const menuLocalizations = {
             kauppaApuText: 'Oletko riskiryhmässä, kykenemätön käymään kaupassa tai tahdot auttaa? Tsekkaa '
         },
         contact: {
+            feedbackButton: 'img/feedback-fi.png',
+            registerButton: 'img/register-fi.png',
             description: 'Karanteenissa.fi on viiden opiskelijan tapa auttaa koronaviruksen aiheuttaman epävarmuuden aikana.',
             monetary: 'Sivuston ylläpitäjät eivät ansaitse rahaa sivustolla olevista linkeistä.',
             translate: ''
@@ -57,6 +60,9 @@ const menuLocalizations = {
     },
     se: {
         app: {
+            serviceButton: 'Tjänster',
+            contactButton: 'Kontakta oss',
+            homeButton: 'Hem',
             mainTitle: 'Hjälp för din karantän',
             frontTitle1: 'Karanteenissa.fi samlar information om olika produkt- och servicelösningar för att förebygga coronavirusets verkningar.',
             frontTitle2: 'Låt oss ta hand om varandra. <3',
@@ -67,6 +73,7 @@ const menuLocalizations = {
             locationSelector: 'Plats',
         },
         home: {
+            searchButton: 'Sök',
             conversationButton: 'img/facebook-se.png',
             tellUsButton: 'img/tellus-se.png',
             tipsButton: 'img/tips-se.png',
@@ -74,6 +81,8 @@ const menuLocalizations = {
             kauppaApuText: 'Är du i riskgruppen, kan du inte handla eller vill hjälpa? Kolla: '
         },
         contact: {
+            feedbackButton: 'img/feedback-se.png',
+            registerButton: 'img/register-se.png',
             description: 'En webbplats av fem studerande till hjälp för den tid av osäkerhet som coronaviruset förorsakar.',
             monetary: 'Webbansvarig tjänar inte pengar på webbplatsens länkar.',
         },
@@ -97,6 +106,9 @@ const menuLocalizations = {
     },
     gb: {
         app: {
+            contactButton: 'Contact us',
+            serviceButton: 'Services',
+            homeButton: 'Home',
             mainTitle: 'Find help in quarantine',
             frontTitle1: 'Karanteenissa.fi combines information about different services to minimize the effects of the Corona virus',
             frontTitle2: 'Let us take care of each other. <3'
@@ -106,6 +118,7 @@ const menuLocalizations = {
             locationSelector: 'Location',
         },
         home: {
+            searchButton: 'Search',
             conversationButton: 'img/facebook-gb.png',
             tellUsButton: 'img/tellus-gb.png',
             tipsButton: 'img/tips-gb.png',
@@ -113,6 +126,8 @@ const menuLocalizations = {
             kauppaApuText: 'Are you in a risk group, unable to get groceries or would like to help? Check out '
         },
         contact: {
+            feedbackButton: 'img/feedback-gb.png',
+            registerButton: 'img/register-gb.png',
             description: 'The web service has been created by five students that want to do everything they can to help.',
             monetary: 'We do not make any money from the website.',
             translate: ''
