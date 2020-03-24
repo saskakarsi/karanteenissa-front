@@ -122,6 +122,7 @@
       absolute
       class="font-weight-medium"
       height="auto"
+      style="width: auto !important"
     >
       <v-col
       class="text-center"
