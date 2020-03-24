@@ -2481,7 +2481,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'VIihde'
+    category: 'Viihde'
   },
   {
     id: '',
