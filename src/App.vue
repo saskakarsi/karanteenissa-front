@@ -121,7 +121,7 @@
       app
       absolute
       class="font-weight-medium"
-      height="100"
+      height="auto"
     >
       <v-col
       class="text-center"
@@ -140,6 +140,7 @@
                 <a style="margin: 5px" href="https://github.com/saskakarsi/karanteenissa-front"><i id="social-gh"
                     class="fa fa-github-square fa-3x"></i></a>
               </div>
+              <h1 class="subtitle-1">{{ menuTexts.translate }}</h1>
               <strong>Karanteenissa.fi</strong> - {{ new Date().getFullYear() }}
             </div>
           </section>

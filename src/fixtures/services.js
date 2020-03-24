@@ -234,7 +234,7 @@ const services = [
     langs: {
       fi: {
         title: 'Fruitbox',
-        desc: 'Työpaikalle tulevan hedelmäboksin tilaus voidaan ohjata etätyöläisten kotiovelle.'
+        desc: 'Työpaikalle tulevan hedelmäboksin tilaus voidaan ohjata etätyöläisten kotiovelle. Fruitboxin voi tilata myös lahjaksi esimerkiksi sairaaloille tai kouluille.'
       },
       gb: {
         title: 'Fruitbox',
@@ -2481,7 +2481,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'VIihde'
+    category: 'Viihde'
   },
   {
     id: '',
@@ -2965,8 +2965,308 @@ const services = [
       'Espoo'
     ],
     category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Kosmetologikauppa.fi',
+        desc: 'Helsingissä valmistettua luonnonkosmetiikkaa sekä muita kosmetologilta saatavia ihonhoitotuotteita.'
+      },
+      gb: {
+        title: 'Kosmetologikauppa.fi',
+        desc: 'Natural cosmetics made in Helsinki and other skin care products available from a cosmetologist.'
+      },
+      se: {
+        title: 'Kosmetologikauppa.fi',
+        desc: ''
+      }
+    },
+    link: 'https://www.kosmetologikauppa.fi/',
+    img_src: 'img/kosmetologikauppa.png',
+    locations: [
+      'National'
+    ],
+    category: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Uplus Oy',
+        desc: 'Uplus yksityisopetus auttaa kaiken ikäisiä oppijoita koulunkäynnissä, alakoulusta lukioon ja pääsykokeisiin. Jokainen oppilas saa henkilökohtaisen opettajan, ja opetus on saatavilla verkon välityksellä koko Suomeen.'
+      },
+      gb: {
+        title: 'Uplus Oy',
+        desc: 'Uplus Private Education helps learners of all ages in school, from elementary to high school and through entrance exams. Each student receives a personal teacher and the teaching is available online throughout Finland.'
+      },
+      se: {
+        title: 'Uplus Oy',
+        desc: ''
+      }
+    },
+    link: 'https://www.uplus.fi/',
+    img_src: 'img/uplus.png',
+    locations: [
+      'National'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Ravintola Skiffer',
+        desc: 'Toimittaa ruokaa kotiinkuljetuksella Espoon alueella.'
+      },
+      gb: {
+        title: 'Restaurant Skiffer',
+        desc: 'Delivers food by home delivery in the Espoo area.'
+      },
+      se: {
+        title: 'Restaurang Skiffer',
+        desc: ''
+      }
+    },
+    link: 'https://www.skiffer.fi/',
+    img_src: 'img/skiffer.png',
+    locations: [
+      'Espoo'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Kahvikeisarinna',
+        desc: 'Yritys toimittaa/postittaa laadukkaan vastapaahdetun vietnamilaisen kahvin kotiisi/työpaikallesi jne.'
+      },
+      gb: {
+        title: 'Kahvikeisarinna',
+        desc: 'Company delivering / mailing quality freshly roasted Vietnamese coffee to your home / work, etc.\n'
+      },
+      se: {
+        title: 'Kahvikeisarinna',
+        desc: ''
+      }
+    },
+    link: 'https://www.kahvikeisarinna.com/',
+    img_src: 'img/kahvikeisarinna.png',
+    locations: [
+      'Tampere'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'BoBoLa',
+        desc: 'Sivusto tarjoaa ilmaisia aktiviteettejä lapsiperheiden ja lastenmielisten iloksi.'
+      },
+      gb: {
+        title: 'BoBoLa',
+        desc: 'The site offers free activities for families with children'
+      },
+      se: {
+        title: 'BoBoLa',
+        desc: ''
+      }
+    },
+    link: 'https://www.bobola.fi/',
+    img_src: 'img/bobola.png',
+    locations: [
+      'National'
+    ],
+    category: 'VIihde'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'StepUp Online',
+        desc: 'Voit tanssia ilmaisilla tanssitunneilla kotoa käsin. Tanssituntien videokirjasto kasvaa koko ajan.'
+      },
+      gb: {
+        title: 'StepUp Online',
+        desc: 'You can dance with free dance lessons from home. The Dance Class Video Library is constantly growing.'
+      },
+      se: {
+        title: 'StepUp Online',
+        desc: ''
+      }
+    },
+    link: 'https://www.stepupschool.online/',
+    img_src: 'img/stepup.png',
+    locations: [
+      'National'
+    ],
+    category: 'Viihde'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Äitiysliikunta-akatemia',
+        desc: 'Äitiysliikunta-akatemia® tarjoaa terveys- ja liikunta-alalla toimiville asiantuntijoille ajankohtaista, tutkittua ja luotettavaa tietoa.'
+      },
+      gb: {
+        title: 'Äitiysliikunta-akatemia',
+        desc: 'Maternity Exercise Academy® provides up-to-date, researched, and reliable information to health and fitness experts.'
+      },
+      se: {
+        title: 'Äitiysliikunta-akatemia',
+        desc: ''
+      }
+    },
+    link: 'https://aitiysliikuntaakatemia.fi/',
+    img_src: 'img/aitiysliikunta.png',
+    locations: [
+      'National'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Ruuan hinta',
+        desc: 'Palvelussa voi verrata ruoan hintaa sekä helposti tarkastaa mitä tuotetta saa mistäkin kaupasta. https://ruoanhinta.fi/kaupat sivustolta löytyy myös ajankohtaiset tiedot kauppojen aukioloajoista sekä niiden tarkat osoitteet ja sijannit kartalla.'
+      },
+      gb: {
+        title: 'Ruuan hinta',
+        desc: 'The service allows you to compare the price of food and easily check which product is available at which store. The https://ruoanhinta.fi/kaupat website also contains current information on store opening hours, their exact addresses and locations on the map.'
+      },
+      se: {
+        title: 'Ruuan hinta',
+        desc: ''
+      }
+    },
+    link: 'https://ruoanhinta.fi/',
+    img_src: 'img/ruoanhinta.png',
+    locations: [
+      'National'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'SYKE Tribe',
+        desc: 'Suomen laajin valikoima nettivalmennuksia ja monet näistä soveltuvat kotona tehtäviksi eli myös mahdollisen karanteenin ajalle. Samalla on mahdollisuus tukea suomalaisia valmentajayrittäjiä, joiden tulovirrat ovat tällä hetkellä monien muiden tavoin nollissa.'
+      },
+      gb: {
+        title: 'SYKE Tribe',
+        desc: 'The widest range of online coaching in Finland and many of these are suitable for home tasks, including quarantine. At the same time, there is the opportunity to support Finnish coaching entrepreneurs, whose income streams, like many others, are currently zero.'
+      },
+      se: {
+        title: 'SYKE Tribe',
+        desc: ''
+      }
+    },
+    link: 'https://syketribe.fi/',
+    img_src: 'img/syketribe.png',
+    locations: [
+      'National'
+    ],
+    category: 'Urheilu'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Kirjastokino',
+        desc: 'Ilmaisia elokuvia, avoin kaikille.'
+      },
+      gb: {
+        title: 'Kirjastokino',
+        desc: 'Free movies online, open to everyone.'
+      },
+      se: {
+        title: 'Kirjastokino',
+        desc: ''
+      }
+    },
+    link: 'https://www.kirjastokino.fi/fi/videos',
+    img_src: 'img/kirjastokino.png',
+    locations: [
+      'National'
+    ],
+    category: 'Viihde'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'HalpaHalli',
+        desc: 'Verkkokauppa josta löytyy yli 30 000 artikkelin aktiivinen valikoima kodin ja vapaa-ajan tuotteista, ruuanlaittoon, astiastoihin sekä pukeutumiseen.'
+      },
+      gb: {
+        title: 'HalpaHalli',
+        desc: 'An online shop with over 30,000 articles with an active selection of home and leisure products, cooking, dinnerware and clothing.'
+      },
+      se: {
+        title: 'HalpaHalli',
+        desc: ''
+      }
+    },
+    link: 'https://www.halpahalli.fi/',
+    img_src: 'img/halpahalli.png',
+    locations: [
+      'National'
+    ],
+    category: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'MyNaviGo',
+        desc: 'Palvelussa hoiva-alan yrittäjät voivat halutessaan tarjota tukea myös etänä. Palvelu on käytössät toistaiseksi Päijät-Hämeessä ja palveluntuottajien ilmouttautuminen sinne on maksutonta. Palvelua pyritään laajentamaan myös muihin maakuntiin.'
+      },
+      gb: {
+        title: 'MyNaviGo',
+        desc: 'The service allows remote care providers to provide support if they so wish. The service is currently available in Päijät-Häme, and registration by service providers is free of charge. The aim is to expand the service to other provinces.'
+      },
+      se: {
+        title: 'MyNaviGo',
+        desc: ''
+      }
+    },
+    link: 'https://mynavigo.fi/home',
+    img_src: 'img/mynavigo.png',
+    locations: [
+      'Päijät-Häme'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'I&P Group Oy',
+        desc: 'Siivous palvelut/ Desinfiointi, kiinteistönhoitoala, tilojen desinfiointi — Kontaminoituneen tilan desinfiointi (viruksen tappaminen tiloista), lääkkeiden kuljetukset vain Helsinki,Vantaa ja Espoon alueella. ( eläkeläiskortilla -30% alennus).'
+      },
+      gb: {
+        title: 'I&P Group Oy',
+        desc: 'Cleaning services / Disinfection, property management, disinfection of premises - Disinfection of contaminated premises (killing of virus in the premises), transportation of medicines only in Helsinki, Vantaa and Espoo area. (-30% discount on pensioner card).'
+      },
+      se: {
+        title: 'I&P Group Oy',
+        desc: ''
+      }
+    },
+    link: 'http://ipgroup.fi/',
+    img_src: 'img/ipgroup.png',
+    locations: [
+      'Helsinki', 'Espoo', 'Vantaa'
+    ],
+    category: 'Palvelut'
   }
-]  
+]
+  
 
 
 const capitalize = (s) => {

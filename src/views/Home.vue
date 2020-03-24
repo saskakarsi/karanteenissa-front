@@ -55,16 +55,6 @@
         elevation="0"
         class="mx-auto py-6 px-6"
         style="margin-bottom: 40px">     
-
-                <v-col class="mx-auto text-center" style="margin-top: 3em">
-            <h1 class="headline">
-              {{ menuTexts.home.kauppaApuText }}
-              <a href="https://kauppa-apu.sharetribe.com/">kauppa-apu.com</a>.
-            </h1>
-            <br>
-            <v-divider></v-divider>    
-        </v-col>
-
         <v-col class="mx-auto text-center">
             <h1 class="headline">{{ menuTexts.app.frontTitle1 }}</h1>
         </v-col>
@@ -76,20 +66,20 @@
         <v-divider max-width="500px"></v-divider> 
 
         <v-col class="mx-auto">
-        <v-card class=" mx-auto" elevation="0" style="margin-top: 40px">
-        <v-row dense>
+        <v-card class=" mx-auto" elevation="0" style="margin-top: 40px">        
+      <v-row dense>
         <v-col>
             <v-card
               class="mx-auto"
-              width="235px"
-              height="235px"
+              width="200px"
+              height="200px"
               elevation="0"
               to='/tips'
             >
               <v-img
-                src="img/vinkit.png"
-                height="235px"
-                width="235px"
+                :src="menuTexts.home.tipsButton"
+                height="200px"
+                width="200px"
                 class="mx-auto"
               >
               </v-img>
@@ -98,15 +88,15 @@
           <v-col>
             <v-card
               class="mx-auto"
-              width="235px"
-              height="235px"
+              width="200px"
+              height="200px"
               elevation="0"
               href="https://www.facebook.com/groups/karanteenissa/"
             >
               <v-img
-                src="img/liitykeskusteluun.png"
-                height="235px"
-                width="235px"
+                :src="menuTexts.home.conversationButton"
+                height="200px"
+                width="200px"
                 class="mx-auto"
               >
               </v-img>
@@ -115,22 +105,49 @@
             <v-col>
             <v-card
               class="mx-auto"
-              width="235px"
-              height="235px"
+              width="200px"
+              height="200px"
               elevation="0"
               href="https://docs.google.com/forms/d/e/1FAIpQLScJs29BmU7OkDLyG0UU6UbPN65OUVy0Hdc5LmmBgQhXxHO0QQ/viewform?usp=sf_link"
             >
               <v-img
-                src="img/ilmoita.png"
-                height="235px"
-                width="235px"
+                :src="menuTexts.home.tellUsButton"
+                height="200px"
+                width="200px"
+                class="mx-auto"
+              >
+              </v-img>
+            </v-card>
+        </v-col>
+                    <v-col>
+            <v-card
+              class="mx-auto"
+              width="200px"
+              height="200px"
+              elevation="0"
+              to="/Mentalhealth"
+            >
+              <v-img
+                :src="menuTexts.home.mentalHealthButton"
+                height="200px"
+                width="200px"
                 class="mx-auto"
               >
               </v-img>
             </v-card>
         </v-col>
       </v-row>
-      </v-card> 
+      </v-card>
+        <v-card class=" mx-auto" elevation="0" style="margin-top: 40px">       
+      <v-divider></v-divider>
+                <v-col class="mx-auto text-center" style="margin-top: 3em">
+            <h1 class="headline">
+              {{ menuTexts.home.kauppaApuText }}
+              <a href="https://kauppa-apu.sharetribe.com/">kauppa-apu.com</a>.
+            </h1>
+            <br>                
+        </v-col>
+        </v-card>      
     </v-col>
   </v-card>
 </v-container>  

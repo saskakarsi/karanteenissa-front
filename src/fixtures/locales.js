@@ -27,13 +27,17 @@ const menuLocalizations = {
         },
         home: {
             searchButton: 'Hae',
-            tellUsButton: 'Kerro meille palvelusta',
-            tipsButton: 'Vinkit',
+            conversationButton: 'img/facebook-fi.png',
+            tellUsButton: 'img/tellus-fi.png',
+            tipsButton: 'img/tips-fi.png',
             facebookButton: 'Keskustele fb-ryhmässä',
+            mentalHealthButton: 'img/mielenterveys-fi.png',
             kauppaApuText: 'Oletko riskiryhmässä, kykenemätön käymään kaupassa tai tahdot auttaa? Tsekkaa '
         },
         contact: {
-            description: 'Karanteenissa.fi on viiden opiskelijan tapa auttaa koronaviruksen aiheuttaman epävarmuuden aikana.',
+            feedbackButton: 'img/feedback-fi.png',
+            registerButton: 'img/register-fi.png',
+            description: 'Karanteenissa.fi on neljän opiskelijan ja yhden vastavalmistuneen tapa auttaa koronaviruksen aiheuttaman epävarmuuden aikana.',
             monetary: 'Sivuston ylläpitäjät eivät ansaitse rahaa sivustolla olevista linkeistä.',
             translate: ''
         },
@@ -62,7 +66,8 @@ const menuLocalizations = {
             homeButton: 'Hem',
             mainTitle: 'Hjälp för din karantän',
             frontTitle1: 'Karanteenissa.fi samlar information om olika produkt- och servicelösningar för att förebygga coronavirusets verkningar.',
-            frontTitle2: 'Låt oss ta hand om varandra. <3'
+            frontTitle2: 'Låt oss ta hand om varandra. <3',
+            translate: 'Svensk översättning: pauhu.fi / Linda Ahlblad'
         },
         services: {
             categorySelector: 'Kategori',
@@ -70,15 +75,18 @@ const menuLocalizations = {
         },
         home: {
             searchButton: 'Sök',
-            tellUsButton: 'Tipsa om tjänst',
-            tipsButton: 'Tips för företagare',
+            conversationButton: 'img/facebook-se.png',
+            tellUsButton: 'img/tellus-se.png',
+            tipsButton: 'img/tips-se.png',
+            mentalHealthButton: 'img/mielenterveys-se.png',
             facebookButton: 'Tipsa och delta på Facebook!',
-            kauppaApuText: 'Oletko riskiryhmässä, kykenemätön käymään kaupassa tai tahdot auttaa? Tsekkaa '
+            kauppaApuText: 'Är du i riskgruppen, kan du inte handla eller vill hjälpa? Kolla: '
         },
         contact: {
+            feedbackButton: 'img/feedback-se.png',
+            registerButton: 'img/register-se.png',
             description: 'En webbplats av fem studerande till hjälp för den tid av osäkerhet som coronaviruset förorsakar.',
             monetary: 'Webbansvarig tjänar inte pengar på webbplatsens länkar.',
-            translate: 'Svensk översättning: pauhu.fi / Linda Ahlblad'
         },
         tips: {
             title1: 'För företagare',
@@ -113,12 +121,16 @@ const menuLocalizations = {
         },
         home: {
             searchButton: 'Search',
-            tellUsButton: 'Tell us about a new service',
-            tipsButton: 'Tips',
+            conversationButton: 'img/facebook-gb.png',
+            tellUsButton: 'img/tellus-gb.png',
+            tipsButton: 'img/tips-gb.png',
+            mentalHealthButton: 'img/mielenterveys-gb.png',
             facebookButton: 'Discuss on Facebook',
             kauppaApuText: 'Are you in a risk group, unable to get groceries or would like to help? Check out '
         },
         contact: {
+            feedbackButton: 'img/feedback-gb.png',
+            registerButton: 'img/register-gb.png',
             description: 'The web service has been created by five students that want to do everything they can to help.',
             monetary: 'We do not make any money from the website.',
             translate: ''
