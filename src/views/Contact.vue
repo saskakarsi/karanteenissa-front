@@ -169,18 +169,16 @@
 
 <script>
 const { menuLocalizations } = require('../fixtures/locales')
-const { getters, computeds , mutators} = require('../util/state')
+const { getters } = require('../util/state')
 
 export default {
     data: () => ({}),
     computed: {
-      ...computeds,
       menuTexts: function () {
         return menuLocalizations[getters.locale().value]
       }
       },
   methods: {
-    ...mutators,
     isMobile: function () {
       const toMatch = [
           /Android/i,
