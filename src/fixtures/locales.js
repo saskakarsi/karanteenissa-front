@@ -78,6 +78,7 @@ const menuLocalizations = {
             conversationButton: 'img/facebook-se.png',
             tellUsButton: 'img/tellus-se.png',
             tipsButton: 'img/tips-se.png',
+            mentalHealthButton: 'img/mielenterveys-se.png',
             facebookButton: 'Tipsa och delta på Facebook!',
             kauppaApuText: 'Är du i riskgruppen, kan du inte handla eller vill hjälpa? Kolla: '
         },
@@ -123,6 +124,7 @@ const menuLocalizations = {
             conversationButton: 'img/facebook-gb.png',
             tellUsButton: 'img/tellus-gb.png',
             tipsButton: 'img/tips-gb.png',
+            mentalHealthButton: 'img/mielenterveys-gb.png',
             facebookButton: 'Discuss on Facebook',
             kauppaApuText: 'Are you in a risk group, unable to get groceries or would like to help? Check out '
         },
