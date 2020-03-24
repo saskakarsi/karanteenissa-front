@@ -55,16 +55,6 @@
         elevation="0"
         class="mx-auto py-6 px-6"
         style="margin-bottom: 40px">     
-
-                <v-col class="mx-auto text-center" style="margin-top: 3em">
-            <h1 class="headline">
-              {{ menuTexts.home.kauppaApuText }}
-              <a href="https://kauppa-apu.sharetribe.com/">kauppa-apu.com</a>.
-            </h1>
-            <br>
-            <v-divider></v-divider>    
-        </v-col>
-
         <v-col class="mx-auto text-center">
             <h1 class="headline">{{ menuTexts.app.frontTitle1 }}</h1>
         </v-col>
@@ -76,8 +66,8 @@
         <v-divider max-width="500px"></v-divider> 
 
         <v-col class="mx-auto">
-        <v-card class=" mx-auto" elevation="0" style="margin-top: 40px">
-        <v-row dense>
+        <v-card class=" mx-auto" elevation="0" style="margin-top: 40px">        
+      <v-row dense>
         <v-col>
             <v-card
               class="mx-auto"
@@ -130,7 +120,17 @@
             </v-card>
         </v-col>
       </v-row>
-      </v-card> 
+      </v-card>
+        <v-card class=" mx-auto" elevation="0" style="margin-top: 40px">       
+      <v-divider></v-divider>
+                <v-col class="mx-auto text-center" style="margin-top: 3em">
+            <h1 class="headline">
+              {{ menuTexts.home.kauppaApuText }}
+              <a href="https://kauppa-apu.sharetribe.com/">kauppa-apu.com</a>.
+            </h1>
+            <br>                
+        </v-col>
+        </v-card>      
     </v-col>
   </v-card>
 </v-container>  

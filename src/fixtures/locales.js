@@ -62,7 +62,8 @@ const menuLocalizations = {
             homeButton: 'Hem',
             mainTitle: 'Hjälp för din karantän',
             frontTitle1: 'Karanteenissa.fi samlar information om olika produkt- och servicelösningar för att förebygga coronavirusets verkningar.',
-            frontTitle2: 'Låt oss ta hand om varandra. <3'
+            frontTitle2: 'Låt oss ta hand om varandra. <3',
+            translate: 'Svensk översättning: pauhu.fi / Linda Ahlblad'
         },
         services: {
             categorySelector: 'Kategori',
@@ -78,7 +79,6 @@ const menuLocalizations = {
         contact: {
             description: 'En webbplats av fem studerande till hjälp för den tid av osäkerhet som coronaviruset förorsakar.',
             monetary: 'Webbansvarig tjänar inte pengar på webbplatsens länkar.',
-            translate: 'Svensk översättning: pauhu.fi / Linda Ahlblad'
         },
         tips: {
             title1: 'För företagare',
