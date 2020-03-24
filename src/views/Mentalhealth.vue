@@ -60,7 +60,7 @@
                     >
                     </v-img>
                     <v-card-subtitle style="font-weight: 600;">Kriisipuhelin palvelee 24 tuntia vuorokaudessa seitsemänä päivänä viikossa. Puhelimessa päivystää mielenterveyden ammattilaisia ja sinne voi soittaa akuuteissa kriisitilanteissa. </v-card-subtitle>
-                    <v-card-text class="font-weight-black" style="font-size: 20px">Soita: 09 2525 011 </v-card-text>
+                    <v-card-text class="font-weight-black" style="font-size: 20px"><a href="tel:09 2525 011">Soita: 09 2525 011</a></v-card-text>
                 </v-card>
             </v-col>                
             <v-col>
@@ -231,7 +231,7 @@
                     >
                     </v-img>
                     <v-card-subtitle style="font-weight: 600;">Kriisipuhelin palvelee 24 tuntia vuorokaudessa seitsemänä päivänä viikossa. Puhelimessa päivystää mielenterveyden ammattilaisia ja sinne voi soittaa akuuteissa kriisitilanteissa. </v-card-subtitle>
-                    <v-card-text class="font-weight-black" style="font-size: 20px">Soita: 09 2525 011 </v-card-text>
+                    <v-card-text class="font-weight-black" style="font-size: 20px"><a href="tel:09 2525 011">Soita: 09 2525 011</a></v-card-text>
                 </v-card>
             </v-col>                
             <v-col>
