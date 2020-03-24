@@ -3098,7 +3098,7 @@ const services = [
       }
     },
     link: 'https://www.stepupschool.online/',
-    img_src: 'img/stepupschool.png',
+    img_src: 'img/stepup.png',
     locations: [
       'National'
     ],
@@ -3167,7 +3167,7 @@ const services = [
       }
     },
     link: 'https://syketribe.fi/',
-    img_src: 'img/skytribe.png',
+    img_src: 'img/syketribe.png',
     locations: [
       'National'
     ],
