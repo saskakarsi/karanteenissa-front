@@ -36,7 +36,7 @@ const menuLocalizations = {
         contact: {
             feedbackButton: 'img/feedback-fi.png',
             registerButton: 'img/register-fi.png',
-            description: 'Karanteenissa.fi on viiden opiskelijan tapa auttaa koronaviruksen aiheuttaman epävarmuuden aikana.',
+            description: 'Karanteenissa.fi on neljän opiskelijan ja yhden vastavalmistuneen tapa auttaa koronaviruksen aiheuttaman epävarmuuden aikana.',
             monetary: 'Sivuston ylläpitäjät eivät ansaitse rahaa sivustolla olevista linkeistä.',
             translate: ''
         },
