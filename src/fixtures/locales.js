@@ -26,6 +26,7 @@ const menuLocalizations = {
             locationSelector: 'Paikka',
         },
         home: {
+            searchButton: 'Hae',
             conversationButton: 'img/facebook-fi.png',
             tellUsButton: 'img/tellus-fi.png',
             tipsButton: 'img/tips-fi.png',
