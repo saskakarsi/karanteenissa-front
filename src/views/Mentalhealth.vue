@@ -43,7 +43,7 @@
             max-width="1100px"
             elevation="0"
             class="mx-auto">
-            <v-row dense>
+            <v-row>
             <v-col>
                 <v-card
                     elevation=2
@@ -110,11 +110,6 @@
                     <v-card-text class="font-weight-black" style="font-size: 20px">Soita: 09 2525 011 </v-card-text>
                 </v-card>
             </v-col>
-            </v-row>
-                        <v-card class=" mx-auto" elevation="0" style="margin: 3em">       
-                <v-divider></v-divider>
-            </v-card>
-            <v-row dense>
             <v-col>
                 <v-card
                     elevation=2
@@ -187,21 +182,21 @@
            </v-parallax>
 <!-- ELSE -->
         <v-card
-            max-width="900px"
+            max-width="800px"
             elevation="0"
             class="mx-auto"
             style="margin: 2em"
             height="100%"
             v-else
             >
-                                            <v-img
-                        src="img/mielenterveys-lg.png"
-                        class="white--text align-end mx-auto"
-                        gradient="to bottom, rgba(0,0,0,0), rgba(0,0,0,0)"
-                        height="137px"
-                        width="277px"
-                    >
-                    </v-img>
+            <v-img
+                src="img/mielenterveys-lg.png"
+                class="white--text align-end mx-auto"
+                gradient="to bottom, rgba(0,0,0,0), rgba(0,0,0,0)"
+                height="137px"
+                width="277px"
+            >
+                </v-img>
             <v-col class="mx-auto text-center" style="margin-top: 1em">
                 <h1 class="display-1">Mielenterveyspalvelut – Chatit ja auttavat puhelimet </h1>
             </v-col>
