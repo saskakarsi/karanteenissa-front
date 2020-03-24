@@ -34,6 +34,8 @@ const menuLocalizations = {
             kauppaApuText: 'Oletko riskiryhmässä, kykenemätön käymään kaupassa tai tahdot auttaa? Tsekkaa '
         },
         contact: {
+            feedbackButton: 'img/palaute-fi.png',
+            registerButton: 'img/register-fi.png',
             description: 'Karanteenissa.fi on viiden opiskelijan tapa auttaa koronaviruksen aiheuttaman epävarmuuden aikana.',
             monetary: 'Sivuston ylläpitäjät eivät ansaitse rahaa sivustolla olevista linkeistä.',
             translate: ''
