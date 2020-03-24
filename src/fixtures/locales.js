@@ -26,9 +26,9 @@ const menuLocalizations = {
             locationSelector: 'Paikka',
         },
         home: {
-            searchButton: 'Hae',
-            tellUsButton: 'Kerro meille palvelusta',
-            tipsButton: 'Vinkit',
+            conversationButton: 'img/facebook-fi.png',
+            tellUsButton: 'img/tellus-fi.png',
+            tipsButton: 'img/tips-fi.png',
             facebookButton: 'Keskustele fb-ryhmässä',
             kauppaApuText: 'Oletko riskiryhmässä, kykenemätön käymään kaupassa tai tahdot auttaa? Tsekkaa '
         },
@@ -57,9 +57,6 @@ const menuLocalizations = {
     },
     se: {
         app: {
-            serviceButton: 'Tjänster',
-            contactButton: 'Kontakta oss',
-            homeButton: 'Hem',
             mainTitle: 'Hjälp för din karantän',
             frontTitle1: 'Karanteenissa.fi samlar information om olika produkt- och servicelösningar för att förebygga coronavirusets verkningar.',
             frontTitle2: 'Låt oss ta hand om varandra. <3',
@@ -70,11 +67,11 @@ const menuLocalizations = {
             locationSelector: 'Plats',
         },
         home: {
-            searchButton: 'Sök',
-            tellUsButton: 'Tipsa om tjänst',
-            tipsButton: 'Tips för företagare',
+            conversationButton: 'img/facebook-se.png',
+            tellUsButton: 'img/tellus-se.png',
+            tipsButton: 'img/tips-se.png',
             facebookButton: 'Tipsa och delta på Facebook!',
-            kauppaApuText: 'Oletko riskiryhmässä, kykenemätön käymään kaupassa tai tahdot auttaa? Tsekkaa '
+            kauppaApuText: 'Är du i riskgruppen, kan du inte handla eller vill hjälpa? Kolla: '
         },
         contact: {
             description: 'En webbplats av fem studerande till hjälp för den tid av osäkerhet som coronaviruset förorsakar.',
@@ -100,9 +97,6 @@ const menuLocalizations = {
     },
     gb: {
         app: {
-            contactButton: 'Contact us',
-            serviceButton: 'Services',
-            homeButton: 'Home',
             mainTitle: 'Find help in quarantine',
             frontTitle1: 'Karanteenissa.fi combines information about different services to minimize the effects of the Corona virus',
             frontTitle2: 'Let us take care of each other. <3'
@@ -112,9 +106,9 @@ const menuLocalizations = {
             locationSelector: 'Location',
         },
         home: {
-            searchButton: 'Search',
-            tellUsButton: 'Tell us about a new service',
-            tipsButton: 'Tips',
+            conversationButton: 'img/facebook-gb.png',
+            tellUsButton: 'img/tellus-gb.png',
+            tipsButton: 'img/tips-gb.png',
             facebookButton: 'Discuss on Facebook',
             kauppaApuText: 'Are you in a risk group, unable to get groceries or would like to help? Check out '
         },

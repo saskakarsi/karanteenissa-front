@@ -77,7 +77,7 @@
               to='/tips'
             >
               <v-img
-                src="img/vinkit.png"
+                :src="menuTexts.home.conversationButton"
                 height="235px"
                 width="235px"
                 class="mx-auto"
@@ -94,7 +94,7 @@
               href="https://www.facebook.com/groups/karanteenissa/"
             >
               <v-img
-                src="img/liitykeskusteluun.png"
+                :src="menuTexts.home.tellUsButton"
                 height="235px"
                 width="235px"
                 class="mx-auto"
@@ -111,7 +111,7 @@
               href="https://docs.google.com/forms/d/e/1FAIpQLScJs29BmU7OkDLyG0UU6UbPN65OUVy0Hdc5LmmBgQhXxHO0QQ/viewform?usp=sf_link"
             >
               <v-img
-                src="img/ilmoita.png"
+                :src="menuTexts.home.tipsButton"
                 height="235px"
                 width="235px"
                 class="mx-auto"
