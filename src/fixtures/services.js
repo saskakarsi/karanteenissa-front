@@ -3282,7 +3282,7 @@ const services = [
       }
     },
     link: 'https://piki.verkkokirjasto.fi/en/web/arena/-/luettavaa-kuunneltavaa-ja-katsottavaa-verkossa',
-    img_src: 'img/verkkokirjasto.ong',
+    img_src: 'img/verkkokirjasto.png',
     locations: [
       'Pirkanmaa'
     ],
@@ -3305,7 +3305,7 @@ const services = [
       }
     },
     link: 'https://ruokaakotiovelle.fi/',
-    img_src: 'img/ruokaakotiovelle.fi',
+    img_src: 'img/ruokaakotiovelle.png',
     locations: [
       'Helsinki'
     ],
@@ -3328,7 +3328,7 @@ const services = [
       }
     },
     link: 'https://popupyogaoulu.com/',
-    img_src: 'yogakoulu',
+    img_src: 'img/yogakoulu.png',
     locations: [
       'National'
     ],
@@ -3351,7 +3351,7 @@ const services = [
       }
     },
     link: 'https://kauppa.aitokauppa.fi/',
-    img_src: 'aitokauppa',
+    img_src: 'img/aitokauppa.png',
     locations: [
       'National'
     ],
