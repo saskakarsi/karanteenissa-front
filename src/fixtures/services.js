@@ -3264,6 +3264,98 @@ const services = [
       'Helsinki', 'Espoo', 'Vantaa'
     ],
     category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'PIKI-kirjastot',
+        desc: 'PIKI-kirjastokortilla saat kuunneltavaksesi niin äänikirjoja kuin musiikkiakin, luettavaksesi e-kirjoja suomeksi ja englanniksi sekä katsottavaksesi elokuvia Kirjastokino-palvelussa.'
+      },
+      gb: {
+        title: 'PIKI-libraries',
+        desc: 'With the PIKI Library Card, you can listen to both audiobooks and music, read e-books in Finnish and English, and watch movies at Library Library.'
+      },
+      se: {
+        title: 'PIKI-libraries',
+        desc: ''
+      }
+    },
+    link: 'https://piki.verkkokirjasto.fi/en/web/arena/-/luettavaa-kuunneltavaa-ja-katsottavaa-verkossa',
+    img_src: 'img/verkkokirjasto.ong',
+    locations: [
+      'Pirkanmaa'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Ruokaa Kotiovelle',
+        desc: 'Huippukokkien tekemää koko perheelle maistuvaa kotiruokaa isoina annoksia ja kotiin kuljetettuna. Toimitukset tällä hetkellä vain Helsingissä.'
+      },
+      gb: {
+        title: 'Ruokaa Kotiovelle',
+        desc: 'Home-cooked food made by top chefs in large portions and delivered home. Deliveries currently only in Helsinki.'
+      },
+      se: {
+        title: 'Ruokaa Kotiovelle',
+        desc: ''
+      }
+    },
+    link: 'https://ruokaakotiovelle.fi/',
+    img_src: 'img/ruokaakotiovelle.fi',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Pop Up Yoga',
+        desc: 'Helppoja ja ilman välineitä, kotona tehtäviä jooga, pilates, kehonhuolto sekä kehonpaino videoita viikoittain päivittyvästä videopalvelusta. Lue lisää nettisivuilta!'
+      },
+      gb: {
+        title: 'Pop Up Yoga',
+        desc: 'Easy and no tools, homework yoga, pilates, bodybuilding and bodyweight videos on a weekly video service. Read more on the website!\n'
+      },
+      se: {
+        title: 'Pop Up Yoga',
+        desc: ''
+      }
+    },
+    link: 'https://popupyogaoulu.com/',
+    img_src: 'yogakoulu',
+    locations: [
+      'National'
+    ],
+    category: 'Urheilu'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Aito-olo',
+        desc: 'Verkkokaupasta löydät laadukkaat lisäravinteet, ravintolisät sekä muut terveyttäsi ja kokonaisvaltaista hyvinvointiasi tukevat tuotteet.'
+      },
+      gb: {
+        title: 'Aito-olo',
+        desc: 'The online store offers quality supplements, nutritional supplements and other products that support your health and well-being.'
+      },
+      se: {
+        title: 'Aito-olo',
+        desc: ''
+      }
+    },
+    link: 'https://kauppa.aitokauppa.fi/',
+    img_src: 'aitokauppa',
+    locations: [
+      'National'
+    ],
+    category: 'Verkkokauppa'
   }
 ]
   
