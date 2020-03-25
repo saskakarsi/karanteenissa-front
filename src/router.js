@@ -6,6 +6,7 @@ import Services from './views/Services.vue'
 import Contact from './views/Contact.vue'
 import Tips from './views/Tips.vue'
 import Mentalhealth from './views/Mentalhealth.vue'
+import Dashboard from './views/Dashboard.vue'
 
 import NotFound from './components/NotFound.vue'
 
@@ -32,6 +33,11 @@ export default new Router({
             path: '/mentalhealth',
             component: Mentalhealth,
             name: 'Mentalhealth'
+        },
+        {
+            path: '/dashboard',
+            component: Dashboard,
+            name: 'Dashboard'
         },
         {
             path: '/contact',
