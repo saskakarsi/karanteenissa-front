@@ -119,7 +119,7 @@ const services = [
     langs: {
       fi: {
         title: 'Ruokaboksi',
-        desc: 'Reseptit ja arkiruokaan valikoidut ainekset kotiovelle.'
+        desc: 'Reseptit ja arkiruokaan valikoidut ainekset aina ilmaisella kylmäkuljetuksella kotiovelle.'
       },
       gb: {
         title: 'Ruokaboksi',
@@ -3356,6 +3356,259 @@ const services = [
       'National'
     ],
     category: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Primitive skills ',
+        desc: 'Liikuntapalveluja nyt kun suurin osa liikuntapaikoista on kiinni. Personal training- ja pienryhmätreenit ulkona Espoon Kivenlahdessa. Tämän lisäksi online-joogaa, mitä on helppo tehdä omassa olohuoneessa.'
+      },
+      gb: {
+        title: 'Primitive skills ',
+        desc: 'Exercise services now that most sports facilities are closed. Personal training and small group trainings in Kivenlahti, Espoo. Plus, online yoga, which is easy to do in your living room.'
+      },
+      se: {
+        title: 'Primitive skills ',
+        desc: ''
+      }
+    },
+    link: 'https://primitiveskills.fi/',
+    img_src: 'img/primitiveskills.png',
+    locations: [
+      'National'
+    ],
+    category: 'Urheilu'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Lacara',
+        desc: 'Muutot, autot kotiinkuljetuksiin, tavarantoimitukset, autonvuokraus.'
+      },
+      gb: {
+        title: 'Lacara',
+        desc: 'Movings, cars for home delivery, car rental.'
+      },
+      se: {
+        title: 'Lacara',
+        desc: ''
+      }
+    },
+    link: 'https://lacara.net/',
+    img_src: 'img/lacara.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: '2 x Ilo',
+        desc: 'Nyt koronaviruksen ajan kortin lähetys -palvelun teille, jotka haluatte muistaa esimerkiksi isovanhempia, kauempana asuvaa perhettä tai ystävää. Nyt kun pyritään välttämään fyysistä läheisyyttä, on hyvä hetki muistaa läheisiä kortilla. Miten paljon se ilahduttaisi esimerkiksi isovanhempia vanhainkodissa.'
+      },
+      gb: {
+        title: '2 x Ilo',
+        desc: 'Card sending service to those you want to remember, such as grandparents, a distant family, or a friend. Now that you are trying to avoid physical intimacy, it is a good time to remember your loved ones on the card. How much it would please grandparents, for example, in a retirement home.'
+      },
+      se: {
+        title: '2 x Ilo',
+        desc: ''
+      }
+    },
+    link: 'https://2xilo.fi/shop/kortin-lahetyspalvelu/',
+    img_src: 'img/2xilo.png',
+    locations: [
+      'National'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'TT-Kauppa',
+        desc: 'TT-Kauppa.fi toimii aputoiminimenä Suomen Nettimyynti Oy:lle. Verkkokauppa tarjoaa monipuolisia suojakuoria erilaisille puhelimille ja tableteille, lisäksi löytyy myös puhelimia ja muita puhelintarvikkeita kuten kaapeleita, kuulokkeita, latureita, muistikortteja jne.'
+      },
+      gb: {
+        title: 'TT-Kauppa',
+        desc: 'TT-Kauppa.fi acts as an auxiliary business name for Suomen Nettimyynti Oy. The webshop offers versatile protective covers for a variety of phones and tablets, as well as phones and other phone accessories such as cables, headphones, chargers, memory cards, etc.'
+      },
+      se: {
+        title: 'TT-Kauppa',
+        desc: ''
+      }
+    },
+    link: 'https://www.ttkauppa.fi/',
+    img_src: 'img/ttkauppa.png',
+    locations: [
+      'National'
+    ],
+    category: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Hoivakoti Kultahelmi',
+        desc: 'Ympärivuorokautista tehostettua asumispalvelua yli 65-vuotiaillle muistisairaille'
+      },
+      gb: {
+        title: 'Hoivakoti Kultahelmi',
+        desc: '24-hour enhanced housing service for memory patients over 65 years of age.'
+      },
+      se: {
+        title: 'Hoivakoti Kultahelmi',
+        desc: ''
+      }
+    },
+    link: 'https://www.hoivakoti-kultahelmi-oy.com/',
+    img_src: 'img/kultahelmi.png',
+    locations: [
+      'Koskue'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Poesia ',
+        desc: 'Osuuskuntamuotoinen kustantamo, jonka keskiössä on kiinnostava ja monimuotoinen runous. Kaikki tilaukset verkkokaupasta toistaiseksi ilman toimituskuluja koodilla LUKURAUHA.'
+      },
+      gb: {
+        title: 'Poesia ',
+        desc: 'A co-operative publishing house focused on interesting and diverse poetry. All orders from the web store for the time being free of charge with the code LUKURAUHA.'
+      },
+      se: {
+        title: 'Poesia ',
+        desc: ''
+      }
+    },
+    link: 'https://poesia.fi/',
+    img_src: 'img/poesia.png',
+    locations: [
+      'National'
+    ],
+    category: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Koti Helsinki',
+        desc: 'Korkealuokkaisia uusia kalustettuja huoneistoja väliaikaiseen asumistarpeeseen. Palveluun kuuluu myös mm siivous-ja kodinhoitopalvelut ja asiointipalvelut. '
+      },
+      gb: {
+        title: 'Koti Helsinki',
+        desc: 'High quality new furnished apartments for temporary living. The service also includes cleaning and housekeeping and transaction services.'
+      },
+      se: {
+        title: 'Koti Helsinki',
+        desc: ''
+      }
+    },
+    link: 'https://kotihelsinki.fi/',
+    img_src: 'img/kotihelsinki.png',
+    locations: [
+      'Helsinki', 'Kaartinkaupunki'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'NFL - Game Pass',
+        desc: 'Kaiken kattava kausikortti amerikkalaisen jalkapallon tapahtumiin ja ilmainen oikeus jo pelattujen otteluiden seurantaan.'
+      },
+      gb: {
+        title: 'NFL - Game Pass',
+        desc: 'An all-inclusive season pass for American football events and free access to matches already played.'
+      },
+      se: {
+        title: 'NFL - Game Pass',
+        desc: ''
+      }
+    },
+    link: 'https://www.nflgamepass.com/en',
+    img_src: 'img/nflgamepass.png',
+    locations: [
+      'National'
+    ],
+    category: 'Viihde'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Sportyplanner',
+        desc: 'Sportyplanner -ohjelmisto avattu maksuttomaan käyttöön 31.07.2020 saakka. Sportyplanner on kehitetty liikunnan- ja kuntoutuksen ammattilaisten käyttöön, mutta palvelee yhtälailla kuluttajia. Palvelussa runsaasti valmiita harjoitusohjelmia eri tavoitteisiin: voima-, nopeus-, liikkuvuus- ja hallinta. Paljon treeniohjelmia kotiharjoitteluun.'
+      },
+      gb: {
+        title: 'Sportyplanner',
+        desc: 'Sportyplanner software opened for free use until 31.07.2020. The Sportyplanner is designed for use by exercise and rehabilitation professionals, but serves consumers in the same way. The service has plenty of ready-made exercise programs for different purposes: power, speed, mobility and control. Lots of exercise programs for home training.'
+      },
+      se: {
+        title: 'Sportyplanner',
+        desc: ''
+      }
+    },
+    link: 'https://sportyplanner.com/',
+    img_src: 'img/sportyplanner.png',
+    locations: [
+      'National'
+    ],
+    category: 'Urheilu'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'TradeUp',
+        desc: 'TradeUp myy huoltoliikkeen tarkastamia käytettyjä iPhone puhelimia 12KK takuulla. Edullinen kotiintoimitus ja osamaksumahdollisuus. '
+      },
+      gb: {
+        title: 'TradeUp',
+        desc: 'TradeUp sells dealer-inspected used iPhone phones under the 12KK Warranty. Affordable home delivery and installment option.'
+      },
+      se: {
+        title: 'TradeUp',
+        desc: ''
+      }
+    },
+    link: 'https://tradeup.fi/',
+    img_src: 'img/tradeup.png',
+    locations: [
+      'National'
+    ],
+    category: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Tapiolan Apteekki',
+        desc: 'Reseptilääkkeet ja muut apteekkituotteet myös netistä tai puhelimitse. Hae tuotteet apteekin kassalta tai tilaa edullinen ja nopea kotiinkuljetus pääkaupunkiseudulle.'
+      },
+      gb: {
+        title: 'Tapiola Pharmacy',
+        desc: 'Prescription Drugs and Other Pharmacy Products Also Online or By Phone. Find products at the pharmacy checkout or order a cheap and fast home delivery to the Helsinki metropolitan area.'
+      },
+      se: {
+        title: 'Tapiola Pharmacy',
+        desc: ''
+      }
+    },
+    link: 'https://www.tapiolanapteekki.fi/fi/',
+    img_src: 'img/tapiolanapteekki.png',
+    locations: [
+      'Helsinki', 'Espoo', 'Vantaa'
+    ],
+    category: 'Palvelut'
   }
 ]
   
