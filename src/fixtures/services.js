@@ -3701,6 +3701,98 @@ const services = [
       'Koko Suomi'
     ],
     category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Pässinpää',
+        desc: 'Kevään upea valikoima sisustustavaraa, ihania pellavaisia vaatteita ja oman tilan lammastuotteita:pakaste lihat, langat ja taljat. Kukkakaupasta saat tilattua kukkaviennin tai hakea kimppuja omaan pöytään.'
+      },
+      gb: {
+        title: 'Pässinpää',
+        desc: 'A stunning selection of home furnishings, lovely linen, and sheep\'s products from the spring: frozen meats, yarns and pulses. You can order a flower delivery or pick bouquets for your table at the flower shop.'
+      },
+      se: {
+        title: 'Pässinpää',
+        desc: ''
+      }
+    },
+    link: 'https://passinpaa.fi/',
+    img_src: 'img/passinpaa.png',
+    locations: [
+      'National'
+    ],
+    category: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Debora',
+        desc: 'Jatketaan kotiin tuotavia hoiva-, puhtaus- ja avustuspalveluita normaalisti myös poikkeustilanteessa. Lisäksi uusia palveluita, joista uskomme olevan apua koronatilanteesta kärsiville. Ajankohtaisiin palveluihin kuuluu mm. kauppa- ja asiointiapu, desinfiointisiivous ja kotilabra. Lomautettuja voidaan työllistää tilapäisesti auttamistyön parissa.'
+      },
+      gb: {
+        title: 'Debora',
+        desc: 'Home care, cleanliness and assistance services will normally continue even in exceptional circumstances. In addition, new services that we believe will help those suffering from corona. Current services include: trade and transaction assistance, disinfection cleaning and home lab. The lay-offs can be temporarily employed in the relief work.'
+      },
+      se: {
+        title: 'Debora',
+        desc: ''
+      }
+    },
+    link: 'https://debora.fi/',
+    img_src: 'img/debora.png',
+    locations: [
+      'National'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Stella Kotihoitopalvelut',
+        desc: 'Laadukkaat siivouspalvelut, terveyspalvelut ja kauppakassipalvelut.'
+      },
+      gb: {
+        title: 'Stella Kotihoitopalvelut',
+        desc: 'High quality cleaning services, health services and shopping bag services.'
+      },
+      se: {
+        title: 'Stella Kotihoitopalvelut',
+        desc: ''
+      }
+    },
+    link: 'https://www.stella.fi/',
+    img_src: 'img/stella.png',
+    locations: [
+      'National'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Helppy',
+        desc: 'Helppy auttaa senioreita. Aina sama tuttu turvallinen helpperi avuksi. Apua monessa arjen askareessa, kuten kaupassa/apteekissa käymisessä, asioinnissa, kodin ylläpidossa, digiavussa ja peseytymisen tukemisessa.'
+      },
+      gb: {
+        title: 'Helppy',
+        desc: 'Helppy helps seniors. Always the same familiar safe helper to help. Help with many everyday activities such as going to the store / pharmacy, doing business, maintaining a home, digital assistant, and supporting washing.'
+      },
+      se: {
+        title: 'Helppy',
+        desc: ''
+      }
+    },
+    link: 'https://www.helppy.fi/',
+    img_src: 'img/helppy.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Palvelut'
   }
 ]
 
