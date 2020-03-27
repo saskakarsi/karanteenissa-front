@@ -476,7 +476,7 @@ const services = [
       }
     },
     link: 'https://www.tassumafia.fi/',
-    img_src: 'img/sanitar.png',
+    img_src: 'img/tassumafia.png',
     locations: [
       'Helsinki'
     ],
