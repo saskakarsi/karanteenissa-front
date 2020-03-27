@@ -18,7 +18,7 @@ const services = [
     link: 'https://www.feeliaruokakauppa.fi/',
     img_src: 'img/feelia.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Ruoka'
   },
@@ -1398,7 +1398,7 @@ const services = [
     link: 'https://www.foodie.fi/',
     img_src: 'img/alepa.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Ruoka'
   },
@@ -1421,7 +1421,7 @@ const services = [
     link: 'https://www.k-ruoka.fi/kauppa',
     img_src: 'img/kesko.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Ruoka'
   },
@@ -1444,7 +1444,7 @@ const services = [
     link: 'https://wolt.com/fi/discovery',
     img_src: 'img/wolt.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Ruoka'
   },
@@ -1467,7 +1467,7 @@ const services = [
     link: 'https://ruokaboksi.fi/tuotteet/',
     img_src: 'img/ruokaboksi.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Ruoka'
   },
@@ -1490,7 +1490,7 @@ const services = [
     link: 'https://www.foodora.fi/',
     img_src: 'img/foodora.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Ruoka'
   },
@@ -1513,7 +1513,7 @@ const services = [
     link: 'https://www.fiksuruoka.fi/',
     img_src: 'img/fiksuruoka.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Ruoka'
   },
@@ -1536,7 +1536,7 @@ const services = [
     link: 'https://www.sannanruokakassi.fi/collections/ruokakassit',
     img_src: 'img/sannanruokakassi.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Ruoka'
   },
@@ -1559,7 +1559,7 @@ const services = [
     link: 'https://www.matsmart.fi/',
     img_src: 'img/matsmart.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Ruoka'
   },
@@ -1582,7 +1582,7 @@ const services = [
     link: 'http://www.forsman-tea.com/fi/',
     img_src: 'img/forsman.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Ruoka'
   },
@@ -1605,7 +1605,7 @@ const services = [
     link: 'https://www.tokmanni.fi/',
     img_src: 'img/tokmanni.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Verkkokauppa'
   },
@@ -1628,7 +1628,7 @@ const services = [
     link: 'https://www.clasohlson.com/fi/',
     img_src: 'img/clasohlson.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Verkkokauppa'
   },
@@ -1651,7 +1651,7 @@ const services = [
     link: 'https://www.karkkainen.com/verkkokauppa/ajankohtaista/kampanjat-29061501/karanteenitekemista?orderBy=5&fromPage=catalogEntryList&beginIndex=0',
     img_src: 'img/karkkainencom.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Verkkokauppa'
   },
@@ -1674,7 +1674,7 @@ const services = [
     link: 'https://www.verkkokauppa.com/',
     img_src: 'img/verkkokauppa.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Verkkokauppa'
   },
@@ -1697,7 +1697,7 @@ const services = [
     link: 'https://www.power.fi/',
     img_src: 'img/power.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Verkkokauppa'
   },
@@ -1720,7 +1720,7 @@ const services = [
     link: 'https://www.bottegaverde.fi/',
     img_src: 'img/bottegaverde.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Verkkokauppa'
   },
@@ -1743,7 +1743,7 @@ const services = [
     link: 'https://goldenstore.mycashflow.fi/',
     img_src: 'img/goldenstore.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Verkkokauppa'
   },
@@ -1766,7 +1766,7 @@ const services = [
     link: 'https://www.biltema.fi/osta---nouda-drive-in/miten-osta---nouda-drive-in-palvelu-toimii/',
     img_src: 'img/biltema.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Verkkokauppa'
   },
@@ -1789,7 +1789,7 @@ const services = [
     link: 'https://www.yliopistonapteekki.fi/nain_ostat_reseptilaakkeita_verkosta',
     img_src: 'img/ya.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Hoiva'
   },
@@ -1812,7 +1812,7 @@ const services = [
     link: 'https://www.gubbe.io/',
     img_src: 'img/gubbe.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Hoiva'
   },
@@ -1835,7 +1835,7 @@ const services = [
     link: 'https://karkkikoulu.com/',
     img_src: 'img/karkkikoulu.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Hoiva'
   },
@@ -1858,7 +1858,7 @@ const services = [
     link: 'https://www.swappie.com/fi/',
     img_src: 'img/swappie.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Palvelut'
   },
@@ -1881,7 +1881,7 @@ const services = [
     link: 'https://www.helsinginbiopankki.fi/fi/etusivu',
     img_src: 'img/helsinginbiopankki.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Palvelut'
   },
@@ -1904,7 +1904,7 @@ const services = [
     link: 'https://www.omaolo.fi/',
     img_src: 'img/omaolo.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Hoiva'
   },
@@ -1927,7 +1927,7 @@ const services = [
     link: 'https://onervahoiva.fi/',
     img_src: 'img/onerva.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Hoiva'
   },
@@ -1950,7 +1950,7 @@ const services = [
     link: 'https://rakkaudellariikka.fi/',
     img_src: 'img/rakkaudellariikka.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Palvelut'
   },
@@ -1973,7 +1973,7 @@ const services = [
     link: 'https://www.freska.fi/',
     img_src: 'img/freska.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Palvelut'
   },
@@ -1996,7 +1996,7 @@ const services = [
     link: 'https://lukukaveri.com/',
     img_src: 'img/lukukaveri.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Hoiva'
   },
@@ -2019,7 +2019,7 @@ const services = [
     link: 'https://www.mehilainen.fi/mobiilisovellus/digiklinikka',
     img_src: 'img/mehilainen.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Hoiva'
   },
@@ -2042,7 +2042,7 @@ const services = [
     link: 'https://www.forenom.com/fi/uutiset/palvelumme-koronapandemian-aikana/',
     img_src: 'img/forenom.jpg',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Kodit'
   },
@@ -2065,7 +2065,7 @@ const services = [
     link: 'https://www.sokoshotels.fi/',
     img_src: 'img/sokos.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Kodit'
   },
@@ -2088,7 +2088,7 @@ const services = [
     link: 'https://areena.yle.fi/audio/1-1288197',
     img_src: 'img/yle.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Viihde'
   },
@@ -2111,7 +2111,7 @@ const services = [
     link: 'https://open.spotify.com/playlist/55V6HUzPnISl7ADpE3yfUD?si=Ixx9gRvBSA2wc2DpuWp7qg',
     img_src: 'img/spotify.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Viihde'
   },
@@ -2134,7 +2134,7 @@ const services = [
     link: 'https://www.helsinginteatterikoulu.fi/lasten-oma-satutuokio/',
     img_src: 'img/helsingin-teatterikoulu.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Viihde'
   },
@@ -2157,7 +2157,7 @@ const services = [
     link: 'https://elisaviihde.fi/',
     img_src: 'img/elisa-viihde.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Viihde'
   },
@@ -2180,7 +2180,7 @@ const services = [
     link: 'https://www.iltoppiminen.fi/palvelumme/lukulumo/',
     img_src: 'img/lukulumo.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Viihde'
   },
@@ -2203,7 +2203,7 @@ const services = [
     link: 'https://www.storytel.com/fi/fi/',
     img_src: 'img/storytel.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Viihde'
   },
@@ -2226,7 +2226,7 @@ const services = [
     link: 'https://www.bookbeat.fi/',
     img_src: 'img/bookbeat.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Viihde'
   },
@@ -2249,7 +2249,7 @@ const services = [
     link: 'https://viaplay.fi/',
     img_src: 'img/viaplay.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Viihde'
   },
@@ -2272,7 +2272,7 @@ const services = [
     link: 'https://www.netflix.com/fi/',
     img_src: 'img/netflix.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Viihde'
   },
@@ -2295,7 +2295,7 @@ const services = [
     link: 'https://kirja.elisa.fi/',
     img_src: 'img/elisa-kirja.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Viihde'
   },
@@ -2318,7 +2318,7 @@ const services = [
     link: 'https://neverthink.tv/',
     img_src: 'img/neverthink.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Viihde'
   },
@@ -2341,7 +2341,7 @@ const services = [
     link: 'https://www.elixia.fi/',
     img_src: 'img/elixia.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Urheilu'
   },
@@ -2364,7 +2364,7 @@ const services = [
     link: 'https://watch.lesmillsondemand.com/at-home-workouts',
     img_src: 'img/lesmills.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Urheilu'
   },
@@ -2387,7 +2387,7 @@ const services = [
     link: 'https://www.fressi.fi/',
     img_src: 'img/fressi.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Urheilu'
   },
@@ -2410,7 +2410,7 @@ const services = [
     link: 'https://store.sanoste.fi/fi/',
     img_src: 'img/sanoste.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Urheilu'
   },
@@ -2433,7 +2433,7 @@ const services = [
     link: 'https://www.downdogapp.com/',
     img_src: 'img/downdog.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Urheilu'
   },
@@ -2456,7 +2456,7 @@ const services = [
     link: 'https://www.lahitaksi.fi/fi/ajankohtaista/lahitaksilta-uusi-kauppa-ja-asiointipalvelu',
     img_src: 'img/lahitaksi.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Palvelut'
   },
@@ -2479,7 +2479,7 @@ const services = [
     link: 'https://www.turvataantulevaisuus.fi/',
     img_src: 'img/turvataantulevaisuus.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Palvelut'
   },
@@ -2502,7 +2502,7 @@ const services = [
     link: 'https://ekukka.fi/',
     img_src: 'img/ekukka.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Palvelut'
   },
@@ -2525,7 +2525,7 @@ const services = [
     link: 'https://www.lahjashop.com/',
     img_src: 'img/lahjashop.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Verkkokauppa'
   },
@@ -2548,7 +2548,7 @@ const services = [
     link: 'http://www.karanteeniteatteri.fi/',
     img_src: 'img/karanteeniteatteri.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Viihde'
   },
@@ -2571,7 +2571,7 @@ const services = [
     link: 'https://www.kuntokauppa.fi/',
     img_src: 'img/kuntokauppa.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Verkkokauppa'
   },
@@ -2594,7 +2594,7 @@ const services = [
     link: 'https://tampereenpaahtimo.com/',
     img_src: 'img/tampereenpaahtimo.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Verkkokauppa'
   },
@@ -2617,7 +2617,7 @@ const services = [
     link: 'https://www.kukkakauppapuntti.fi/',
     img_src: 'img/kukkakauppapuntti.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Verkkokauppa'
   },
@@ -2640,7 +2640,7 @@ const services = [
     link: 'https://suomenseniorihoiva.fi/',
     img_src: 'img/suomenseniorihoiva.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Hoiva'
   },
@@ -2663,7 +2663,7 @@ const services = [
     link: 'https://livetaajuus.fi/',
     img_src: 'img/livetaajuus.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Viihde'
   },
@@ -2686,7 +2686,7 @@ const services = [
     link: 'http://www.tutortrio.fi/',
     img_src: 'img/tutortrio.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Palvelut'
   },
@@ -2709,7 +2709,7 @@ const services = [
     link: 'https://www.meetingpark.fi/fi/',
     img_src: 'img/meetingpark.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Palvelut'
   },
@@ -2732,7 +2732,7 @@ const services = [
     link: 'https://www.shipit.fi/',
     img_src: 'img/shipit.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Palvelut'
   },
@@ -2755,7 +2755,7 @@ const services = [
     link: 'https://www.lvitarvikkeet.fi/',
     img_src: 'img/lvitarvikkeet.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Verkkokauppa'
   },
@@ -2778,7 +2778,7 @@ const services = [
     link: 'https://www.pinnijalkapojat.fi/',
     img_src: 'img/pinnijalkapojat.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Verkkokauppa'
   },
@@ -2801,7 +2801,7 @@ const services = [
     link: 'https://www.onlineope.fi/',
     img_src: 'img/onlineope.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Palvelut'
   },
@@ -2824,7 +2824,7 @@ const services = [
     link: 'https://nokturno.fi/',
     img_src: 'img/nokturno.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Viihde'
   },
@@ -2847,7 +2847,7 @@ const services = [
     link: 'https://osw.fi/',
     img_src: 'img/osuma.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Verkkokauppa'
   },
@@ -2870,7 +2870,7 @@ const services = [
     link: 'https://www.kauneusmaailma.fi/',
     img_src: 'img/kauneusmaailma.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Verkkokauppa'
   },
@@ -2893,7 +2893,7 @@ const services = [
     link: 'https://stories.audible.com/start-listen?ref=adbl_ent_anon_ds_hm_hb',
     img_src: 'img/audible.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Viihde'
   },
@@ -2916,7 +2916,7 @@ const services = [
     link: 'https://watch.nba.com/packages?ls=leaguepass:nbacom:packages:rd',
     img_src: 'img/nba.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Viihde'
   },
@@ -2939,7 +2939,7 @@ const services = [
     link: 'https://paulocoelhoblog.com/books-online/',
     img_src: 'img/paulacoelho.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Viihde'
   },
@@ -2962,7 +2962,7 @@ const services = [
     link: 'http://ekirjasto.kirjastot.fi/',
     img_src: 'img/ekirjasto.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Viihde'
   },
@@ -2985,7 +2985,7 @@ const services = [
     link: 'http://www.heiluvahanta.fi/',
     img_src: 'img/heiluvahanta.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Palvelut'
   },
@@ -3008,7 +3008,7 @@ const services = [
     link: 'https://linja.sharetribe.com/',
     img_src: '',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Palvelut'
   },
@@ -3031,7 +3031,7 @@ const services = [
     link: 'https://funraise.fi/fi',
     img_src: 'img/funraise.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Verkkokauppa'
   },
@@ -3054,7 +3054,7 @@ const services = [
     link: 'https://www.terveyskyla.fi/koronabotti/',
     img_src: 'img/terveyskyla.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Palvelut'
   },
@@ -3077,7 +3077,7 @@ const services = [
     link: 'https://www.hailer.com/fi/apurinki',
     img_src: 'img/apurinki.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Palvelut'
   },
@@ -3100,7 +3100,7 @@ const services = [
     link: 'https://kauppa-apu.sharetribe.com/',
     img_src: 'img/kauppaapu.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Palvelut'
   },
@@ -3123,7 +3123,7 @@ const services = [
     link: 'https://www.familyboost.fi/',
     img_src: 'img/familyboost.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Palvelut'
   },
@@ -3146,7 +3146,7 @@ const services = [
     link: 'https://www.nordicswanliving.com/',
     img_src: 'img/nordicswanliving.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Verkkokauppa'
   },
@@ -3169,7 +3169,7 @@ const services = [
     link: 'https://fit4you.fi/',
     img_src: 'img/fit4you.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Verkkokauppa'
   },
@@ -3192,7 +3192,7 @@ const services = [
     link: 'https://pirjorantonen.fi/',
     img_src: 'img/rantonen.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Palvelut'
   },
@@ -3215,7 +3215,7 @@ const services = [
     link: 'https://www.specsavers.fi/piilolinssit',
     img_src: 'img/specsavers.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Verkkokauppa'
   },
@@ -3238,7 +3238,7 @@ const services = [
     link: 'https://www.kosmetologikauppa.fi/',
     img_src: 'img/kosmetologikauppa.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Verkkokauppa'
   },
@@ -3261,7 +3261,7 @@ const services = [
     link: 'https://www.uplus.fi/',
     img_src: 'img/uplus.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Palvelut'
   },
@@ -3284,7 +3284,7 @@ const services = [
     link: 'https://www.bobola.fi/',
     img_src: 'img/bobola.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Viihde'
   },
@@ -3307,7 +3307,7 @@ const services = [
     link: 'https://www.stepupschool.online/',
     img_src: 'img/stepup.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Viihde'
   },
@@ -3330,7 +3330,7 @@ const services = [
     link: 'https://aitiysliikuntaakatemia.fi/',
     img_src: 'img/aitiysliikunta.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Palvelut'
   },
@@ -3353,7 +3353,7 @@ const services = [
     link: 'https://ruoanhinta.fi/',
     img_src: 'img/ruoanhinta.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Palvelut'
   },
@@ -3376,7 +3376,7 @@ const services = [
     link: 'https://syketribe.fi/',
     img_src: 'img/syketribe.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Urheilu'
   },
@@ -3399,7 +3399,7 @@ const services = [
     link: 'https://www.kirjastokino.fi/fi/videos',
     img_src: 'img/kirjastokino.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Viihde'
   },
@@ -3422,7 +3422,7 @@ const services = [
     link: 'https://www.halpahalli.fi/',
     img_src: 'img/halpahalli.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Verkkokauppa'
   },
@@ -3445,7 +3445,7 @@ const services = [
     link: 'https://popupyogaoulu.com/',
     img_src: 'img/yogakoulu.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Urheilu'
   },
@@ -3468,7 +3468,7 @@ const services = [
     link: 'https://kauppa.aitokauppa.fi/',
     img_src: 'img/aitokauppa.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Verkkokauppa'
   },
@@ -3491,7 +3491,7 @@ const services = [
     link: 'https://primitiveskills.fi/',
     img_src: 'img/primitiveskills.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Urheilu'
   },
@@ -3514,7 +3514,7 @@ const services = [
     link: 'https://2xilo.fi/shop/kortin-lahetyspalvelu/',
     img_src: 'img/2xilo.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Palvelut'
   },
@@ -3537,7 +3537,7 @@ const services = [
     link: 'https://www.ttkauppa.fi/',
     img_src: 'img/ttkauppa.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Verkkokauppa'
   },
@@ -3560,7 +3560,7 @@ const services = [
     link: 'https://poesia.fi/',
     img_src: 'img/poesia.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Verkkokauppa'
   },
@@ -3583,7 +3583,7 @@ const services = [
     link: 'https://www.nflgamepass.com/en',
     img_src: 'img/nflgamepass.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Viihde'
   },
@@ -3606,7 +3606,7 @@ const services = [
     link: 'https://sportyplanner.com/',
     img_src: 'img/sportyplanner.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Urheilu'
   },
@@ -3629,7 +3629,7 @@ const services = [
     link: 'https://tradeup.fi/',
     img_src: 'img/tradeup.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Verkkokauppa'
   },
@@ -3652,7 +3652,7 @@ const services = [
     link: 'https://passinpaa.fi/',
     img_src: 'img/passinpaa.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Verkkokauppa'
   },
@@ -3675,7 +3675,7 @@ const services = [
     link: 'https://debora.fi/',
     img_src: 'img/debora.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Palvelut'
   },
@@ -3698,7 +3698,7 @@ const services = [
     link: 'https://www.stella.fi/',
     img_src: 'img/stella.png',
     locations: [
-      'Koko Suomi'
+      'National'
     ],
     category: 'Palvelut'
   },
