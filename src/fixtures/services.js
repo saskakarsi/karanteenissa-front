@@ -3006,7 +3006,7 @@ const services = [
       }
     },
     link: 'https://linja.sharetribe.com/',
-    img_src: 'img/tassumafia.png',
+    img_src: '',
     locations: [
       'National'
     ],
