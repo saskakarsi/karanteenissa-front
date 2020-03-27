@@ -31,10 +31,7 @@
                     >
                     </v-img>
             <v-col class="mx-auto text-center" style="margin-top: 2em">
-                <h1 class="display-1">Mielenterveyspalvelut – Chatit ja auttavat puhelimet </h1>
-            </v-col>
-            <v-col class="mx-auto text-center">
-                <h1 class="headline">Koronatilanne voi ahdistaa ja tehdä olon epämukavaksi. Alla on lueteltu palveluita, joista voi saada apua niin akuutteihin kuin pitkäaikaisiin mielenterveyden ongelmiin. Kaikki listatut palvelut ovat maksuttomia. </h1>
+                <h1 class="headline">Koronatilanne voi ahdistaa ja tehdä olon epämukavaksi. Alla on lueteltu palveluita, joista saa apua sekä akuutteihin että pitkäaikaisiin mielenterveyden ongelmiin. Kaikki listatut palvelut ovat maksuttomia. </h1>
             </v-col>
             <v-card class=" mx-auto" elevation="0" style="margin: 3em">       
                 <v-divider></v-divider>
@@ -54,12 +51,34 @@
                     height="420px"
                     class="mx-auto d-flex flex-column"
                 >
+                    <v-card-title class="headline" style="font-weight: bold">Kriisipuhelin</v-card-title>         
+                    <v-img
+                        src="img/mieli.png"
+                        class="white--text align-end"
+                        gradient="to bottom, rgba(0,0,0,0), rgba(0,0,0,0)"
+                        height="100px"
+                    >
+                    </v-img>
+                    <v-card-subtitle style="font-weight: 600;">Kriisipuhelin palvelee 24 tuntia vuorokaudessa seitsemänä päivänä viikossa. Puhelimessa päivystää mielenterveyden ammattilaisia ja sinne voi soittaa akuuteissa kriisitilanteissa. </v-card-subtitle>
+                    <v-card-text class="font-weight-black" style="font-size: 20px"><a href="tel:09 2525 011">Soita: 09 2525 011</a></v-card-text>
+                </v-card>
+            </v-col>                
+            <v-col>
+                <v-card
+                    elevation=2
+                    hover:style="color: white"
+                    hover
+                    target="_blank"
+                    max-width="300px"
+                    height="420px"
+                    class="mx-auto d-flex flex-column"
+                >
                     <v-card-title class="headline" style="font-weight: bold">Sekaisin Chat</v-card-title>         
                     <v-img
                         src="img/mieli.png"
                         class="white--text align-end"
                         gradient="to bottom, rgba(0,0,0,0), rgba(0,0,0,0)"
-                        height="150px"
+                        height="100px"
                     >
                     </v-img>
                     <v-card-subtitle style="font-weight: 600;">Sekasin-chat on 12-29 -vuotiaille nuorille ma-pe 9-24, la-su 15-24. Vastaajina toimii vapaaehtoisia ja ammattilaisia lukuisista eri järjestöistä. </v-card-subtitle>
@@ -81,33 +100,11 @@
                         src="img/mieli.png"
                         class="white--text align-end"
                         gradient="to bottom, rgba(0,0,0,0), rgba(0,0,0,0)"
-                        height="150px"
+                        height="100px"
                     >
                     </v-img>
                     <v-card-subtitle style="font-weight: 600;">Tältä sivulta löydät Solmussa-chatin, joka palvelee arkisin klo 15-19. Sivustolla voit myös luoda pidemmän tukisuhteen, jos tilanteesi sellaista vaatii. </v-card-subtitle>
-                    <v-card-actions style="margin: 0.5em"><v-btn rounded light color="primary" href="https://tukinet.net/teemat/sekasin/ ">Siirry chättiin</v-btn></v-card-actions>
-                </v-card>
-            </v-col>
-            <v-col>
-                <v-card
-                    elevation=2
-                    hover:style="color: white"
-                    hover
-                    target="_blank"
-                    max-width="300px"
-                    height="420px"
-                    class="mx-auto d-flex flex-column"
-                >
-                    <v-card-title class="headline" style="font-weight: bold">Kriisipuhelin</v-card-title>         
-                    <v-img
-                        src="img/mieli.png"
-                        class="white--text align-end"
-                        gradient="to bottom, rgba(0,0,0,0), rgba(0,0,0,0)"
-                        height="150px"
-                    >
-                    </v-img>
-                    <v-card-subtitle style="font-weight: 600;">Kriisipuhelin palvelee 24 tuntia vuorokaudessa seitsemänä päivänä viikossa. Puhelimessa päivystää mielenterveyden ammattilaisia ja sinne voi soittaa akuuteissa kriisitilanteissa. </v-card-subtitle>
-                    <v-card-text class="font-weight-black" style="font-size: 20px">Soita: 09 2525 011 </v-card-text>
+                    <v-card-actions style="margin: 0.5em"><v-btn rounded light color="primary" href="https://mieli.fi/fi/tukea-ja-apua/verkossa/tukinet-tukipisteesi-netiss%C3%A4">Siirry chättiin</v-btn></v-card-actions>
                 </v-card>
             </v-col>
             <v-col>
@@ -125,7 +122,7 @@
                         src="img/mieli.png"
                         class="white--text align-end"
                         gradient="to bottom, rgba(0,0,0,0), rgba(0,0,0,0)"
-                        height="150px"
+                        height="100px"
                     >
                     </v-img>
                     <v-card-subtitle style="font-weight: 600;">Materiaalia äkillisen kriisitilanteen omatoimiseen käsittelyyn. Palvelussa on kahdeksan yksittäistä istuntoa, joiden avulla voi käsitellä kriisitilannetta.  </v-card-subtitle>
@@ -147,14 +144,14 @@
                         src="img/mieli.png"
                         class="white--text align-end"
                         gradient="to bottom, rgba(0,0,0,0), rgba(0,0,0,0)"
-                        height="150px"
+                        height="100px"
                     >
                     </v-img>
                     <v-card-subtitle style="font-weight: 600;">Sivulta löydät lähimmän kriisikeskuksen, johon voit ottaa yhteyttä, jos sinä tai läheisesi tarvitsee tukea ja apua.</v-card-subtitle>
                     <v-card-actions style="margin: 0.5em"><v-btn rounded light color="primary" href="https://mieli.fi/fi/tukea-ja-apua/kasvokkain/kriisikeskusverkosto ">Tutustu</v-btn></v-card-actions>
                 </v-card>
             </v-col>
-                        <v-col>
+            <v-col>
                 <v-card
                     elevation=2
                     hover:style="color: white"
@@ -168,11 +165,53 @@
                     <v-img
                         src="img/mielenterveystalo.png"
                         class="white--text align-end"
-                        height="150px"
+                        height="100px"
                     >
                     </v-img>
                     <v-card-subtitle style="font-weight: 600;">Mielenterveystalo.fi on terveys- ja sosiaalialan ammattilaisten kehittämä valtakunnallinen nettipalvelu. Palvelua voi käyttää kuka tahansa ja apua voi löytää niin itselle kuin läheisilleenkin </v-card-subtitle>
                     <v-card-actions style="margin: 0.5em"><v-btn rounded light color="primary" href="https://www.mielenterveystalo.fi/aikuiset/pages/default.aspx ">Tutustu</v-btn></v-card-actions>
+                </v-card>
+            </v-col>
+            <v-col>
+                <v-card
+                    elevation=2
+                    hover:style="color: white"
+                    hover
+                    target="_blank"
+                    max-width="300px"
+                    height="420px"
+                    class="mx-auto d-flex flex-column"
+                >
+                    <v-card-title class="headline" style="font-weight: bold">Tilannekatsaus koronaviruksesta</v-card-title>         
+                    <v-img
+                        src="img/thl.png"
+                        class="white--text align-end"
+                        height="100px"
+                    >
+                    </v-img>
+                    <v-card-subtitle style="font-weight: 600;">THL:n sivuilta löydät ajankohtaista ja luotettavaa tietoa koronaviruksestaa. Jos median uutisointi aiheesta ahdistaa, kannattaa faktat käydä tarkistamassa. Sivuilla on myös ohjeita kansalaisille</v-card-subtitle>
+                    <v-card-actions style="margin: 0.5em"><v-btn rounded light color="primary" href="https://thl.fi/fi/web/infektiotaudit-ja-rokotukset/ajankohtaista/ajankohtaista-koronaviruksestaa-covid-19/tilannekatsaus-koronaviruksestaa">Lisää tietoa</v-btn></v-card-actions>
+                </v-card>
+            </v-col>
+            <v-col>
+                <v-card
+                    elevation=2
+                    hover:style="color: white"
+                    hover
+                    target="_blank"
+                    max-width="300px"
+                    height="420px"
+                    class="mx-auto d-flex flex-column"
+                >
+                    <v-card-title class="headline" style="font-weight: bold">THL:n ohjeet ahdistuksen käsittelyyn</v-card-title>         
+                    <v-img
+                        src="img/thl.png"
+                        class="white--text align-end"
+                        height="100px"
+                    >
+                    </v-img>
+                    <v-card-subtitle style="font-weight: 600;">Ohjeita, joilla omaa ja läheisten pelkoa ja huolta voi lievittää. Ne pohjautuvat Maailman terveysjärjestö WHO:n ohjeisiin.</v-card-subtitle>
+                    <v-card-actions style="margin: 0.5em"><v-btn rounded light color="primary" href="https://thl.fi/fi/-/koronavirus-voi-ahdistaa-seka-aikuista-etta-lasta-nain-pidat-itsestasi-ja-laheisistasi-huolta">Tutustu</v-btn></v-card-actions>
                 </v-card>
             </v-col>
             </v-row>
@@ -198,10 +237,7 @@
             >
                 </v-img>
             <v-col class="mx-auto text-center" style="margin-top: 1em">
-                <h1 class="display-1">Mielenterveyspalvelut – Chatit ja auttavat puhelimet </h1>
-            </v-col>
-            <v-col class="mx-auto text-center">
-                <h1 class="headline">Koronatilanne voi ahdistaa ja tehdä olon epämukavaksi. Alla on lueteltu palveluita, joista voi saada apua niin akuutteihin kuin pitkäaikaisiin mielenterveyden ongelmiin. Kaikki listatut palvelut ovat maksuttomia. </h1>
+                <h1 class="headline">Koronatilanne voi ahdistaa ja tehdä olon epämukavaksi. Alla on lueteltu palveluita, joista saa apua sekä akuutteihin että pitkäaikaisiin mielenterveyden ongelmiin. Kaikki listatut palvelut ovat maksuttomia. </h1>
             </v-col>
             <v-card class=" mx-auto" elevation="0" style="margin: 3em">       
                 <v-divider></v-divider>
@@ -228,12 +264,33 @@
                     max-width="300px"
                     class="mx-auto d-flex flex-column"
                 >
+                    <v-card-title class="headline" style="font-weight: bold">Kriisipuhelin</v-card-title>         
+                    <v-img
+                        src="img/mieli.png"
+                        class="white--text align-end"
+                        gradient="to bottom, rgba(0,0,0,0), rgba(0,0,0,0)"
+                        height="100px"
+                    >
+                    </v-img>
+                    <v-card-subtitle style="font-weight: 600;">Kriisipuhelin palvelee 24 tuntia vuorokaudessa seitsemänä päivänä viikossa. Puhelimessa päivystää mielenterveyden ammattilaisia ja sinne voi soittaa akuuteissa kriisitilanteissa. </v-card-subtitle>
+                    <v-card-text class="font-weight-black" style="font-size: 20px"><a href="tel:09 2525 011">Soita: 09 2525 011</a></v-card-text>
+                </v-card>
+            </v-col>                
+            <v-col>
+                <v-card
+                    elevation=2
+                    hover:style="color: white"
+                    hover
+                    target="_blank"
+                    max-width="300px"
+                    class="mx-auto d-flex flex-column"
+                >
                     <v-card-title class="headline" style="font-weight: bold">Sekaisin Chat</v-card-title>         
                     <v-img
                         src="img/mieli.png"
                         class="white--text align-end"
                         gradient="to bottom, rgba(0,0,0,0), rgba(0,0,0,0)"
-                        height="150px"
+                        height="100px"
                     >
                     </v-img>
                     <v-card-subtitle style="font-weight: 600;">Sekasin-chat on 12-29 -vuotiaille nuorille ma-pe 9-24, la-su 15-24. Vastaajina toimii vapaaehtoisia ja ammattilaisia lukuisista eri järjestöistä. </v-card-subtitle>
@@ -254,32 +311,11 @@
                         src="img/mieli.png"
                         class="white--text align-end"
                         gradient="to bottom, rgba(0,0,0,0), rgba(0,0,0,0)"
-                        height="150px"
+                        height="100px"
                     >
                     </v-img>
                     <v-card-subtitle style="font-weight: 600;">Tältä sivulta löydät Solmussa-chatin, joka palvelee arkisin klo 15-19. Sivustolla voit myös luoda pidemmän tukisuhteen, jos tilanteesi sellaista vaatii. </v-card-subtitle>
-                    <v-card-actions style="margin: 0.5em"><v-col class="text-right"><v-btn rounded light color="primary" href="https://tukinet.net/teemat/sekasin/ ">Siirry chättiin</v-btn></v-col></v-card-actions>
-                </v-card>
-            </v-col>
-            <v-col>
-                <v-card
-                    elevation=2
-                    hover:style="color: white"
-                    hover
-                    target="_blank"
-                    max-width="300px"
-                    class="mx-auto d-flex flex-column"
-                >
-                    <v-card-title class="headline" style="font-weight: bold">Kriisipuhelin</v-card-title>         
-                    <v-img
-                        src="img/mieli.png"
-                        class="white--text align-end"
-                        gradient="to bottom, rgba(0,0,0,0), rgba(0,0,0,0)"
-                        height="150px"
-                    >
-                    </v-img>
-                    <v-card-subtitle style="font-weight: 600;">Kriisipuhelin palvelee 24 tuntia vuorokaudessa seitsemänä päivänä viikossa. Puhelimessa päivystää mielenterveyden ammattilaisia ja sinne voi soittaa akuuteissa kriisitilanteissa. </v-card-subtitle>
-                    <v-card-text class="font-weight-black" style="font-size: 20px">Soita: 09 2525 011 </v-card-text>
+                    <v-card-actions style="margin: 0.5em"><v-col class="text-right"><v-btn rounded light color="primary" href="https://mieli.fi/fi/tukea-ja-apua/verkossa/tukinet-tukipisteesi-netiss%C3%A4">Siirry chättiin</v-btn></v-col></v-card-actions>
                 </v-card>
             </v-col>
             <v-col>
@@ -296,7 +332,7 @@
                         src="img/mieli.png"
                         class="white--text align-end"
                         gradient="to bottom, rgba(0,0,0,0), rgba(0,0,0,0)"
-                        height="150px"
+                        height="100px"
                     >
                     </v-img>
                     <v-card-subtitle style="font-weight: 600;">Materiaalia äkillisen kriisitilanteen omatoimiseen käsittelyyn. Palvelussa on kahdeksan yksittäistä istuntoa, joiden avulla voi käsitellä kriisitilannetta.  </v-card-subtitle>
@@ -317,7 +353,7 @@
                         src="img/mieli.png"
                         class="white--text align-end"
                         gradient="to bottom, rgba(0,0,0,0), rgba(0,0,0,0)"
-                        height="150px"
+                        height="100px"
                     >
                     </v-img>
                     <v-card-subtitle style="font-weight: 600;">Sivulta löydät lähimmän kriisikeskuksen, johon voit ottaa yhteyttä, jos sinä tai läheisesi tarvitsee tukea ja apua.</v-card-subtitle>
@@ -337,11 +373,51 @@
                     <v-img
                         src="img/mielenterveystalo.png"
                         class="white--text align-end"
-                        height="150px"
+                        height="100px"
                     >
                     </v-img>
                     <v-card-subtitle style="font-weight: 600;">Mielenterveystalo.fi on terveys- ja sosiaalialan ammattilaisten kehittämä valtakunnallinen nettipalvelu. Palvelua voi käyttää kuka tahansa ja apua voi löytää niin itselle kuin läheisilleenkin </v-card-subtitle>
                     <v-card-actions style="margin: 0.0em"><v-col class="text-right"><v-btn rounded light color="primary" href="https://www.mielenterveystalo.fi/aikuiset/pages/default.aspx ">Tutustu</v-btn></v-col></v-card-actions>
+                </v-card>
+            </v-col>
+                        <v-col>
+                <v-card
+                    elevation=2
+                    hover:style="color: white"
+                    hover
+                    target="_blank"
+                    max-width="300px"
+                    class="mx-auto d-flex flex-column"
+                >
+                    <v-card-title class="headline" style="font-weight: bold">Tilannekatsaus koronaviruksesta</v-card-title>         
+                    <v-img
+                        src="img/thl.png"
+                        class="white--text align-end"
+                        height="100px"
+                    >
+                    </v-img>
+                    <v-card-subtitle style="font-weight: 600;">THL:n sivuilta löydät ajankohtaista ja luotettavaa tietoa koronaviruksestaa. Jos median uutisointi aiheesta ahdistaa, kannattaa faktat käydä tarkistamassa. Sivuilla on myös ohjeita kansalaisille</v-card-subtitle>
+                    <v-card-actions style="margin: 0.5em"><v-col class="text-right"><v-btn rounded light color="primary" href="https://thl.fi/fi/web/infektiotaudit-ja-rokotukset/ajankohtaista/ajankohtaista-koronaviruksestaa-covid-19/tilannekatsaus-koronaviruksestaa">Lisää tietoa</v-btn></v-col></v-card-actions>
+                </v-card>
+            </v-col>
+            <v-col>
+                <v-card
+                    elevation=2
+                    hover:style="color: white"
+                    hover
+                    target="_blank"
+                    max-width="300px"
+                    class="mx-auto d-flex flex-column"
+                >
+                    <v-card-title class="headline" style="font-weight: bold">THL:n ohjeet ahdistuksen käsittelyyn</v-card-title>         
+                    <v-img
+                        src="img/thl.png"
+                        class="white--text align-end"
+                        height="100px"
+                    >
+                    </v-img>
+                    <v-card-subtitle style="font-weight: 600;">Ohjeita, joilla omaa ja läheisten pelkoa ja huolta voi lievittää. Ne pohjautuvat Maailman terveysjärjestö WHO:n ohjeisiin.</v-card-subtitle>
+                    <v-card-actions style="margin: 0.5em"><v-col class="text-right"><v-btn rounded light color="primary" href="https://thl.fi/fi/-/koronavirus-voi-ahdistaa-seka-aikuista-etta-lasta-nain-pidat-itsestasi-ja-laheisistasi-huolta">Tutustu</v-btn></v-col></v-card-actions>
                 </v-card>
             </v-col>
             </v-row>    
