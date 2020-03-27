@@ -18,7 +18,6 @@ export const getters = {
 export const mutators = {
     setLocale: (val) => state.locale = val,
     setSelectedCategory: (val) => {
-        console.log(val)
         if (val && val.target && val.target.value) {
             state.selectedCategory = val.target.value
         } else {
@@ -26,7 +25,6 @@ export const mutators = {
         }
     },
     setSelectedLocation: (val) => {
-        console.log(val)
         if (val && val.target && val.target.value) {
             state.selectedLocation = val.target.value
         } else {
