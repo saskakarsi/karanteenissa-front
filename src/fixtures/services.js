@@ -3,29 +3,6 @@ const services = [
     id: '',
     langs: {
       fi: {
-        title: 'Alepa',
-        desc: 'Alepan ruokakassit kotiovelle. Toimitus alkaen 4,90 euroa. Toimitus- ja noutoaikoja on tällä hetkellä saatavilla rajallisesti. Myös nouto onnistuu. Prismalla on myös omat verkkokaupat.'
-      },
-      gb: {
-        title: 'Alepa',
-        desc: 'Alepa\'s food delivery service allows you to order products straight to your front door. Delivery fees start from 4,9€, pick up is also possible. Delivery- and pick up -times are currently limited. Prisma also has a similar service. '
-      },
-      se: {
-        title: 'Alepa',
-        desc: 'Alepas matkassar till din dörr. Leverans från 4,90 euro. För tillfället begränsad tillgång till leverans- och hämtningstider. Hämtning är också möjlig. Prisma har också egna webbutiker.'
-      }
-    },
-    link: 'https://www.foodie.fi/',
-    img_src: 'img/alepa.png',
-    locations: [
-      'National'
-    ],
-    category: 'Ruoka'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
         title: 'Feelia',
         desc: 'Suuria määriä kotiruokaa kotiovelle. Toimitus 8,90 euroa. Yli 150 euron tilaukset ilmaisella toimituksella. Toimituksissa saattaa ilmetä pieniä viiveitä.'
       },
@@ -40,6 +17,1386 @@ const services = [
     },
     link: 'https://www.feeliaruokakauppa.fi/',
     img_src: 'img/feelia.png',
+    locations: [
+      'National'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Lucy In The Sky',
+        desc: 'Lucy In the Sky toimittaa veloituksetta ravintola-annoksia suoraan kotiisi Espoon seudulla.'
+      },
+      gb: {
+        title: 'Lucy In The Sky',
+        desc: 'Lucy in the sky delivers restaurant meals without additional free in Espoo region.'
+      },
+      se: {
+        title: 'Lucy In The Sky',
+        desc: 'Lucy In the Sky levererar gratis restaurangrätter direkt till ditt hem inom Esbo.'
+      }
+    },
+    link: 'https://www.lucyinthesky.fi/kotiinkuljetus',
+    img_src: 'img/lucyinthesky.png',
+    locations: [
+      'Espoo'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Madison Gastro & Wine',
+        desc: 'Madison Gastro & Wine toimittaa ruokaa kotiin Espoon Tapiolan alueella.'
+      },
+      gb: {
+        title: 'Madison Gastro & Wine',
+        desc: 'Madison Gastro & Wine delivers food to your home in Espoo Tapiola region.'
+      },
+      se: {
+        title: 'Madison Gastro & Wine',
+        desc: 'Hemleverans från Madison Gastro & Wine inom Hagalund i Esbo.'
+      }
+    },
+    link: 'https://www.toptaste.fi/artikkeli/madison-gastro-wine-aloittaa-lounaan-kotiinkuljetuksen/',
+    img_src: 'img/madison.png',
+    locations: [
+      'Espoo'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Mili\'s',
+        desc: 'Toimittaa Espoossa kotiin lounasannoksia.'
+      },
+      gb: {
+        title: 'Mili\'s',
+        desc: 'Lunch deliverys in Espoo.'
+      },
+      se: {
+        title: 'Mili\'s',
+        desc: ''
+      }
+    },
+    link: 'https://www.milisfood.fi/',
+    img_src: 'img/milis.png',
+    locations: [
+      'Espoo'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Lasten Taidelaboratorio®',
+        desc: 'Taidepajoissa on tärkeintä on lapsen kokemus, elämyksellisyys ja kokeilemalla oppiminen. Osta taidepaja-lahjakortti ja mahdollistat korkealaatuisen taide- ja kulttuuritoiminnan jatkumisen!'
+      },
+      gb: {
+        title: 'Lasten Taidelaboratorio®',
+        desc: 'The most important thing in art workshops is the experience of the child, the experience and learning by experimenting. Purchase an Art Workshop Gift Card and Enable High Quality Art & Culture!'
+      },
+      se: {
+        title: 'Lasten Taidelaboratorio®',
+        desc: ''
+      }
+    },
+    link: 'https://www.lastentaidelaboratorio.fi/',
+    img_src: 'img/taidelaboratorio.png',
+    locations: [
+      'Espoo'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Ravintola Skiffer',
+        desc: 'Toimittaa ruokaa kotiinkuljetuksella Espoon alueella.'
+      },
+      gb: {
+        title: 'Restaurant Skiffer',
+        desc: 'Delivers food by home delivery in the Espoo area.'
+      },
+      se: {
+        title: 'Restaurang Skiffer',
+        desc: ''
+      }
+    },
+    link: 'https://www.skiffer.fi/',
+    img_src: 'img/skiffer.png',
+    locations: [
+      'Espoo'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'La Torrefazione',
+        desc: 'La Torrefazione aloitti lounaiden kuljetuksen. Lounaan voi maksaa esimerkiksi MobilePaylla, Smartumilla, Edenredillä, ja pankkikorteilla.'
+      },
+      gb: {
+        title: 'La Torrefazione',
+        desc: 'La Torrefazione started to deliver luch to home. You can pay for lunch with for example MobilePay, Smartum, Edenred and bank cards.'
+      },
+      se: {
+        title: 'La Torrefazione',
+        desc: 'La Torrefazione har börjat leverera luncher. Du kan betala din lunch med bland annat MobilePay, Smartum, Edenred och bankkort.'
+      }
+    },
+    link: 'http://www.latorre.fi/',
+    img_src: 'img/latorre.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Fruitbox',
+        desc: 'Työpaikalle tulevan hedelmäboksin tilaus voidaan ohjata etätyöläisten kotiovelle. Fruitboxin voi tilata myös lahjaksi esimerkiksi sairaaloille tai kouluille.'
+      },
+      gb: {
+        title: 'Fruitbox',
+        desc: 'Fruitboxes coming to workplace can now be redirected to remote workers\' homes.'
+      },
+      se: {
+        title: 'Fruitbox',
+        desc: 'Nu kan du vidarebefordra arbetsplatsens fruktlåda till distansarbetarens hemdörr.'
+      }
+    },
+    link: 'https://fruitboxoffice.fi/',
+    img_src: 'img/fruitbox.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'EWS',
+        desc: 'Helsinkiläinen pesula tarjoaa kotinoutoa verhoille ja muille kodin suurille tekstiileille.'
+      },
+      gb: {
+        title: 'EWS',
+        desc: 'Laundry service offers home pick up for curtains and other large home textiles.'
+      },
+      se: {
+        title: 'EWS Tvättservice',
+        desc: 'Tvätteri som hämtar hemmets gardiner och andra stora textilier inom Helsingfors.'
+      }
+    },
+    link: 'https://www.ewshelsinki.fi/',
+    img_src: 'img/ews.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Centrum services',
+        desc: 'Pääkaupunkiseudulla toimiva IT yritys, joka palvelee ensisijaisesti kuluttaja asiakkaita. Palveluun on aina kuulunut ilmainen noutopalvelu suoraan kotiovelta noudettuna pääkaupunkiseudulta. Huollon jälkeen laite toimitetaan takaisin kotiovelle veloituksetta.'
+      },
+      gb: {
+        title: 'Centrum services',
+        desc: 'IT-company that works in the Helsinki metropolitan area. Free pick up and return for maitance.'
+      },
+      se: {
+        title: 'Centrum services',
+        desc: ''
+      }
+    },
+    link: 'https://www.centrumservices.fi/',
+    img_src: 'img/centrumservices.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Kotitila',
+        desc: 'Lähiruokaa kotiintoimitettuna pääkaupunkiseudulla.'
+      },
+      gb: {
+        title: 'Kotitila',
+        desc: 'Local food delivered in the Helsinki metropolitan area.'
+      },
+      se: {
+        title: 'Kotitila',
+        desc: ''
+      }
+    },
+    link: 'https://www.kotitila.fi/',
+    img_src: 'img/suomenkotitila.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'MyNaviGo',
+        desc: 'Palvelussa hoiva-alan yrittäjät voivat halutessaan tarjota tukea myös etänä. Palvelu on käytössät toistaiseksi Päijät-Hämeessä ja palveluntuottajien ilmouttautuminen sinne on maksutonta. Palvelua pyritään laajentamaan myös muihin maakuntiin.'
+      },
+      gb: {
+        title: 'MyNaviGo',
+        desc: 'The service allows remote care providers to provide support if they so wish. The service is currently available in Päijät-Häme, and registration by service providers is free of charge. The aim is to expand the service to other provinces.'
+      },
+      se: {
+        title: 'MyNaviGo',
+        desc: ''
+      }
+    },
+    link: 'https://mynavigo.fi/home',
+    img_src: 'img/mynavigo.png',
+    locations: [
+      'Päijät-Häme'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Adagio',
+        desc: 'Asiointipalvelu, hoivapalvelu, kotipalvelu, siivous sekä henkilökohtainen apu Pirkanmaan alueella.'
+      },
+      gb: {
+        title: 'Adagio',
+        desc: 'Care service, home service, cleaning and personal assistance in the Pirkanmaa area.\n'
+      },
+      se: {
+        title: 'Adagio',
+        desc: ''
+      }
+    },
+    link: 'http://www.adagio.fi/',
+    img_src: 'img/adagio.png',
+    locations: [
+      'Pirkanmaa'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'PIKI-kirjastot',
+        desc: 'PIKI-kirjastokortilla saat kuunneltavaksesi niin äänikirjoja kuin musiikkiakin, luettavaksesi e-kirjoja suomeksi ja englanniksi sekä katsottavaksesi elokuvia Kirjastokino-palvelussa.'
+      },
+      gb: {
+        title: 'PIKI-libraries',
+        desc: 'With the PIKI Library Card, you can listen to both audiobooks and music, read e-books in Finnish and English, and watch movies at Library Library.'
+      },
+      se: {
+        title: 'PIKI-libraries',
+        desc: ''
+      }
+    },
+    link: 'https://piki.verkkokirjasto.fi/en/web/arena/-/luettavaa-kuunneltavaa-ja-katsottavaa-verkossa',
+    img_src: 'img/verkkokirjasto.png',
+    locations: [
+      'Pirkanmaa'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Laidun Hereford',
+        desc: 'Laidun Hereford on lähiruuan kasvattaja ja jalostaja, joka toimittaa verkkokauppansa kautta myös muiden pientuottajien valmistamaa ruokaa suoraan kotiovelle.'
+      },
+      gb: {
+        title: 'Laidun Hereford',
+        desc: 'Laidun Hereford is a local food poducer which delivers also other smaller producer\'s products trough it\'s online store.'
+      },
+      se: {
+        title: 'Laidun Hereford',
+        desc: 'Laidun Hereford odlar närmat, föder upp boskap och levererar livsmedel från egen gård och av andra småproducenter till din dörr.'
+      }
+    },
+    link: 'https://www.laidunhereford.fi/',
+    img_src: 'img/laidun-hereford.png',
+    locations: [
+      'Seinäjoki'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Handmade by Kraftory',
+        desc: 'Pieni kampaamoyritys Tampereella, jossa yli 10 henkilön rajoitus ei ylity.'
+      },
+      gb: {
+        title: 'Handmade by Kraftory',
+        desc: 'A small hairdressing company in Tampere, where the limit of more than 10 people is not exceeded.'
+      },
+      se: {
+        title: 'Handmade by Kraftory',
+        desc: ''
+      }
+    },
+    link: 'http://www.kraftory.fi/',
+    img_src: 'img/kraftory.png',
+    locations: [
+      'Tampere'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Tampereen aluetaksi Oy',
+        desc: 'Taksi Tampere auttaa erilaisissa kuljetustehttävissä. Lisäksi Taksi Tampere voi hoitaa kaupassa ja apteekissa asioinnin ilman asiakkaan mukana oloa tai noutaa ruoka-annoksesi ravintolasta kotiin, silloin kun asiakkaan on tärkeintä pysyä kotona.'
+      },
+      gb: {
+        title: 'Tampereen aluetaksi Oy',
+        desc: 'A taxi in Tampere helps you with different transport tasks. In addition, Taxi Tampere can handle shopping and pharmacy service without the customer being present or picking up your meal from the restaurant to your home when it is most important for the customer to stay home.'
+      },
+      se: {
+        title: 'Tampereen aluetaksi Oy',
+        desc: ''
+      }
+    },
+    link: 'https://www.taksitampere.fi/asiointipalvelu/',
+    img_src: 'img/tampereenaluetaksi.png',
+    locations: [
+      'Tampere'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Kahvikeisarinna',
+        desc: 'Yritys toimittaa/postittaa laadukkaan vastapaahdetun vietnamilaisen kahvin kotiisi/työpaikallesi jne.'
+      },
+      gb: {
+        title: 'Kahvikeisarinna',
+        desc: 'Company delivering / mailing quality freshly roasted Vietnamese coffee to your home / work, etc.\n'
+      },
+      se: {
+        title: 'Kahvikeisarinna',
+        desc: ''
+      }
+    },
+    link: 'https://www.kahvikeisarinna.com/',
+    img_src: 'img/kahvikeisarinna.png',
+    locations: [
+      'Tampere'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Koirahoitola Vohveli ',
+        desc: 'Koirahoitola Vohveli tarjoaa kodinomaista hoitoa koirallesi Tuusulassa.'
+      },
+      gb: {
+        title: 'Koirahoitola Vohveli ',
+        desc: 'Home-like care for your dog in Tuusula.'
+      },
+      se: {
+        title: 'Koirahoitola Vohveli ',
+        desc: ''
+      }
+    },
+    link: 'https://www.vohveli.net/',
+    img_src: 'img/koirahoitolavohveli.png',
+    locations: [
+      'Tuusula '
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Pave Helsinki fillarilähetit',
+        desc: 'Kuriiripalvelut Helsingin alueella - tavaroiden kuljetus ja asiointipalvelut.'
+      },
+      gb: {
+        title: 'Pave Helsinki fillarilähetit',
+        desc: 'Courier services in Helsinki.'
+      },
+      se: {
+        title: 'Pave Helsinki ',
+        desc: ''
+      }
+    },
+    link: 'https://www.pavehelsinki.com/',
+    img_src: 'img/pave.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Tassumafia Oy',
+        desc: 'Tassumafiassa ulkoilutetaan koirasi ja / tai tarvittaessa noudetaan leikkimään koirien päiväkotiin, missä touhutaan ja ulkoillaan laumassa kavereiden kanssa, sekä päivän päätteeksi palautetaan takaisin kotiin. Myös verkkokauppa tavikkeille ja ruuille.'
+      },
+      gb: {
+        title: 'Tassumafia Oy',
+        desc: 'At Tassumafia, your dog will be outwitted and / or taken, if necessary, to play in a dog daycare center where he or she will be out in the herd with friends, and will be returned home at the end of the day. There is also an online shop.'
+      },
+      se: {
+        title: 'Tassumafia Oy',
+        desc: ''
+      }
+    },
+    link: 'https://www.tassumafia.fi/',
+    img_src: 'img/tassumafia.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Taksi Helsinki',
+        desc: 'Lähikauppapalvelun avulla kuljettaja käy puolestasi kaupassa. Palvelun hinta 20€ ja tilaaminen tapahtuu joko puhelimitse tai verkkosivujen lomakkeella.'
+      },
+      gb: {
+        title: 'Taksi Helsinki',
+        desc: 'The convenience store service allows the driver to shop for you. The price of the service is 20 € and the order is made either by phone or on the website form.'
+      },
+      se: {
+        title: 'Taksi Helsinki',
+        desc: ''
+      }
+    },
+    link: 'https://www.taksihelsinki.fi/palvelumme/lahikauppapalvelu/',
+    img_src: 'img/sanitar.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Nordic Swan Cruises',
+        desc: 'Turvallista siirtymistä meriteitse pienille 1-9 henkilön ryhmille Suomenlahden alueella.'
+      },
+      gb: {
+        title: 'Nordic Swan Cruises',
+        desc: 'Safe passage by sea for small groups of 1-9 people in the Gulf of Finland.'
+      },
+      se: {
+        title: 'Nordic Swan Cruises',
+        desc: ''
+      }
+    },
+    link: 'https://www.nordicswancruises.fi/',
+    img_src: 'img/nordicswancruises.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Ruokaa Kotiovelle',
+        desc: 'Huippukokkien tekemää koko perheelle maistuvaa kotiruokaa isoina annoksia ja kotiin kuljetettuna. Toimitukset tällä hetkellä vain Helsingissä.'
+      },
+      gb: {
+        title: 'Ruokaa Kotiovelle',
+        desc: 'Home-cooked food made by top chefs in large portions and delivered home. Deliveries currently only in Helsinki.'
+      },
+      se: {
+        title: 'Ruokaa Kotiovelle',
+        desc: ''
+      }
+    },
+    link: 'https://ruokaakotiovelle.fi/',
+    img_src: 'img/ruokaakotiovelle.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Lacara',
+        desc: 'Muutot, autot kotiinkuljetuksiin, tavarantoimitukset, autonvuokraus.'
+      },
+      gb: {
+        title: 'Lacara',
+        desc: 'Movings, cars for home delivery, car rental.'
+      },
+      se: {
+        title: 'Lacara',
+        desc: ''
+      }
+    },
+    link: 'https://lacara.net/',
+    img_src: 'img/lacara.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Helppy',
+        desc: 'Helppy auttaa senioreita. Aina sama tuttu turvallinen helpperi avuksi. Apua monessa arjen askareessa, kuten kaupassa/apteekissa käymisessä, asioinnissa, kodin ylläpidossa, digiavussa ja peseytymisen tukemisessa.'
+      },
+      gb: {
+        title: 'Helppy',
+        desc: 'Helppy helps seniors. Always the same familiar safe helper to help. Help with many everyday activities such as going to the store / pharmacy, doing business, maintaining a home, digital assistant, and supporting washing.'
+      },
+      se: {
+        title: 'Helppy',
+        desc: ''
+      }
+    },
+    link: 'https://www.helppy.fi/',
+    img_src: 'img/helppy.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Fiksit',
+        desc: 'Fiksit huoltaa älylaitteita. He pystyvät noutamaan ja tuomaan korjattuna 24 tunnin sisällä.'
+      },
+      gb: {
+        title: 'Fiksit',
+        desc: 'Fiksit maintains smart devices. They can pick up and bring devices within 24 hours.'
+      },
+      se: {
+        title: 'Fiksit',
+        desc: 'Fixar utför service av smarta enheter. Hämtar, reparerar och returnerar vid behov din enhet inom 24 timmar.'
+      }
+    },
+    link: 'https://www.fiksit.fi/',
+    img_src: 'img/fiksit.png',
+    locations: [
+      'Helsinki', 'Espoo'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Luomukassi',
+        desc: 'Luomukassi toimittaa luomuruokaa ja lähitilojen tuotteita suoraan kotiin. Reseptit ja ainesosat tulevat samassa paketissa PK-seudulle.'
+      },
+      gb: {
+        title: 'Luomukassi',
+        desc: 'Luomukassi delivers organic food and local products straight to your home. Recepies and ingridients come in the same package in the Helsinki metropolitan area.'
+      },
+      se: {
+        title: 'Luomukassi',
+        desc: 'Luomukassi levererar närproducerad ekologisk mat till ditt hem. Hemleverans av paket med recept och ingredienser inom huvudstadsregionen.'
+      }
+    },
+    link: 'https://luomukassi.fi/',
+    img_src: 'img/luomukassi.png',
+    locations: [
+      'Helsinki', 'Espoo', 'Vantaa'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Kotikaappi',
+        desc: 'Kotikaappi24 varmistaa 100 tärkeimmän kuivaelintarvikkeen saannin ympäri Suomen. Voit tilata paketin kotiovelle asti kannettuna itselle, ystävällesi tai riskiryhmään kuuluvalle läheisellesi. Valikoima päivittyy matkan varrella.'
+      },
+      gb: {
+        title: 'Kotikaappi',
+        desc: 'Kotikaappi24 makes sure that the 100 most important dry groceries are available. You can order the package to your front door, for you closeone or someone in the risk groups.'
+      },
+      se: {
+        title: 'Kotikaappi',
+        desc: 'Kotikaappi24 garanterar leverans av 100 vanliga torrfoderprodukter runt om i Finland. Du kan beställa paket till din dörr, åt en vän eller en närstående som hör till en riskgrupp. Sortimentet uppdateras med tiden.'
+      }
+    },
+    link: 'https://www.kotikaappi24.fi/',
+    img_src: 'img/kotikaappi.png',
+    locations: [
+      'Helsinki', 'Espoo', 'Vantaa'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Uudenmaan ruoka / Ekompi.net',
+        desc: 'Verkkokauppa mistä tehdään ennakkotilauksia lähialueen pientuottajilta, ja nouto miehittämättömästä noutopisteestä. Auttaa lähialueen tuottajia.'
+      },
+      gb: {
+        title: 'Uudenmaan ruoka / Ekompi.net',
+        desc: 'Online store where you can make pre-orders from local producers and pick them up from a unmanned location. '
+      },
+      se: {
+        title: 'Nylands mat / Ekompi.net',
+        desc: 'Elektronisk förhandsbeställning av lokala småproducenters varor med hämtning från obemannad upphämtningsplats. Stödjer närproducenter.'
+      }
+    },
+    link: 'https://www.ekompi.net/',
+    img_src: 'img/ekompi.png',
+    locations: [
+      'Helsinki', 'Espoo', 'Vantaa'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'kauppahalli24',
+        desc: 'Kauppahalli24 on verkkoruokakauppa, joka toimittaa kaikenlaisia elintarvikkeita sekä kodintuotteita Uudenmaan alueella. Kuljetuksen hinta on 3,99€-9,99€ ostosten loppusummasta riippuen.'
+      },
+      gb: {
+        title: 'kauppahalli24',
+        desc: 'Kauppahalli24 is a online food shop which delivers all kinds of groceries and home products in the Uusimaa region. Delivery price is 3,99€-9,99€. '
+      },
+      se: {
+        title: 'kauppahalli24',
+        desc: 'Shoppa alla slags livsmedel online med levererans inom Nyland. Leveranskostnad 3,99–9,99 euro beroende på totalt inköpsbelopp.'
+      }
+    },
+    link: 'https://www.kauppahalli24.fi/tuotteet/#/cat/759',
+    img_src: 'img/kauppahalli24.png',
+    locations: [
+      'Helsinki', 'Espoo', 'Vantaa'
+    ],
+    category: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Bring',
+        desc: 'Bring kuljettaa melkein kaikkea PK-seudulla saman päivän aikana.'
+      },
+      gb: {
+        title: 'Bring',
+        desc: 'Bring delivers almost everythiny in the Helsinki mertopolitan area during the same day.'
+      },
+      se: {
+        title: 'Bring',
+        desc: 'Bring transporterar nästan allt på samma dag i huvudstadsregionen.'
+      }
+    },
+    link: 'https://www.bring.fi/',
+    img_src: 'img/bring.png',
+    locations: [
+      'Helsinki', 'Espoo', 'Vantaa'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Ilostu',
+        desc: 'Ilostu tuottaa palveluita ikäihmisille. 17.3. tiedotteen mukaisesti he palvelevat senioreita normaalisti.'
+      },
+      gb: {
+        title: 'Ilostu',
+        desc: 'Ilostu offers services for the elderly. '
+      },
+      se: {
+        title: 'Ilostu',
+        desc: 'Ilostu erbjuder tjänster för de äldre. Enligt sitt meddelande 17.3 betjänar de seniorer normalt.'
+      }
+    },
+    link: 'https://ilostu.fi/',
+    img_src: 'img/ilostu.png',
+    locations: [
+      'Helsinki', 'Espoo', 'Vantaa'
+    ],
+    category: 'Hoiva'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Cityvarasto',
+        desc: 'Varastot helposti netistä ilman tapaamista.'
+      },
+      gb: {
+        title: 'Cityvarasto',
+        desc: 'Storage easily from online without meeting.'
+      },
+      se: {
+        title: 'Cityvarasto',
+        desc: 'Förråd enkelt online utan möten.'
+      }
+    },
+    link: 'https://cityvarasto.fi/',
+    img_src: 'img/cityvarasto.png',
+    locations: [
+      'Helsinki', 'Espoo', 'Vantaa'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Hellie Hoivapalvelut',
+        desc: 'HelliE on turvallinen, paikallinen yritys, jonka palveluja ovat mm. kaupassakäynti, jutteluapu, kodinhoito.'
+      },
+      gb: {
+        title: 'Hellie Hoivapalvelut',
+        desc: 'Hellie is a safe, local company which offers shop services, talking company and home services.'
+      },
+      se: {
+        title: 'Hellie Omsorgstjänster',
+        desc: 'Hellie är ett tryggt, lokalt företag vars tjänster omfattar bland annat butiksbesök, samtalshjälp och chatt och hemhjälp.'
+      }
+    },
+    link: 'https://www.hellie.fi/',
+    img_src: 'img/hellie.png',
+    locations: [
+      'Helsinki', 'Espoo', 'Vantaa'
+    ],
+    category: 'Hoiva'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Cleanmarin',
+        desc: 'Siivous- ja puhdistuspalvelut.'
+      },
+      gb: {
+        title: 'Cleanmarin',
+        desc: 'Cleaning services.'
+      },
+      se: {
+        title: 'Cleanmarin',
+        desc: 'Städ- och rengöringsservice.'
+      }
+    },
+    link: 'http://cleanmarin.fi/',
+    img_src: 'img/cleanmarin.png',
+    locations: [
+      'Helsinki', 'Espoo', 'Vantaa'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Kampaajakotiin',
+        desc: 'Hiuspalvelut vietynä asiakkaan kotiin.'
+      },
+      gb: {
+        title: 'Kampaajakotiin',
+        desc: 'Hair services to your home.'
+      },
+      se: {
+        title: 'Frisör hem',
+        desc: 'Hårsalong hemma.'
+      }
+    },
+    link: 'https://www.kampaajakotiin.com/',
+    img_src: 'img/kampaajakotiin.png',
+    locations: [
+      'Helsinki', 'Espoo', 'Vantaa'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Fiuge',
+        desc: 'Fiuge tarjoa kuljetusapua korona-eristyksissä oleville. Kuukauden kuljetukset 50 eurolla.'
+      },
+      gb: {
+        title: 'Fiuge',
+        desc: 'Fiuge offers transport services for those who have been quarantined for corona. A month\'s transports for 50€.'
+      },
+      se: {
+        title: 'Fiuge',
+        desc: 'Fiuge erbjuder transporthjälp till människor i coronaisolering. En månads transporter för 50 euro.'
+      }
+    },
+    link: 'https://fiuge.com/fi/fiuge-kuljetus-avuksi-koronakaranteeniin/',
+    img_src: 'img/fiuge.png',
+    locations: [
+      'Helsinki', 'Espoo', 'Vantaa'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'StichMe',
+        desc: 'StichMe on Suomen ensimmäinen verkossa toimiva korjausompelun tarjoaja. Kaikki korjaukset ja muokkaukset etänä, valitse verkkosovelluksesta korjaustarpeet ja jätä korjattavat vaatteet pakettiautomaattin. Nouda korjatut vaatteet pakettiautomaatista jo viikossa. Korjaukset alkaen 9.90 €'
+      },
+      gb: {
+        title: 'StichMe',
+        desc: 'StichMe is Finland\'s first online repair service for clothes. All repairs and alternations remote acces; leave your clotehs to a package automat. Pick them up in a week. '
+      },
+      se: {
+        title: 'StichMe',
+        desc: ''
+      }
+    },
+    link: 'https://www.stichme.com/',
+    img_src: 'img/stichme.png',
+    locations: [
+      'Helsinki', 'Espoo', 'Vantaa'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'WeHost',
+        desc: 'WeHost tarjoaa asuntojaan sekä lyhyt- että pitkäaikaiseen vuokraukseen. Kohteet ovat PK-seudulla.'
+      },
+      gb: {
+        title: 'WeHost',
+        desc: 'WeHost offers apartments for both short- and long-time rental. Locations are on Helsinki meropolitan area.'
+      },
+      se: {
+        title: 'WeHost',
+        desc: 'WeHost erbjuder sina lägenheter både för kort- och långvarig uthyrning. Objekten finns i huvudstadsregionen.'
+      }
+    },
+    link: 'https://www.wehostfinland.com/contact',
+    img_src: 'img/wehost.png',
+    locations: [
+      'Helsinki', 'Espoo', 'Vantaa'
+    ],
+    category: 'Kodit'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Hiisi Homes',
+        desc: 'Perheyritys Hiisi Homes tarjoaa koteja tilapäistarpeisiin aina parista yöstä useampaan kuukauteen ympäri Etelä-Suomea, ja toivottaa asukkaat leikkisästi tervetulleeksi painumaan Hiiteen. Tilapäiskodit soveltuvat myös etätyöskentelyyn. Hiisi Homesilla asuessa on helppo välttyä ihmiskontaktilta, koska vastaanottoa, ravintolaa tai yleisiä oleskelutiloja ei ole.'
+      },
+      gb: {
+        title: 'Hiisi Homes',
+        desc: 'Hiisi Homes provides temporary homes from a single night to months.'
+      },
+      se: {
+        title: 'Hiisi Homes',
+        desc: 'Familjeföretaget Hiisi Homes erbjuder bostäder för tillfälliga behov från ett par nätters till flera månaders inkvartering runtom i Södra Finland. Hiisis tillfälliga lägenheter lämpar sig även för distansarbete. När du bor bo Hiisi Homes är det lätt att undvika mänsklig kontakt: det finns ingen reception, restaurang eller allmänna lobbyer.'
+      }
+    },
+    link: 'https://www.hiisihomes.fi/en/',
+    img_src: 'img/hiisi.png',
+    locations: [
+      'Helsinki', 'Espoo', 'Vantaa'
+    ],
+    category: 'Kodit'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Spot Apartments',
+        desc: 'Spot Apartments tarjoaa asuntoja tilapäiseen ja vakituisempaan asumisen tarpeeseen. Mukaan tarvitset vain henkilökohtaiset tavarasi; ei erillistä avaimen noutoa, näppäilet vain avainkoodisi ja asut kuin kotonasi.'
+      },
+      gb: {
+        title: 'Spot Apartments',
+        desc: 'Spot Apartments offers apartments for temporal of more permanent living. You\'ll get a pincode and can start living like you were at home.'
+      },
+      se: {
+        title: 'Spot Apartments',
+        desc: ''
+      }
+    },
+    link: 'https://spotapartments.fi/',
+    img_src: 'img/spotapartments.png',
+    locations: [
+      'Helsinki', 'Espoo', 'Vantaa'
+    ],
+    category: 'Kodit'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Edventures',
+        desc: 'Sähkömaastopyörien vuokrausta Porvoossa ja Espoossa.'
+      },
+      gb: {
+        title: 'Edventures',
+        desc: 'Elecric mountain bike rental in Porvoo and Espoo.'
+      },
+      se: {
+        title: 'Edventures',
+        desc: 'Uthyrning av eldrivna mountainbikes i Borgå och Esbo.'
+      }
+    },
+    link: 'https://www.edventures.fi/',
+    img_src: 'img/edventures.png',
+    locations: [
+      'Helsinki', 'Espoo', 'Vantaa'
+    ],
+    category: 'Urheilu'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'I&P Group Oy',
+        desc: 'Siivous palvelut/ Desinfiointi, kiinteistönhoitoala, tilojen desinfiointi — Kontaminoituneen tilan desinfiointi (viruksen tappaminen tiloista), lääkkeiden kuljetukset vain Helsinki,Vantaa ja Espoon alueella. ( eläkeläiskortilla -30% alennus).'
+      },
+      gb: {
+        title: 'I&P Group Oy',
+        desc: 'Cleaning services / Disinfection, property management, disinfection of premises - Disinfection of contaminated premises (killing of virus in the premises), transportation of medicines only in Helsinki, Vantaa and Espoo area. (-30% discount on pensioner card).'
+      },
+      se: {
+        title: 'I&P Group Oy',
+        desc: ''
+      }
+    },
+    link: 'http://ipgroup.fi/',
+    img_src: 'img/ipgroup.png',
+    locations: [
+      'Helsinki', 'Espoo', 'Vantaa'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Tapiolan Apteekki',
+        desc: 'Reseptilääkkeet ja muut apteekkituotteet myös netistä tai puhelimitse. Hae tuotteet apteekin kassalta tai tilaa edullinen ja nopea kotiinkuljetus pääkaupunkiseudulle.'
+      },
+      gb: {
+        title: 'Tapiola Pharmacy',
+        desc: 'Prescription Drugs and Other Pharmacy Products Also Online or By Phone. Find products at the pharmacy checkout or order a cheap and fast home delivery to the Helsinki metropolitan area.'
+      },
+      se: {
+        title: 'Tapiola Pharmacy',
+        desc: ''
+      }
+    },
+    link: 'https://www.tapiolanapteekki.fi/fi/',
+    img_src: 'img/tapiolanapteekki.png',
+    locations: [
+      'Helsinki', 'Espoo', 'Vantaa'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Anton&Anton',
+        desc: 'Anton&Anton ruokakassi-palvelu toimittaa kassin täynnä tuoreita ja laadukkaita raaka-aineita suoraan kotiovellesi.'
+      },
+      gb: {
+        title: 'Anton&Anton',
+        desc: 'Anton&Anton food package service delivers a package full of fresh and quality ingridients straight to your door.'
+      },
+      se: {
+        title: 'Anton&Anton',
+        desc: 'Anton & Antons Matkasse levererar en kasse fylld av färska, högklassiga råvaror till din dörr.'
+      }
+    },
+    link: 'https://www.antonanton.fi/pages/ruokakassi',
+    img_src: 'img/antonanton.png',
+    locations: [
+      'Helsinki', 'Espoo', 'Vantaa', 'Kirkkonummi', 'Sipoo', 'Porvoo'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Koti Helsinki',
+        desc: 'Korkealuokkaisia uusia kalustettuja huoneistoja väliaikaiseen asumistarpeeseen. Palveluun kuuluu myös mm siivous-ja kodinhoitopalvelut ja asiointipalvelut. '
+      },
+      gb: {
+        title: 'Koti Helsinki',
+        desc: 'High quality new furnished apartments for temporary living. The service also includes cleaning and housekeeping and transaction services.'
+      },
+      se: {
+        title: 'Koti Helsinki',
+        desc: ''
+      }
+    },
+    link: 'https://kotihelsinki.fi/',
+    img_src: 'img/kotihelsinki.png',
+    locations: [
+      'Helsinki', 'Kaartinkaupunki'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Pieni Ruokakauppa',
+        desc: 'Ruoan verkkokauppa ja kotiinkuljetuspalvelu Pieni Ruokakauppa, joka toimii pääkaupunkiseudulla, Turussa ja Tampereella.'
+      },
+      gb: {
+        title: 'Pieni Ruokakauppa',
+        desc: 'Online store for food and home delivery service. Pieni Ruokakauppa operates in Helsinki metropolitan area, Tampere and Turku. '
+      },
+      se: {
+        title: 'Pieni Ruokakauppa',
+        desc: 'Shoppa livsmedel online med hemleverans till huvudstadsregionen, Åbo och Tammerfors.'
+      }
+    },
+    link: 'https://pieniruokakauppa.fi/',
+    img_src: 'img/pieniruokakauppa.png',
+    locations: [
+      'Helsinki', 'Tampere', 'Turku'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Kaihdintori',
+        desc: 'Liikkuva kaihdinliike Helsingissä, Espoossa ja Vantaalla. Kaihtimien asennus kotonasi.'
+      },
+      gb: {
+        title: 'Kaihdintori',
+        desc: 'Delivering blinds in Helsinki, Espoo and Vantaa. Installation is also available.'
+      },
+      se: {
+        title: 'Kaihdintori',
+        desc: ''
+      }
+    },
+    link: 'https://kaihdintohtori.com/',
+    img_src: 'img/kaihdintohtori.png',
+    locations: [
+      'Helsinki','Espoo','Vantaa'
+    ],
+    category: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Fora Security Services Oy',
+        desc: 'Arvotavaroiden/tonttien vartiointia nopealla aikataululla.'
+      },
+      gb: {
+        title: 'Fora Security Services Oy',
+        desc: 'Security of valuables / plots with fast schedule.'
+      },
+      se: {
+        title: 'Fora Security Services Oy',
+        desc: ''
+      }
+    },
+    link: 'https://forasec.fi/',
+    img_src: 'img/fora.png',
+    locations: [
+      'Helsinki','Espoo','Vantaa'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Venner',
+        desc: 'Venner tarjoaa täysin uudenlaisen ja yksinkertaisen tavan tukea suomalaisia vähävaraisia lapsiperheitä ravitsevan ruan avulla, suoraan kotiovelle toimitettuna.'
+      },
+      gb: {
+        title: 'Venner',
+        desc: 'Venner offers a complitely and easy way to support small-income families with healthy food.'
+      },
+      se: {
+        title: 'Venner',
+        desc: ''
+      }
+    },
+    link: 'https://venner.fi/',
+    img_src: 'img/venner.png',
+    locations: [
+      'Helsinki','Turku'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Kahvila Donner',
+        desc: 'Kahvila Donner tarjoaa kotiruoka-annoksia lounasaikaan noudettuna ja kuljetettuna Hyvinkään alueena. Maksutapoina käy pankki- ja luottokortit, Edenred lounassetelit ja -kortti, Eazybreak-mobiilisovellus sekä käteinen.'
+      },
+      gb: {
+        title: 'Kahvila Donner',
+        desc: 'Cafe Donner offers home cooked meals during lunch time either picked up or delivered in the Hyvinkää area. You can pay with card, Edenred, Eazybreak or cash.'
+      },
+      se: {
+        title: 'Kahvila Donner',
+        desc: ''
+      }
+    },
+    link: 'https://www.kahviladonner.com',
+    img_src: 'img/kahviladonner.png',
+    locations: [
+      'Hyvinkää'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Hoivakoti Kultahelmi',
+        desc: 'Ympärivuorokautista tehostettua asumispalvelua yli 65-vuotiaillle muistisairaille'
+      },
+      gb: {
+        title: 'Hoivakoti Kultahelmi',
+        desc: '24-hour enhanced housing service for memory patients over 65 years of age.'
+      },
+      se: {
+        title: 'Hoivakoti Kultahelmi',
+        desc: ''
+      }
+    },
+    link: 'https://www.hoivakoti-kultahelmi-oy.com/',
+    img_src: 'img/kultahelmi.png',
+    locations: [
+      'Koskue'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Juurikorven kauppa, kokous ja catéring',
+        desc: 'Ruan valmistus ja kuljetus lähiauleen koteihin Kotkan alueella. Kaupasta myös elintarvikkeita mukaan tai toimitettuna.'
+      },
+      gb: {
+        title: 'Juurikorven kauppa',
+        desc: 'Food cooking and delivery to local homes in the Kotka area. Also groceries to go or delivered from the shop.'
+      },
+      se: {
+        title: 'Juurikorven kauppa',
+        desc: ''
+      }
+    },
+    link: 'https://www.facebook.com/Juurikorven-kauppa-kokous-ja-cat%C3%A9ring-724147044697069/',
+    img_src: 'img/juurikorvenkauppa.png',
+    locations: [
+      'Kotka'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'King\'s Crown',
+        desc: 'Koko perheen laatikkoruokia kolmeen K-markettiin korona-pandemian aikana.'
+      },
+      gb: {
+        title: 'King\'s Crown',
+        desc: 'Family-friendly box meals at three K-markets during the Korona pandemic.\n'
+      },
+      se: {
+        title: 'King\'s Crown',
+        desc: ''
+      }
+    },
+    link: 'https://www.kingscrown.fi/',
+    img_src: 'img/kingscrown.png',
+    locations: [
+      'Kuopio'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'ReettaBrows',
+        desc: 'Kattava valikoima erilaisia kauneudenhoidonpalveluita, joista jokainen voi valita itselleen sopivan.  Voit ostaa esimerkiksi lahjakortin tulevia hoitoja varten tukeaksi pienyrittäjää. "Rentoutumista ja omaa aikaa stressin keskellä."'
+      },
+      gb: {
+        title: 'ReettaBrows',
+        desc: 'A large variety of beauty treatments. You can buy a giftcard for future use and support the business.'
+      },
+      se: {
+        title: 'ReettaBrows',
+        desc: ''
+      }
+    },
+    link: 'https://www.reettabrows.fi/',
+    img_src: 'img/reettabrows.png',
+    locations: [
+      'Kuusamo'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Naturpolis',
+        desc: 'Koillis-Suomen kehittämisyhtiö Naturpolis Oy tukee yrityksiä monipuolisesti myös kriisitilanteissa.'
+      },
+      gb: {
+        title: 'Naturpolis',
+        desc: 'Northeast Finland development company supports businesses in crisis.'
+      },
+      se: {
+        title: 'Naturpolis',
+        desc: ''
+      }
+    },
+    link: 'https://www.naturpolis.fi/fi/',
+    img_src: 'img/naturpolis.png',
+    locations: [
+      'Kuusamo'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Pikkusen pitopalvelu ja leipomo',
+        desc: 'Pikkusen pitopalvelun ja leipomon kaikki palvelut ovat käytössä kotiintoimituksella ilman lisäkuluja Rukan alueella. Mahdollisuus toimittaa kotiovelle ruoka-annoksia ja tarvittaessa kauppaostoksia.'
+      },
+      gb: {
+        title: 'Pikkusen pitopalvelu ja leipomo',
+        desc: 'Catering and restaurant services have a free home delivery in the Ruka region. Possibility to deliver groceries and food portions to home.'
+      },
+      se: {
+        title: 'Pikkusen pitopalvelu ja leipomo',
+        desc: ''
+      }
+    },
+    link: 'https://www.pikkusen.fi/en/',
+    img_src: 'img/pikkusen.png',
+    locations: [
+      'Kuusamo'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Ravintola Talonpöytä',
+        desc: 'Kotiinkuljetuksella tai noudolla kotiruokaa. Kysy lisää 0503048239 tai mika@talonpoyta.fi.'
+      },
+      gb: {
+        title: 'Ravintola Talonpöytä',
+        desc: 'Home cooked meals with home delivery or takeaway.'
+      },
+      se: {
+        title: 'Ravintola Talonpöytä',
+        desc: ''
+      }
+    },
+    link: 'https://www.talonpoyta.fi/',
+    img_src: 'img/talonpoyta.png',
+    locations: [
+      'Kuusamo'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Sanitar Kuusamo',
+        desc: 'Kauppa-ja apteekkiasiointi ym. välttämätön asiointi, siivouspalvelu.'
+      },
+      gb: {
+        title: 'Sanitar Kuusamo',
+        desc: 'Groceries and pharmacy etc. necessary errands. Cleaning services also available.'
+      },
+      se: {
+        title: 'Sanitar Kuusamo',
+        desc: ''
+      }
+    },
+    link: 'https://www.sanitar.fi/',
+    img_src: 'img/sanitar.png',
+    locations: [
+      'Kuusamo'
+    ],
+    category: 'Hoiva'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Alepa',
+        desc: 'Alepan ruokakassit kotiovelle. Toimitus alkaen 4,90 euroa. Toimitus- ja noutoaikoja on tällä hetkellä saatavilla rajallisesti. Myös nouto onnistuu. Prismalla on myös omat verkkokaupat.'
+      },
+      gb: {
+        title: 'Alepa',
+        desc: 'Alepa\'s food delivery service allows you to order products straight to your front door. Delivery fees start from 4,9€, pick up is also possible. Delivery- and pick up -times are currently limited. Prisma also has a similar service. '
+      },
+      se: {
+        title: 'Alepa',
+        desc: 'Alepas matkassar till din dörr. Leverans från 4,90 euro. För tillfället begränsad tillgång till leverans- och hämtningstider. Hämtning är också möjlig. Prisma har också egna webbutiker.'
+      }
+    },
+    link: 'https://www.foodie.fi/',
+    img_src: 'img/alepa.png',
     locations: [
       'National'
     ],
@@ -95,35 +1452,12 @@ const services = [
     id: '',
     langs: {
       fi: {
-        title: 'Pieni Ruokakauppa',
-        desc: 'Ruoan verkkokauppa ja kotiinkuljetuspalvelu Pieni Ruokakauppa, joka toimii pääkaupunkiseudulla, Turussa ja Tampereella.'
-      },
-      gb: {
-        title: 'Pieni Ruokakauppa',
-        desc: 'Online store for food and home delivery service. Pieni Ruokakauppa operates in Helsinki metropolitan area, Tampere and Turku. '
-      },
-      se: {
-        title: 'Pieni Ruokakauppa',
-        desc: 'Shoppa livsmedel online med hemleverans till huvudstadsregionen, Åbo och Tammerfors.'
-      }
-    },
-    link: 'https://pieniruokakauppa.fi/',
-    img_src: 'img/pieniruokakauppa.png',
-    locations: [
-      'Helsinki','Tampere','Turku'
-    ],
-    category: 'Ruoka'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
         title: 'Ruokaboksi',
-        desc: 'Reseptit ja arkiruokaan valikoidut ainekset kotiovelle.'
+        desc: 'Reseptit ja arkiruokaan valikoidut ainekset kotiovelle. Kaikki boksit sisältävät aina ilmaisen kylmäkuljetuksen.'
       },
       gb: {
         title: 'Ruokaboksi',
-        desc: 'Recepies and ingridients for weekday meals delivered to your home.'
+        desc: 'Recepies and ingridients for weekday meals delivered to your home. All boxes have a free cold delivery.'
       },
       se: {
         title: 'Ruokaboksi',
@@ -210,52 +1544,6 @@ const services = [
     id: '',
     langs: {
       fi: {
-        title: 'La Torrefazione',
-        desc: 'La Torrefazione aloitti lounaiden kuljetuksen. Lounaan voi maksaa esimerkiksi MobilePaylla, Smartumilla, Edenredillä, ja pankkikorteilla.'
-      },
-      gb: {
-        title: 'La Torrefazione',
-        desc: 'La Torrefazione started to deliver luch to home. You can pay for lunch with for example MobilePay, Smartum, Edenred and bank cards.'
-      },
-      se: {
-        title: 'La Torrefazione',
-        desc: 'La Torrefazione har börjat leverera luncher. Du kan betala din lunch med bland annat MobilePay, Smartum, Edenred och bankkort.'
-      }
-    },
-    link: 'http://www.latorre.fi/',
-    img_src: 'img/latorre.png',
-    locations: [
-      'Helsinki'
-    ],
-    category: 'Ruoka'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
-        title: 'Fruitbox',
-        desc: 'Työpaikalle tulevan hedelmäboksin tilaus voidaan ohjata etätyöläisten kotiovelle. Fruitboxin voi tilata myös lahjaksi esimerkiksi sairaaloille tai kouluille.'
-      },
-      gb: {
-        title: 'Fruitbox',
-        desc: 'Fruitboxes coming to workplace can now be redirected to remote workers\' homes.'
-      },
-      se: {
-        title: 'Fruitbox',
-        desc: 'Nu kan du vidarebefordra arbetsplatsens fruktlåda till distansarbetarens hemdörr.'
-      }
-    },
-    link: 'https://fruitboxoffice.fi/',
-    img_src: 'img/fruitbox.png',
-    locations: [
-      'Helsinki'
-    ],
-    category: 'Ruoka'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
         title: 'Matsmart',
         desc: 'Hävikkiruokaa tarjoushinnoin. Toimituksissa viivettä.'
       },
@@ -272,52 +1560,6 @@ const services = [
     img_src: 'img/matsmart.png',
     locations: [
       'National'
-    ],
-    category: 'Ruoka'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
-        title: 'Luomukassi',
-        desc: 'Luomukassi toimittaa luomuruokaa ja lähitilojen tuotteita suoraan kotiin. Reseptit ja ainesosat tulevat samassa paketissa PK-seudulle.'
-      },
-      gb: {
-        title: 'Luomukassi',
-        desc: 'Luomukassi delivers organic food and local products straight to your home. Recepies and ingridients come in the same package in the Helsinki metropolitan area.'
-      },
-      se: {
-        title: 'Luomukassi',
-        desc: 'Luomukassi levererar närproducerad ekologisk mat till ditt hem. Hemleverans av paket med recept och ingredienser inom huvudstadsregionen.'
-      }
-    },
-    link: 'https://luomukassi.fi/',
-    img_src: 'img/luomukassi.png',
-    locations: [
-      'Helsinki','Espoo','Vantaa'
-    ],
-    category: 'Ruoka'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
-        title: 'Kotikaappi24',
-        desc: 'Kotikaappi24 varmistaa 100 tärkeimmän kuivaelintarvikkeen saannin ympäri Suomen. Voit tilata paketin kotiovelle asti kannettuna itselle, ystävällesi tai riskiryhmään kuuluvalle läheisellesi. Valikoima päivittyy matkan varrella.'
-      },
-      gb: {
-        title: 'Kotikaappi24',
-        desc: 'Kotikaappi24 makes sure that the 100 most important dry groceries are available. You can order the package to your front door, for you closeone or someone in the risk groups.'
-      },
-      se: {
-        title: 'Kotikaappi24',
-        desc: 'Kotikaappi24 garanterar leverans av 100 vanliga torrfoderprodukter runt om i Finland. Du kan beställa paket till din dörr, åt en vän eller en närstående som hör till en riskgrupp. Sortimentet uppdateras med tiden.'
-      }
-    },
-    link: 'https://www.kotikaappi24.fi/',
-    img_src: 'img/kotikaappi.png',
-    locations: [
-      'Helsinki', 'Espoo', 'Vantaa'
     ],
     category: 'Ruoka'
   },
@@ -343,144 +1585,6 @@ const services = [
       'National'
     ],
     category: 'Ruoka'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
-        title: 'Laidun Hereford',
-        desc: 'Laidun Hereford on lähiruuan kasvattaja ja jalostaja, joka toimittaa verkkokauppansa kautta myös muiden pientuottajien valmistamaa ruokaa suoraan kotiovelle.'
-      },
-      gb: {
-        title: 'Laidun Hereford',
-        desc: 'Laidun Hereford is a local food poducer which delivers also other smaller producer\'s products trough it\'s online store.'
-      },
-      se: {
-        title: 'Laidun Hereford',
-        desc: 'Laidun Hereford odlar närmat, föder upp boskap och levererar livsmedel från egen gård och av andra småproducenter till din dörr.'
-      }
-    },
-    link: 'https://www.laidunhereford.fi/',
-    img_src: 'img/laidun-hereford.png',
-    locations: [
-      'Seinäjoki'
-    ],
-    category: 'Ruoka'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
-        title: 'Lucy In The Sky',
-        desc: 'Lucy In the Sky toimittaa veloituksetta ravintola-annoksia suoraan kotiisi Espoon seudulla.'
-      },
-      gb: {
-        title: 'Lucy In The Sky',
-        desc: 'Lucy in the sky delivers restaurant meals without additional free in Espoo region.'
-      },
-      se: {
-        title: 'Lucy In The Sky',
-        desc: 'Lucy In the Sky levererar gratis restaurangrätter direkt till ditt hem inom Esbo.'
-      }
-    },
-    link: 'https://www.lucyinthesky.fi/kotiinkuljetus',
-    img_src: 'img/lucyinthesky.png',
-    locations: [
-      'Espoo'
-    ],
-    category: 'Ruoka'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
-        title: 'Anton&Anton',
-        desc: 'Anton&Anton ruokakassi-palvelu toimittaa kassin täynnä tuoreita ja laadukkaita raaka-aineita suoraan kotiovellesi.'
-      },
-      gb: {
-        title: 'Anton&Anton',
-        desc: 'Anton&Anton food package service delivers a package full of fresh and quality ingridients straight to your door.'
-      },
-      se: {
-        title: 'Anton&Anton',
-        desc: 'Anton & Antons Matkasse levererar en kasse fylld av färska, högklassiga råvaror till din dörr.'
-      }
-    },
-    link: 'https://www.antonanton.fi/pages/ruokakassi',
-    img_src: 'img/antonanton.png',
-    locations: [
-      'Helsinki', 'Espoo', 'Vantaa', 'Kirkkonummi', 'Sipoo', 'Porvoo'
-    ],
-    category: 'Ruoka'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
-        title: 'Madison Gastro & Wine',
-        desc: 'Madison Gastro & Wine toimittaa ruokaa kotiin Espoon Tapiolan alueella.'
-      },
-      gb: {
-        title: 'Madison Gastro & Wine',
-        desc: 'Madison Gastro & Wine delivers food to your home in Espoo Tapiola region.'
-      },
-      se: {
-        title: 'Madison Gastro & Wine',
-        desc: 'Hemleverans från Madison Gastro & Wine inom Hagalund i Esbo.'
-      }
-    },
-    link: 'https://www.toptaste.fi/artikkeli/madison-gastro-wine-aloittaa-lounaan-kotiinkuljetuksen/',
-    img_src: 'img/madison.png',
-    locations: [
-      'Espoo'
-    ],
-    category: 'Ruoka'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
-        title: 'Uudenmaan ruoka / Ekompi.net',
-        desc: 'Verkkokauppa mistä tehdään ennakkotilauksia lähialueen pientuottajilta, ja nouto miehittämättömästä noutopisteestä. Auttaa lähialueen tuottajia.'
-      },
-      gb: {
-        title: 'Uudenmaan ruoka / Ekompi.net',
-        desc: 'Online store where you can make pre-orders from local producers and pick them up from a unmanned location. '
-      },
-      se: {
-        title: 'Nylands mat / Ekompi.net',
-        desc: 'Elektronisk förhandsbeställning av lokala småproducenters varor med hämtning från obemannad upphämtningsplats. Stödjer närproducenter.'
-      }
-    },
-    link: 'https://www.ekompi.net/',
-    img_src: 'img/ekompi.png',
-    locations: [
-      'Helsinki', 'Espoo', 'Vantaa'
-    ],
-    category: 'Ruoka'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
-        title: 'kauppahalli24',
-        desc: 'Kauppahalli24 on verkkoruokakauppa, joka toimittaa kaikenlaisia elintarvikkeita sekä kodintuotteita Uudenmaan alueella. Kuljetuksen hinta on 3,99€-9,99€ ostosten loppusummasta riippuen.'
-      },
-      gb: {
-        title: 'kauppahalli24',
-        desc: 'Kauppahalli24 is a online food shop which delivers all kinds of groceries and home products in the Uusimaa region. Delivery price is 3,99€-9,99€. '
-      },
-      se: {
-        title: 'kauppahalli24',
-        desc: 'Shoppa alla slags livsmedel online med levererans inom Nyland. Leveranskostnad 3,99–9,99 euro beroende på totalt inköpsbelopp.'
-      }
-    },
-    link: 'https://www.kauppahalli24.fi/tuotteet/#/cat/759',
-    img_src: 'img/kauppahalli24.png',
-    locations: [
-      'Helsinki', 'Espoo', 'Vantaa'
-    ],
-    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -716,58 +1820,12 @@ const services = [
     id: '',
     langs: {
       fi: {
-        title: 'Bring',
-        desc: 'Bring kuljettaa melkein kaikkea PK-seudulla saman päivän aikana.'
-      },
-      gb: {
-        title: 'Bring',
-        desc: 'Bring delivers almost everythiny in the Helsinki mertopolitan area during the same day.'
-      },
-      se: {
-        title: 'Bring',
-        desc: 'Bring transporterar nästan allt på samma dag i huvudstadsregionen.'
-      }
-    },
-    link: 'https://www.bring.fi/',
-    img_src: 'img/bring.png',
-    locations: [
-      'Helsinki', 'Espoo', 'Vantaa'
-    ],
-    category: 'Palvelut'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
-        title: 'EWS',
-        desc: 'Helsinkiläinen pesula tarjoaa kotinoutoa verhoille ja muille kodin suurille tekstiileille.'
-      },
-      gb: {
-        title: 'EWS',
-        desc: 'Laundry service offers home pick up for curtains and other large home textiles.'
-      },
-      se: {
-        title: 'EWS Tvättservice',
-        desc: 'Tvätteri som hämtar hemmets gardiner och andra stora textilier inom Helsingfors.'
-      }
-    },
-    link: 'https://www.ewshelsinki.fi/',
-    img_src: 'img/ews.png',
-    locations: [
-      'Helsinki'
-    ],
-    category: 'Palvelut'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
         title: 'Karkkikoulu',
-        desc: 'Karkkikoulu lähettää omatekoisia kortteja ilmaiseksi vanhusten iloksi hoivakoteihin. Korttivarasto on Lahdessa ja nähtävänä verkkosivuilla. Sähköpostitse voi sopia korttien hausta tai toimituksesta jonnekin.'
+        desc: 'Korttivarasto on Lahdessa ja nähtävänä verkkosivuilla. Sähköpostitse voi sopia korttien hausta tai toimituksesta jonnekin.'
       },
       gb: {
         title: 'Karkkikoulu',
-        desc: 'Karkkikoulu sends free home-made cards to nursing homes. Card supply is on show in Lahti and can be seen on their website. You can talk about picking up or shipping the cards trough email.'
+        desc: 'Card supply is on show in Lahti and can be seen on their website. You can talk about picking up or shipping the cards trough email.'
       },
       se: {
         title: 'Gratis vykort till släktingar',
@@ -780,52 +1838,6 @@ const services = [
       'National'
     ],
     category: 'Hoiva'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
-        title: 'Ilostu',
-        desc: 'Ilostu tuottaa palveluita ikäihmisille. 17.3. tiedotteen mukaisesti he palvelevat senioreita normaalisti.'
-      },
-      gb: {
-        title: 'Ilostu',
-        desc: 'Ilostu offers services for the elderly. '
-      },
-      se: {
-        title: 'Ilostu',
-        desc: 'Ilostu erbjuder tjänster för de äldre. Enligt sitt meddelande 17.3 betjänar de seniorer normalt.'
-      }
-    },
-    link: 'https://ilostu.fi/',
-    img_src: 'img/ilostu.png',
-    locations: [
-      'Helsinki', 'Espoo', 'Vantaa'
-    ],
-    category: 'Hoiva'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
-        title: 'Fiksit',
-        desc: 'Fiksit huoltaa älylaitteita. He pystyvät noutamaan ja tuomaan korjattuna 24 tunnin sisällä.'
-      },
-      gb: {
-        title: 'Fiksit',
-        desc: 'Fiksit maintains smart devices. They can pick up and bring devices within 24 hours.'
-      },
-      se: {
-        title: 'Fiksit',
-        desc: 'Fixar utför service av smarta enheter. Hämtar, reparerar och returnerar vid behov din enhet inom 24 timmar.'
-      }
-    },
-    link: 'https://www.fiksit.fi/',
-    img_src: 'img/fiksit.png',
-    locations: [
-      'Helsinki', 'Espoo'
-    ],
-    category: 'Palvelut'
   },
   {
     id: '',
@@ -923,29 +1935,6 @@ const services = [
     id: '',
     langs: {
       fi: {
-        title: 'Cityvarasto',
-        desc: 'Varastot helposti netistä ilman tapaamista.'
-      },
-      gb: {
-        title: 'Cityvarasto',
-        desc: 'Storage easily from online without meeting.'
-      },
-      se: {
-        title: 'Cityvarasto',
-        desc: 'Förråd enkelt online utan möten.'
-      }
-    },
-    link: 'https://cityvarasto.fi/',
-    img_src: 'img/cityvarasto.png',
-    locations: [
-      'Helsinki', 'Espoo', 'Vantaa'
-    ],
-    category: 'Palvelut'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
         title: 'Rakkaudella, Riikka',
         desc: 'Stressinhallintaa, mielen hyvinvoinnin tukemista, työnohjausta voimavarakeskeisellä työotteella. Mahdollisuus etäyhteyteen ja maksuton 45 min tutustumisaika.'
       },
@@ -969,98 +1958,6 @@ const services = [
     id: '',
     langs: {
       fi: {
-        title: 'Hellie Hoivapalvelut',
-        desc: 'HelliE on turvallinen, paikallinen yritys, jonka palveluja ovat mm. kaupassakäynti, jutteluapu, kodinhoito.'
-      },
-      gb: {
-        title: 'Hellie Hoivapalvelut',
-        desc: 'Hellie is a safe, local company which offers shop services, talking company and home services.'
-      },
-      se: {
-        title: 'Hellie Omsorgstjänster',
-        desc: 'Hellie är ett tryggt, lokalt företag vars tjänster omfattar bland annat butiksbesök, samtalshjälp och chatt och hemhjälp.'
-      }
-    },
-    link: 'https://www.hellie.fi/',
-    img_src: 'img/hellie.png',
-    locations: [
-      'Helsinki', 'Espoo', 'Vantaa'
-    ],
-    category: 'Hoiva'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
-        title: 'Cleanmarin',
-        desc: 'Siivous- ja puhdistuspalvelut.'
-      },
-      gb: {
-        title: 'Cleanmarin',
-        desc: 'Cleaning services.'
-      },
-      se: {
-        title: 'Cleanmarin',
-        desc: 'Städ- och rengöringsservice.'
-      }
-    },
-    link: 'http://cleanmarin.fi/',
-    img_src: 'img/cleanmarin.png',
-    locations: [
-      'Helsinki', 'Espoo', 'Vantaa'
-    ],
-    category: 'Palvelut'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
-        title: 'Kampaajakotiin',
-        desc: 'Hiuspalvelut vietynä asiakkaan kotiin.'
-      },
-      gb: {
-        title: 'Kampaajakotiin',
-        desc: 'Hair services to your home.'
-      },
-      se: {
-        title: 'Frisör hem',
-        desc: 'Hårsalong hemma.'
-      }
-    },
-    link: 'https://www.kampaajakotiin.com/',
-    img_src: 'img/kampaajakotiin.png',
-    locations: [
-      'Helsinki', 'Espoo', 'Vantaa'
-    ],
-    category: 'Palvelut'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
-        title: 'Fiuge',
-        desc: 'Fiuge tarjoa kuljetusapua korona-eristyksissä oleville. Kuukauden kuljetukset 50 eurolla.'
-      },
-      gb: {
-        title: 'Fiuge',
-        desc: 'Fiuge offers transport services for those who have been quarantined for corona. A month\'s transports for 50€.'
-      },
-      se: {
-        title: 'Fiuge',
-        desc: 'Fiuge erbjuder transporthjälp till människor i coronaisolering. En månads transporter för 50 euro.'
-      }
-    },
-    link: 'https://fiuge.com/fi/fiuge-kuljetus-avuksi-koronakaranteeniin/',
-    img_src: 'img/fiuge.png',
-    locations: [
-      'Helsinki', 'Espoo', 'Vantaa'
-    ],
-    category: 'Palvelut'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
         title: 'Freska',
         desc: 'Freska pitää asiakkaidensa kotien hygieniasta huolta pääkaupunkiseudella, sekä Turun ja Tampereen seudulla. Siivouksessa käytetään viranomaisten suosittelemia puhdistusaineita. Nämä puhdistusaineet ovat käytössä jokaisessa siivouksessa, vaikka asiakas ei olisi niitä tilannut. Näin varmistetaan tutkitusti tehokas puhdistus viranomaisten ohjeita noudattaen.'
       },
@@ -1077,29 +1974,6 @@ const services = [
     img_src: 'img/freska.png',
     locations: [
       'National'
-    ],
-    category: 'Palvelut'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
-        title: 'StichMe',
-        desc: 'StichMe on Suomen ensimmäinen verkossa toimiva korjausompelun tarjoaja. Kaikki korjaukset ja muokkaukset etänä, valitse verkkosovelluksesta korjaustarpeet ja jätä korjattavat vaatteet pakettiautomaattin. Nouda korjatut vaatteet pakettiautomaatista jo viikossa. Korjaukset alkaen 9.90 €'
-      },
-      gb: {
-        title: 'StichMe',
-        desc: 'StichMe is Finland\'s first online repair service for clothes. All repairs and alternations remote acces; leave your clotehs to a package automat. Pick them up in a week. '
-      },
-      se: {
-        title: 'StichMe',
-        desc: ''
-      }
-    },
-    link: 'https://www.stichme.com/',
-    img_src: 'img/stichme.png',
-    locations: [
-      'Helsinki', 'Espoo', 'Vantaa'
     ],
     category: 'Palvelut'
   },
@@ -1176,52 +2050,6 @@ const services = [
     id: '',
     langs: {
       fi: {
-        title: 'WeHost',
-        desc: 'WeHost tarjoaa asuntojaan sekä lyhyt- että pitkäaikaiseen vuokraukseen. Kohteet ovat PK-seudulla.'
-      },
-      gb: {
-        title: 'WeHost',
-        desc: 'WeHost offers apartments for both short- and long-time rental. Locations are on Helsinki meropolitan area.'
-      },
-      se: {
-        title: 'WeHost',
-        desc: 'WeHost erbjuder sina lägenheter både för kort- och långvarig uthyrning. Objekten finns i huvudstadsregionen.'
-      }
-    },
-    link: 'https://www.wehostfinland.com/contact',
-    img_src: 'img/wehost.png',
-    locations: [
-      'Helsinki', 'Espoo', 'Vantaa'
-    ],
-    category: 'Kodit'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
-        title: 'Hiisi Homes',
-        desc: 'Perheyritys Hiisi Homes tarjoaa koteja tilapäistarpeisiin aina parista yöstä useampaan kuukauteen ympäri Etelä-Suomea, ja toivottaa asukkaat leikkisästi tervetulleeksi painumaan Hiiteen. Tilapäiskodit soveltuvat myös etätyöskentelyyn. Hiisi Homesilla asuessa on helppo välttyä ihmiskontaktilta, koska vastaanottoa, ravintolaa tai yleisiä oleskelutiloja ei ole.'
-      },
-      gb: {
-        title: 'Hiisi Homes',
-        desc: 'Hiisi Homes provides temporary homes from a single night to months.'
-      },
-      se: {
-        title: 'Hiisi Homes',
-        desc: 'Familjeföretaget Hiisi Homes erbjuder bostäder för tillfälliga behov från ett par nätters till flera månaders inkvartering runtom i Södra Finland. Hiisis tillfälliga lägenheter lämpar sig även för distansarbete. När du bor bo Hiisi Homes är det lätt att undvika mänsklig kontakt: det finns ingen reception, restaurang eller allmänna lobbyer.'
-      }
-    },
-    link: 'https://www.hiisihomes.fi/en/',
-    img_src: 'img/hiisi.png',
-    locations: [
-      'Helsinki', 'Espoo', 'Vantaa'
-    ],
-    category: 'Kodit'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
         title: 'Sokos',
         desc: 'Hotellit, kuten Sokos, näyttävät jatkavan toimintaansa suurilta osin samalla tavalla, kuin ennen. Kysyntä on tippunut huomattavasti, joten hyviä tarjouksia on saatavilla.'
       },
@@ -1238,29 +2066,6 @@ const services = [
     img_src: 'img/sokos.png',
     locations: [
       'National'
-    ],
-    category: 'Kodit'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
-        title: 'Spot Apartments',
-        desc: 'Spot Apartments tarjoaa asuntoja tilapäiseen ja vakituisempaan asumisen tarpeeseen. Mukaan tarvitset vain henkilökohtaiset tavarasi; ei erillistä avaimen noutoa, näppäilet vain avainkoodisi ja asut kuin kotonasi.'
-      },
-      gb: {
-        title: 'Spot Apartments',
-        desc: 'Spot Apartments offers apartments for temporal of more permanent living. You\'ll get a pincode and can start living like you were at home.'
-      },
-      se: {
-        title: 'Spot Apartments',
-        desc: ''
-      }
-    },
-    link: 'https://spotapartments.fi/',
-    img_src: 'img/spotapartments.png',
-    locations: [
-      'Helsinki', 'Espoo', 'Vantaa'
     ],
     category: 'Kodit'
   },
@@ -1567,29 +2372,6 @@ const services = [
     id: '',
     langs: {
       fi: {
-        title: 'Edventures',
-        desc: 'Sähkömaastopyörien vuokrausta Porvoossa ja Espoossa.'
-      },
-      gb: {
-        title: 'Edventures',
-        desc: 'Elecric mountain bike rental in Porvoo and Espoo.'
-      },
-      se: {
-        title: 'Edventures',
-        desc: 'Uthyrning av eldrivna mountainbikes i Borgå och Esbo.'
-      }
-    },
-    link: 'https://www.edventures.fi/',
-    img_src: 'img/edventures.png',
-    locations: [
-      'Helsinki', 'Espoo', 'Vantaa'
-    ],
-    category: 'Urheilu'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
         title: 'Fressi',
         desc: 'Fressi tarjoaa ilmaisia live-ryhmäliikuntatunteja, joiden avulla voit treenata Fressin ammattilaisten ohjauksessa missä vain.'
       },
@@ -1659,52 +2441,6 @@ const services = [
     id: '',
     langs: {
       fi: {
-        title: 'Juurikorven kauppa, kokous ja catéring',
-        desc: 'Ruan valmistus ja kuljetus lähiauleen koteihin Kotkan alueella. Kaupasta myös elintarvikkeita mukaan tai toimitettuna.'
-      },
-      gb: {
-        title: 'Juurikorven kauppa',
-        desc: 'Food cooking and delivery to local homes in the Kotka area. Also groceries to go or delivered from the shop.'
-      },
-      se: {
-        title: 'Juurikorven kauppa',
-        desc: ''
-      }
-    },
-    link: 'https://www.facebook.com/Juurikorven-kauppa-kokous-ja-cat%C3%A9ring-724147044697069/',
-    img_src: 'img/juurikorvenkauppa.png',
-    locations: [
-      'Kotka'
-    ],
-    category: 'Ruoka'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
-        title: 'Kahvila Donner',
-        desc: 'Kahvila Donner tarjoaa kotiruoka-annoksia lounasaikaan noudettuna ja kuljetettuna Hyvinkään alueena. Maksutapoina käy pankki- ja luottokortit, Edenred lounassetelit ja -kortti, Eazybreak-mobiilisovellus sekä käteinen.'
-      },
-      gb: {
-        title: 'Kahvila Donner',
-        desc: 'Cafe Donner offers home cooked meals during lunch time either picked up or delivered in the Hyvinkää area. You can pay with card, Edenred, Eazybreak or cash.'
-      },
-      se: {
-        title: 'Kahvila Donner',
-        desc: ''
-      }
-    },
-    link: 'https://www.kahviladonner.com',
-    img_src: 'img/kahviladonner.png',
-    locations: [
-      'Hyvinkää'
-    ],
-    category: 'Ruoka'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
         title: 'Lähitaksi',
         desc: 'LÄHIAPU kauppa- ja asioitipalvelun kautta Lähitaksi hoitaa asiakkaidensa pävittäisasiat niin kauan, kun he eivät siihen itse pysty. Asiakas tekee kauppalistan valmiiksi, ja tilaa tämän jälkeen Lähitaksin auton numerosta 0100 7300.'
       },
@@ -1744,52 +2480,6 @@ const services = [
     img_src: 'img/turvataantulevaisuus.png',
     locations: [
       'National'
-    ],
-    category: 'Palvelut'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
-        title: 'Koirahoitola Vohveli ',
-        desc: 'Koirahoitola Vohveli tarjoaa kodinomaista hoitoa koirallesi Tuusulassa.'
-      },
-      gb: {
-        title: 'Koirahoitola Vohveli ',
-        desc: 'Home-like care for your dog in Tuusula.'
-      },
-      se: {
-        title: 'Koirahoitola Vohveli ',
-        desc: ''
-      }
-    },
-    link: 'https://www.vohveli.net/',
-    img_src: 'img/--.png..img/koirahoitolavohveli.png',
-    locations: [
-      'Tuusula '
-    ],
-    category: 'Palvelut'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
-        title: 'Venner',
-        desc: 'Venner tarjoaa täysin uudenlaisen ja yksinkertaisen tavan tukea suomalaisia vähävaraisia lapsiperheitä ravitsevan ruan avulla, suoraan kotiovelle toimitettuna.'
-      },
-      gb: {
-        title: 'Venner',
-        desc: 'Venner offers a complitely and easy way to support small-income families with healthy food.'
-      },
-      se: {
-        title: 'Venner',
-        desc: ''
-      }
-    },
-    link: 'https://venner.fi/',
-    img_src: 'img/venner.png',
-    locations: [
-      'Helsinki','Turku'
     ],
     category: 'Palvelut'
   },
@@ -1874,7 +2564,7 @@ const services = [
         desc: 'Over 1500 products for sports. Fast delovery from Tampere.'
       },
       se: {
-        title: 'Kuntokauppa.fi',
+        title: 'Kuntokauppa',
         desc: ''
       }
     },
@@ -2004,29 +2694,6 @@ const services = [
     id: '',
     langs: {
       fi: {
-        title: 'Mili\'s',
-        desc: 'Toimittaa Espoossa kotiin lounasannoksia.'
-      },
-      gb: {
-        title: 'Mili\'s',
-        desc: 'Lunch deliverys in Espoo.'
-      },
-      se: {
-        title: 'Mili\'s',
-        desc: ''
-      }
-    },
-    link: 'https://www.milisfood.fi/',
-    img_src: 'img/milis.png',
-    locations: [
-      'Espoo'
-    ],
-    category: 'Ruoka'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
         title: 'Business Meeting Park',
         desc: 'Etätapaamiset, -kokoukset, webinaarit ja muut tapahtumat "avaimet käteen" periaattella, tarvittaessa jopa täysin etänä.'
       },
@@ -2091,29 +2758,6 @@ const services = [
       'National'
     ],
     category: 'Verkkokauppa'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
-        title: 'Centrum services',
-        desc: 'Pääkaupunkiseudulla toimiva IT yritys, joka palvelee ensisijaisesti kuluttaja asiakkaita. Palveluun on aina kuulunut ilmainen noutopalvelu suoraan kotiovelta noudettuna pääkaupunkiseudulta. Huollon jälkeen laite toimitetaan takaisin kotiovelle veloituksetta.'
-      },
-      gb: {
-        title: 'Centrum services',
-        desc: 'IT-company that works in the Helsinki metropolitan area. Free pick up and return for maitance.'
-      },
-      se: {
-        title: 'Centrum services',
-        desc: ''
-      }
-    },
-    link: 'https://www.centrumservices.fi/',
-    img_src: 'img/centrumservices.png',
-    locations: [
-      'Helsinki'
-    ],
-    category: 'Palvelut'
   },
   {
     id: '',
@@ -2211,29 +2855,6 @@ const services = [
     id: '',
     langs: {
       fi: {
-        title: 'Kotitila',
-        desc: 'Lähiruokaa kotiintoimitettuna pääkaupunkiseudulla.'
-      },
-      gb: {
-        title: 'Kotitila',
-        desc: 'Local food delivered in the Helsinki metropolitan area.'
-      },
-      se: {
-        title: 'Kotitila',
-        desc: ''
-      }
-    },
-    link: 'https://www.kotitila.fi/',
-    img_src: 'img/suomenkotitila.png',
-    locations: [
-      'Helsinki'
-    ],
-    category: 'Ruoka'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
         title: 'Kauneusmaailma',
         desc: 'Kauneuden- ja terveydenhuoltotarvikkeet koko Suomeen toimitettuna. Laaja valikoima ihonhoitotuotteita.'
       },
@@ -2252,144 +2873,6 @@ const services = [
       'National'
     ],
     category: 'Verkkokauppa'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
-        title: 'ReettaBrows',
-        desc: 'Kattava valikoima erilaisia kauneudenhoidonpalveluita, joista jokainen voi valita itselleen sopivan.  Voit ostaa esimerkiksi lahjakortin tulevia hoitoja varten tukeaksi pienyrittäjää. "Rentoutumista ja omaa aikaa stressin keskellä."'
-      },
-      gb: {
-        title: 'ReettaBrows',
-        desc: 'A large variety of beauty treatments. You can buy a giftcard for future use and support the business.'
-      },
-      se: {
-        title: 'ReettaBrows',
-        desc: ''
-      }
-    },
-    link: 'https://www.reettabrows.fi/',
-    img_src: 'img/reettabrows.png',
-    locations: [
-      'Kuusamo'
-    ],
-    category: 'Palvelut'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
-        title: 'Naturpolis',
-        desc: 'Koillis-Suomen kehittämisyhtiö Naturpolis Oy tukee yrityksiä monipuolisesti myös kriisitilanteissa.'
-      },
-      gb: {
-        title: 'Naturpolis',
-        desc: 'Northeast Finland development company supports businesses in crisis.'
-      },
-      se: {
-        title: 'Naturpolis',
-        desc: ''
-      }
-    },
-    link: 'https://www.naturpolis.fi/fi/',
-    img_src: 'img/naturpolis.png',
-    locations: [
-      'Kuusamo'
-    ],
-    category: 'Palvelut'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
-        title: 'Pikkusen pitopalvelu ja leipomo',
-        desc: 'Pikkusen pitopalvelun ja leipomon kaikki palvelut ovat käytössä kotiintoimituksella ilman lisäkuluja Rukan alueella. Mahdollisuus toimittaa kotiovelle ruoka-annoksia ja tarvittaessa kauppaostoksia.'
-      },
-      gb: {
-        title: 'Pikkusen pitopalvelu ja leipomo',
-        desc: 'Catering and restaurant services have a free home delivery in the Ruka region. Possibility to deliver groceries and food portions to home.'
-      },
-      se: {
-        title: 'Pikkusen pitopalvelu ja leipomo',
-        desc: ''
-      }
-    },
-    link: 'https://www.pikkusen.fi/en/',
-    img_src: 'img/pikkusen.png',
-    locations: [
-      'Kuusamo'
-    ],
-    category: 'Ruoka'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
-        title: 'Ravintola Talonpöytä',
-        desc: 'Kotiinkuljetuksella tai noudolla kotiruokaa. Kysy lisää 0503048239 tai mika@talonpoyta.fi.'
-      },
-      gb: {
-        title: 'Ravintola Talonpöytä',
-        desc: 'Home cooked meals with home delivery or takeaway.'
-      },
-      se: {
-        title: 'Ravintola Talonpöytä',
-        desc: ''
-      }
-    },
-    link: 'https://www.talonpoyta.fi/',
-    img_src: 'img/talonpoyta.png',
-    locations: [
-      'Kuusamo'
-    ],
-    category: 'Ruoka'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
-        title: 'Sanitar Kuusamo',
-        desc: 'Kauppa-ja apteekkiasiointi ym. välttämätön asiointi, siivouspalvelu.'
-      },
-      gb: {
-        title: 'Sanitar Kuusamo',
-        desc: 'Groceries and pharmacy etc. necessary errands. Cleaning services also available.'
-      },
-      se: {
-        title: 'Sanitar Kuusamo',
-        desc: ''
-      }
-    },
-    link: 'https://www.sanitar.fi/',
-    img_src: 'img/sanitar.png',
-    locations: [
-      'Kuusamo'
-    ],
-    category: 'Hoiva'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
-        title: 'Pave Helsinki fillarilähetit',
-        desc: 'Kuriiripalvelut Helsingin alueella - tavaroiden kuljetus ja asiointipalvelut.'
-      },
-      gb: {
-        title: 'Pave Helsinki fillarilähetit',
-        desc: 'Courier services in Helsinki.'
-      },
-      se: {
-        title: 'Pave Helsinki ',
-        desc: ''
-      }
-    },
-    link: 'https://www.pavehelsinki.com/',
-    img_src: 'img/pave.png',
-    locations: [
-      'Helsinki'
-    ],
-    category: 'Palvelut'
   },
   {
     id: '',
@@ -2510,29 +2993,6 @@ const services = [
     id: '',
     langs: {
       fi: {
-        title: 'Tassumafia Oy',
-        desc: 'Tassumafiassa ulkoilutetaan koirasi ja / tai tarvittaessa noudetaan leikkimään koirien päiväkotiin, missä touhutaan ja ulkoillaan laumassa kavereiden kanssa, sekä päivän päätteeksi palautetaan takaisin kotiin. Myös verkkokauppa tavikkeille ja ruuille.'
-      },
-      gb: {
-        title: 'Tassumafia Oy',
-        desc: 'At Tassumafia, your dog will be outwitted and / or taken, if necessary, to play in a dog daycare center where he or she will be out in the herd with friends, and will be returned home at the end of the day. There is also an online shop.'
-      },
-      se: {
-        title: 'Tassumafia Oy',
-        desc: ''
-      }
-    },
-    link: 'https://www.tassumafia.fi/',
-    img_src: 'img/sanitar.png',
-    locations: [
-      'Helsinki'
-    ],
-    category: 'Palvelut'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
         title: 'Linja',
         desc: 'Täältä yrittäjät saavat apua muilta eri alojen yrittäjiltä ja osaajilta ilmaiseksi.'
       },
@@ -2546,57 +3006,11 @@ const services = [
       }
     },
     link: 'https://linja.sharetribe.com/',
-    img_src: 'img/tassumafia.png',
+    img_src: '',
     locations: [
       'National'
     ],
     category: 'Palvelut'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
-        title: 'Handmade by Kraftory',
-        desc: 'Pieni kampaamoyritys Tampereella, jossa yli 10 henkilön rajoitus ei ylity.'
-      },
-      gb: {
-        title: 'Handmade by Kraftory',
-        desc: 'A small hairdressing company in Tampere, where the limit of more than 10 people is not exceeded.'
-      },
-      se: {
-        title: 'Handmade by Kraftory',
-        desc: ''
-      }
-    },
-    link: 'http://www.kraftory.fi/',
-    img_src: 'img/kraftory.png',
-    locations: [
-      'Tampere'
-    ],
-    category: 'Palvelut'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
-        title: 'Kaihdintori',
-        desc: 'Liikkuva kaihdinliike Helsingissä, Espoossa ja Vantaalla. Kaihtimien asennus kotonasi.'
-      },
-      gb: {
-        title: 'Kaihdintori',
-        desc: 'Delivering blinds in Helsinki, Espoo and Vantaa. Installation is also available.'
-      },
-      se: {
-        title: 'Kaihdintori',
-        desc: ''
-      }
-    },
-    link: 'https://kaihdintohtori.com/',
-    img_src: 'img/kaihdintohtori.png',
-    locations: [
-      'Helsinki','Espoo','Vantaa'
-    ],
-    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -2620,29 +3034,6 @@ const services = [
       'National'
     ],
     category: 'Verkkokauppa'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
-        title: 'Taksi Helsinki',
-        desc: 'Lähikauppapalvelun avulla kuljettaja käy puolestasi kaupassa. Palvelun hinta 20€ ja tilaaminen tapahtuu joko puhelimitse tai verkkosivujen lomakkeella.'
-      },
-      gb: {
-        title: 'Taksi Helsinki',
-        desc: 'The convenience store service allows the driver to shop for you. The price of the service is 20 € and the order is made either by phone or on the website form.'
-      },
-      se: {
-        title: 'Taksi Helsinki',
-        desc: ''
-      }
-    },
-    link: 'https://www.taksihelsinki.fi/palvelumme/lahikauppapalvelu/',
-    img_src: 'img/taksihelsinki.png',
-    locations: [
-      'Helsinki'
-    ],
-    category: 'Palvelut'
   },
   {
     id: '',
@@ -2694,75 +3085,6 @@ const services = [
     id: '',
     langs: {
       fi: {
-        title: 'Fora Security Services Oy',
-        desc: 'Arvotavaroiden/tonttien vartiointia nopealla aikataululla.'
-      },
-      gb: {
-        title: 'Fora Security Services Oy',
-        desc: 'Security of valuables / plots with fast schedule.'
-      },
-      se: {
-        title: 'Fora Security Services Oy',
-        desc: ''
-      }
-    },
-    link: 'https://forasec.fi/',
-    img_src: 'img/fora.png',
-    locations: [
-      'Helsinki','Espoo','Vantaa'
-    ],
-    category: 'Palvelut'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
-        title: 'Nordic Swan Cruises',
-        desc: 'Turvallista siirtymistä meriteitse pienille 1-9 henkilön ryhmille Suomenlahden alueella.'
-      },
-      gb: {
-        title: 'Nordic Swan Cruises',
-        desc: 'Safe passage by sea for small groups of 1-9 people in the Gulf of Finland.'
-      },
-      se: {
-        title: 'Nordic Swan Cruises',
-        desc: ''
-      }
-    },
-    link: 'https://www.nordicswancruises.fi/',
-    img_src: 'img/nordicswancruises.png',
-    locations: [
-      'Helsinki'
-    ],
-    category: 'Palvelut'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
-        title: 'Adagio',
-        desc: 'Asiointipalvelu, hoivapalvelu, kotipalvelu, siivous sekä henkilökohtainen apu Pirkanmaan alueella.'
-      },
-      gb: {
-        title: 'Adagio',
-        desc: 'Care service, home service, cleaning and personal assistance in the Pirkanmaa area.\n'
-      },
-      se: {
-        title: 'Adagio',
-        desc: ''
-      }
-    },
-    link: 'http://www.adagio.fi/',
-    img_src: 'img/adagio.png',
-    locations: [
-      'Pirkanmaa'
-    ],
-    category: 'Palvelut'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
         title: 'Kauppa-apu',
         desc: 'Kauppa-apu on alusta, jonka avulla suomalaiset voivat tarjota ja vastaanottaa kaupassakäyntiapua toisiltaan. Sivulla näet kartalta lähialueesi kauppa-avun pyynnöt ja ihmiset, jotka ovat valmiita tarjoamaan apua. Voit vastata jo olemassaolevaan ilmoitukseen tai jättää oman ilmoituksesi. Tarkoitus on suojella riskiryhmässä olevia ja helpottaa heidän arkeaa, jotka eivät nyt kauppaan pääse.'
       },
@@ -2804,29 +3126,6 @@ const services = [
       'National'
     ],
     category: 'Palvelut'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
-        title: 'King\'s Crown',
-        desc: 'Koko perheen laatikkoruokia kolmeen K-markettiin korona-pandemian aikana.'
-      },
-      gb: {
-        title: 'King\'s Crown',
-        desc: 'Family-friendly box meals at three K-markets during the Korona pandemic.\n'
-      },
-      se: {
-        title: 'King\'s Crown',
-        desc: ''
-      }
-    },
-    link: 'https://www.kingscrown.fi/',
-    img_src: 'img/kingscrown.png',
-    locations: [
-      'Kuopio'
-    ],
-    category: 'Ruoka'
   },
   {
     id: '',
@@ -2901,29 +3200,6 @@ const services = [
     id: '',
     langs: {
       fi: {
-        title: 'Tampereen aluetaksi',
-        desc: 'Taksi Tampere auttaa erilaisissa kuljetustehttävissä. Lisäksi Taksi Tampere voi hoitaa kaupassa ja apteekissa asioinnin ilman asiakkaan mukana oloa tai noutaa ruoka-annoksesi ravintolasta kotiin, silloin kun asiakkaan on tärkeintä pysyä kotona.'
-      },
-      gb: {
-        title: 'Tampereen aluetaksi',
-        desc: 'A taxi in Tampere helps you with different transport tasks. In addition, Taxi Tampere can handle shopping and pharmacy service without the customer being present or picking up your meal from the restaurant to your home when it is most important for the customer to stay home.'
-      },
-      se: {
-        title: 'Tampereen aluetaksi',
-        desc: ''
-      }
-    },
-    link: 'https://www.taksitampere.fi/asiointipalvelu/',
-    img_src: 'img/tampereenaluetaksi.png',
-    locations: [
-      'Tampere'
-    ],
-    category: 'Palvelut'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
         title: 'Specsavers ',
         desc: 'Tilaa piilolinssit kätevästi verkkokaupasta.'
       },
@@ -2942,29 +3218,6 @@ const services = [
       'National'
     ],
     category: 'Verkkokauppa'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
-        title: 'Lasten Taidelaboratorio®',
-        desc: 'Taidepajoissa on tärkeintä on lapsen kokemus, elämyksellisyys ja kokeilemalla oppiminen. Osta taidepaja-lahjakortti ja mahdollistat korkealaatuisen taide- ja kulttuuritoiminnan jatkumisen!'
-      },
-      gb: {
-        title: 'Lasten Taidelaboratorio®',
-        desc: 'The most important thing in art workshops is the experience of the child, the experience and learning by experimenting. Purchase an Art Workshop Gift Card and Enable High Quality Art & Culture!'
-      },
-      se: {
-        title: 'Lasten Taidelaboratorio®',
-        desc: ''
-      }
-    },
-    link: 'https://www.lastentaidelaboratorio.fi/',
-    img_src: 'img/lastentaidelaboratorio.png',
-    locations: [
-      'Espoo'
-    ],
-    category: 'Palvelut'
   },
   {
     id: '',
@@ -3016,52 +3269,6 @@ const services = [
     id: '',
     langs: {
       fi: {
-        title: 'Ravintola Skiffer',
-        desc: 'Toimittaa ruokaa kotiinkuljetuksella Espoon alueella.'
-      },
-      gb: {
-        title: 'Restaurant Skiffer',
-        desc: 'Delivers food by home delivery in the Espoo area.'
-      },
-      se: {
-        title: 'Restaurang Skiffer',
-        desc: ''
-      }
-    },
-    link: 'https://www.skiffer.fi/',
-    img_src: 'img/skiffer.png',
-    locations: [
-      'Espoo'
-    ],
-    category: 'Ruoka'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
-        title: 'Kahvikeisarinna',
-        desc: 'Yritys toimittaa/postittaa laadukkaan vastapaahdetun vietnamilaisen kahvin kotiisi/työpaikallesi jne.'
-      },
-      gb: {
-        title: 'Kahvikeisarinna',
-        desc: 'Company delivering / mailing quality freshly roasted Vietnamese coffee to your home / work, etc.\n'
-      },
-      se: {
-        title: 'Kahvikeisarinna',
-        desc: ''
-      }
-    },
-    link: 'https://www.kahvikeisarinna.com/',
-    img_src: 'img/kahvikeisarinna.png',
-    locations: [
-      'Tampere'
-    ],
-    category: 'Ruoka'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
         title: 'BoBoLa',
         desc: 'Sivusto tarjoaa ilmaisia aktiviteettejä lapsiperheiden ja lastenmielisten iloksi.'
       },
@@ -3079,7 +3286,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'VIihde'
+    category: 'Viihde'
   },
   {
     id: '',
@@ -3223,98 +3430,6 @@ const services = [
     id: '',
     langs: {
       fi: {
-        title: 'MyNaviGo',
-        desc: 'Palvelussa hoiva-alan yrittäjät voivat halutessaan tarjota tukea myös etänä. Palvelu on käytössät toistaiseksi Päijät-Hämeessä ja palveluntuottajien ilmouttautuminen sinne on maksutonta. Palvelua pyritään laajentamaan myös muihin maakuntiin.'
-      },
-      gb: {
-        title: 'MyNaviGo',
-        desc: 'The service allows remote care providers to provide support if they so wish. The service is currently available in Päijät-Häme, and registration by service providers is free of charge. The aim is to expand the service to other provinces.'
-      },
-      se: {
-        title: 'MyNaviGo',
-        desc: ''
-      }
-    },
-    link: 'https://mynavigo.fi/home',
-    img_src: 'img/mynavigo.png',
-    locations: [
-      'Päijät-Häme'
-    ],
-    category: 'Palvelut'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
-        title: 'I&P Group Oy',
-        desc: 'Siivous palvelut/ Desinfiointi, kiinteistönhoitoala, tilojen desinfiointi — Kontaminoituneen tilan desinfiointi (viruksen tappaminen tiloista), lääkkeiden kuljetukset vain Helsinki,Vantaa ja Espoon alueella. ( eläkeläiskortilla -30% alennus).'
-      },
-      gb: {
-        title: 'I&P Group Oy',
-        desc: 'Cleaning services / Disinfection, property management, disinfection of premises - Disinfection of contaminated premises (killing of virus in the premises), transportation of medicines only in Helsinki, Vantaa and Espoo area. (-30% discount on pensioner card).'
-      },
-      se: {
-        title: 'I&P Group Oy',
-        desc: ''
-      }
-    },
-    link: 'http://ipgroup.fi/',
-    img_src: 'img/ipgroup.png',
-    locations: [
-      'Helsinki', 'Espoo', 'Vantaa'
-    ],
-    category: 'Palvelut'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
-        title: 'PIKI-kirjastot',
-        desc: 'PIKI-kirjastokortilla saat kuunneltavaksesi niin äänikirjoja kuin musiikkiakin, luettavaksesi e-kirjoja suomeksi ja englanniksi sekä katsottavaksesi elokuvia Kirjastokino-palvelussa.'
-      },
-      gb: {
-        title: 'PIKI-libraries',
-        desc: 'With the PIKI Library Card, you can listen to both audiobooks and music, read e-books in Finnish and English, and watch movies at Library Library.'
-      },
-      se: {
-        title: 'PIKI-libraries',
-        desc: ''
-      }
-    },
-    link: 'https://piki.verkkokirjasto.fi/en/web/arena/-/luettavaa-kuunneltavaa-ja-katsottavaa-verkossa',
-    img_src: 'img/verkkokirjasto.png',
-    locations: [
-      'Pirkanmaa'
-    ],
-    category: 'Palvelut'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
-        title: 'Ruokaa Kotiovelle',
-        desc: 'Huippukokkien tekemää koko perheelle maistuvaa kotiruokaa isoina annoksia ja kotiin kuljetettuna. Toimitukset tällä hetkellä vain Helsingissä.'
-      },
-      gb: {
-        title: 'Ruokaa Kotiovelle',
-        desc: 'Home-cooked food made by top chefs in large portions and delivered home. Deliveries currently only in Helsinki.'
-      },
-      se: {
-        title: 'Ruokaa Kotiovelle',
-        desc: ''
-      }
-    },
-    link: 'https://ruokaakotiovelle.fi/',
-    img_src: 'img/ruokaakotiovelle.png',
-    locations: [
-      'Helsinki'
-    ],
-    category: 'Ruoka'
-  },
-  {
-    id: '',
-    langs: {
-      fi: {
         title: 'Pop Up Yoga',
         desc: 'Helppoja ja ilman välineitä, kotona tehtäviä jooga, pilates, kehonhuolto sekä kehonpaino videoita viikoittain päivittyvästä videopalvelusta. Lue lisää nettisivuilta!'
       },
@@ -3356,9 +3471,261 @@ const services = [
       'National'
     ],
     category: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Primitive skills ',
+        desc: 'Liikuntapalveluja nyt kun suurin osa liikuntapaikoista on kiinni. Personal training- ja pienryhmätreenit ulkona Espoon Kivenlahdessa. Tämän lisäksi online-joogaa, mitä on helppo tehdä omassa olohuoneessa.'
+      },
+      gb: {
+        title: 'Primitive skills ',
+        desc: 'Exercise services now that most sports facilities are closed. Personal training and small group trainings in Kivenlahti, Espoo. Plus, online yoga, which is easy to do in your living room.'
+      },
+      se: {
+        title: 'Primitive skills ',
+        desc: ''
+      }
+    },
+    link: 'https://primitiveskills.fi/',
+    img_src: 'img/primitiveskills.png',
+    locations: [
+      'National'
+    ],
+    category: 'Urheilu'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: '2 x Ilo',
+        desc: 'Nyt koronaviruksen ajan kortin lähetys -palvelun teille, jotka haluatte muistaa esimerkiksi isovanhempia, kauempana asuvaa perhettä tai ystävää. Nyt kun pyritään välttämään fyysistä läheisyyttä, on hyvä hetki muistaa läheisiä kortilla. Miten paljon se ilahduttaisi esimerkiksi isovanhempia vanhainkodissa.'
+      },
+      gb: {
+        title: '2 x Ilo',
+        desc: 'Card sending service to those you want to remember, such as grandparents, a distant family, or a friend. Now that you are trying to avoid physical intimacy, it is a good time to remember your loved ones on the card. How much it would please grandparents, for example, in a retirement home.'
+      },
+      se: {
+        title: '2 x Ilo',
+        desc: ''
+      }
+    },
+    link: 'https://2xilo.fi/shop/kortin-lahetyspalvelu/',
+    img_src: 'img/2xilo.png',
+    locations: [
+      'National'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'TT-Kauppa',
+        desc: 'TT-Kauppa.fi toimii aputoiminimenä Suomen Nettimyynti Oy:lle. Verkkokauppa tarjoaa monipuolisia suojakuoria erilaisille puhelimille ja tableteille, lisäksi löytyy myös puhelimia ja muita puhelintarvikkeita kuten kaapeleita, kuulokkeita, latureita, muistikortteja jne.'
+      },
+      gb: {
+        title: 'TT-Kauppa',
+        desc: 'TT-Kauppa.fi acts as an auxiliary business name for Suomen Nettimyynti Oy. The webshop offers versatile protective covers for a variety of phones and tablets, as well as phones and other phone accessories such as cables, headphones, chargers, memory cards, etc.'
+      },
+      se: {
+        title: 'TT-Kauppa',
+        desc: ''
+      }
+    },
+    link: 'https://www.ttkauppa.fi/',
+    img_src: 'img/ttkauppa.png',
+    locations: [
+      'National'
+    ],
+    category: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Poesia ',
+        desc: 'Osuuskuntamuotoinen kustantamo, jonka keskiössä on kiinnostava ja monimuotoinen runous. Kaikki tilaukset verkkokaupasta toistaiseksi ilman toimituskuluja koodilla LUKURAUHA.'
+      },
+      gb: {
+        title: 'Poesia ',
+        desc: 'A co-operative publishing house focused on interesting and diverse poetry. All orders from the web store for the time being free of charge with the code LUKURAUHA.'
+      },
+      se: {
+        title: 'Poesia ',
+        desc: ''
+      }
+    },
+    link: 'https://poesia.fi/',
+    img_src: 'img/poesia.png',
+    locations: [
+      'National'
+    ],
+    category: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'NFL - Game Pass',
+        desc: 'Kaiken kattava kausikortti amerikkalaisen jalkapallon tapahtumiin ja ilmainen oikeus jo pelattujen otteluiden seurantaan.'
+      },
+      gb: {
+        title: 'NFL - Game Pass',
+        desc: 'An all-inclusive season pass for American football events and free access to matches already played.'
+      },
+      se: {
+        title: 'NFL - Game Pass',
+        desc: ''
+      }
+    },
+    link: 'https://www.nflgamepass.com/en',
+    img_src: 'img/nflgamepass.png',
+    locations: [
+      'National'
+    ],
+    category: 'Viihde'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Sportyplanner',
+        desc: 'Sportyplanner -ohjelmisto avattu maksuttomaan käyttöön 31.07.2020 saakka. Sportyplanner on kehitetty liikunnan- ja kuntoutuksen ammattilaisten käyttöön, mutta palvelee yhtälailla kuluttajia. Palvelussa runsaasti valmiita harjoitusohjelmia eri tavoitteisiin: voima-, nopeus-, liikkuvuus- ja hallinta. Paljon treeniohjelmia kotiharjoitteluun.'
+      },
+      gb: {
+        title: 'Sportyplanner',
+        desc: 'Sportyplanner software opened for free use until 31.07.2020. The Sportyplanner is designed for use by exercise and rehabilitation professionals, but serves consumers in the same way. The service has plenty of ready-made exercise programs for different purposes: power, speed, mobility and control. Lots of exercise programs for home training.'
+      },
+      se: {
+        title: 'Sportyplanner',
+        desc: ''
+      }
+    },
+    link: 'https://sportyplanner.com/',
+    img_src: 'img/sportyplanner.png',
+    locations: [
+      'National'
+    ],
+    category: 'Urheilu'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'TradeUp',
+        desc: 'TradeUp myy huoltoliikkeen tarkastamia käytettyjä iPhone puhelimia 12KK takuulla. Edullinen kotiintoimitus ja osamaksumahdollisuus. '
+      },
+      gb: {
+        title: 'TradeUp',
+        desc: 'TradeUp sells dealer-inspected used iPhone phones under the 12KK Warranty. Affordable home delivery and installment option.'
+      },
+      se: {
+        title: 'TradeUp',
+        desc: ''
+      }
+    },
+    link: 'https://tradeup.fi/',
+    img_src: 'img/tradeup.png',
+    locations: [
+      'National'
+    ],
+    category: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Pässinpää',
+        desc: 'Kevään upea valikoima sisustustavaraa, ihania pellavaisia vaatteita ja oman tilan lammastuotteita:pakaste lihat, langat ja taljat. Kukkakaupasta saat tilattua kukkaviennin tai hakea kimppuja omaan pöytään.'
+      },
+      gb: {
+        title: 'Pässinpää',
+        desc: 'A stunning selection of home furnishings, lovely linen, and sheep\'s products from the spring: frozen meats, yarns and pulses. You can order a flower delivery or pick bouquets for your table at the flower shop.'
+      },
+      se: {
+        title: 'Pässinpää',
+        desc: ''
+      }
+    },
+    link: 'https://passinpaa.fi/',
+    img_src: 'img/passinpaa.png',
+    locations: [
+      'National'
+    ],
+    category: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Debora',
+        desc: 'Jatketaan kotiin tuotavia hoiva-, puhtaus- ja avustuspalveluita normaalisti myös poikkeustilanteessa. Lisäksi uusia palveluita, joista uskomme olevan apua koronatilanteesta kärsiville. Ajankohtaisiin palveluihin kuuluu mm. kauppa- ja asiointiapu, desinfiointisiivous ja kotilabra. Lomautettuja voidaan työllistää tilapäisesti auttamistyön parissa.'
+      },
+      gb: {
+        title: 'Debora',
+        desc: 'Home care, cleanliness and assistance services will normally continue even in exceptional circumstances. In addition, new services that we believe will help those suffering from corona. Current services include: trade and transaction assistance, disinfection cleaning and home lab. The lay-offs can be temporarily employed in the relief work.'
+      },
+      se: {
+        title: 'Debora',
+        desc: ''
+      }
+    },
+    link: 'https://debora.fi/',
+    img_src: 'img/debora.png',
+    locations: [
+      'National'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Stella Kotihoitopalvelut',
+        desc: 'Laadukkaat siivouspalvelut, terveyspalvelut ja kauppakassipalvelut.'
+      },
+      gb: {
+        title: 'Stella Kotihoitopalvelut',
+        desc: 'High quality cleaning services, health services and shopping bag services.'
+      },
+      se: {
+        title: 'Stella Kotihoitopalvelut',
+        desc: ''
+      }
+    },
+    link: 'https://www.stella.fi/',
+    img_src: 'img/stella.png',
+    locations: [
+      'National'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Helppy',
+        desc: 'Helppy auttaa senioreita. Aina sama tuttu turvallinen helpperi avuksi. Apua monessa arjen askareessa, kuten kaupassa/apteekissa käymisessä, asioinnissa, kodin ylläpidossa, digiavussa ja peseytymisen tukemisessa.'
+      },
+      gb: {
+        title: 'Helppy',
+        desc: 'Helppy helps seniors. Always the same familiar safe helper to help. Help with many everyday activities such as going to the store / pharmacy, doing business, maintaining a home, digital assistant, and supporting washing.'
+      },
+      se: {
+        title: 'Helppy',
+        desc: ''
+      }
+    },
+    link: 'https://www.helppy.fi/',
+    img_src: 'img/helppy.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Palvelut'
   }
 ]
-  
 
 
 const capitalize = (s) => {

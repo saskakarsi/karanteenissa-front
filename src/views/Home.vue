@@ -193,7 +193,7 @@ export default {
           svcLocs = Array.from(new Set(svcLocs.concat(svc.locations)))
         }
         const allLocs = svcLocs.map((loc) => {
-          const existingLoc = locations.find(l => l.name.fi == loc)
+          const existingLoc = locations.find(l => l.name.fi == loc || l.name.gb == loc)
           if (existingLoc) return existingLoc
           return { name: { fi: loc }} // Localization want this format
         })
