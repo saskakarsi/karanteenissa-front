@@ -134,7 +134,6 @@ export default {
         const allLocs = svcLocs.map((loc) => {
           const existingLoc = locations.find(l => l.name.gb == loc || l.name.fi == loc)
           if (existingLoc) {
-            console.log(existingLoc)
             return existingLoc
           }
           return { name: { fi: loc }} // Localization want this format
