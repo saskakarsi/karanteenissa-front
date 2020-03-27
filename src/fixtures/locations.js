@@ -13,7 +13,7 @@ const locations = [
     },
     {
         name: {
-            fi: 'Koko suomi',
+            fi: 'Koko Suomi',
             se: 'National',
             gb: 'National'
         }
