@@ -156,18 +156,15 @@
 <script>
 const services = require('../fixtures/services')
 const locations = require('../fixtures/locations')
-const categories = require('../fixtures/categories')
 const { menuLocalizations } = require('../fixtures/locales')
 const { getters, computeds } = require('../util/state')
 const { getServices } = require('../util/services')
 const { localizeLocations } = require('../util/localize')
-const { localizeCategories } = require('../util/localize')
 
 
 export default {
     data: () => ({
-      allLocations: undefined,
-      allCategories: undefined
+      allLocations: undefined
     }),
     computed: {
       ...computeds,
@@ -183,9 +180,6 @@ export default {
       locs: function () {
         return localizeLocations(this.allLocations).map((loc) => loc.current)
       },
-      cats: function () {
-        return localizeCategories(this.allCategories).map((cat) => cat.current)
-      },
       serviceCategories: function () {
         return Array.from(new Set(services.map((svc) => svc.category)))
       }
@@ -198,22 +192,12 @@ export default {
         for (const svc of services) {
           svcLocs = Array.from(new Set(svcLocs.concat(svc.locations)))
         }
-        var svcCats = []
-        for (const svc of services) {
-          svcCats = Array.from(new Set(svcCats.concat(svc.categories)))
-        }
         const allLocs = svcLocs.map((loc) => {
           const existingLoc = locations.find(l => l.name.fi == loc || l.name.gb == loc)
           if (existingLoc) return existingLoc
           return { name: { fi: loc }} // Localization want this format
         })
         this.allLocations = allLocs
-        const allCats = svcCats.map((cat) => {
-          const existingCat = categories.find(c => c.name.fi == cat || c.name.gb == cat)
-          if (existingCat) return existingCat
-          return { name: { fi: cat }} // Localization want this format
-        })
-        this.allCategories = allCats
     }
 }
 </script>
