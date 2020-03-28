@@ -1,9 +1,9 @@
 const categories = [
     {
         name: {
-            fi: 'asd',
-            se: 'asd',
-            gb: 'asd'
+            fi: 'Ruoka',
+            se: 'Food',
+            gb: 'Food'
         }
     }
 ]
