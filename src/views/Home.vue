@@ -156,15 +156,17 @@
 <script>
 const services = require('../fixtures/services')
 const locations = require('../fixtures/locations')
+const categories = require('../fixtures/categories')
 const { menuLocalizations } = require('../fixtures/locales')
 const { getters, computeds } = require('../util/state')
 const { getServices } = require('../util/services')
-const { localizeLocations } = require('../util/localize')
+const { localizeLocations, localizeCategories } = require('../util/localize')
 
 
 export default {
     data: () => ({
-      allLocations: undefined
+      allLocations: undefined,
+      allCategories: undefined
     }),
     computed: {
       ...computeds,
@@ -180,8 +182,8 @@ export default {
       locs: function () {
         return localizeLocations(this.allLocations).map((loc) => loc.current)
       },
-      serviceCategories: function () {
-        return Array.from(new Set(services.map((svc) => svc.category)))
+      cats: function () {
+        return localizeCategories(this.allCategories).map((cat) => cat.current)
       }
     },
     created() {
@@ -189,8 +191,10 @@ export default {
         // and locations found in the data; this way we can filter with
         // not-yet-translated locations as well
         var svcLocs = []
+        var svcCats = []
         for (const svc of services) {
           svcLocs = Array.from(new Set(svcLocs.concat(svc.locations)))
+          svcCats = Array.from(new Set(svcCats.concat(svc.categories)))
         }
         const allLocs = svcLocs.map((loc) => {
           const existingLoc = locations.find(l => l.name.fi == loc || l.name.gb == loc)
@@ -198,6 +202,12 @@ export default {
           return { name: { fi: loc }} // Localization want this format
         })
         this.allLocations = allLocs
+        const allCats = svcCats.map((cat) => {
+          const existingCat = categories.find(c => c.name.fi == cat || c.name.gb == cat)
+          if (existingCat) return existingCat
+          return { name: { fi: cat }} // Localization want this format
+        })
+        this.allCategories = allCats
     }
 }
 </script>

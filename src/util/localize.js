@@ -24,6 +24,18 @@ const localizeLocations = (locations) => {
     return locs
 }
 
+const localizeCategories = (categories) => {
+    const lang = getters.locale().value
+    const cats = categories.map((cat) => {
+        if (cat.name[lang]) {
+            return {...cat, current: cat.name[lang]}
+        } else {
+            return {...cat, current: cat.name['fi']}
+        }
+    })
+    return cats
+}
+
 const findLocation = (locations, locStr) => {
     const lang = getters.locale().value
     return locations.find((loc) => {
