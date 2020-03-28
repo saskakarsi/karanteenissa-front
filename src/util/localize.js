@@ -43,9 +43,18 @@ const findLocation = (locations, locStr) => {
     })
 }
 
+const findCategory = (categories, catStr) => {
+    const lang = getters.locale().value
+    return categories.find((cat) => {
+        return cat.name[lang] == catStr || cat.name.fi == catStr
+    })
+}
+
+
 module.exports = { 
     localizeServices, 
     localizeLocations,
     localizeCategories,
-    findLocation
+    findLocation,
+    findCategory
 }

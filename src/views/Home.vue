@@ -33,7 +33,7 @@
       <v-col cols="12 mx-auto">
         <v-select
           v-model="selectedCategory"
-          :items="serviceCategories"
+          :items="cats"
           menu-props="auto"
           :label="menuTexts.services.categorySelector"
           hide-details

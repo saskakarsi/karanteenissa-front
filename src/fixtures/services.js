@@ -20,7 +20,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Ruoka'
+    categories: 'Ruoka'
   },
   {
     id: '',
@@ -43,7 +43,7 @@ const services = [
     locations: [
       'Espoo'
     ],
-    category: 'Ruoka'
+    categories: 'Ruoka'
   },
   {
     id: '',
@@ -66,7 +66,7 @@ const services = [
     locations: [
       'Espoo'
     ],
-    category: 'Ruoka'
+    categories: 'Ruoka'
   },
   {
     id: '',
@@ -89,7 +89,7 @@ const services = [
     locations: [
       'Espoo'
     ],
-    category: 'Ruoka'
+    categories: 'Ruoka'
   },
   {
     id: '',
@@ -112,7 +112,7 @@ const services = [
     locations: [
       'Espoo'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -135,7 +135,7 @@ const services = [
     locations: [
       'Espoo'
     ],
-    category: 'Ruoka'
+    categories: 'Ruoka'
   },
   {
     id: '',
@@ -158,7 +158,7 @@ const services = [
     locations: [
       'Helsinki'
     ],
-    category: 'Ruoka'
+    categories: 'Ruoka'
   },
   {
     id: '',
@@ -181,7 +181,7 @@ const services = [
     locations: [
       'Helsinki'
     ],
-    category: 'Ruoka'
+    categories: 'Ruoka'
   },
   {
     id: '',
@@ -204,7 +204,7 @@ const services = [
     locations: [
       'Helsinki'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -227,7 +227,7 @@ const services = [
     locations: [
       'Helsinki'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -250,7 +250,7 @@ const services = [
     locations: [
       'Helsinki'
     ],
-    category: 'Ruoka'
+    categories: 'Ruoka'
   },
   {
     id: '',
@@ -273,7 +273,7 @@ const services = [
     locations: [
       'Päijät-Häme'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -296,7 +296,7 @@ const services = [
     locations: [
       'Pirkanmaa'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -319,7 +319,7 @@ const services = [
     locations: [
       'Pirkanmaa'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -342,7 +342,7 @@ const services = [
     locations: [
       'Seinäjoki'
     ],
-    category: 'Ruoka'
+    categories: 'Ruoka'
   },
   {
     id: '',
@@ -365,7 +365,7 @@ const services = [
     locations: [
       'Tampere'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -388,7 +388,7 @@ const services = [
     locations: [
       'Tampere'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -411,7 +411,7 @@ const services = [
     locations: [
       'Tampere'
     ],
-    category: 'Ruoka'
+    categories: 'Ruoka'
   },
   {
     id: '',
@@ -434,7 +434,7 @@ const services = [
     locations: [
       'Tuusula '
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -457,7 +457,7 @@ const services = [
     locations: [
       'Helsinki'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -480,7 +480,7 @@ const services = [
     locations: [
       'Helsinki'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -503,7 +503,7 @@ const services = [
     locations: [
       'Helsinki'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -526,7 +526,7 @@ const services = [
     locations: [
       'Helsinki'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -549,7 +549,7 @@ const services = [
     locations: [
       'Helsinki'
     ],
-    category: 'Ruoka'
+    categories: 'Ruoka'
   },
   {
     id: '',
@@ -572,7 +572,7 @@ const services = [
     locations: [
       'Helsinki'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -595,7 +595,7 @@ const services = [
     locations: [
       'Helsinki'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -618,7 +618,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -641,7 +641,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo', 'Vantaa'
     ],
-    category: 'Ruoka'
+    categories: 'Ruoka'
   },
   {
     id: '',
@@ -664,7 +664,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo', 'Vantaa'
     ],
-    category: 'Ruoka'
+    categories: 'Ruoka'
   },
   {
     id: '',
@@ -687,7 +687,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo', 'Vantaa'
     ],
-    category: 'Ruoka'
+    categories: 'Ruoka'
   },
   {
     id: '',
@@ -710,7 +710,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo', 'Vantaa'
     ],
-    category: 'Verkkokauppa'
+    categories: 'Verkkokauppa'
   },
   {
     id: '',
@@ -733,7 +733,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo', 'Vantaa'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -756,7 +756,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo', 'Vantaa'
     ],
-    category: 'Hoiva'
+    categories: 'Hoiva'
   },
   {
     id: '',
@@ -779,7 +779,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo', 'Vantaa'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -802,7 +802,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo', 'Vantaa'
     ],
-    category: 'Hoiva'
+    categories: 'Hoiva'
   },
   {
     id: '',
@@ -825,7 +825,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo', 'Vantaa'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -848,7 +848,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo', 'Vantaa'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -871,7 +871,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo', 'Vantaa'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -894,7 +894,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo', 'Vantaa'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -917,7 +917,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo', 'Vantaa'
     ],
-    category: 'Kodit'
+    categories: 'Kodit'
   },
   {
     id: '',
@@ -940,7 +940,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo', 'Vantaa'
     ],
-    category: 'Kodit'
+    categories: 'Kodit'
   },
   {
     id: '',
@@ -963,7 +963,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo', 'Vantaa'
     ],
-    category: 'Kodit'
+    categories: 'Kodit'
   },
   {
     id: '',
@@ -986,7 +986,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo', 'Vantaa'
     ],
-    category: 'Urheilu'
+    categories: 'Urheilu'
   },
   {
     id: '',
@@ -1009,7 +1009,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo', 'Vantaa'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -1032,7 +1032,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo', 'Vantaa'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -1055,7 +1055,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo', 'Vantaa', 'Kirkkonummi', 'Sipoo', 'Porvoo'
     ],
-    category: 'Ruoka'
+    categories: 'Ruoka'
   },
   {
     id: '',
@@ -1078,7 +1078,7 @@ const services = [
     locations: [
       'Helsinki', 'Kaartinkaupunki'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -1101,7 +1101,7 @@ const services = [
     locations: [
       'Helsinki', 'Tampere', 'Turku'
     ],
-    category: 'Ruoka'
+    categories: 'Ruoka'
   },
   {
     id: '',
@@ -1124,7 +1124,7 @@ const services = [
     locations: [
       'Helsinki','Espoo','Vantaa'
     ],
-    category: 'Verkkokauppa'
+    categories: 'Verkkokauppa'
   },
   {
     id: '',
@@ -1147,7 +1147,7 @@ const services = [
     locations: [
       'Helsinki','Espoo','Vantaa'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -1170,7 +1170,7 @@ const services = [
     locations: [
       'Helsinki','Turku'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -1193,7 +1193,7 @@ const services = [
     locations: [
       'Hyvinkää'
     ],
-    category: 'Ruoka'
+    categories: 'Ruoka'
   },
   {
     id: '',
@@ -1216,7 +1216,7 @@ const services = [
     locations: [
       'Koskue'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -1239,7 +1239,7 @@ const services = [
     locations: [
       'Kotka'
     ],
-    category: 'Ruoka'
+    categories: 'Ruoka'
   },
   {
     id: '',
@@ -1262,7 +1262,7 @@ const services = [
     locations: [
       'Kuopio'
     ],
-    category: 'Ruoka'
+    categories: 'Ruoka'
   },
   {
     id: '',
@@ -1285,7 +1285,7 @@ const services = [
     locations: [
       'Kuusamo'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -1308,7 +1308,7 @@ const services = [
     locations: [
       'Kuusamo'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -1331,7 +1331,7 @@ const services = [
     locations: [
       'Kuusamo'
     ],
-    category: 'Ruoka'
+    categories: 'Ruoka'
   },
   {
     id: '',
@@ -1354,7 +1354,7 @@ const services = [
     locations: [
       'Kuusamo'
     ],
-    category: 'Ruoka'
+    categories: 'Ruoka'
   },
   {
     id: '',
@@ -1377,7 +1377,7 @@ const services = [
     locations: [
       'Kuusamo'
     ],
-    category: 'Hoiva'
+    categories: 'Hoiva'
   },
   {
     id: '',
@@ -1400,7 +1400,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Ruoka'
+    categories: 'Ruoka'
   },
   {
     id: '',
@@ -1423,7 +1423,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Ruoka'
+    categories: 'Ruoka'
   },
   {
     id: '',
@@ -1446,7 +1446,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Ruoka'
+    categories: 'Ruoka'
   },
   {
     id: '',
@@ -1469,7 +1469,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Ruoka'
+    categories: 'Ruoka'
   },
   {
     id: '',
@@ -1492,7 +1492,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Ruoka'
+    categories: 'Ruoka'
   },
   {
     id: '',
@@ -1515,7 +1515,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Ruoka'
+    categories: 'Ruoka'
   },
   {
     id: '',
@@ -1538,7 +1538,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Ruoka'
+    categories: 'Ruoka'
   },
   {
     id: '',
@@ -1561,7 +1561,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Ruoka'
+    categories: 'Ruoka'
   },
   {
     id: '',
@@ -1584,7 +1584,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Ruoka'
+    categories: 'Ruoka'
   },
   {
     id: '',
@@ -1607,7 +1607,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Verkkokauppa'
+    categories: 'Verkkokauppa'
   },
   {
     id: '',
@@ -1630,7 +1630,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Verkkokauppa'
+    categories: 'Verkkokauppa'
   },
   {
     id: '',
@@ -1653,7 +1653,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Verkkokauppa'
+    categories: 'Verkkokauppa'
   },
   {
     id: '',
@@ -1676,7 +1676,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Verkkokauppa'
+    categories: 'Verkkokauppa'
   },
   {
     id: '',
@@ -1699,7 +1699,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Verkkokauppa'
+    categories: 'Verkkokauppa'
   },
   {
     id: '',
@@ -1722,7 +1722,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Verkkokauppa'
+    categories: 'Verkkokauppa'
   },
   {
     id: '',
@@ -1745,7 +1745,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Verkkokauppa'
+    categories: 'Verkkokauppa'
   },
   {
     id: '',
@@ -1768,7 +1768,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Verkkokauppa'
+    categories: 'Verkkokauppa'
   },
   {
     id: '',
@@ -1791,7 +1791,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Hoiva'
+    categories: 'Hoiva'
   },
   {
     id: '',
@@ -1814,7 +1814,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Hoiva'
+    categories: 'Hoiva'
   },
   {
     id: '',
@@ -1837,7 +1837,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Hoiva'
+    categories: 'Hoiva'
   },
   {
     id: '',
@@ -1860,7 +1860,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -1883,7 +1883,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -1906,7 +1906,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Hoiva'
+    categories: 'Hoiva'
   },
   {
     id: '',
@@ -1929,7 +1929,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Hoiva'
+    categories: 'Hoiva'
   },
   {
     id: '',
@@ -1952,7 +1952,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -1975,7 +1975,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -1998,7 +1998,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Hoiva'
+    categories: 'Hoiva'
   },
   {
     id: '',
@@ -2021,7 +2021,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Hoiva'
+    categories: 'Hoiva'
   },
   {
     id: '',
@@ -2044,7 +2044,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Kodit'
+    categories: 'Kodit'
   },
   {
     id: '',
@@ -2067,7 +2067,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Kodit'
+    categories: 'Kodit'
   },
   {
     id: '',
@@ -2090,7 +2090,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Viihde'
+    categories: 'Viihde'
   },
   {
     id: '',
@@ -2113,7 +2113,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Viihde'
+    categories: 'Viihde'
   },
   {
     id: '',
@@ -2136,7 +2136,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Viihde'
+    categories: 'Viihde'
   },
   {
     id: '',
@@ -2159,7 +2159,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Viihde'
+    categories: 'Viihde'
   },
   {
     id: '',
@@ -2182,7 +2182,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Viihde'
+    categories: 'Viihde'
   },
   {
     id: '',
@@ -2205,7 +2205,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Viihde'
+    categories: 'Viihde'
   },
   {
     id: '',
@@ -2228,7 +2228,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Viihde'
+    categories: 'Viihde'
   },
   {
     id: '',
@@ -2251,7 +2251,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Viihde'
+    categories: 'Viihde'
   },
   {
     id: '',
@@ -2274,7 +2274,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Viihde'
+    categories: 'Viihde'
   },
   {
     id: '',
@@ -2297,7 +2297,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Viihde'
+    categories: 'Viihde'
   },
   {
     id: '',
@@ -2320,7 +2320,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Viihde'
+    categories: 'Viihde'
   },
   {
     id: '',
@@ -2343,7 +2343,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Urheilu'
+    categories: 'Urheilu'
   },
   {
     id: '',
@@ -2366,7 +2366,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Urheilu'
+    categories: 'Urheilu'
   },
   {
     id: '',
@@ -2389,7 +2389,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Urheilu'
+    categories: 'Urheilu'
   },
   {
     id: '',
@@ -2412,7 +2412,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Urheilu'
+    categories: 'Urheilu'
   },
   {
     id: '',
@@ -2435,7 +2435,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Urheilu'
+    categories: 'Urheilu'
   },
   {
     id: '',
@@ -2458,7 +2458,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -2481,7 +2481,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -2504,7 +2504,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -2527,7 +2527,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Verkkokauppa'
+    categories: 'Verkkokauppa'
   },
   {
     id: '',
@@ -2550,7 +2550,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Viihde'
+    categories: 'Viihde'
   },
   {
     id: '',
@@ -2573,7 +2573,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Verkkokauppa'
+    categories: 'Verkkokauppa'
   },
   {
     id: '',
@@ -2596,7 +2596,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Verkkokauppa'
+    categories: 'Verkkokauppa'
   },
   {
     id: '',
@@ -2619,7 +2619,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Verkkokauppa'
+    categories: 'Verkkokauppa'
   },
   {
     id: '',
@@ -2642,7 +2642,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Hoiva'
+    categories: 'Hoiva'
   },
   {
     id: '',
@@ -2665,7 +2665,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Viihde'
+    categories: 'Viihde'
   },
   {
     id: '',
@@ -2688,7 +2688,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -2711,7 +2711,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -2734,7 +2734,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -2757,7 +2757,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Verkkokauppa'
+    categories: 'Verkkokauppa'
   },
   {
     id: '',
@@ -2780,7 +2780,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Verkkokauppa'
+    categories: 'Verkkokauppa'
   },
   {
     id: '',
@@ -2803,7 +2803,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -2826,7 +2826,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Viihde'
+    categories: 'Viihde'
   },
   {
     id: '',
@@ -2849,7 +2849,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Verkkokauppa'
+    categories: 'Verkkokauppa'
   },
   {
     id: '',
@@ -2872,7 +2872,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Verkkokauppa'
+    categories: 'Verkkokauppa'
   },
   {
     id: '',
@@ -2895,7 +2895,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Viihde'
+    categories: 'Viihde'
   },
   {
     id: '',
@@ -2918,7 +2918,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Viihde'
+    categories: 'Viihde'
   },
   {
     id: '',
@@ -2941,7 +2941,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Viihde'
+    categories: 'Viihde'
   },
   {
     id: '',
@@ -2964,7 +2964,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Viihde'
+    categories: 'Viihde'
   },
   {
     id: '',
@@ -2987,7 +2987,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -3010,7 +3010,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -3033,7 +3033,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Verkkokauppa'
+    categories: 'Verkkokauppa'
   },
   {
     id: '',
@@ -3056,7 +3056,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -3079,7 +3079,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -3102,7 +3102,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -3125,7 +3125,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -3148,7 +3148,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Verkkokauppa'
+    categories: 'Verkkokauppa'
   },
   {
     id: '',
@@ -3171,7 +3171,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Verkkokauppa'
+    categories: 'Verkkokauppa'
   },
   {
     id: '',
@@ -3194,7 +3194,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -3217,7 +3217,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Verkkokauppa'
+    categories: 'Verkkokauppa'
   },
   {
     id: '',
@@ -3240,7 +3240,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Verkkokauppa'
+    categories: 'Verkkokauppa'
   },
   {
     id: '',
@@ -3263,7 +3263,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -3286,7 +3286,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Viihde'
+    categories: 'Viihde'
   },
   {
     id: '',
@@ -3309,7 +3309,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Viihde'
+    categories: 'Viihde'
   },
   {
     id: '',
@@ -3332,7 +3332,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -3355,7 +3355,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -3378,7 +3378,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Urheilu'
+    categories: 'Urheilu'
   },
   {
     id: '',
@@ -3401,7 +3401,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Viihde'
+    categories: 'Viihde'
   },
   {
     id: '',
@@ -3424,7 +3424,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Verkkokauppa'
+    categories: 'Verkkokauppa'
   },
   {
     id: '',
@@ -3447,7 +3447,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Urheilu'
+    categories: 'Urheilu'
   },
   {
     id: '',
@@ -3470,7 +3470,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Verkkokauppa'
+    categories: 'Verkkokauppa'
   },
   {
     id: '',
@@ -3493,7 +3493,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Urheilu'
+    categories: 'Urheilu'
   },
   {
     id: '',
@@ -3516,7 +3516,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -3539,7 +3539,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Verkkokauppa'
+    categories: 'Verkkokauppa'
   },
   {
     id: '',
@@ -3562,7 +3562,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Verkkokauppa'
+    categories: 'Verkkokauppa'
   },
   {
     id: '',
@@ -3585,7 +3585,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Viihde'
+    categories: 'Viihde'
   },
   {
     id: '',
@@ -3608,7 +3608,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Urheilu'
+    categories: 'Urheilu'
   },
   {
     id: '',
@@ -3631,7 +3631,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Verkkokauppa'
+    categories: 'Verkkokauppa'
   },
   {
     id: '',
@@ -3654,7 +3654,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Verkkokauppa'
+    categories: 'Verkkokauppa'
   },
   {
     id: '',
@@ -3677,7 +3677,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -3700,7 +3700,7 @@ const services = [
     locations: [
       'National'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -3723,7 +3723,7 @@ const services = [
     locations: [
       'Helsinki'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   }
 ]
 
@@ -3736,7 +3736,7 @@ var i;
 for (i = 0; i < services.length; i++) {
     services[i].id = i
     services[i].locations = services[i].locations.filter(Boolean)
-    services[i].category = capitalize(services[i].category)
+    services[i].categories = capitalize(services[i].categories)
     services[i].current = services[i].langs.fi
 }
 
