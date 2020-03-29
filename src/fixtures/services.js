@@ -3701,6 +3701,190 @@ const services = [
       'Helsinki'
     ],
     category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'WorkPilots',
+        desc: 'Palvelusta löytyy tuhansia nuoria ympäri suomea joita voit tilata avuksesi sekä kodin että yrityksen tarpeisiin alkaen yhdestä tunnista. Esimerkkeinä voisi olla kaupassa käynti, tavaroiden noutaminen, koiran ulkoilutus (pääkaupunkiseudulla palvelussa koulutetut 4H dogistterit, apua lasten kanssa (vaikka etänäkin) ja kaikki muut kodin askareet.  '
+      },
+      gb: {
+        title: 'WorkPilots',
+        desc: 'The service has thousands of young people all over Finland who can be ordered to help you with the needs of your home and business from just one hour. Examples could be shopping, picking up supplies, dog walking (4H dog trainers trained in the Greater Helsinki area), assistance with children (even remotely) and all other household chores.'
+      },
+      se: {
+        title: 'WorkPilots',
+        desc: ''
+      }
+    },
+    link: 'https://workpilots.fi/',
+    img_src: 'img/workpilots.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Edun Herkkukeidas',
+        desc: 'Ruoka-annoksia ja lounasta noutaen tai kotiinkuljetuksella.'
+      },
+      gb: {
+        title: 'Edun Herkkukeidas',
+        desc: 'Meals and lunch for takeaway or home delivery.'
+      },
+      se: {
+        title: 'Edun Herkkukeidas',
+        desc: ''
+      }
+    },
+    link: 'https://www.edunherkkukeidas.fi/',
+    img_src: 'img/edunherkkukeidas.png',
+    locations: [
+      'Tampere'
+    ],
+    categories: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Vantaan Seurakunnat',
+        desc: 'Vantaan seurakunnat tarjoavat ruoka-apua ja keskusteluapua koronaviruksen aiheuttamissa poikkeusoloissa.'
+      },
+      gb: {
+        title: 'Vantaan Seurakunnat',
+        desc: 'The churches in Vantaa provide food aid and discussion assistance in the event of an emergency caused by the coronavirus.'
+      },
+      se: {
+        title: 'Vantaan Seurakunnat',
+        desc: ''
+      }
+    },
+    link: 'https://www.vantaanseurakunnat.fi/apua-ja-tukea/kirkko-auttaa-poikkeusoloissa',
+    img_src: 'img/vantaanseurakunnat.png',
+    locations: [
+      'Vantaa'
+    ],
+    categories: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Kahvakoukku',
+        desc: 'Kotimaisesta vanerista valmistettu ”kahvakoukku”, jolla voit avata ovia, painella katkaisimia, hissin nappeja tms on helppo apu käsihygienasta huolehtimiseen. Pintoihin kosketuksissa olevaan koukkuosaan ei tarvitse koskea missään vaiheessa käyttöä. Koukkua säilytetään rungon sisällä, jolloin siihen ei ole vahingossa kosketuksissa. Kahvakoukun hinta on 7.50€ sisältäen ilmaisen toimituksen Suomeen.'
+      },
+      gb: {
+        title: 'Hand Hook',
+        desc: 'Domestic plywood "handle hook" for opening doors, pressing switches, elevator buttons, etc. is an easy aid for hand hygiene. The hook part which is in contact with the surfaces need not be subjected at any time to use. The hook is stored inside the frame to prevent accidental contact. The handle hook price is 7.50 € including free shipping to Finland.'
+      },
+      se: {
+        title: 'Kahvakoukku',
+        desc: ''
+      }
+    },
+    link: 'https://www.datanorppa.fi/tuote/kahvakoukku/',
+    img_src: 'img/datanorppa.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Piece and love',
+        desc: 'Pitsaa ja muita ruoka-annoksia kotiinkuljetettuna. Kuljetus on ilmainen yli 20€ tilauksille, muuten hinta on 4€.'
+      },
+      gb: {
+        title: 'Piece and love',
+        desc: 'Pizza and other food delivered home. Free shipping on orders over 20 €, otherwise 4 €.'
+      },
+      se: {
+        title: 'Piece and love',
+        desc: ''
+      }
+    },
+    link: 'https://www.piecenlove.fi/',
+    img_src: 'img/piecenlove.png',
+    locations: [
+      'Helsinki'
+    ],
+    categories: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Elämyslahjat',
+        desc: 'Tarjoannassa sekä kotona että karanteenin jälkeen koettavia elämyksiä .'
+      },
+      gb: {
+        title: 'Elämyslahjat',
+        desc: 'Offers experiences both at home and after quarantine.'
+      },
+      se: {
+        title: 'Elämyslahjat',
+        desc: ''
+      }
+    },
+    link: 'https://www.elamyslahjat.fi/',
+    img_src: 'img/elamyslajat.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Deliporo',
+        desc: 'Syö hyvin myös karanteenissa, tilaa poronlihaa verkkokaupasta.'
+      },
+      gb: {
+        title: 'Deliporo',
+        desc: 'Eat well also in quarantine, order reindeer meat online.'
+      },
+      se: {
+        title: 'Deliporo',
+        desc: ''
+      }
+    },
+    link: 'https://www.deliporo.fi/',
+    img_src: 'img/deliporo.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Villa Sofia Living',
+        desc: 'Kodintekstiilit, sisustustarvikkeet, ekologiset pesuaineet, palashampoot, saippuat, kestovanulaput jne.'
+      },
+      gb: {
+        title: 'Villa Sofia Living',
+        desc: 'Home textiles, home furnishings, eco-detergents, shampoos, soaps, patches, etc.'
+      },
+      se: {
+        title: 'Villa Sofia Living',
+        desc: ''
+      }
+    },
+    link: 'https://www.villasofia.fi/',
+    img_src: 'img/villasofia.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Verkkokauppa'
   }
 ]
   
