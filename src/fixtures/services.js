@@ -3723,7 +3723,6 @@ const services = [
     locations: [
       'Helsinki'
     ],
-<<<<<<< HEAD
     category: 'Palvelut'
   },
   {
@@ -3909,9 +3908,6 @@ const services = [
       'National'
     ],
     categories: 'Verkkokauppa'
-=======
-    categories: 'Palvelut'
->>>>>>> 5f5d8c3b1b19403b7c7552b8d3d9ac64f210050f
   }
 ]
 
