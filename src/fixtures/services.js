@@ -3908,6 +3908,1225 @@ const services = [
       'National'
     ],
     categories: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Miriam\'s',
+        desc: 'Kahvila tarjoavaa ilmaisen kotiinkuljetuksen Jyväskylän keskustan alueella, maksua vastaan kuljetus kauemmas. Tilaus puhelimitse.'
+      },
+      gb: {
+        title: 'Miriam\'s',
+        desc: 'The café offers free home delivery in the center of Jyväskylä, for a fee for transportation further away. Order by phone.'
+      },
+      se: {
+        title: 'Miriam\'s',
+        desc: ''
+      }
+    },
+    link: 'https://www.miriams.fi/',
+    img_src: 'img/miriams.png',
+    locations: [
+      'Jyväksylä'
+    ],
+    categories: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Tirri Active Oy',
+        desc: 'Yksilöllista Personal Training -palvelua myös etäyhteyksin. Tarjolla myös ilmainen kotitreenivideo yli 70-vuotiaille kotikaranteenissa: https://www.youtube.com/watch?v=LhTtwjhVfMg&feature=youtu.be'
+      },
+      gb: {
+        title: 'Tirri Active Oy',
+        desc: 'Personal Training also remotely. There is also a free home workout video for over 70s at home quarantine: https://www.youtube.com/watch?v=LhTtwjhVfMg&feature=youtu.be'
+      },
+      se: {
+        title: 'Tirri Active Oy',
+        desc: ''
+      }
+    },
+    link: 'www.tirriactive.fi',
+    img_src: 'img/tirriactive.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Urheilu'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'LI STLE',
+        desc: 'Parturi- , kampaamo- sekä kosmetologipalveluita 30% alennuksella.'
+      },
+      gb: {
+        title: 'LI STLE',
+        desc: 'Hairdressing and beauty services at a 30% discount.'
+      },
+      se: {
+        title: 'LI STLE',
+        desc: ''
+      }
+    },
+    link: 'www.listyle.fi',
+    img_src: 'img/listyle.png',
+    locations: [
+      'Helsinki'
+    ],
+    categories: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Pauner oy',
+        desc: 'Ergonomiset kalusteet etätyö kotitoimistoon. Etätyössä kotitoimiston ergonomia kannattaa laittaa kuntoon, sillä huono työasento tietotyössä lisää riskiä mm. niska-hartiaseudun ja selän kipeytymiseen. Hyvillä ergonomiavälineillä etätyö sujuu hyvin.'
+      },
+      gb: {
+        title: 'Pauner oy',
+        desc: 'Ergonomic furniture for home office.With good ergonomic tools, working form home is fine.'
+      },
+      se: {
+        title: 'Pauner oy',
+        desc: ''
+      }
+    },
+    link: 'https://www.pauner.fi/',
+    img_src: 'img/pauner.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'AriHilly',
+        desc: 'Sisustustuotteita ja tarvikkeita lemmikeille kotimaisesta puusta. Tuotteet toimitetaan tarpeen vaatiessa kotiovelle.'
+      },
+      gb: {
+        title: 'AriHilly',
+        desc: 'Furnishings and accessories for pets from domestic wood. Products will be delivered to your door when needed.'
+      },
+      se: {
+        title: 'AriHilly',
+        desc: ''
+      }
+    },
+    link: 'arihilly.com',
+    img_src: 'img/arihilly.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Uniao da Roseira',
+        desc: '3 kertaa viikossa Facebookin kautta online-tunteja aidosta karnevaali sambasta. '
+      },
+      gb: {
+        title: 'Uniao da Roseira',
+        desc: 'Online lessons on true carnival samba three times a week via Facebook.'
+      },
+      se: {
+        title: 'Uniao da Roseira',
+        desc: ''
+      }
+    },
+    link: 'https://roseira.net/',
+    img_src: 'img/roseira.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Urheilu'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Lehtiluukku.fi',
+        desc: 'Suosikkilehdet digitaalisina näköisversioina yhden klikkauksen päässä. Luettavissa kaikilla nykyaikaisilla älylaittelilla missä ja milloin tahansa, vaikka karanteenissa.'
+      },
+      gb: {
+        title: 'Lehtiluukku.fi',
+        desc: 'One-click favorite digital magazines. Readable on all modern smart devices anywhere, anytime, even in quarantine.'
+      },
+      se: {
+        title: 'Lehtiluukku.fi',
+        desc: ''
+      }
+    },
+    link: 'https://www.lehtiluukku.fi/',
+    img_src: 'img/lehtiluukku.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Suomen lastenkulttuurikeskusten liitto',
+        desc: 'Tälle sivustolle kootaan vinkkejä taiteen ja kulttuurin harrastamiseen, tekemiseen ja kokemiseen kotona.'
+      },
+      gb: {
+        title: 'Suomen lastenkulttuurikeskusten liitto',
+        desc: 'This site gathers tips for practicing, making and experiencing art and culture at home.'
+      },
+      se: {
+        title: 'Suomen lastenkulttuurikeskusten liitto',
+        desc: ''
+      }
+    },
+    link: 'https://www.lastenkulttuuri.fi/kulttuuriakotona/',
+    img_src: 'img/lastenkulttuuri.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Virtuaalinen metsäretki',
+        desc: 'Hyvän mielen metsäkävelyt virtuaalisesti.'
+      },
+      gb: {
+        title: 'Virtual forest walk',
+        desc: 'Good-spirited forest walks virtually.'
+      },
+      se: {
+        title: 'Virtuaalinen metsäretki',
+        desc: ''
+      }
+    },
+    link: 'https://www.mielenterveystalo.fi/aikuiset/itsehoito-ja-oppaat/oppaat/tietoa_luonnon_hyvinvointivaikutuksista/Pages/mene-metsaan-virtuaalisesti.aspx',
+    img_src: 'img/mielenterveystalo.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Kuvista kotona',
+        desc: 'Ideoita kotiin ja etäopetukseen kuvataiteesta.'
+      },
+      gb: {
+        title: 'Kuvista kotona',
+        desc: 'Ideas for home and distance education on visual arts.'
+      },
+      se: {
+        title: 'Kuvista kotona',
+        desc: ''
+      }
+    },
+    link: 'https://sites.google.com/view/koulukuvis/teht%C3%A4vi%C3%A4/kuvista-kotona?fbclid=IwAR2YZ4WIqX7hygFuzPm9bKlguvaLu1We_RBOYHy9VWFXEwf2mgzyLhsbdzU',
+    img_src: 'img/koulukuvis.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Finna',
+        desc: 'Finna.fi on hakupalvelu, josta löydät aineistoja suomalaisista arkistoista, kirjastoista ja museoista.'
+      },
+      gb: {
+        title: 'Finna',
+        desc: 'Finna.fi is a search service where you can find material from Finnish archives, libraries and museums.'
+      },
+      se: {
+        title: 'Finna',
+        desc: ''
+      }
+    },
+    link: 'https://finna.fi/',
+    img_src: 'img/finna.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Minna Bakes',
+        desc: 'Kahvila joutui sulkemaan ovensa, mutta tuotteita voi tilata ennakkotilauksena kotiinkuljetuksena.'
+      },
+      gb: {
+        title: 'Minna Bakes',
+        desc: 'The café had to close its doors, but products can be pre-ordered for home delivery.'
+      },
+      se: {
+        title: 'Minna Bakes',
+        desc: ''
+      }
+    },
+    link: 'www.minnabakes.fi',
+    img_src: 'img/minnabakes.png',
+    locations: [
+      'Jyväksylä'
+    ],
+    categories: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Oopperan ja baletin virtuaalinäyttämö',
+        desc: 'Täällä voit katsoa ja kuunnella Oopperabaletin mm. esitystallenteita, trailereita ja tekijöiden haastatteluja.'
+      },
+      gb: {
+        title: 'Virtual stage for opera and ballet',
+        desc: 'Here you can watch and listen to the Opera Ballet\'s presentations, trailers, and interviews with authors.'
+      },
+      se: {
+        title: 'Oopperan ja baletin virtuaalinäyttämö',
+        desc: ''
+      }
+    },
+    link: 'https://oopperabaletti.fi/stage24/',
+    img_src: 'img/oopperabaletti.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Viihde'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Rilla Tervonen',
+        desc: 'Paperituotteita, joiden tarkoitus on lohduttaa ja antaa voimaa.'
+      },
+      gb: {
+        title: 'Rilla Tervonen',
+        desc: 'Paper products designed to comfort and empower.'
+      },
+      se: {
+        title: 'Rilla Tervonen',
+        desc: ''
+      }
+    },
+    link: 'www.rillatervonen.fi',
+    img_src: 'img/rillatervonen.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Teatteri kotisohvalle',
+        desc: 'TINFO kerää tietoa teatterien erilaisista verkossa tapahtuvista esityksistä ja teostallenteista. Niitä päivitetään tälle sivulle yleisöä varten. '
+      },
+      gb: {
+        title: 'Teatteri kotisohvalle',
+        desc: 'TINFO collects information about theaters\' various online performances and performances. They will be updated on this page for the public.'
+      },
+      se: {
+        title: 'Teatteri kotisohvalle',
+        desc: ''
+      }
+    },
+    link: 'https://www.tinfo.fi/fi/Teatteri_kotisohvalle',
+    img_src: 'img/tinfo.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Viihde'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Nauti tanssista kotona',
+        desc: 'Linkkejä ja vinkkejä tanssisisältöihin opetusvideoista esitystallenteisiin ja tanssielokuviin.'
+      },
+      gb: {
+        title: 'Enjoy dance at home',
+        desc: 'Links and tips for dance content from instructional videos to performance installations and dance films.'
+      },
+      se: {
+        title: 'Nauti tanssista kotona',
+        desc: ''
+      }
+    },
+    link: 'https://www.danceinfo.fi/artikkelit/nauti-tanssista-kotona-kokosimme-linkkeja-ja-vinkkeja-tanssisisaltoihin-opetusvideoista-esitystallenteisiin-ja-tanssielokuviin/',
+    img_src: 'img/danceinfo.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Viihde'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Kototiimi',
+        desc: 'Kun tarvitset itse tai läheisesi tarvitsee apua arjen askareissa esim. suihkussa käymiseen, ateriointiin, pukeutumiseen tai mihin tahansa arkiseen rutiiniin tai kodinhoidolliseen asiaan. Apua myös kauppaostosten teossa ja muissa kodin ulkopuolella asioinnissa esim. apteekkiasioissa. Soita ja kysy!'
+      },
+      gb: {
+        title: 'Kototiimi',
+        desc: 'When you or your loved ones need help with everyday tasks like showering, eating, dressing or any other routine or home care. Also help with groceries and other out-of-home shopping, eg pharmacy matters. Call and ask!'
+      },
+      se: {
+        title: 'Kototiimi',
+        desc: ''
+      }
+    },
+    link: 'www.kototiimi.fi',
+    img_src: 'img/kototiimi.png',
+    locations: [
+      'Raisio', 'Turku', 'Naantali', 'Kaarina'
+    ],
+    categories: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Arkkitehtuuri- ja ympäristökulttuurikoulu Lastu ',
+        desc: 'Lasten kädentaitovinkkisarja kodin kierrätysmateriaaleista. Helppoja ideoita yhteiseksi iloksi ja ajanvietteeksi.'
+      },
+      gb: {
+        title: 'Arkkitehtuuri- ja ympäristökulttuurikoulu Lastu ',
+        desc: 'Children\'s handicraft tips set from home recycling materials. Easy ideas for common fun and entertainment.'
+      },
+      se: {
+        title: 'Arkkitehtuuri- ja ympäristökulttuurikoulu Lastu ',
+        desc: ''
+      }
+    },
+    link: 'https://fi-fi.facebook.com/lastenkulttuurikeskuslastu/',
+    img_src: 'img/lastenkulttuurikeskuslastu.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Viihde'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Kotihoiva ja -hieronta Kirsti Makkonen',
+        desc: 'Siivous, ruuanlaitto, lääkehoito, kauppakassipalvelut.'
+      },
+      gb: {
+        title: 'Kotihoiva ja -hieronta Kirsti Makkonen',
+        desc: 'Cleaning, cooking, medicine care, groceries.'
+      },
+      se: {
+        title: 'Kotihoiva ja -hieronta Kirsti Makkonen',
+        desc: ''
+      }
+    },
+    link: 'www.kotihoivajahieronta.fi',
+    img_src: 'img/kotihoivajahieronta.png',
+    locations: [
+      'Savonlinna'
+    ],
+    categories: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Neuvokas perhe / Olohuonesirkus',
+        desc: 'Olohuonesirkus on sarja erilaisia liikkeitä, joita voi tehdä yhdessä lapsen iän ja taidot huomioiden.'
+      },
+      gb: {
+        title: 'Neuvokas perhe / Olohuonesirkus',
+        desc: 'The Living Room Circus is a series of different movements that can be done together based on the age and skills of the child.'
+      },
+      se: {
+        title: 'Neuvokas perhe / Olohuonesirkus',
+        desc: ''
+      }
+    },
+    link: 'https://neuvokasperhe.fi/liikkuminen/olohuonesirkus/',
+    img_src: 'img/neuvokasperhe.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Urheilu'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Pihamuusikko',
+        desc: 'Pihamuusikon voi tilata keikalle ikkunan alle.'
+      },
+      gb: {
+        title: 'Pihamuusikko',
+        desc: 'You can order a court musician for a gig under the window.'
+      },
+      se: {
+        title: 'Pihamuusikko',
+        desc: ''
+      }
+    },
+    link: 'https://esaimaa.fi/uutiset/lahella/0465629f-7899-4750-8696-75439684b117',
+    img_src: 'img/esaimaa.png',
+    locations: [
+      'Imatra'
+    ],
+    categories: 'Viihde'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Iltasatu',
+        desc: 'Lue lapselle satuja, missä ja milloin vain - maksutta.'
+      },
+      gb: {
+        title: 'Iltasatu',
+        desc: 'Read stories to your child, anytime, anywhere - for free.'
+      },
+      se: {
+        title: 'Iltasatu',
+        desc: ''
+      }
+    },
+    link: 'https://iltasatu.org',
+    img_src: 'img/iltasatu.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Viihde'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Marttakoulu',
+        desc: 'Ruokaohjeita, kädentaitovinkkejä yms. kotiarkeen.'
+      },
+      gb: {
+        title: 'Marttakoulu',
+        desc: 'Food tips, crafting tips and more for your home day.'
+      },
+      se: {
+        title: 'Marttakoulu',
+        desc: ''
+      }
+    },
+    link: 'https://www.martat.fi/marttakoulu/',
+    img_src: 'img/martat.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Made by HanneleRusila',
+        desc: 'Perinnevaatteita ja arkkupeitteitä tilauksesta, ilmainen toimitus Suomessa yli 30€ ostoksista.'
+      },
+      gb: {
+        title: 'Made by HanneleRusila',
+        desc: 'Traditional clothes and cushion covers by order, free shipping in Finland for orders over 30 €.'
+      },
+      se: {
+        title: 'Made by HanneleRusila',
+        desc: ''
+      }
+    },
+    link: 'https://www.hannelerusila.fi/',
+    img_src: 'img/hannelerusila.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Sarjiskone',
+        desc: 'Sarjiskone on ilmainen työkalu mediatuottamiseen. Se opastaa sukeltamaan oikein päin sarjakuvaruutuun, ideoimaan hahmoja ja tarinoita, viihdyttämään, valistamaan, ottamaan kantaa tai paneutumaan itsetutkiskeluun.'
+      },
+      gb: {
+        title: 'Sarjiskone',
+        desc: 'Comic Machine is a free tool for media production. It guides you to dive right into the comic book screen, brainstorm characters and stories, entertain, enlighten, take a stand or engage in self-exploration.'
+      },
+      se: {
+        title: 'Sarjiskone',
+        desc: ''
+      }
+    },
+    link: 'https://sarjiskone.fi/',
+    img_src: 'img/sarjiskone.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Viihde'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'T:mi Soja Murto',
+        desc: 'Kansallispukuja ja muita käsityötuotteita.'
+      },
+      gb: {
+        title: 'T:mi Soja Murto',
+        desc: 'National costumes and other handicraft items.'
+      },
+      se: {
+        title: 'T:mi Soja Murto',
+        desc: ''
+      }
+    },
+    link: 'https://www.kansallispuku.com/',
+    img_src: 'img/kansallispuku.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Leikkipankki',
+        desc: 'Leikkejä ja vinkkejä hauskaan yhdessäoloon kaikenikäisille.'
+      },
+      gb: {
+        title: 'Leikkipankki',
+        desc: 'Games and tips for fun for all ages.'
+      },
+      se: {
+        title: 'Leikkipankki',
+        desc: ''
+      }
+    },
+    link: 'https://leikkipankki.fi/haku',
+    img_src: 'img/leikkipankki.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Viihde'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Tarjan Puoti Paakkila',
+        desc: 'Naisten, miesten ja lasten vaatteita sekä Oriflamen kosmetiikkaa kotiinkuljetuksella Tuusniemen alueella, muualle postin välityksellä.'
+      },
+      gb: {
+        title: 'Tarjan Puoti Paakkila',
+        desc: 'Women\'s, men\'s and children\'s clothing as well as Oriflame cosmetics; home delivery in the Tuusniemi area and to elsewhere by Post.'
+      },
+      se: {
+        title: 'Tarjan Puoti Paakkila',
+        desc: ''
+      }
+    },
+    link: 'facebook.com/tarjanpuotipaakkila',
+    img_src: 'img/tarjanpuoti.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Ateljee Keltainen Talo',
+        desc: 'Sisustustarvikkeita ja muita kodintuotteita verkkokaupasta toimitettuna kaikkialle maailmaan.'
+      },
+      gb: {
+        title: 'Ateljee Keltainen Talo',
+        desc: 'Furnishings and other home products from the online store delivered worldwide.'
+      },
+      se: {
+        title: 'Ateljee Keltainen Talo',
+        desc: ''
+      }
+    },
+    link: 'http://www.ateljeekeltainentalo.com/page/13/kauppa',
+    img_src: 'img/ateljeekeltainentalo.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Kotimai',
+        desc: 'Kotimai.fi tarjoaa eettisesti ja ekologisesti lähellä valmistettuja vaatteita naisille ja lapsille.'
+      },
+      gb: {
+        title: 'Kotimai',
+        desc: 'Kotimai.fi offers ethically and environmentally friendly clothing for women and children.'
+      },
+      se: {
+        title: 'Kotimai',
+        desc: ''
+      }
+    },
+    link: 'https://www.kotimai.fi/',
+    img_src: 'img/kotimai.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Kotona kotimaista',
+        desc: '#kotonakotimaista – Tue, tee, jaa; palvelu kokoaa yhteen Suomalaisia yrittäjiä ja heidän palveluitaan.'
+      },
+      gb: {
+        title: 'Kotona kotimaista',
+        desc: '#kotonakotimaista - Support, do, share; The service brings together Finnish entrepreneurs and their services.'
+      },
+      se: {
+        title: 'Kotona kotimaista',
+        desc: ''
+      }
+    },
+    link: 'https://www.kotonakotimaista.fi/',
+    img_src: 'img/kotonakotimaista.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Auta pientä',
+        desc: 'Osta kotimaisista pienistä verkkokaupoista, tilaa kotiinkuljetuksella ruokaa lähiravintoloista, hanki lahjakortteja palveluihin, jotka voit hyödyntää pandemian kukistuttua. Suosi oman kylän yrittäjää ja kotimaisuutta. Tapoja on monia. Tehdään viisaita valintoja.'
+      },
+      gb: {
+        title: 'Auta pientä',
+        desc: 'Buy from home-based small online stores, order home-cooked food from local restaurants, get gift certificates for services you can take advantage of when the pandemic has passed. Favors entrepreneurship and domesticity in their village. There are many ways. Making wise choices.'
+      },
+      se: {
+        title: 'Auta pientä',
+        desc: ''
+      }
+    },
+    link: 'https://me.yrittajat.fi/autapienta?utm_source=kuntal&utm_medium=display&utm_campaign=CO_kuntal',
+    img_src: 'img/meyrittajat.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Punkanen Oy',
+        desc: 'Palveluilta koronan aiheuttaman psyykkisen stressin käsittelyyn.'
+      },
+      gb: {
+        title: 'Punkanen Oy',
+        desc: 'Services for dealing with mental stress caused by Covid-19'
+      },
+      se: {
+        title: 'Punkanen Oy',
+        desc: ''
+      }
+    },
+    link: 'https://www.tiinapunkanen.fi',
+    img_src: 'img/tiinapunkanen.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Terveyspojat Oy',
+        desc: 'Apua kauppa- ym. asioinnissa, siivouksissa, pesuissa ja lähes kaikissa kodin töissä. Palveluun kuuluu myös kotisairaanhoidon palvelu. '
+      },
+      gb: {
+        title: 'Terveyspojat Oy',
+        desc: 'Help with shopping, cleaning, laundry and almost any home work. The service also includes a home health care service.'
+      },
+      se: {
+        title: 'Terveyspojat Oy',
+        desc: ''
+      }
+    },
+    link: 'terveyspojatoy.com',
+    img_src: 'img/terveyspojatoy.png',
+    locations: [
+      'Taivalkoski'
+    ],
+    categories: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'House of Sandwiches',
+        desc: 'Kuljetus veloituksetta kotiin; lounaita ja muita ruoka-annoksia.'
+      },
+      gb: {
+        title: 'House of Sandwiches',
+        desc: 'Free home delivery; lunches and other meals.'
+      },
+      se: {
+        title: 'House of Sandwiches',
+        desc: ''
+      }
+    },
+    link: 'www.hofs.fi',
+    img_src: 'img/hofs.png',
+    locations: [
+      'Helsinki'
+    ],
+    categories: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Arctic Design Shop',
+        desc: 'Kodintuotteita sekä vaatteita ilmaisella kotiinkuljetuksella (yli 40€ tilaukset) Rovaniemen alueella, muualle postitse.'
+      },
+      gb: {
+        title: 'Arctic Design Shop',
+        desc: 'Home goods and clothing with free home delivery (orders over 40 €) in the Rovaniemi area, elsewhere by post.'
+      },
+      se: {
+        title: 'Arctic Design Shop',
+        desc: ''
+      }
+    },
+    link: 'https://arcticdesignshop.com/',
+    img_src: 'img/arcticdesignshop.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Lapin Leipomo',
+        desc: 'Tuoreen leivän kotiinkuljetus Rovaniemen alueella hintaan 20€.'
+      },
+      gb: {
+        title: 'Lapin Leipomo',
+        desc: 'Home delivery of fresh bread in Rovaniemi for 20 €.'
+      },
+      se: {
+        title: 'Lapin Leipomo',
+        desc: ''
+      }
+    },
+    link: 'https://m.facebook.com/lapinleipomo/?ref=page_internal&mt_nav=0',
+    img_src: 'img/lapinleipomo.png',
+    locations: [
+      'Rovaniemi'
+    ],
+    categories: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Likiliike',
+        desc: 'Sivustolle kerätty useiden liikkeiden kotiinkuljetus- ym erityispalvelut poikkeustilan aikana.'
+      },
+      gb: {
+        title: 'Likiliike',
+        desc: 'Multiple shop home delivery and special services collected during the emergency.'
+      },
+      se: {
+        title: 'Likiliike',
+        desc: ''
+      }
+    },
+    link: 'https://likiliike.fi/ajankohtaista/likiliikkeet-poikkeustilan-aikana/',
+    img_src: 'img/likiliike.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Synnytyksen ABC',
+        desc: 'Doules tarjoaa synnytysvalmennuksen verkkokurssia. Nyt -50% koodilla korona.'
+      },
+      gb: {
+        title: 'Synnytyksen ABC',
+        desc: 'Doules offers an online training course in childbirth. Now with -50% code Korona.'
+      },
+      se: {
+        title: 'Synnytyksen ABC',
+        desc: ''
+      }
+    },
+    link: 'http://doules.fi/courses/synnytyksen-abc',
+    img_src: 'img/doules.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'TL Konttorikaluste',
+        desc: 'Sähkö -ja työpöydät. Satula -ja toimistotuolit ilmaisella toimituksella kotimaassa.'
+      },
+      gb: {
+        title: 'TL Konttorikaluste',
+        desc: 'Electric and work desks. Saddle and office chairs free shipping in Finland.'
+      },
+      se: {
+        title: 'TL Konttorikaluste',
+        desc: ''
+      }
+    },
+    link: 'www.toimistotuoli.com',
+    img_src: 'img/toimistotuoli.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'PILATES Studio Vantaa',
+        desc: 'Online -tunteja; pilates, barre, syvävenyttely, spiraalistabilaatio, rentoutus, mindfulness sekä tanssi.'
+      },
+      gb: {
+        title: 'PILATES Studio Vantaa',
+        desc: 'Online classes; Pilates, Barre, Deep Stretching, Spiral Stabilization, Relaxation, Mindfulness and Dance.'
+      },
+      se: {
+        title: 'PILATES Studio Vantaa',
+        desc: ''
+      }
+    },
+    link: 'www.pilatesstudiovantaa.fi',
+    img_src: 'img/pilatesstudiovantaa.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Urheilu'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Kranssit.fi',
+        desc: 'Piristystä ja luovaa tekemistä kotiin, parvekkeelle ja puutarhaan.'
+      },
+      gb: {
+        title: 'Kranssit.fi',
+        desc: 'Brighten up and get creative with your home, balcony and garden.'
+      },
+      se: {
+        title: 'Kranssit.fi',
+        desc: ''
+      }
+    },
+    link: 'https://www.kranssit.fi/',
+    img_src: 'img/kranssit.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Karaokekeskus.com',
+        desc: 'Karaoketarvikkeita netistä.'
+      },
+      gb: {
+        title: 'Karaokekeskus.com',
+        desc: 'Karaoke accessories online.'
+      },
+      se: {
+        title: 'Karaokekeskus.com',
+        desc: ''
+      }
+    },
+    link: 'https://www.karaokekeskus.com',
+    img_src: 'img/karaokekeskus.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Omakuori.fi',
+        desc: 'Omakuori.fi mahdollistaa suojakuoren tai -laukun tekemisen omasta valokuvasta, yrityksen logosta tai tekstistä. Muokattavia suojakuoria saatavissa noin 50 eri puhelinmalliin.'
+      },
+      gb: {
+        title: 'Omakuori.fi',
+        desc: 'Omakuori.fi allows you to make a protective cover or bag with your own photo, company logo or text. Customizable covers are available for about 50 different phone models.'
+      },
+      se: {
+        title: 'Omakuori.fi',
+        desc: ''
+      }
+    },
+    link: 'www.omakuori.fi',
+    img_src: 'img/omakuori.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Luurinetti.fi',
+        desc: '15-vuotias tamperelainen perheyritys. Lähes 20 000 tuotetta, laajasti mobiilialan ja muita pienelektroniikan laitteita ja tarvikkeita uusiin, mutta myös vanhempiin laitteisiin. Brandejä ja pienempien valmistajien tuotteita.'
+      },
+      gb: {
+        title: 'Luurinetti.fi',
+        desc: '15-year-old family business in Tampere. Nearly 20,000 products, extensively for mobile and other small electronics devices and supplies for new but also older devices. Brands and products from smaller manufacturers.'
+      },
+      se: {
+        title: 'Luurinetti.fi',
+        desc: ''
+      }
+    },
+    link: 'www.luurinetti.fi',
+    img_src: 'img/luurinetti.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Pizzeria Ruka',
+        desc: 'Pizzeria Ruka palvelee huhtikuun take away -periaatteella, toimitus kotiin 6km säteellä.'
+      },
+      gb: {
+        title: 'Pizzeria Ruka',
+        desc: 'Pizzeria Ruka serves in April by take away principle, home delivery within 6km.'
+      },
+      se: {
+        title: 'Pizzeria Ruka',
+        desc: ''
+      }
+    },
+    link: 'www.pizzeriaruka.fi',
+    img_src: 'img/pizzeriaruka.png',
+    locations: [
+      'Ruka'
+    ],
+    categories: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Design Inkamaria',
+        desc: 'Ihmisille iloksi pieniä videoita, joihin liitetääm värityskuvia, puuhavinkkejä yms. mitä ihmiset voivat tehdä koronan aikana. #koronaprojektini on maksuton.'
+      },
+      gb: {
+        title: 'Design Inkamaria',
+        desc: 'People can enjoy the small videos that we add coloring pictures, wood tips and more about what people can do during the Covid-19.'
+      },
+      se: {
+        title: 'Design Inkamaria',
+        desc: ''
+      }
+    },
+    link: 'https://valtamo.me/kaikkea-kivaa-koronalaisille/',
+    img_src: 'img/inkamaria.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Viihde'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Lasten Synttärihahmot, Laatikko-synttärit',
+        desc: 'Toimitamme synttärisankarin oven taakse laatikon, jossa on muhkea synttäriyllätys!'
+      },
+      gb: {
+        title: 'Lasten Synttärihahmot, Laatikko-synttärit',
+        desc: 'We deliver a box with a birthday surprise behind the door of the birthday hero!'
+      },
+      se: {
+        title: 'Lasten Synttärihahmot, Laatikko-synttärit',
+        desc: ''
+      }
+    },
+    link: 'https://lastensynttarihahmot.com/',
+    img_src: 'img/lastensynttarihahmot.png',
+    locations: [
+      'Turku', 'Helsinki', 'Espoo', 'Vantaa'
+    ],
+    categories: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Tina Salminen',
+        desc: 'Laulutunteja etänä. Tunnit onnistuvat sekä Whereby:n kautta, että videolähetyksinä puolin toisin.'
+      },
+      gb: {
+        title: 'Tina Salminen',
+        desc: 'Singing lessons remotely. Lessons work through Whereby and video streaming.'
+      },
+      se: {
+        title: 'Tina Salminen',
+        desc: ''
+      }
+    },
+    link: 'https://tinasalminen.com/laulutunnit/',
+    img_src: 'img/tinasalminen.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Neste Mertala',
+        desc: 'Ruoan kotiinkuljetus ja take away.'
+      },
+      gb: {
+        title: 'Neste Mertala',
+        desc: 'Food delivery and take away.'
+      },
+      se: {
+        title: 'Neste Mertala',
+        desc: ''
+      }
+    },
+    link: 'https://nestemertala.fi/',
+    img_src: 'img/nestemartela.png',
+    locations: [
+      'Savonlinna', 'Enonkoski'
+    ],
+    categories: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Canit',
+        desc: 'Canit-mobiilisovellus yhdistää turvallisesti pullojen palauttajat ja kerääjät. Sovelluksen avulla voi palauttaa tyhjät panttipullot ja -tölkit omalta kotiovelta, ilman että pulloja täytyy itse viedä kauppaan. Myynti-ilmoitusten jättäminen sovellukseen on maksutonta. Yksittäisiä pulloja ja tölkkejä ei tarvitse laskea eikä niiden tarkkaa lukumäärää tarvitse tietää.'
+      },
+      gb: {
+        title: 'Canit',
+        desc: 'The Canit mobile app securely connects bottle returners and collectors. The application allows you to return empty deposit bottles and cans from your door without having to take the bottles to the store yourself. Submitting sales announcements to the app is free. Individual bottles and cans do not need to be counted and their exact number need not be known.'
+      },
+      se: {
+        title: 'Canit',
+        desc: ''
+      }
+    },
+    link: 'https://www.canit-app.com/fi',
+    img_src: 'img/canitapp.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Senioripalvelu Luonasi',
+        desc: 'Senioripalvelut Luonasi on ikäihmisten ja heidän läheistensä apuna erityisesti nyt kun kotikaranteeni rajoittaa normaalia elämää. Palvelu huolehtii, että ikäihminen saa tarvitsemansa avun ja huolenpidon, autamme kauppa-, apteekki- ja muissa asioinneissa. Tällä hetkellä tarjotaan myös keskusteluseuraa asiakkaille, tarvittaessa myös puhelimitse.'
+      },
+      gb: {
+        title: 'Senioripalvelu Luonasi',
+        desc: 'Senior Services Luonasi is there to help the elderly and their loved ones, especially as my home quarantine limits normal life. The service ensures that the elderly receive the help and care they need, and we assist in trade, pharmacy and other matters. At the moment, a chat company is also offered to customers, if necessary by telephone.'
+      },
+      se: {
+        title: 'Senioripalvelu Luonasi',
+        desc: ''
+      }
+    },
+    link: 'https://luonasi.fi/',
+    img_src: 'img/luonasi.png',
+    locations: [
+      'Espoo', 'Vantaa', 'Helsinki', 'Kirkkonummi', 'Lohja', 'Inkoo'
+    ],
+    categories: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Kirjaston Kulttuuribunkkeri',
+        desc: 'Keskustele kulttuurista ja mistä ikinä keksit kirjaston henkilökunnan avustuksella. Koe myös yhteisöllinen lukeminen, leffan katselu, musiikin kuuntelu, pelaaminen, vierailijahaastattelu... "Kulttuuria yhdessä - erillämme."'
+      },
+      gb: {
+        title: 'Kirjaston Kulttuuribunkkeri',
+        desc: 'Discuss the culture and what ever you come up with with the help of the library staff. Also experience community reading, watching a movie, listening to music, playing, a guest interview ... "Culture together - we separate."'
+      },
+      se: {
+        title: 'Kirjaston Kulttuuribunkkeri',
+        desc: ''
+      }
+    },
+    link: 'https://discordapp.com/invite/fFgZzhE',
+    img_src: 'img/kuttuuribunkkeri.png',
+    locations: [
+      'National'
+    ],
+    categories: 'Viihde'
   }
 ]
 
