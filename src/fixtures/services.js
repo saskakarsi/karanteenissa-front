@@ -499,7 +499,7 @@ const services = [
       }
     },
     link: 'https://www.taksihelsinki.fi/palvelumme/lahikauppapalvelu/',
-    img_src: 'img/sanitar.png',
+    img_src: 'img/taksihelsinki.png',
     locations: [
       'Helsinki'
     ],
@@ -3006,7 +3006,7 @@ const services = [
       }
     },
     link: 'https://linja.sharetribe.com/',
-    img_src: '',
+    img_src: 'img/linja.png',
     locations: [
       'National'
     ],
@@ -3821,15 +3821,15 @@ const services = [
     id: '',
     langs: {
       fi: {
-        title: 'Piece and love',
+        title: 'Piece n Love Pizza',
         desc: 'Pitsaa ja muita ruoka-annoksia kotiinkuljetettuna. Kuljetus on ilmainen yli 20€ tilauksille, muuten hinta on 4€.'
       },
       gb: {
-        title: 'Piece and love',
+        title: 'Piece n Love Pizza',
         desc: 'Pizza and other food delivered home. Free shipping on orders over 20 €, otherwise 4 €.'
       },
       se: {
-        title: 'Piece and love',
+        title: 'Piece n Love Pizza',
         desc: ''
       }
     },
@@ -3857,7 +3857,7 @@ const services = [
       }
     },
     link: 'https://www.elamyslahjat.fi/',
-    img_src: 'img/elamyslajat.png',
+    img_src: 'img/elamyslahjat.png',
     locations: [
       'National'
     ],
