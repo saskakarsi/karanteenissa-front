@@ -3677,7 +3677,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Palvelut'
+    categories: 'Hoiva'
   },
   {
     id: '',
@@ -3723,7 +3723,7 @@ const services = [
     locations: [
       'Helsinki'
     ],
-    category: 'Palvelut'
+    categories: 'Palvelut'
   },
   {
     id: '',
@@ -4344,7 +4344,7 @@ const services = [
     locations: [
       'Savonlinna'
     ],
-    categories: 'Palvelut'
+    categories: 'Hoiva'
   },
   {
     id: '',
@@ -4689,7 +4689,7 @@ const services = [
     locations: [
       'Taivalkoski'
     ],
-    categories: 'Palvelut'
+    categories: 'Hoiva'
   },
   {
     id: '',
@@ -4804,7 +4804,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Palvelut'
+    categories: 'Hoiva'
   },
   {
     id: '',
@@ -5103,7 +5103,7 @@ const services = [
     locations: [
       'Espoo', 'Vantaa', 'Helsinki', 'Kirkkonummi', 'Lohja', 'Inkoo'
     ],
-    categories: 'Palvelut'
+    categories: 'Hoiva'
   },
   {
     id: '',
