@@ -3821,15 +3821,15 @@ const services = [
     id: '',
     langs: {
       fi: {
-        title: 'Piece n Love Pizza',
+        title: "Piece 'n' Love Pizza",
         desc: 'Pitsaa ja muita ruoka-annoksia kotiinkuljetettuna. Kuljetus on ilmainen yli 20€ tilauksille, muuten hinta on 4€.'
       },
       gb: {
-        title: 'Piece n Love Pizza',
+        title: "Piece 'n' Love Pizza",
         desc: 'Pizza and other food delivered home. Free shipping on orders over 20 €, otherwise 4 €.'
       },
       se: {
-        title: 'Piece n Love Pizza',
+        title: "Piece 'n' Love Pizza",
         desc: ''
       }
     },
@@ -3913,15 +3913,15 @@ const services = [
     id: '',
     langs: {
       fi: {
-        title: 'Miriam\'s',
+        title: "Miriam's",
         desc: 'Kahvila tarjoavaa ilmaisen kotiinkuljetuksen Jyväskylän keskustan alueella, maksua vastaan kuljetus kauemmas. Tilaus puhelimitse.'
       },
       gb: {
-        title: 'Miriam\'s',
+        title: "Miriam's",
         desc: 'The café offers free home delivery in the center of Jyväskylä, for a fee for transportation further away. Order by phone.'
       },
       se: {
-        title: 'Miriam\'s',
+        title: "Miriam's",
         desc: ''
       }
     },
@@ -4374,11 +4374,11 @@ const services = [
     langs: {
       fi: {
         title: 'Pihamuusikko',
-        desc: 'Pihamuusikon voi tilata keikalle ikkunan alle.'
+        desc: 'Imatran alueella voit tilata ilmaiseksi pihamuusikon keikalle ikkunan alle.'
       },
       gb: {
         title: 'Pihamuusikko',
-        desc: 'You can order a court musician for a gig under the window.'
+        desc: 'In Imatra area you can order a court musician for a free gig under the window.'
       },
       se: {
         title: 'Pihamuusikko',
@@ -4685,7 +4685,7 @@ const services = [
       }
     },
     link: 'terveyspojatoy.com',
-    img_src: 'img/terveyspojatoy.png',
+    img_src: 'img/terveyspojat.png',
     locations: [
       'Taivalkoski'
     ],
@@ -5076,7 +5076,7 @@ const services = [
       }
     },
     link: 'https://www.canit-app.com/fi',
-    img_src: 'img/canitapp.png',
+    img_src: 'img/canit.png',
     locations: [
       'National'
     ],
@@ -5122,7 +5122,7 @@ const services = [
       }
     },
     link: 'https://discordapp.com/invite/fFgZzhE',
-    img_src: 'img/kuttuuribunkkeri.png',
+    img_src: 'img/kulttuuribunkkeri.png',
     locations: [
       'National'
     ],
