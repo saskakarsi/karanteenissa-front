@@ -139,6 +139,12 @@ export default {
           return { name: { fi: loc }} // Localization want this format
         })
         this.allLocations = localizeLocations(allLocs)
+        this.selectedCategory = this.$route.query.category
+        this.selectedLocation = this.$route.query.location
+        // https://router.vuejs.org/guide/essentials/navigation.html#router-replace-location-oncomplete-onabort
+        // Don't want to do anything on error
+        this.$router.replace({ query: {} }, undefined, () => {})
+        
     }
 }
 </script>
