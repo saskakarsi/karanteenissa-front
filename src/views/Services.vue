@@ -143,7 +143,7 @@ export default {
         this.selectedLocation = this.$route.query.location
         // https://router.vuejs.org/guide/essentials/navigation.html#router-replace-location-oncomplete-onabort
         // Don't want to do anything on error
-        this.$router.replace({ query: {} }, undefined, {})
+        this.$router.replace({ query: {} }, undefined, () => {})
         
     }
 }
