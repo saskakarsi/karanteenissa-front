@@ -20,7 +20,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Ruoka'
+    category: 'Ruoka'
   },
   {
     id: '',
@@ -43,7 +43,7 @@ const services = [
     locations: [
       'Espoo'
     ],
-    categories: 'Ruoka'
+    category: 'Ruoka'
   },
   {
     id: '',
@@ -66,7 +66,7 @@ const services = [
     locations: [
       'Espoo'
     ],
-    categories: 'Ruoka'
+    category: 'Ruoka'
   },
   {
     id: '',
@@ -89,7 +89,7 @@ const services = [
     locations: [
       'Espoo'
     ],
-    categories: 'Ruoka'
+    category: 'Ruoka'
   },
   {
     id: '',
@@ -112,7 +112,7 @@ const services = [
     locations: [
       'Espoo'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -135,7 +135,7 @@ const services = [
     locations: [
       'Espoo'
     ],
-    categories: 'Ruoka'
+    category: 'Ruoka'
   },
   {
     id: '',
@@ -158,7 +158,7 @@ const services = [
     locations: [
       'Helsinki'
     ],
-    categories: 'Ruoka'
+    category: 'Ruoka'
   },
   {
     id: '',
@@ -181,7 +181,7 @@ const services = [
     locations: [
       'Helsinki'
     ],
-    categories: 'Ruoka'
+    category: 'Ruoka'
   },
   {
     id: '',
@@ -204,7 +204,7 @@ const services = [
     locations: [
       'Helsinki'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -227,7 +227,7 @@ const services = [
     locations: [
       'Helsinki'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -250,7 +250,7 @@ const services = [
     locations: [
       'Helsinki'
     ],
-    categories: 'Ruoka'
+    category: 'Ruoka'
   },
   {
     id: '',
@@ -273,7 +273,7 @@ const services = [
     locations: [
       'Päijät-Häme'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -296,7 +296,7 @@ const services = [
     locations: [
       'Pirkanmaa'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -319,7 +319,7 @@ const services = [
     locations: [
       'Pirkanmaa'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -342,7 +342,7 @@ const services = [
     locations: [
       'Seinäjoki'
     ],
-    categories: 'Ruoka'
+    category: 'Ruoka'
   },
   {
     id: '',
@@ -365,7 +365,7 @@ const services = [
     locations: [
       'Tampere'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -388,7 +388,7 @@ const services = [
     locations: [
       'Tampere'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -411,7 +411,7 @@ const services = [
     locations: [
       'Tampere'
     ],
-    categories: 'Ruoka'
+    category: 'Ruoka'
   },
   {
     id: '',
@@ -434,7 +434,7 @@ const services = [
     locations: [
       'Tuusula '
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -457,7 +457,7 @@ const services = [
     locations: [
       'Helsinki'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -480,7 +480,7 @@ const services = [
     locations: [
       'Helsinki'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -503,7 +503,7 @@ const services = [
     locations: [
       'Helsinki'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -526,7 +526,7 @@ const services = [
     locations: [
       'Helsinki'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -549,7 +549,7 @@ const services = [
     locations: [
       'Helsinki'
     ],
-    categories: 'Ruoka'
+    category: 'Ruoka'
   },
   {
     id: '',
@@ -572,7 +572,7 @@ const services = [
     locations: [
       'Helsinki'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -595,7 +595,7 @@ const services = [
     locations: [
       'Helsinki'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -618,7 +618,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -641,7 +641,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo', 'Vantaa'
     ],
-    categories: 'Ruoka'
+    category: 'Ruoka'
   },
   {
     id: '',
@@ -664,7 +664,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo', 'Vantaa'
     ],
-    categories: 'Ruoka'
+    category: 'Ruoka'
   },
   {
     id: '',
@@ -687,7 +687,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo', 'Vantaa'
     ],
-    categories: 'Ruoka'
+    category: 'Ruoka'
   },
   {
     id: '',
@@ -710,7 +710,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo', 'Vantaa'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -733,7 +733,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo', 'Vantaa'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -756,7 +756,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo', 'Vantaa'
     ],
-    categories: 'Hoiva'
+    category: 'Hoiva'
   },
   {
     id: '',
@@ -779,7 +779,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo', 'Vantaa'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -802,7 +802,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo', 'Vantaa'
     ],
-    categories: 'Hoiva'
+    category: 'Hoiva'
   },
   {
     id: '',
@@ -825,7 +825,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo', 'Vantaa'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -848,7 +848,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo', 'Vantaa'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -871,7 +871,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo', 'Vantaa'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -894,7 +894,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo', 'Vantaa'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -917,7 +917,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo', 'Vantaa'
     ],
-    categories: 'Kodit'
+    category: 'Kodit'
   },
   {
     id: '',
@@ -940,7 +940,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo', 'Vantaa'
     ],
-    categories: 'Kodit'
+    category: 'Kodit'
   },
   {
     id: '',
@@ -963,7 +963,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo', 'Vantaa'
     ],
-    categories: 'Kodit'
+    category: 'Kodit'
   },
   {
     id: '',
@@ -986,7 +986,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo', 'Vantaa'
     ],
-    categories: 'Urheilu'
+    category: 'Urheilu'
   },
   {
     id: '',
@@ -1009,7 +1009,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo', 'Vantaa'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -1032,7 +1032,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo', 'Vantaa'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -1055,7 +1055,7 @@ const services = [
     locations: [
       'Helsinki', 'Espoo', 'Vantaa', 'Kirkkonummi', 'Sipoo', 'Porvoo'
     ],
-    categories: 'Ruoka'
+    category: 'Ruoka'
   },
   {
     id: '',
@@ -1078,7 +1078,7 @@ const services = [
     locations: [
       'Helsinki', 'Kaartinkaupunki'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -1101,7 +1101,7 @@ const services = [
     locations: [
       'Helsinki', 'Tampere', 'Turku'
     ],
-    categories: 'Ruoka'
+    category: 'Ruoka'
   },
   {
     id: '',
@@ -1124,7 +1124,7 @@ const services = [
     locations: [
       'Helsinki','Espoo','Vantaa'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -1147,7 +1147,7 @@ const services = [
     locations: [
       'Helsinki','Espoo','Vantaa'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -1170,7 +1170,7 @@ const services = [
     locations: [
       'Helsinki','Turku'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -1193,7 +1193,7 @@ const services = [
     locations: [
       'Hyvinkää'
     ],
-    categories: 'Ruoka'
+    category: 'Ruoka'
   },
   {
     id: '',
@@ -1216,7 +1216,7 @@ const services = [
     locations: [
       'Koskue'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -1239,7 +1239,7 @@ const services = [
     locations: [
       'Kotka'
     ],
-    categories: 'Ruoka'
+    category: 'Ruoka'
   },
   {
     id: '',
@@ -1262,7 +1262,7 @@ const services = [
     locations: [
       'Kuopio'
     ],
-    categories: 'Ruoka'
+    category: 'Ruoka'
   },
   {
     id: '',
@@ -1285,7 +1285,7 @@ const services = [
     locations: [
       'Kuusamo'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -1308,7 +1308,7 @@ const services = [
     locations: [
       'Kuusamo'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -1331,7 +1331,7 @@ const services = [
     locations: [
       'Kuusamo'
     ],
-    categories: 'Ruoka'
+    category: 'Ruoka'
   },
   {
     id: '',
@@ -1354,7 +1354,7 @@ const services = [
     locations: [
       'Kuusamo'
     ],
-    categories: 'Ruoka'
+    category: 'Ruoka'
   },
   {
     id: '',
@@ -1377,7 +1377,7 @@ const services = [
     locations: [
       'Kuusamo'
     ],
-    categories: 'Hoiva'
+    category: 'Hoiva'
   },
   {
     id: '',
@@ -1400,7 +1400,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Ruoka'
+    category: 'Ruoka'
   },
   {
     id: '',
@@ -1423,7 +1423,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Ruoka'
+    category: 'Ruoka'
   },
   {
     id: '',
@@ -1446,7 +1446,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Ruoka'
+    category: 'Ruoka'
   },
   {
     id: '',
@@ -1469,7 +1469,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Ruoka'
+    category: 'Ruoka'
   },
   {
     id: '',
@@ -1492,7 +1492,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Ruoka'
+    category: 'Ruoka'
   },
   {
     id: '',
@@ -1515,7 +1515,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Ruoka'
+    category: 'Ruoka'
   },
   {
     id: '',
@@ -1538,7 +1538,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Ruoka'
+    category: 'Ruoka'
   },
   {
     id: '',
@@ -1561,7 +1561,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Ruoka'
+    category: 'Ruoka'
   },
   {
     id: '',
@@ -1584,7 +1584,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Ruoka'
+    category: 'Ruoka'
   },
   {
     id: '',
@@ -1607,7 +1607,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -1630,7 +1630,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -1653,7 +1653,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -1676,7 +1676,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -1699,7 +1699,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -1722,7 +1722,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -1745,7 +1745,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -1768,7 +1768,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -1791,7 +1791,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Hoiva'
+    category: 'Hoiva'
   },
   {
     id: '',
@@ -1814,7 +1814,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Hoiva'
+    category: 'Hoiva'
   },
   {
     id: '',
@@ -1837,7 +1837,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Hoiva'
+    category: 'Hoiva'
   },
   {
     id: '',
@@ -1860,7 +1860,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -1883,7 +1883,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -1906,7 +1906,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Hoiva'
+    category: 'Hoiva'
   },
   {
     id: '',
@@ -1929,7 +1929,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Hoiva'
+    category: 'Hoiva'
   },
   {
     id: '',
@@ -1952,7 +1952,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -1975,7 +1975,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -1998,7 +1998,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Hoiva'
+    category: 'Hoiva'
   },
   {
     id: '',
@@ -2021,7 +2021,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Hoiva'
+    category: 'Hoiva'
   },
   {
     id: '',
@@ -2044,7 +2044,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Kodit'
+    category: 'Kodit'
   },
   {
     id: '',
@@ -2067,7 +2067,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Kodit'
+    category: 'Kodit'
   },
   {
     id: '',
@@ -2090,7 +2090,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Viihde'
+    category: 'Viihde'
   },
   {
     id: '',
@@ -2113,7 +2113,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Viihde'
+    category: 'Viihde'
   },
   {
     id: '',
@@ -2136,7 +2136,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Viihde'
+    category: 'Viihde'
   },
   {
     id: '',
@@ -2159,7 +2159,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Viihde'
+    category: 'Viihde'
   },
   {
     id: '',
@@ -2182,7 +2182,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Viihde'
+    category: 'Viihde'
   },
   {
     id: '',
@@ -2205,7 +2205,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Viihde'
+    category: 'Viihde'
   },
   {
     id: '',
@@ -2228,7 +2228,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Viihde'
+    category: 'Viihde'
   },
   {
     id: '',
@@ -2251,7 +2251,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Viihde'
+    category: 'Viihde'
   },
   {
     id: '',
@@ -2274,7 +2274,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Viihde'
+    category: 'Viihde'
   },
   {
     id: '',
@@ -2297,7 +2297,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Viihde'
+    category: 'Viihde'
   },
   {
     id: '',
@@ -2320,7 +2320,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Viihde'
+    category: 'Viihde'
   },
   {
     id: '',
@@ -2343,7 +2343,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Urheilu'
+    category: 'Urheilu'
   },
   {
     id: '',
@@ -2366,7 +2366,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Urheilu'
+    category: 'Urheilu'
   },
   {
     id: '',
@@ -2389,7 +2389,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Urheilu'
+    category: 'Urheilu'
   },
   {
     id: '',
@@ -2412,7 +2412,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Urheilu'
+    category: 'Urheilu'
   },
   {
     id: '',
@@ -2435,7 +2435,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Urheilu'
+    category: 'Urheilu'
   },
   {
     id: '',
@@ -2458,7 +2458,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -2481,7 +2481,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -2504,7 +2504,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -2527,7 +2527,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -2550,7 +2550,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Viihde'
+    category: 'Viihde'
   },
   {
     id: '',
@@ -2573,7 +2573,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -2596,7 +2596,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -2619,7 +2619,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -2642,7 +2642,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Hoiva'
+    category: 'Hoiva'
   },
   {
     id: '',
@@ -2665,7 +2665,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Viihde'
+    category: 'Viihde'
   },
   {
     id: '',
@@ -2688,7 +2688,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -2711,7 +2711,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -2734,7 +2734,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -2757,7 +2757,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -2780,7 +2780,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -2803,7 +2803,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -2826,7 +2826,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Viihde'
+    category: 'Viihde'
   },
   {
     id: '',
@@ -2849,7 +2849,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -2872,7 +2872,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -2895,7 +2895,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Viihde'
+    category: 'Viihde'
   },
   {
     id: '',
@@ -2918,7 +2918,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Viihde'
+    category: 'Viihde'
   },
   {
     id: '',
@@ -2941,7 +2941,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Viihde'
+    category: 'Viihde'
   },
   {
     id: '',
@@ -2964,7 +2964,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Viihde'
+    category: 'Viihde'
   },
   {
     id: '',
@@ -2987,7 +2987,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -3010,7 +3010,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -3033,7 +3033,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -3056,7 +3056,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -3079,7 +3079,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -3102,7 +3102,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -3125,7 +3125,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -3148,7 +3148,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -3171,7 +3171,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -3194,7 +3194,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -3217,7 +3217,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -3240,7 +3240,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -3263,7 +3263,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -3286,7 +3286,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Viihde'
+    category: 'Viihde'
   },
   {
     id: '',
@@ -3309,7 +3309,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Viihde'
+    category: 'Viihde'
   },
   {
     id: '',
@@ -3332,7 +3332,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -3355,7 +3355,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -3378,7 +3378,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Urheilu'
+    category: 'Urheilu'
   },
   {
     id: '',
@@ -3401,7 +3401,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Viihde'
+    category: 'Viihde'
   },
   {
     id: '',
@@ -3424,7 +3424,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -3447,7 +3447,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Urheilu'
+    category: 'Urheilu'
   },
   {
     id: '',
@@ -3470,7 +3470,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -3493,7 +3493,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Urheilu'
+    category: 'Urheilu'
   },
   {
     id: '',
@@ -3516,7 +3516,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -3539,7 +3539,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -3562,7 +3562,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -3585,7 +3585,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Viihde'
+    category: 'Viihde'
   },
   {
     id: '',
@@ -3608,7 +3608,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Urheilu'
+    category: 'Urheilu'
   },
   {
     id: '',
@@ -3631,7 +3631,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -3654,7 +3654,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -3677,7 +3677,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Hoiva'
+    category: 'Hoiva'
   },
   {
     id: '',
@@ -3700,7 +3700,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -3723,7 +3723,7 @@ const services = [
     locations: [
       'Helsinki'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -3746,7 +3746,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -3769,7 +3769,7 @@ const services = [
     locations: [
       'Tampere'
     ],
-    categories: 'Ruoka'
+    category: 'Ruoka'
   },
   {
     id: '',
@@ -3792,7 +3792,7 @@ const services = [
     locations: [
       'Vantaa'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -3815,7 +3815,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -3838,7 +3838,7 @@ const services = [
     locations: [
       'Helsinki'
     ],
-    categories: 'Ruoka'
+    category: 'Ruoka'
   },
   {
     id: '',
@@ -3861,7 +3861,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -3884,7 +3884,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Ruoka'
+    category: 'Ruoka'
   },
   {
     id: '',
@@ -3907,7 +3907,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -3930,7 +3930,7 @@ const services = [
     locations: [
       'Jyväksylä'
     ],
-    categories: 'Ruoka'
+    category: 'Ruoka'
   },
   {
     id: '',
@@ -3948,12 +3948,12 @@ const services = [
         desc: ''
       }
     },
-    link: 'www.tirriactive.fi',
+    link: 'https://www.tirriactive.fi',
     img_src: 'img/tirriactive.png',
     locations: [
       'National'
     ],
-    categories: 'Urheilu'
+    category: 'Urheilu'
   },
   {
     id: '',
@@ -3971,12 +3971,12 @@ const services = [
         desc: ''
       }
     },
-    link: 'www.listyle.fi',
+    link: 'https://www.listyle.fi',
     img_src: 'img/listyle.png',
     locations: [
       'Helsinki'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -3999,7 +3999,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -4017,12 +4017,12 @@ const services = [
         desc: ''
       }
     },
-    link: 'arihilly.com',
+    link: 'https://www.arihilly.com',
     img_src: 'img/arihilly.png',
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -4045,7 +4045,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Urheilu'
+    category: 'Urheilu'
   },
   {
     id: '',
@@ -4068,7 +4068,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -4091,7 +4091,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -4114,7 +4114,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -4137,7 +4137,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -4160,7 +4160,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -4178,12 +4178,12 @@ const services = [
         desc: ''
       }
     },
-    link: 'www.minnabakes.fi',
+    link: 'https://www.minnabakes.fi',
     img_src: 'img/minnabakes.png',
     locations: [
       'Jyväksylä'
     ],
-    categories: 'Ruoka'
+    category: 'Ruoka'
   },
   {
     id: '',
@@ -4206,7 +4206,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Viihde'
+    category: 'Viihde'
   },
   {
     id: '',
@@ -4224,12 +4224,12 @@ const services = [
         desc: ''
       }
     },
-    link: 'www.rillatervonen.fi',
+    link: 'https://www.rillatervonen.fi',
     img_src: 'img/rillatervonen.png',
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -4252,7 +4252,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Viihde'
+    category: 'Viihde'
   },
   {
     id: '',
@@ -4275,7 +4275,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Viihde'
+    category: 'Viihde'
   },
   {
     id: '',
@@ -4293,12 +4293,12 @@ const services = [
         desc: ''
       }
     },
-    link: 'www.kototiimi.fi',
+    link: 'https://www.kototiimi.fi',
     img_src: 'img/kototiimi.png',
     locations: [
       'Raisio', 'Turku', 'Naantali', 'Kaarina'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -4321,7 +4321,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Viihde'
+    category: 'Viihde'
   },
   {
     id: '',
@@ -4339,12 +4339,12 @@ const services = [
         desc: ''
       }
     },
-    link: 'www.kotihoivajahieronta.fi',
+    link: 'https://www.kotihoivajahieronta.fi',
     img_src: 'img/kotihoivajahieronta.png',
     locations: [
       'Savonlinna'
     ],
-    categories: 'Hoiva'
+    category: 'Hoiva'
   },
   {
     id: '',
@@ -4367,7 +4367,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Urheilu'
+    category: 'Urheilu'
   },
   {
     id: '',
@@ -4390,7 +4390,7 @@ const services = [
     locations: [
       'Imatra'
     ],
-    categories: 'Viihde'
+    category: 'Viihde'
   },
   {
     id: '',
@@ -4413,7 +4413,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Viihde'
+    category: 'Viihde'
   },
   {
     id: '',
@@ -4436,7 +4436,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -4459,7 +4459,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -4482,7 +4482,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Viihde'
+    category: 'Viihde'
   },
   {
     id: '',
@@ -4505,7 +4505,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -4528,7 +4528,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Viihde'
+    category: 'Viihde'
   },
   {
     id: '',
@@ -4551,7 +4551,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -4574,7 +4574,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -4597,7 +4597,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -4620,7 +4620,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -4643,7 +4643,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -4666,7 +4666,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -4684,12 +4684,12 @@ const services = [
         desc: ''
       }
     },
-    link: 'terveyspojatoy.com',
+    link: 'https://wwww.terveyspojatoy.com',
     img_src: 'img/terveyspojat.png',
     locations: [
       'Taivalkoski'
     ],
-    categories: 'Hoiva'
+    category: 'Hoiva'
   },
   {
     id: '',
@@ -4707,12 +4707,12 @@ const services = [
         desc: ''
       }
     },
-    link: 'www.hofs.fi',
+    link: 'https://www.hofs.fi',
     img_src: 'img/hofs.png',
     locations: [
       'Helsinki'
     ],
-    categories: 'Ruoka'
+    category: 'Ruoka'
   },
   {
     id: '',
@@ -4735,7 +4735,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -4758,7 +4758,7 @@ const services = [
     locations: [
       'Rovaniemi'
     ],
-    categories: 'Ruoka'
+    category: 'Ruoka'
   },
   {
     id: '',
@@ -4781,7 +4781,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -4804,7 +4804,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Hoiva'
+    category: 'Hoiva'
   },
   {
     id: '',
@@ -4822,12 +4822,12 @@ const services = [
         desc: ''
       }
     },
-    link: 'www.toimistotuoli.com',
+    link: 'https://www.toimistotuoli.com',
     img_src: 'img/toimistotuoli.png',
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -4845,12 +4845,12 @@ const services = [
         desc: ''
       }
     },
-    link: 'www.pilatesstudiovantaa.fi',
+    link: 'https://www.pilatesstudiovantaa.fi',
     img_src: 'img/pilatesstudiovantaa.png',
     locations: [
       'National'
     ],
-    categories: 'Urheilu'
+    category: 'Urheilu'
   },
   {
     id: '',
@@ -4873,7 +4873,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -4896,7 +4896,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -4914,12 +4914,12 @@ const services = [
         desc: ''
       }
     },
-    link: 'www.omakuori.fi',
+    link: 'https://www.omakuori.fi',
     img_src: 'img/omakuori.png',
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -4937,12 +4937,12 @@ const services = [
         desc: ''
       }
     },
-    link: 'www.luurinetti.fi',
+    link: 'https://www.luurinetti.fi',
     img_src: 'img/luurinetti.png',
     locations: [
       'National'
     ],
-    categories: 'Verkkokauppa'
+    category: 'Verkkokauppa'
   },
   {
     id: '',
@@ -4960,12 +4960,12 @@ const services = [
         desc: ''
       }
     },
-    link: 'www.pizzeriaruka.fi',
+    link: 'https://www.pizzeriaruka.fi',
     img_src: 'img/pizzeriaruka.png',
     locations: [
       'Ruka'
     ],
-    categories: 'Ruoka'
+    category: 'Ruoka'
   },
   {
     id: '',
@@ -4988,7 +4988,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Viihde'
+    category: 'Viihde'
   },
   {
     id: '',
@@ -5011,7 +5011,7 @@ const services = [
     locations: [
       'Turku', 'Helsinki', 'Espoo', 'Vantaa'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -5034,7 +5034,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -5057,7 +5057,7 @@ const services = [
     locations: [
       'Savonlinna', 'Enonkoski'
     ],
-    categories: 'Ruoka'
+    category: 'Ruoka'
   },
   {
     id: '',
@@ -5080,7 +5080,7 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Palvelut'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -5091,7 +5091,7 @@ const services = [
       },
       gb: {
         title: 'Senioripalvelu Luonasi',
-        desc: 'Senior Services Luonasi is there to help the elderly and their loved ones, especially as my home quarantine limits normal life. The service ensures that the elderly receive the help and care they need, and we assist in trade, pharmacy and other matters. At the moment, a chat company is also offered to customers, if necessary by telephone.'
+        desc: 'Senior Services Luonasi is there to help the elderly and their loved ones, especially now when quarantine limits normal life. The service ensures that the elderly receive the help and care they need, such as assisting in trade, pharmacy and other matters. At the moment, a chat company is also offered to customers, if necessary by telephone.'
       },
       se: {
         title: 'Senioripalvelu Luonasi',
@@ -5103,7 +5103,7 @@ const services = [
     locations: [
       'Espoo', 'Vantaa', 'Helsinki', 'Kirkkonummi', 'Lohja', 'Inkoo'
     ],
-    categories: 'Hoiva'
+    category: 'Palvelut'
   },
   {
     id: '',
@@ -5114,7 +5114,7 @@ const services = [
       },
       gb: {
         title: 'Kirjaston Kulttuuribunkkeri',
-        desc: 'Discuss the culture and what ever you come up with with the help of the library staff. Also experience community reading, watching a movie, listening to music, playing, a guest interview ... "Culture together - we separate."'
+        desc: 'Discuss the culture and whatever you come up with with the help of the library staff. Also experience community reading, watching a movie and listening to music.'
       },
       se: {
         title: 'Kirjaston Kulttuuribunkkeri',
@@ -5126,7 +5126,1249 @@ const services = [
     locations: [
       'National'
     ],
-    categories: 'Viihde'
+    category: 'Viihde'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Oulun Keskus apteekki',
+        desc: 'Etäasiointi apteekissa puhelimitse ja Remomedi-sovelluksella sekä kotiinkuljetukset.'
+      },
+      gb: {
+        title: 'Oulun Keskus apteekki',
+        desc: 'Remote transaction in a pharmacy by phone and Remomedi application, as well as home deliveries.'
+      },
+      se: {
+        title: 'Oulun Keskus apteekki',
+        desc: ''
+      }
+    },
+    link: 'https://www.oulunkeskusapteekki.fi/',
+    img_src: 'img/oulunkeskusapteekki.png',
+    locations: [
+      'Oulu'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Menumat Oy',
+        desc: 'Menumat Oy tarjoaa nopean avun kotiruokailuun - RehtiLunssi -ateriat.'
+      },
+      gb: {
+        title: 'Menumat Oy',
+        desc: 'Menumat Oy offers quick help with home dining - RehtiLunssi meals.'
+      },
+      se: {
+        title: 'Menumat Oy',
+        desc: ''
+      }
+    },
+    link: 'https://www.menumat.fi',
+    img_src: 'img/menumat.png',
+    locations: [
+      'Vantaa'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Stage - kulttuuripaja verkossa',
+        desc: 'Kulttuuripaja Stage on verkossa toimiva kohtaamispaikka, yhteisö ja työtila. Esittele Stagessa omaa taidettasi, jaa osaamistasi ja kannusta muita. Osallistu ammattilaisten ohjaamiin tapaamisiin, tapahtumiin, kilpailuihin ja sparraukseen. Liity Stageen!        '
+      },
+      gb: {
+        title: 'Stage - kulttuuripaja verkossa',
+        desc: 'The Stage Culture Workshop is an online meeting place, community and workspace. Showcase your own art on Stage, share your skills and encourage others. Attend professionally led meetings, events, competitions and sparring. Join Stage!'
+      },
+      se: {
+        title: 'Stage - kulttuuripaja verkossa',
+        desc: ''
+      }
+    },
+    link: 'http://mentalbeautyrecords.fi/kulttuuripaja-stage/ ',
+    img_src: 'img/mentalbeauty.png',
+    locations: [
+      'National'
+    ],
+    category: 'Viihde'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Plywood Print',
+        desc: 'Ainutlaatuiset koivuvaneritaulut kuvistasi toimitettuna Postin Kotipakettina suoraan kotiovellesi. Tue kotimaista ja sisusta kotiasi kätevästi omalta sohvaltasi! Plywood Print on erikoistunut kuvien tulostamiseen kotimaiselle koivuvanerille. Teetä omista valokuvistasi ainutlaatuiset vaneritaulut tai valitse Plywood Print Collectionista juuri omaan sisustukseesi parhaiten sopiva printti.'
+      },
+      gb: {
+        title: 'Plywood Print',
+        desc: 'Make unique plywood boards from your own photos or choose from the Plywood Print Collection the print that best suits your interior.'
+      },
+      se: {
+        title: 'Plywood Print',
+        desc: ''
+      }
+    },
+    link: 'https://plywoodprint.com/',
+    img_src: 'img/plywoodprint.png',
+    locations: [
+      'National'
+    ],
+    category: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'JH Tukku',
+        desc: 'JH Tukku on Lappeenrantalainen antennien ja elektroniikan erikoisliike. Toiminnan periaatteena on hyvän asiakaspalvelun lisäksi hyvä ammatillinen osaaminen ja laadukkaat tuotteet, sekä toimitusvarmuus.'
+      },
+      gb: {
+        title: 'JH Tukku',
+        desc: 'JH Tukku is a specialty antenna and electronics store in Lappeenranta. In addition to good customer service, the principle of operations is good professional know-how and high-quality products, as well as delivery reliability.'
+      },
+      se: {
+        title: 'JH Tukku',
+        desc: ''
+      }
+    },
+    link: 'https://jhtukku.fi/',
+    img_src: 'img/jhtukku.png',
+    locations: [
+      'National'
+    ],
+    category: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Zildren',
+        desc: 'Apua ja tukea perheille lastenhoidon järjestämisen avulla.'
+      },
+      gb: {
+        title: 'Zildren',
+        desc: 'Zildren helps to support families by arranging childcare.'
+      },
+      se: {
+        title: 'Zildren',
+        desc: ''
+      }
+    },
+    link: 'https://www.zildren.com/',
+    img_src: 'img/zildren.png',
+    locations: [
+      'National'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Pinballboys',
+        desc: 'Flipperi kotiin koko perheen iloksi! TARJOUS alk. 179 €/kk. Pidä tauko kännykän ja tietokoneen ruudulta – ole kotisi Grand Champion! Sis. kuljetuksen pääkaupunkiseudulla.'
+      },
+      gb: {
+        title: 'Pinballboys',
+        desc: 'Now you can rent a pinball machine to your home for the whole family to enjoy! OFFER from 179 € / month. Take a break from your cell phone and computer screen - be your home Grand Champion! Including transport in Helsinki area.'
+      },
+      se: {
+        title: 'Pinballboys',
+        desc: ''
+      }
+    },
+    link: 'https://www.pinballboys.com/vuokraa-flipperi-kotiin',
+    img_src: 'img/pinballboys.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Piilola.fi',
+        desc: 'Kukkien toimitus kotiin ja lahjaksi.'
+      },
+      gb: {
+        title: 'Piilola.fi',
+        desc: 'Flowers home-delivered.'
+      },
+      se: {
+        title: 'Piilola.fi',
+        desc: ''
+      }
+    },
+    link: 'https://piilola.fi',
+    img_src: 'img/piilola.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Suomen Urheiluhierontakeskus',
+        desc: 'Laadukasta ja vaivatonta hierontaa, fysioterapiaa ja osteopatiaa. Nyt uutuutena myös online-palvelut videon välityksellä. Verkkokaupasta saatavalla lahjakortilla ilahdutat läheistäsi merkkipäivänä! Toimimme 8 toimipisteessä Espoossa, Helsingissä ja Kirkkonummella sekä verkossa.'
+      },
+      gb: {
+        title: 'Suomen Urheiluhierontakeskus',
+        desc: 'Quality and effortless massage, physiotherapy and osteopathy. Online services now also available. With the gift card available from the online store, you will delight your loved ones on the anniversary! 8 offices in Espoo, Helsinki and Kirkkonummi, as well as online.'
+      },
+      se: {
+        title: 'Suomen Urheiluhierontakeskus',
+        desc: ''
+      }
+    },
+    link: 'www.suhk.fi',
+    img_src: 'img/suhk.png',
+    locations: [
+      'Espoo', 'Helsinki', 'Kirkkonummi'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Rotuaarin verkkoapteekki',
+        desc: 'Rotuaarin apteekki tarjoaa kotiinkuljetuspalvelua korkeintaan 25 kilometrin päähän Oulun keskustasta. Riskiryhmälle ilmainen kuljetus korkeintaan 4 km päähän. Muualle useita toimitusvaihtoehtoja.'
+      },
+      gb: {
+        title: 'Rotuaarin verkkoapteekki',
+        desc: 'Rotuaari Pharmacy offers a home delivery service up to 25 kilometers from the center of Oulu. Free transport for groups at risk up to 4 km away. Elsewhere, several delivery options.'
+      },
+      se: {
+        title: 'Rotuaarin verkkoapteekki',
+        desc: ''
+      }
+    },
+    link: 'https://rotuaarinverkkoapteekki.fi/fi/',
+    img_src: 'img/rotuaarinverkkoapteekki.png',
+    locations: [
+      'Oulu'
+    ],
+    category: 'Palvelut'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Ravintola Ullan Krouvi',
+        desc: 'Ravintola tarjoaa annoksilleen take away-madollisuuden.'
+      },
+      gb: {
+        title: 'Ravintola Ullan Krouvi',
+        desc: 'The restaurant offers take-away food.'
+      },
+      se: {
+        title: 'Ravintola Ullan Krouvi',
+        desc: ''
+      }
+    },
+    link: 'https://www.ullankrouvi.fi',
+    img_src: 'img/ullankrouvi.png',
+    locations: [
+      'Kuopio'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Kulttuuria kodeissa',
+        desc: 'Jaa oma ideasi poikkeusolojen kulttuuriharrastuksestasi Kulttuuria kodeissa -kampanjasivulla ja osallistu palkintojen arvontaan.'
+      },
+      gb: {
+        title: 'Kulttuuria kodeissa',
+        desc: 'Share your own idea of ​​your exceptional cultural hobby on the Culture in Homes campaign page and enter the prize draw.'
+      },
+      se: {
+        title: 'Kulttuuria kodeissa',
+        desc: ''
+      }
+    },
+    link: 'https://www.naantali.fi/fi/uutiset/kulttuuria-kodeissa-millaista-kulttuuria-sina-harrastat-kotona-vinkkaa-siita-muillekin',
+    img_src: 'img/naantalikulttuuria.png',
+    locations: [
+      'Naantali'
+    ],
+    category: 'Viihde'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Karanteeniklubi',
+        desc: 'Keikkastriimauksia, esitystallenteita, virtuaalinäyttelyitä ja muita tapahtumia.'
+      },
+      gb: {
+        title: 'Karanteeniklubi',
+        desc: 'Gig streamings, performance recordings, virtual exhibitions and other events.'
+      },
+      se: {
+        title: 'Karanteeniklubi',
+        desc: ''
+      }
+    },
+    link: 'https://www.facebook.com/groups/karanteeniklubi/',
+    img_src: 'img/karanteeniklubi.png',
+    locations: [
+      'National'
+    ],
+    category: 'Viihde'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Kulttuuria kotisohville',
+        desc: 'Museokortin perustama ryhmä digitaalisille kulttuurivinkeille.'
+      },
+      gb: {
+        title: 'Kulttuuria kotisohville',
+        desc: 'A group set up by the Museum Card for digital cultural tips.'
+      },
+      se: {
+        title: 'Kulttuuria kotisohville',
+        desc: ''
+      }
+    },
+    link: 'https://www.facebook.com/groups/kulttuuriakotisohville/',
+    img_src: 'img/kulttuuriakotishvalle.png',
+    locations: [
+      'National'
+    ],
+    category: 'Viihde'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Taideyliopiston kulttuuria kotisohvalle',
+        desc: 'Taideyliopiston podcasteja, konserttitallenteita ja muita sisältöjä.'
+      },
+      gb: {
+        title: 'Taideyliopiston kulttuuria kotisohvalle',
+        desc: 'University of the Arts Helsinki podcasts, concert recordings and other content.'
+      },
+      se: {
+        title: 'Taideyliopiston kulttuuria kotisohvalle',
+        desc: ''
+      }
+    },
+    link: 'https://www.uniarts.fi/taidetta-kotiin-koronaviruksen-aikaan/',
+    img_src: 'img/taidettakotiin.png',
+    locations: [
+      'National'
+    ],
+    category: 'Viihde'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'ARTE Opera Season',
+        desc: 'Oopperatallenteita 23 oopperatalosta ympäri maailmaa.'
+      },
+      gb: {
+        title: 'ARTE Opera Season',
+        desc: 'Opera recordings from 23 opera houses around the world.'
+      },
+      se: {
+        title: 'ARTE Opera Season',
+        desc: ''
+      }
+    },
+    link: 'https://www.arte.tv/en/videos/RC-016485/arte-opera-season/',
+    img_src: 'img/arte.png',
+    locations: [
+      'National'
+    ],
+    category: 'Viihde'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Berliinin filharmonikot',
+        desc: 'Konserttitallenteita ja livestriimauksia.'
+      },
+      gb: {
+        title: 'Berliner Philharmoniker',
+        desc: 'Concert recordings and live streamings.'
+      },
+      se: {
+        title: 'Berliner Philharmoniker',
+        desc: ''
+      }
+    },
+    link: 'https://www.digitalconcerthall.com/en/live',
+    img_src: 'img/digitalconcerthall.png',
+    locations: [
+      'National'
+    ],
+    category: 'Viihde'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Helsinki City Orchestra',
+        desc: 'Helsingin kaupunginorkesterin konserttitallenteita ja livestriimauksia.'
+      },
+      gb: {
+        title: 'Helsinki City Orchestra',
+        desc: 'Helsinki City Orchestra concert recordings and live streamings.'
+      },
+      se: {
+        title: 'Helsinki City Orchestra',
+        desc: ''
+      }
+    },
+    link: 'https://helsinginkaupunginorkesteri.fi/fi/hko-screen',
+    img_src: 'img/helsinginkaupunginorkesteri.png',
+    locations: [
+      'National'
+    ],
+    category: 'Viihde'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Koronakonsertit',
+        desc: 'Kattava listaus nettilivekeikoista.'
+      },
+      gb: {
+        title: 'Koronakonsertit',
+        desc: 'Comprehensive list of online live gigs.'
+      },
+      se: {
+        title: 'Koronakonsertit',
+        desc: ''
+      }
+    },
+    link: 'https://www.koronakonsertit.fi/',
+    img_src: 'img/koronakonsertit.png',
+    locations: [
+      'National'
+    ],
+    category: 'Viihde'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Lahti Sinfonia',
+        desc: 'Useita konserttitallenteita.'
+      },
+      gb: {
+        title: 'Lahti Sinfonia',
+        desc: 'Several concert recordings.'
+      },
+      se: {
+        title: 'Lahti Sinfonia',
+        desc: ''
+      }
+    },
+    link: 'https://classiclive.com/',
+    img_src: 'img/classiclive.png',
+    locations: [
+      'National'
+    ],
+    category: 'Viihde'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'The Metropolitan Opera, New York',
+        desc: 'Useita oopperatallenteita.'
+      },
+      gb: {
+        title: 'The Metropolitan Opera, New York',
+        desc: 'Several opera recordings.'
+      },
+      se: {
+        title: 'The Metropolitan Opera, New York',
+        desc: ''
+      }
+    },
+    link: 'https://www.metopera.org/user-information/nightly-met-opera-streams/',
+    img_src: 'img/metopera.png',
+    locations: [
+      'National'
+    ],
+    category: 'Viihde'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Radion sinfoniaorkesteri',
+        desc: 'RSO:n konsertit Yle Areenassa.'
+      },
+      gb: {
+        title: 'Radion sinfoniaorkesteri',
+        desc: 'RSO concerts at Yle Areena.'
+      },
+      se: {
+        title: 'Radion sinfoniaorkesteri',
+        desc: ''
+      }
+    },
+    link: 'https://areena.yle.fi/1-3217809',
+    img_src: 'img/radionsinfoniaorkesteri.png',
+    locations: [
+      'National'
+    ],
+    category: 'Viihde'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Tapiola Sinfonietta',
+        desc: 'Konserttitallenteita ja livestriimauksia.'
+      },
+      gb: {
+        title: 'Tapiola Sinfonietta',
+        desc: 'Concert recordings and live streamings.'
+      },
+      se: {
+        title: 'Tapiola Sinfonietta',
+        desc: ''
+      }
+    },
+    link: 'https://www.tapiolasinfonietta.fi/news/katso-maksuttomia-strimauksia-verkossa/',
+    img_src: 'img/tapiolansinfonietta.png',
+    locations: [
+      'National'
+    ],
+    category: 'Viihde'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Wienin valtionooppera ',
+        desc: 'Useita oopperatallenteita.'
+      },
+      gb: {
+        title: 'Wiener Staatsopera',
+        desc: 'Several opera recordings.'
+      },
+      se: {
+        title: 'Wiener Staatsopera',
+        desc: ''
+      }
+    },
+    link: 'https://www.staatsoperlive.com/',
+    img_src: 'img/staatsoperalive.png',
+    locations: [
+      'National'
+    ],
+    category: 'Viihde'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Viddla-suoratoistopalvelu',
+        desc: 'Palvelun avulla yleiset kirjastot pystyvät tarjoamaan digitaalisia elokuvia lainaajilleen. Tarjolla olevat elokuvat on valittu Kirjastopalvelun informaatikkojen toimesta pyrkien hyvään laatuun, sisältöjen monipuolisuuteen ja siihen, että tarjolla on sisältöä eri katsojaryhmille.'
+      },
+      gb: {
+        title: 'Viddla on-demand video',
+        desc: 'The service will allow public libraries to offer digital movies to their borrowers. The films on offer have been selected by the library service\'s IT staff, striving for good quality, diversity of content and the availability of content for different groups of viewers.'
+      },
+      se: {
+        title: 'Viddla on-demand video',
+        desc: ''
+      }
+    },
+    link: 'https://www.viddla.fi/',
+    img_src: 'img/viddla.png',
+    locations: [
+      'National'
+    ],
+    category: 'Viihde'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Ateneum: Suomen taiteen tarina -lyhytelokuvia',
+        desc: 'Suomen taiteen tarina -lyhytelokuvat näyttävät tutut klassikot uudessa valossa.'
+      },
+      gb: {
+        title: 'Ateneum',
+        desc: 'The short film The Story of Finnish Art shows familiar classics in a new light.'
+      },
+      se: {
+        title: 'Ateneum',
+        desc: ''
+      }
+    },
+    link: 'https://ateneum.fi/nayttelyt-nyt/suomen-taiteen-tarina-lyhytelokuvat/',
+    img_src: 'img/ateneum.png',
+    locations: [
+      'National'
+    ],
+    category: 'Viihde'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Google Arts & Culture',
+        desc: 'Satojen museoiden ja gallerioiden teoksia.'
+      },
+      gb: {
+        title: 'Google Arts & Culture',
+        desc: 'Works by hundreds of museums and galleries.'
+      },
+      se: {
+        title: 'Google Arts & Culture',
+        desc: ''
+      }
+    },
+    link: 'https://artsandculture.google.com/',
+    img_src: 'img/googleartsandculture.png',
+    locations: [
+      'National'
+    ],
+    category: 'Viihde'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Keski-Uudenmaan museoiden Markalla merkkareita -sivusto',
+        desc: 'Tietoa, tarinoita, tehtäviä, valokuvia ja muuta mukavaa lapsuudesta 1970-luvulla.'
+      },
+      gb: {
+        title: 'Markalla Merkkareita',
+        desc: 'Information, stories, assignments, photos and more about nice childhood in the 1970s.'
+      },
+      se: {
+        title: 'Markalla Merkkareita',
+        desc: ''
+      }
+    },
+    link: 'https://www.markallamerkkareita.fi/',
+    img_src: 'img/markallamerkkareita.png',
+    locations: [
+      'National'
+    ],
+    category: 'Viihde'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Anne\'s Vege Oy',
+        desc: 'Anne\'s Vege tekee ma-pe kotiinkuljetuksia kerran päivässä, klo 12.00. Myös noutopalvelu klo 11.00-16.30. Kaikki ruoka vegaanista ja gluteenitonta.'
+      },
+      gb: {
+        title: 'Anne\'s Vege Oy',
+        desc: 'Anne’s Vege does home deliveries Mon-Fri once a day, 12 noon. There is also a pick-up service from 11:00 to 16:30. All food vegan and gluten free.'
+      },
+      se: {
+        title: 'Anne\'s Vege Oy',
+        desc: ''
+      }
+    },
+    link: 'https://Annesvege.fi',
+    img_src: 'img/annesvege.png',
+    locations: [
+      'Espoo'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Tyylikotka',
+        desc: 'Yksilölliset kalusteet kotiin ja yrityksiin.Satoja malleja ja kankaita, paljon värejä.'
+      },
+      gb: {
+        title: 'Tyylikotka',
+        desc: 'Individual furniture for home and business. Hundreds of designs and fabrics, lots of colors.'
+      },
+      se: {
+        title: 'Tyylikotka',
+        desc: ''
+      }
+    },
+    link: 'https://www.tyylikotka.fi',
+    img_src: 'img/tyylikotka.png',
+    locations: [
+      'National'
+    ],
+    category: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Mariel Design',
+        desc: 'Vuonna 2010 perustettu perheyritys Mariel Design valmistaa uniikkeja koruja'
+      },
+      gb: {
+        title: 'Mariel Design',
+        desc: 'Founded in 2010, the family business Mariel Design manufactures unique jewelry'
+      },
+      se: {
+        title: 'Mariel Design',
+        desc: ''
+      }
+    },
+    link: 'https://holvi.com/shop/marieldesign/',
+    img_src: 'img/marieldesign.png',
+    locations: [
+      'National'
+    ],
+    category: 'Verkkokauppa'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Baba Foods Ruokakassi ',
+        desc: 'Käsintehtyä kasvisruokaa kotiinkuljetettuna Helsingissä.'
+      },
+      gb: {
+        title: 'Baba Foods Ruokakassi ',
+        desc: 'Handmade vegetarian food delivered home.'
+      },
+      se: {
+        title: 'Baba Foods Ruokakassi ',
+        desc: ''
+      }
+    },
+    link: 'https://www.baba.fi',
+    img_src: 'img/baba.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Restaurant Jord',
+        desc: 'Pohjoismaista luomuruokaa, esimerkiksi tartaria, frittimuikkuja ja tyrnijäädykettä, päivällisaikaan tiistaista lauantaihin. Tilaukset puhelimitse ja nouto paikan päältä.'
+      },
+      gb: {
+        title: 'Restaurant Jord',
+        desc: 'Nordic organic food, such as tartar, deep-fried vendace and sea buckthorn ice cream, for dinner from Tuesday to Saturday. Orders by phone and pick-up on site.'
+      },
+      se: {
+        title: 'Restaurant Jord',
+        desc: ''
+      }
+    },
+    link: 'http://restaurantjord.fi/?lang=en',
+    img_src: 'img/jord.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Ravintola Wanha Mylly',
+        desc: 'Lähes kaikkia kartanomiljöössä sijaitsevan ravintolan ruokia saa take away -annoksina, ensi viikolla ravintolassa siirrytään supistettuun listaan. Tilaukset puhelimitse ja nouto paikan päältä.'
+      },
+      gb: {
+        title: 'Restaurant Wanha Mylly',
+        desc: 'Almost all the dishes of the restaurant located in the manor environment are available as take-away portions, next week the restaurant will move to a reduced list. Orders by phone and pick-up on site.'
+      },
+      se: {
+        title: 'Restaurant Wanha Mylly',
+        desc: ''
+      }
+    },
+    link: 'https://vanhamylly.fi/',
+    img_src: 'img/wanhamylly.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Demo',
+        desc: 'Michelin-ravintola myy koronaepidemian aikana tähtikokin ruokakassia, jonka esivalmistelluista aineksista asiakas kokkaa neljän ruokalajin aterian kotona, 65 e/hlö. Nouto tai kotiinkuljetus.'
+      },
+      gb: {
+        title: 'Demo',
+        desc: 'During the corona epidemic, the Michelin restaurant sells the star chef\'s food bag, from the prepared ingredients of which the customer cooks a four-course meal at home, 65 e / person. Pick up or drop off.'
+      },
+      se: {
+        title: 'Demo',
+        desc: ''
+      }
+    },
+    link: 'https://www.restaurantdemo.fi/',
+    img_src: 'img/restaurantdemo.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Ravintola Villd',
+        desc: 'Take awayna saa Vöneristä tehtyä ”kebabia riisillä” ja ”käristystä muusilla”, gluteenittomat versiot tehdään tofusta tai suppilovahveroista. Villd toimittaa ruokaa lähialueelle ilmaiseksi. Tilaukset puhelimitse, maksu MobilePaylla.'
+      },
+      gb: {
+        title: 'Restaurant Villd',
+        desc: 'As take away you can get “kebab with rice” made from Vöner and “yeast with muses”, gluten-free versions are made from tofu or funnel wafers. Villd delivers food to the surrounding area free of charge. Orders by phone, payment with MobilePay.'
+      },
+      se: {
+        title: 'Restaurant Villd',
+        desc: ''
+      }
+    },
+    link: 'https://www.villd.fi/',
+    img_src: 'img/villd.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Inari',
+        desc: 'Oman verkkoalustan perustanut Michelin-ravintola myy noutoruokana muun muassa klassikkoaan eli Pekingin ankkaa korealaisittain tarjottuna, 30 e/2 annosta. Tilaukset theplatform.pro.'
+      },
+      gb: {
+        title: 'Inari',
+        desc: 'A Michelin star restaurant, which has set up its own online platform, sells as a takeaway, among other things, its classic, the Peking duck, offered in Korean, 30 e / 2 servings. Orders theplatform.pro.'
+      },
+      se: {
+        title: 'Inari',
+        desc: ''
+      }
+    },
+    link: 'https://www.restaurantinari.com/',
+    img_src: 'img/inari.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Kuurna',
+        desc: 'Kaupungin parhaisiin bistroihin lukeutuva ravintola myy kolmen ruokalajin kokonaisuutta, 30 e, torstaista-lauantaihin klo 15–21 ja sunnuntaisin klo 15–20. Ravintola antaa verkkosivuillaan ruuille viinisuositukset Alkon valikoimista löytyvillä viineillä. Tilaukset puhelimitse tai sähköpostilla, nouto tai kotiinkuljetus kantakaupungin alueella.'
+      },
+      gb: {
+        title: 'Kuurna',
+        desc: 'Kuurna, one of the best bistros in the city, sells a three-course package, 30 euros, from Thursday to Saturday from 3 pm to 9 pm and on Sundays from 3 pm to 8 pm. The restaurant provides wine recommendations for its dishes on its website with wines found in Alko\'s selections. Orders by phone or email, pick-up or drop-off in the downtown area.'
+      },
+      se: {
+        title: 'Kuurna',
+        desc: ''
+      }
+    },
+    link: 'https://www.kuurna.fi/',
+    img_src: 'img/kuurna.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Finlandia Caviar',
+        desc: 'Piskuisen ravintolan verkkokaupasta voi tilata mätilajitelman, noutaa sen myymälästä tai tilata kotiinkuljetuksella kantakaupungin alueelle.'
+      },
+      gb: {
+        title: 'Finlandia Caviar',
+        desc: 'You can order a rust assortment from the small restaurant\'s online store, pick it up from the store or order it by home delivery to the downtown area.'
+      },
+      se: {
+        title: 'Finlandia Caviar',
+        desc: ''
+      }
+    },
+    link: 'https://www.finlandiacaviar.fi/fi/',
+    img_src: 'img/finlandiacaviar.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Ônam Vietnamese Cuisine',
+        desc: 'Vietnamin keittiön antimia, kuten pho-keittoa, 11 e, kotiin kuljetettuna tai ravintolasta noudettuna. Tilaukset puhelimitse.'
+      },
+      gb: {
+        title: 'Ônam Vietnamese Cuisine',
+        desc: 'Vietnamese cuisine, such as pho soup, 11e, delivered home or picked up from a restaurant. Orders by phone.'
+      },
+      se: {
+        title: 'Ônam Vietnamese Cuisine',
+        desc: ''
+      }
+    },
+    link: 'https://www.onam.fi/',
+    img_src: 'img/onam.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Locanda Scappi',
+        desc: 'Italialaisten valmistamia pastaruokia ja muita saapasmaan herkkuja noutona. Tilaukset sähköpostilla, puhelimitse, Instagramissa tai Facebookissa.'
+      },
+      gb: {
+        title: 'Locanda Scappi',
+        desc: 'Italian pasta dishes and other booty delicacies to pick up. Orders by email, phone, Instagram or Facebook.'
+      },
+      se: {
+        title: 'Locanda Scappi',
+        desc: ''
+      }
+    },
+    link: 'https://www.locandascappi.fi/',
+    img_src: 'img/scappi.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Blue Peter',
+        desc: 'Lauttasaaren klassikkoravintola toimittaa päivittäin vaihtuvia lounaita, 7 e, jallulihapullia, 9 e, lasagnea ja burgereita kotiinkuljetuksella. Tilaukset puhelimitse, maksu MobilePaylla.'
+      },
+      gb: {
+        title: 'Blue Peter',
+        desc: 'Lauttasaari\'s classic restaurant serves daily changing lunches, 7 e, leg meatballs, 9 e, lasagna and burgers with home delivery. Orders by phone, payment with MobilePay.\n'
+      },
+      se: {
+        title: 'Blue Peter',
+        desc: ''
+      }
+    },
+    link: 'http://bluepeter.fi/',
+    img_src: 'img/bluepeter.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Chapter',
+        desc: 'Fine dining -ravintolan frittikanaa, cevicheä ja korvapuusteja (coronapuusti-nimellä) noutona tai kotiinkuljetuksella kantakaupunkiin tiistaista lauantaihin klo 12–20. Tilaustiedot löytyvät ravintolan verkkosivulta.'
+      },
+      gb: {
+        title: 'Chapter',
+        desc: 'The fine dining restaurant’s deep-fried chicken, ceviche and cinnamon buns  (under the name coronapuusti) can be picked up or taken home to the main town from Tuesday to Saturday from 12 noon to 8 pm. Ordering information can be found on the restaurant\'s website.'
+      },
+      se: {
+        title: 'Chapter',
+        desc: ''
+      }
+    },
+    link: 'https://www.chapter.fi/',
+    img_src: 'img/chapter.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Ravintola Jura',
+        desc: 'Bistrotyylisen Juran kasvispainotteinen menu muuttuu sesongin mukaan. Tällä viikolla lounaslistalla oli tarjolla kaksi kasvis- ja kaksi lihavaihtoehtoa. '
+      },
+      gb: {
+        title: 'Restaurant Jura',
+        desc: 'The bistro-style Jura’s vegetable-focused menu changes according to the season. This week, the lunch menu offered two vegetarian and two meat options.'
+      },
+      se: {
+        title: 'Restaurant Jura',
+        desc: ''
+      }
+    },
+    link: 'https://www.ravintolajura.fi/en/',
+    img_src: 'img/jura.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Wino',
+        desc: 'Ravintola ja alkuviinibaari Wino tarjoaa japanilaishenkistä take away -lounasta. Sushin lisäksi tarjolla on misokeittoa ja vaihtuva pääruoka, tällä viikolla se oli misoglaseeratut ribsit sobanuudeleilla.'
+      },
+      gb: {
+        title: 'Wino',
+        desc: 'Wino Restaurant and Early Wine Bar offers a Japanese-inspired take-away lunch. In addition to sushi, there is miso soup and a changing main course, this week it was misoglazed ribs with soba noodles.'
+      },
+      se: {
+        title: 'Wino',
+        desc: ''
+      }
+    },
+    link: 'https://www.wino.fi/',
+    img_src: 'img/wino.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Ora',
+        desc: 'Sasu Laukkosen Michelin-ravintola Ora ryhtyi tekemään take away -sushibokseja. 15 euroa maksavassa sushilaatikossa on 14 sushia, ja täytteet vaihtuvat päivittäin.'
+      },
+      gb: {
+        title: 'Ora',
+        desc: 'Sasu Laukkonen\'s Michelin restaurant Ora started making take-away sushi boxes. The sushi box, which costs 15 euros, has 14 sushi, and the fillings change daily.'
+      },
+      se: {
+        title: 'Ora',
+        desc: ''
+      }
+    },
+    link: 'http://orarestaurant.fi/',
+    img_src: 'img/ora.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Trattoria Sogno',
+        desc: 'Trattoria Sognosta saa take awayna italialaista ruokaa. Ravintola kehottaa kertomaan tilausta tehdessä, aikooko ruuan syödä heti vai lämmittää myöhemmin, ruoka valmistetaan sen mukaan.'
+      },
+      gb: {
+        title: 'Trattoria Sogno',
+        desc: 'Trattoria Sogno serves take awayna Italian food. When ordering, the restaurant will tell you whether you plan to eat the food immediately or heat it up later, the food will be prepared accordingly.'
+      },
+      se: {
+        title: 'Trattoria Sogno',
+        desc: ''
+      }
+    },
+    link: 'https://www.trattoriasogno.fi/',
+    img_src: 'img/sogno.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Juuri',
+        desc: 'Suomalaista ruokaa kotimaisista aineksista kokkaava Juuri toimittaa ruokaa lähialueelle ilmaiseksi. Tilaukset pitää tehdä edellisenä iltana kello 20 mennessä puhelimitse tai sähköpostilla.'
+      },
+      gb: {
+        title: 'Juuri',
+        desc: 'Juuri, who cooks Finnish food from domestic ingredients, delivers food to the surrounding area free of charge. Orders must be placed by 8pm the previous night by phone or email.'
+      },
+      se: {
+        title: 'Juuri',
+        desc: ''
+      }
+    },
+    link: 'https://juuri.fi/',
+    img_src: 'img/juuri.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Penelope',
+        desc: 'Hans Välimäen Penèlopesta saa kotiruokaa sekä ravintolan listalta tuttuja annoksia. Tilaukset puhelimitse tai sähköpostitse, nouto paikan päältä. Kotiinkuljetus kantakaupungin alueelle, kuljetusmaksu 5 euroa.'
+      },
+      gb: {
+        title: 'Penelope',
+        desc: 'Hans Välimäki\'s Penèlope offers home-cooked food and familiar dishes from the restaurant\'s list. Orders by phone or e-mail, pick-up on site. Home delivery to the downtown area, transport fee 5 euros.'
+      },
+      se: {
+        title: 'Penelope',
+        desc: ''
+      }
+    },
+    link: 'https://ravintolapenelope.fi/',
+    img_src: 'img/penelope.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'The Bull and The Firm',
+        desc: 'The Bull and The Firmin lounasmenussa on ollut tähän mennessä muun muassa kulhoruokia ja leipiä. Kotiinkuljetus lähialueelle, kuljetusmaksu 4 euroa. Jos haluaa ruuan suoraan kotiin, tilaus puhelimitse ja maksu MobilePaylla.'
+      },
+      gb: {
+        title: 'The Bull and The Firm',
+        desc: 'The Bull and The Company’s lunch menu has so far included bowls and breads, among other things. Home delivery to the surrounding area, transport fee 4 euros. If you want food straight home, order by phone and pay with MobilePay.'
+      },
+      se: {
+        title: 'The Bull and The Firm',
+        desc: ''
+      }
+    },
+    link: 'https://www.facebook.com/thebullandthefirm/',
+    img_src: 'img/thebull.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Hotel Kämp, Brasserie',
+        desc: 'Legendaarisen Kämp-hotellin huonepalvelu laajenee kaikille. Listalla on ainakin suosittu burgeri, jossa ranskalaiset on vaihdettu kuljetuksen kestäviin sipseihin. Myös kaviaaria löytyy halukkaille. Ravintolan menu tulee maanantaina 30.3. saataville lähes kokonaisuudessaan, ja myös kotiinkuljetus käynnistyy silloin. Tilaus puhelimitse, ruuat voi noutaa paikan päältä.'
+      },
+      gb: {
+        title: 'Hotel Kämp, Brasserie',
+        desc: 'Room service at the legendary Kämp Hotel is expanding for everyone. On the list is at least the popular burger, where the French have been replaced with transport-resistant chips. Caviar is also available for those who wish. The restaurant menu will be on Monday 30.3. available almost in full, and home delivery will also start then. Order by phone, food can be picked up on site.'
+      },
+      se: {
+        title: 'Hotel Kämp, Brasserie',
+        desc: ''
+      }
+    },
+    link: 'https://www.brasseriekamp.fi/',
+    img_src: 'img/brasserie.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Paulette',
+        desc: 'Ullanlinnan ranskalaisravintolasta voi hakea ruokaa ilman tilausta, sillä heillä on tiskissä valmiina lämpimiä ruokia ja salaatteja. Ravintolaan päästetään sisään vain kaksi ihmistä kerrallaan, jotta ihmiskontaktit voidaan minimoida. Päivän ruuat löytyvät myös ravintolan Facebook-sivulta, ja halutessaan ruuat voit tilata sen kautta tai puhelimitse.'
+      },
+      gb: {
+        title: 'Paulette',
+        desc: 'You can pick up food from the Ullanlinna French restaurant without an order, as they have hot dishes and salads ready at the counter. Only two people are admitted to the restaurant at a time to minimize human contact. The food of the day can also be found on the restaurant\'s Facebook page, and if you wish, you can order the food through it or by phone.'
+      },
+      se: {
+        title: 'Paulette',
+        desc: ''
+      }
+    },
+    link: 'https://www.facebook.com/ravintolapaulette/',
+    img_src: 'img/paulette.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Malaga Bar',
+        desc: 'Jätkäsaaren rento ravintola myy mukaan lounasta 10.30–14. Tarjolla on muun muassa jallulihapullia, pastaa ja keittoja. Pääsiäisenä tilattavissa myös erikoismenu. Hinnat ja lounaslista löytyvät ravintolan verkkosivuilta.'
+      },
+      gb: {
+        title: 'Malaga Bar',
+        desc: 'Jätkäsaari\'s casual restaurant sells lunch from 10.30 am to 2 pm. Among other things, beef steaks, pasta and soups are available. A special menu can also be ordered for Easter. Prices and lunch list can be found on the restaurant\'s website.'
+      },
+      se: {
+        title: 'Malaga Bar',
+        desc: ''
+      }
+    },
+    link: 'https://www.malagabar.fi/',
+    img_src: 'img/malagabar.png',
+    locations: [
+      'Helsinki'
+    ],
+    category: 'Ruoka'
+  },
+  {
+    id: '',
+    langs: {
+      fi: {
+        title: 'Juristi tukena',
+        desc: 'Joukko Suomalaisia juristeja tarjoaa ilmaista puhelinneuvontaa koronakriisin keskellä painiskeleville yrittäjille.'
+      },
+      gb: {
+        title: 'Juristi tukena',
+        desc: 'A number of Finnish lawyers offer free telephone advice to entrepreneurs struggling in the midst of a corona crisis.'
+      },
+      se: {
+        title: 'Juristi tukena',
+        desc: ''
+      }
+    },
+    link: 'https://www.juristittukena.fi',
+    img_src: 'img/juristittukena.png',
+    locations: [
+      'National'
+    ],
+    category: 'Palvelut'
   }
 ]
 
@@ -5139,7 +6381,7 @@ var i;
 for (i = 0; i < services.length; i++) {
     services[i].id = i
     services[i].locations = services[i].locations.filter(Boolean)
-    services[i].categories = capitalize(services[i].categories)
+    services[i].category = capitalize(services[i].category)
     services[i].current = services[i].langs.fi
 }
 
