@@ -143,13 +143,13 @@ export default {
           if (existingLoc) return existingLoc
           return { name: { fi: loc }} // Localization want this format
         })
-        this.allLocations = allLocs
-        const allCats = svcCats.map((cat) => {
-          const existingCat = categories.find(c => c.name.fi == cat || c.name.gb == cat)
-          if (existingCat) return existingCat
-          return { name: { fi: cat }} // Localization want this format
-        })
-        this.allCategories = allCats
+        this.allLocations = localizeLocations(allLocs)
+        this.selectedCategory = this.$route.query.category
+        this.selectedLocation = this.$route.query.location
+        // https://router.vuejs.org/guide/essentials/navigation.html#router-replace-location-oncomplete-onabort
+        // Don't want to do anything on error
+        this.$router.replace({ query: {} }, undefined, () => {})
+        
     }
 }
 </script>
