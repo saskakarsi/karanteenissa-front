@@ -141,7 +141,7 @@
                 <a style="margin: 5px" href="https://github.com/saskakarsi/karanteenissa-front"><i id="social-gh"
                     class="fa fa-github-square fa-3x"></i></a>
               </div>
-              <h1 class="subtitle-1">{{ menuTexts.translate }}</h1>
+              <h1><a href="https://www.pauhu.fi/" class="subtitle-1">{{ menuTexts.translate }}</a></h1>
               <strong>Karanteenissa.fi</strong> - {{ new Date().getFullYear() }}
             </div>
           </section>
