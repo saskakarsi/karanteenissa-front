@@ -132,7 +132,7 @@
               <section id="lab_social_icon_footer">
             <div class="social-icon">
               <div class="text-center center-block">
-                <a style="margin: 5px" href="https://www.facebook.com/groups/karanteenissa"><i id="social-fb"
+                <a style="margin: 5px" href="https://www.facebook.com/karanteenissa"><i id="social-fb"
                     class="fa fa-facebook-square fa-3x social"></i></a>
                 <a style="margin: 5px" href="https://www.instagram.com/karanteenissa.fi/"><i id="social-ig"
                     class="fa fa-instagram fa-3x social"></i></a>
@@ -141,7 +141,7 @@
                 <a style="margin: 5px" href="https://github.com/saskakarsi/karanteenissa-front"><i id="social-gh"
                     class="fa fa-github-square fa-3x"></i></a>
               </div>
-              <h1 class="subtitle-1">{{ menuTexts.translate }}</h1>
+              <h1><a href="https://www.pauhu.fi/" class="subtitle-1">{{ menuTexts.translate }}</a></h1>
               <strong>Karanteenissa.fi</strong> - {{ new Date().getFullYear() }}
             </div>
           </section>
