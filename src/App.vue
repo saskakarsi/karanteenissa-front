@@ -138,7 +138,7 @@
                     class="fa fa-instagram fa-3x social"></i></a>
                 <a style="margin: 5px" href="https://twitter.com/karanteeni20"><i id="social-tw"
                     class="fa fa-twitter-square fa-3x social"></i></a>
-                <a style="margin: 5px" href="https://github.com/saskakarsi/karanteenissa-front"><i id="social-gh"
+                <a style="margin: 5px" href="https://github.com/saska/karanteenissa-front"><i id="social-gh"
                     class="fa fa-github-square fa-3x"></i></a>
               </div>
               <h1><a href="https://www.pauhu.fi/" class="subtitle-1">{{ menuTexts.translate }}</a></h1>
